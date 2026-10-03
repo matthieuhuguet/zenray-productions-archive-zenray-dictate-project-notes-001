@@ -14,3 +14,9 @@
 - Real proofs: GeminiFlowProof.txt validates sequential website dictation and cleanup; the native app imports the witness and reprocesses it in clean mode while activeMode remains verbatim. FunctionalProof.json records these results, both local engine results, and audioRetained=false. Ten library tests, bridge rejection checks and signed bundle checks pass. (3 October 2026)
 - Physical Fn press/release and automatic paste/clipboard restoration across the user's target apps remain manual validation limits. The implementation captures the original target and refuses a changed app, field, cursor or secure field; unreadable libraries preserve the original in Recovery. No benchmark is performed. (3 October 2026)
 - Assets project ID is zenray-dictate; source IDs application, workshop, project-notes, historical-post and library. The cloud destination is pages/ZenRayAssets/zenray-dictate. Archive completion and immutable re-read are to be confirmed after the final checkpoint, rather than inferred from the local mapping. (3 October 2026)
+
+## 3 October 2026 : Cloud restore verification
+
+- Five mapped sources contain the application, workshop, project memory, historical post and dictation library. Current inventory reaches 87 archived files with zero pending at verification. (3 October 2026)
+- Independent restoration of Swift bridge, JavaScript bridge, signed executable, canonical feedback and Library.json matches each archived SHA256. CloudMappingProof.json stores immutable mapping blob IDs and restored hashes in the workshop. (3 October 2026)
+- Later checkpoint and proof files require their own final archive; physical Fn and paste validation remain explicitly unverified. (3 October 2026)
