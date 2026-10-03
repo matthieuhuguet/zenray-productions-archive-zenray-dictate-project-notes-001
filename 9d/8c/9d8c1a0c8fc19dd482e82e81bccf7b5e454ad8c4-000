@@ -147,3 +147,35 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (3 October 2026, 20:02:59 +0200)
 
 > 3 October 2026: Gemini website backend and native library implemented, commit 4b6f2e7. Ten Swift tests and signed bundle checks pass. Actual native media import, clean history replay, Gemini dictation plus rewrite, and installed offline Whisper/French and Parakeet/Japanese have saved proofs. Five cloud sources mapped; 87/87 current files archived at initial verification. Swift bridge, JS bridge, executable, feedback and Library.json independently restored with matching SHA256; immutable cloud mapping re-read. FunctionalProof.json and CloudMappingProof.json preserve evidence. Physical Fn press/release and automatic paste in target applications remain unverified; screen context reads accessible window labels, not full-screen OCR. Next: archive this final checkpoint and proofs, then physical keyboard and insertion validation. (3 October 2026, 20:02:59 +0200)
+
+## 3 October 2026, 20:06:58 +0200 : Iteration
+
+<!-- feedback-event:f4ebf2ca63a369f8d994f9aa4e314f6589cdf80f39eba3baa7f968f522febcc4 (3 October 2026, 20:06:58 +0200) -->
+- Project: zenray-dictate; kind: iteration. (3 October 2026, 20:06:58 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 20:06:58 +0200)
+
+> [ZenRayDictate 3.0](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/ZenRayDictate.app) utilise maintenant **gemini.google.com**, avec la pastille, les modes, le vocabulaire, les snippets, Command Mode, l’import et l’historique intégrés. (3 October 2026, 20:06:58 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 20:06:58 +0200)
+> |---|---|---| (3 October 2026, 20:06:58 +0200)
+> | Migration vers Gemini | Fait | Dictée, correction, import et retraitement réussis | (3 October 2026, 20:06:58 +0200)
+> | Features Wispr Flow | Codées | 10 tests passent ; Fn physique et collage externe restent à vérifier | (3 October 2026, 20:06:58 +0200)
+> | Index mapping et push cloud | Fait | 88/88 fichiers archivés, 5 restaurations identiques | (3 October 2026, 20:06:58 +0200)
+>
+> Code enregistré dans le commit `4b6f2e7`. [Preuve cloud](/Users/zenray/.claude/tmp/tmp-zenray-dictate/CloudMappingProof.json). (3 October 2026, 20:06:58 +0200)
+
+## 3 October 2026, 20:06:58 +0200 : Iteration
+
+<!-- feedback-event:86c33d4debe85c69df581c3f677ae77ecab5fecb733b682f8e66c081fdbc7846 (3 October 2026, 20:06:58 +0200) -->
+- Project: zenray-dictate; kind: iteration. (3 October 2026, 20:06:58 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 20:06:58 +0200)
+
+> [ZenRayDictate 3.0](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/ZenRayDictate.app) utilise maintenant **gemini.google.com**, avec la pastille, les modes, le vocabulaire, les snippets, Command Mode, l’import et l’historique intégrés. (3 October 2026, 20:06:58 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 20:06:58 +0200)
+> |---|---|---| (3 October 2026, 20:06:58 +0200)
+> | Migration vers Gemini | Fait | Dictée, correction, import et retraitement réussis | (3 October 2026, 20:06:58 +0200)
+> | Features Wispr Flow | Codées | 10 tests passent ; Fn physique et collage externe restent à vérifier | (3 October 2026, 20:06:58 +0200)
+> | Index mapping et push cloud | Fait | 88/88 fichiers archivés, 5 restaurations identiques | (3 October 2026, 20:06:58 +0200)
+>
+> Code enregistré dans le commit `4b6f2e7`. [Preuve cloud](/Users/zenray/.claude/tmp/tmp-zenray-dictate/CloudMappingProof.json). (3 October 2026, 20:06:58 +0200)
