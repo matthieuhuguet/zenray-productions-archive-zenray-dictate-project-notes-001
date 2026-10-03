@@ -305,3 +305,11 @@
 > | Sauvegarde cloud | Fait | 99/99 fichiers archivés | (3 October 2026, 21:56:55 +0200)
 >
 > Le verrou du micro reste actif tant que ZenRayDictate tourne. (3 October 2026, 21:56:55 +0200)
+
+## 3 October 2026, 22:03:27 +0200 : Prompt
+
+<!-- feedback-event:c91a2a33f6be8e4dd83dc2a9a974de63fd3cc4562e72adbee148d1b8a815714b (3 October 2026, 22:03:27 +0200) -->
+- Project: zenray-dictate; kind: prompt. (3 October 2026, 22:03:27 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 22:03:27 +0200)
+
+> le fn par contre marche pas vraiment si possible j'aimerai en fait que quand tu le lances via fn ça lance la capture et fn l'enlève... ce soit plutôt à droite de manière verticale sans le voir et tu le vois que quand tu cliques sur l'icone mais en général c'est hide pour le chat à la manière de wispr flow par contre ça se copy clipboard tout seul à chaque fin de tick / capture  ni le fade out quand on clique autour la capsule doit fade out ... (3 October 2026, 22:03:27 +0200)
