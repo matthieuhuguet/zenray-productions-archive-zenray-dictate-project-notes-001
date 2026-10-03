@@ -263,3 +263,11 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (3 October 2026, 21:50:44 +0200)
 
 > 3 October 2026: commit c66fde9, signed version 3.1. Real Gemini input-container is the default composer in a transparent borderless 720-point capsule, auto height; legal footer hidden. Actual site BUTTERFLY-WAVE-VIEW / wave-canvas recorded during synthetic witness dictation; added waveform removed entirely. CoreAudio pins built-in default input, watches changes, and web constraints replace cached AirPods IDs. Measured MacBook Pro Microphone input (81), AirPods Pro output unchanged. Ten library tests, bridge checks including stale AirPods selection, release signing, native waveform DOM/transcript witness and visual capsule check pass. Direct Fn/shortcut operates website microphone and leaves editable text in Gemini; native advanced processing remains available separately, live-to-target automatic insertion not integrated. Physical AirPods reconnection not tested. Next: archive current sources, feedback and verification artifacts. (3 October 2026, 21:50:44 +0200)
+
+## 3 October 2026, 21:54:48 +0200 : Iteration
+
+<!-- feedback-event:4a9fac45b961cd8b3ffc735ff1e09bf42b6bb21f419479c5b7633ed9cac15948 (3 October 2026, 21:54:48 +0200) -->
+- Project: zenray-dictate; kind: iteration. (3 October 2026, 21:54:48 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (3 October 2026, 21:54:48 +0200)
+
+> 3 October 2026: final source commit 4560806 keeps explicit local-only/Whisper/Parakeet on native controls without opening Gemini. Capsule changes from c66fde9 are loaded: actual Gemini composer, native BUTTERFLY-WAVE-VIEW/wave-canvas only, no extra waveform/audio analyser, no title bar or legal footer, 720 points and automatic height. Measured MacBook Pro Microphone input and AirPods Pro output unchanged; default-input listener repins built-in and getUserMedia removes cached AirPods IDs. Ten library tests, bridge constraints/error checks, signed build and native waveform witness pass. 99/99 current files archived at final check; independent five-file restoration in progress. Physical AirPods reconnection remains untested. Next: complete final proof archive; direct website drafts stay editable in Gemini and native advanced processing remains separate. (3 October 2026, 21:54:48 +0200)
