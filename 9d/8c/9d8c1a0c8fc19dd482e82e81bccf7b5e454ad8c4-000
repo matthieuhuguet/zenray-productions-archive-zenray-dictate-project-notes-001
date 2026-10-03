@@ -47,3 +47,71 @@
 > Historical feedback retained at [FEEDBACK.md](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/FEEDBACK.md). (3 October 2026, 15:46:35 +0200)
 > Original bytes: 527; SHA-256: a7e13752c0a542c61d16fbd17bbc7eb87ed8f6f6e6d548776f406ce74bc27822. (3 October 2026, 15:46:35 +0200)
 > Read this source with the canonical feedback when resuming this project. (3 October 2026, 15:46:35 +0200)
+
+## 3 October 2026, 15:52:28 +0200 : Prompt
+
+<!-- feedback-event:f94d750fc5a4e491751efd938a49e6d0e14f878ee70dae84bf6ef41c716278e9 (3 October 2026, 15:52:28 +0200) -->
+- Project: zenray-dictate; kind: prompt. (3 October 2026, 15:52:28 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 15:52:28 +0200)
+
+> J'ai pas besoin de faire de benchmark je veux juste reprendre exactement ce que je faisais déjà donc prends l'intégralité de la petite capsule et surtout l'API via gemini.google.com go scrap tout ça doit être rapide la migration vers google (3 October 2026, 15:52:28 +0200)
+
+## 3 October 2026, 15:52:28 +0200 : Prompt
+
+<!-- feedback-event:67a5f5833d51a2895ef24c46152c55b2a1e8089818fa97175b6c68700479d419 (3 October 2026, 15:52:28 +0200) -->
+- Project: zenray-dictate; kind: prompt. (3 October 2026, 15:52:28 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 15:52:28 +0200)
+
+> J'aimerai surtout coder toutes les features dans ZenRayDictate de Wispr Flow go : L'application que tu décris est très probablement Wispr Flow. Sa pastille flottante s'affiche en bas de l'écran et sa touche par défaut est Fn sur Mac, à maintenir pour dicter et à relâcher pour arrêter. Superwhisper est l'autre référence, plus orientée modes et modèles locaux. La liste ci-dessous fusionne les deux et marque d'un (+) mes ajouts, pour que tu saches ce qui est observé chez eux et ce qui est suggéré. (3 October 2026, 15:52:28 +0200)
+>
+> **1. Déclenchement et retour visuel** (3 October 2026, 15:52:28 +0200)
+>
+> - Push-to-talk sur Fn : maintenir pour enregistrer, relâcher pour transcrire et insérer. (3 October 2026, 15:52:28 +0200)
+> - Mains libres : double appui sur la touche, ou Fn+Espace, pour démarrer et arrêter sans la maintenir. (3 October 2026, 15:52:28 +0200)
+> - Touche reconfigurable, car Fn n'existe pas sur les claviers externes. (3 October 2026, 15:52:28 +0200)
+> - Micro actif seulement pendant la pression, avec l'indicateur jaune de macOS comme confirmation. (3 October 2026, 15:52:28 +0200)
+> - Pastille flottante avec forme d'onde animée pendant l'enregistrement, qui ne prend jamais le focus de l'application active (+). (3 October 2026, 15:52:28 +0200)
+>
+> **2. Transcription** (3 October 2026, 15:52:28 +0200)
+>
+> - Moteurs interchangeables, locaux (Whisper, Parakeet) ou cloud. (+) Gemini 3.5 Transcribe, gpt-transcribe et Voxtral Realtime en options, pour comparer les moteurs dont on a parlé sur ta propre voix. (3 October 2026, 15:52:28 +0200)
+> - Détection automatique de la langue. (3 October 2026, 15:52:28 +0200)
+> - Dictionnaire personnel, alimenté automatiquement ou par import CSV. (3 October 2026, 15:52:28 +0200)
+> - Remplacements de texte (« super whisper » devient « Superwhisper »), qui complètent le dictionnaire. (3 October 2026, 15:52:28 +0200)
+> - Snippets vocaux : raccourcis pour des textes récurrents comme des mails, des liens ou des adresses. (3 October 2026, 15:52:28 +0200)
+>
+> **3. Intelligence après transcription** (3 October 2026, 15:52:28 +0200)
+>
+> - Nettoyage automatique des hésitations, des autocorrections, de la ponctuation et de la mise en forme. (3 October 2026, 15:52:28 +0200)
+> - Modes personnalisés : tu écris le prompt, fixes les règles de format et choisis le modèle de langage qui fait le nettoyage. (+) Mode lié automatiquement à l'application active. (3 October 2026, 15:52:28 +0200)
+> - Contrôle du ton pour les modes message, mail et notes. (3 October 2026, 15:52:28 +0200)
+> - Reconnaissance de syntaxe : camelCase, snake_case et acronymes sans les épeler. (3 October 2026, 15:52:28 +0200)
+> - Lecture du contexte à l'écran pour orthographier noms de fichiers et termes visibles. (3 October 2026, 15:52:28 +0200)
+> - Command Mode : sélectionner un texte, maintenir le raccourci, dire l'instruction, et le texte est remplacé sur place ; sans sélection, il génère au curseur. (3 October 2026, 15:52:28 +0200)
+> - Mode chuchotement pour dicter à voix basse dans un espace partagé. (3 October 2026, 15:52:28 +0200)
+>
+> **4. Données et confidentialité** (3 October 2026, 15:52:28 +0200)
+>
+> - Historique des dictées, avec retraitement d'un enregistrement dans un autre mode sans changer le mode actif. (3 October 2026, 15:52:28 +0200)
+> - Dépôt d'un fichier audio ou vidéo à la place de la voix. (3 October 2026, 15:52:28 +0200)
+> - Historique, modes et vocabulaire dans un dossier unique à sauvegarder. (3 October 2026, 15:52:28 +0200)
+> - Mode 100 % local. (+) Audio non conservé par défaut, alors que Superwhisper enregistre sur disque même en mode local. (3 October 2026, 15:52:28 +0200)
+>
+> **5. Agents de code** (3 October 2026, 15:52:28 +0200)
+>
+> - Dictée dans le terminal, Cursor et Claude Code. (+) Mode « prompt d'agent » qui transforme un monologue en tâche structurée, avec mentions de fichiers. (3 October 2026, 15:52:28 +0200)
+>
+> **6. Notes d'implémentation macOS** (de mémoire, à faire vérifier par Claude Code et Codex pendant la construction) (3 October 2026, 15:52:28 +0200)
+>
+> - Application de barre de menus en Swift. Fn se détecte via un event tap sur les changements de modificateurs, ce qui exige les permissions Accessibilité, Surveillance de l'entrée et Micro. (3 October 2026, 15:52:28 +0200)
+> - Réglage système « Appuyer sur 🌐 pour » à mettre sur « Ne rien faire », sinon macOS déclenche la dictée ou les emojis en parallèle. (3 October 2026, 15:52:28 +0200)
+> - Capture avec AVAudioEngine en 16 kHz mono. Insertion par presse-papiers puis Cmd+V simulé, avec restauration de l'ancien contenu du presse-papiers. (3 October 2026, 15:52:28 +0200)
+> - Pastille dans un panneau flottant non activant. (3 October 2026, 15:52:28 +0200)
+>
+> Pour démarrer, FnKey est une petite application Rust de barre de menus qui fait exactement ton cycle, maintenir Fn, parler, relâcher, coller. Elle peut servir de référence à donner à tes agents avant qu'ils écrivent la première ligne. Colle cette liste telle quelle dans un SPEC.md à la racine du dépôt, et les deux agents auront le même cahier des charges. (3 October 2026, 15:52:28 +0200)
+>
+>
+>
+>
+>
+> LE BACKEND C'EST GEMINI.GOOGLE.COM TU AS COMPRIS GO [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md) (3 October 2026, 15:52:28 +0200)
