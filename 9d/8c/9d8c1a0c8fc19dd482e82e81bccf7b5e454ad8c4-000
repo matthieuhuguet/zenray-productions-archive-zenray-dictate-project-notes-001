@@ -271,3 +271,37 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (3 October 2026, 21:54:48 +0200)
 
 > 3 October 2026: final source commit 4560806 keeps explicit local-only/Whisper/Parakeet on native controls without opening Gemini. Capsule changes from c66fde9 are loaded: actual Gemini composer, native BUTTERFLY-WAVE-VIEW/wave-canvas only, no extra waveform/audio analyser, no title bar or legal footer, 720 points and automatic height. Measured MacBook Pro Microphone input and AirPods Pro output unchanged; default-input listener repins built-in and getUserMedia removes cached AirPods IDs. Ten library tests, bridge constraints/error checks, signed build and native waveform witness pass. 99/99 current files archived at final check; independent five-file restoration in progress. Physical AirPods reconnection remains untested. Next: complete final proof archive; direct website drafts stay editable in Gemini and native advanced processing remains separate. (3 October 2026, 21:54:48 +0200)
+
+## 3 October 2026, 21:56:55 +0200 : Iteration
+
+<!-- feedback-event:8001ef6e3cb1f13fc2be210d47a896d29ec0eb6850497151aa52a1484eb42d54 (3 October 2026, 21:56:55 +0200) -->
+- Project: zenray-dictate; kind: iteration. (3 October 2026, 21:56:55 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 21:56:55 +0200)
+
+> Corrigé dans la capsule ouverte : (3 October 2026, 21:56:55 +0200)
+>
+> | Demande | État | Preuve | (3 October 2026, 21:56:55 +0200)
+> |---|---|---| (3 October 2026, 21:56:55 +0200)
+> | Micro MacBook Pro uniquement | Fait | Entrée intégrée verrouillée, sortie AirPods conservée | (3 October 2026, 21:56:55 +0200)
+> | Une seule waveform | Fait | Animation native Gemini gardée, la mienne supprimée | (3 October 2026, 21:56:55 +0200)
+> | Capsule seule | Fait | Sans barre de titre ni ligne Google, hauteur automatique | (3 October 2026, 21:56:55 +0200)
+> | Sauvegarde cloud | Fait | 99/99 fichiers archivés | (3 October 2026, 21:56:55 +0200)
+>
+> Le verrou du micro reste actif tant que ZenRayDictate tourne. (3 October 2026, 21:56:55 +0200)
+
+## 3 October 2026, 21:56:55 +0200 : Iteration
+
+<!-- feedback-event:db0bf449782725f8dbae531aecf95d0185901f1fca95ef234aab2969985b6ee1 (3 October 2026, 21:56:55 +0200) -->
+- Project: zenray-dictate; kind: iteration. (3 October 2026, 21:56:55 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (3 October 2026, 21:56:55 +0200)
+
+> Corrigé dans la capsule ouverte : (3 October 2026, 21:56:55 +0200)
+>
+> | Demande | État | Preuve | (3 October 2026, 21:56:55 +0200)
+> |---|---|---| (3 October 2026, 21:56:55 +0200)
+> | Micro MacBook Pro uniquement | Fait | Entrée intégrée verrouillée, sortie AirPods conservée | (3 October 2026, 21:56:55 +0200)
+> | Une seule waveform | Fait | Animation native Gemini gardée, la mienne supprimée | (3 October 2026, 21:56:55 +0200)
+> | Capsule seule | Fait | Sans barre de titre ni ligne Google, hauteur automatique | (3 October 2026, 21:56:55 +0200)
+> | Sauvegarde cloud | Fait | 99/99 fichiers archivés | (3 October 2026, 21:56:55 +0200)
+>
+> Le verrou du micro reste actif tant que ZenRayDictate tourne. (3 October 2026, 21:56:55 +0200)
