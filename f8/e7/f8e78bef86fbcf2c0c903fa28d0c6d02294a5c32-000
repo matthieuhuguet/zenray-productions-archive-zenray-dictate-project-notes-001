@@ -69,3 +69,8 @@
 - Result dismissal is allowed during transcript stabilization; completion no longer reopens a dismissed result. A generation token invalidates stale animation completions when a new presentation or dismissal supersedes them. The native Gemini waveform and dual AppKit Fn listeners remain intact. (4 October 2026)
 
 - Final repeated witness: transitionElapsed=0.20323983335401863, dismissedDuringStabilization=true and completionDoesNotReopen=true. The measured transition now matches the requested 0.2-second result; final clipboard text remains complete. This updates the first 0.231538-second measurement without removing its history. (4 October 2026)
+
+## 4 October 2026 : Version 3.6 cloud restoration verified
+
+- Signed version 3.6 build 9 is running, app head fa77856 is pushed and the two 0.1-second fades measure 0.20323983335401863 seconds. Fourteen Swift tests, final-text JavaScript guards and dismissal before clipboard completion pass. Physical Fn is confirmed in Chrome and Codex. (4 October 2026)
+- CloudMappingProof.json measures 112 admitted files backed up, zero pending and five mapped sources. Seven independent cloud restorations match SHA256 for the Fn listener, web adapter, bridge, native composer, signed executable, canonical feedback and Library.json. Workspace blob 9ae2da3c08c11b421d7145b17a0f403576c9aa8d preserves that mapping. The proof and this closing note receive a final archive pass. (4 October 2026)

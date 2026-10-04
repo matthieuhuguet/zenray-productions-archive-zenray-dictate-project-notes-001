@@ -521,3 +521,11 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 10:29:13 +0200)
 
 > 4 October 2026: final native Gemini witness measures 0.203239833 seconds for result transition, with two 0.1 s fades. Finalization no longer delays presentation. Early outside dismissal is honored and final completion does not reopen result; final clipboard remains full. Fourteen Swift tests, JS lifecycle guards and signed 3.6 build 9 pass. Physical AppKit Fn confirmed in actual Chrome/Codex start/stop/clipboard logs. Source edits now complete; previous archive correctly rejected a file changed during inventory and stable final archive is requested. Next: independent restore and zero-pending cloud confirmation. (4 October 2026, 10:29:13 +0200)
+
+## 4 October 2026, 10:35:36 +0200 : Iteration
+
+<!-- feedback-event:ffe46c425a80ddbfd1ce9db525026004fb44cee250f6ca518bf3991a6923b41c (4 October 2026, 10:35:36 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:35:36 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 10:35:36 +0200)
+
+> 4 October 2026: Signed ZenRayDictate 3.6 build 9 running; app commit fa77856 pushed. Right-to-bottom transition uses 0.1-second fade out plus 0.1-second fade in, measured 0.20323983335401863 seconds. Final transcript copied completely; dismissal during stabilization does not reopen the result. Physical global Fn start/stop confirmed in Chrome and Codex. Fourteen Swift tests and composer guards pass. Cloud has 112/112 admitted files archived across five sources; seven independent restorations match archived SHA256, including Fn, adapter, bridge, native composer, signed executable, feedback and Library.json. CloudMappingProof.json stores immutable mapping and restoration evidence. Next: final archive of closing proof, memory and this checkpoint, then use version 3.6. (4 October 2026, 10:35:36 +0200)
