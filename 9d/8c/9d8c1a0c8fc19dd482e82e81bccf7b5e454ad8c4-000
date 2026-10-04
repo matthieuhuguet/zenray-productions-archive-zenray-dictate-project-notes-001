@@ -395,3 +395,11 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:39:44 +0200)
 
 > Y'a encore des petits problèmes de focus parfois fn ne stop pas l'enregistrement car je clique a côté et aussi ça ne lance pas l'enregistrement peut être c'est fixable avec un event listener permanent ??? (4 October 2026, 09:39:44 +0200)
+
+## 4 October 2026, 09:44:21 +0200 : Iteration
+
+<!-- feedback-event:64071b1ea430dccd0450380dcc28a8a6673b08766edaa7d64a2cd1f9e0ab284c (4 October 2026, 09:44:21 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:44:21 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:44:21 +0200)
+
+> 4 October 2026: version 3.4 build 7. Permanent 250 ms Fn health check recovers disabled/invalid event taps and missed releases without fabricated presses. Three state tests reproduce stuck-key failure and verify recovery; thirteen tests pass. Gemini inactiveSchedulingPolicy.none keeps background scripts active. Real Gemini synthetic witness explicitly deactivates app before start and during capture, then confirms background Fn start/stop, visible native waveform, final clipboard, bottom-center result and fade. Signed build passes. Physical Fn in user apps remains manual; state and recovery logs now distinguish keyboard event delivery from website failures. Next: archive and restore final changes. (4 October 2026, 09:44:21 +0200)
