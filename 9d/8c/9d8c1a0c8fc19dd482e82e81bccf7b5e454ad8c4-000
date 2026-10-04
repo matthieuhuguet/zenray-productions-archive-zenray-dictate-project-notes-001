@@ -329,3 +329,19 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:28:05 +0200)
 
 > 4 October 2026: signed 3.2 build 5 running. Real Gemini synthetic witness confirms hidden Fn start, release keeps recording, second Fn stops and copies final 55 characters, 340-point right preview with 18-point inset, fade to alpha zero. Ten Swift tests, composer lifecycle and bridge guards pass. Physical Fn key and outside click remain manual checks; desktop UI control times out. Native waveform and built-in MacBook microphone lock retained. Next: verify final cloud archive and restoration. (4 October 2026, 09:28:05 +0200)
+
+## 4 October 2026, 09:29:54 +0200 : Prompt
+
+<!-- feedback-event:05c0a459d24e8e03ac714c4e92714acbb1af17f16a7e26fcfe91e9a7d2b15a66 (4 October 2026, 09:29:54 +0200) -->
+- Project: zenray-dictate; kind: prompt. (4 October 2026, 09:29:54 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:29:54 +0200)
+
+> ATTENTION IL FAUT QUE QUAND C'EST ACTIF TOGGLE ON JE LE VOIS QUI FONCTIONNE ET TOUJOURS DISPLAY TANT QUE L'ENREGISTREMENET EST EN COURS !!! AVEC LA WAVEBAR À DROITE CORRIGE RAPIDEMENT ET UNE FOIS FINI ÇA M'AFFICHE MON TEXTE EN BAS AU MILIEU MAIS SI JE CLIQUE À CÔTÉ ÇA DISPARAIT (4 October 2026, 09:29:54 +0200)
+
+## 4 October 2026, 09:32:25 +0200 : Iteration
+
+<!-- feedback-event:c2bf25341d63ecafececb082e49ff18f3f1867ccd5a714677d250d7c9cb649ae (4 October 2026, 09:32:25 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:32:25 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:32:25 +0200)
+
+> 4 October 2026: user correction supersedes hidden capture. Version 3.3 build 6 keeps native Gemini waveform and capsule visible at right throughout recording/finalization, outside fade ignored while active. Fn release remains active; next activation stops. Final text auto-copies and displays bottom center (720 points, 24-point inset), then outside-click fade is allowed. Real Gemini synthetic witness confirms every state, waveform, positions and clipboard; signed build and ten library tests pass. Physical Fn/outside mouse input remain manual checks. Next: archive final files and independently restore cloud. (4 October 2026, 09:32:25 +0200)
