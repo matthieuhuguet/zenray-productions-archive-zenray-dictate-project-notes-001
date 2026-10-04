@@ -42,3 +42,8 @@
 - The latest user correction supersedes hidden recording: version 3.3 build 6 shows the real Gemini capsule and native waveform at the right edge during recording and finalization. Outside click, deactivation and icon toggle cannot hide an active capture. Idle startup remains hidden. (4 October 2026)
 - Once the transcript finishes, it is copied automatically and appears in a 720-point capsule at the bottom center, 24 points above the visible screen edge. Outside clicks can then fade it away. Recording width remains 340 points with an 18-point right inset. (4 October 2026)
 - FnCaptureProof.json is regenerated against real Gemini synthetic audio: nativeWaveform=true, visibleCapture=true, fadeIgnoredWhileRecording=true, releaseKeepsRecording=true, secondFnStops=true, resultWidth=720, bottomInset=24, faded=true and 55 copied characters. Signed release verification passes. Physical Fn and actual outside-click input remain manual checks. (4 October 2026)
+
+## 4 October 2026 : Version 3.3 cloud proof
+
+- CloudMappingProof.json confirms 110 current files archived across five mapped sources, with zero pending at measurement. Six independent restorations match archived SHA256: Swift web adapter, Gemini bridge, live composer script, signed executable, feedback and library. The immutable workspace blob is 71ba6744808d67b413bc1d86bfb0b42d09cc5553. App commit 3b55c7f is pushed to codex/gemini-dictation-library. (4 October 2026)
+- The proof and closing memory/checkpoint entries are themselves queued for their final archive. Recording stays visible at right; completed text stays at bottom center until outside dismissal. Physical Fn and actual mouse dismissal remain manual input checks. (4 October 2026)

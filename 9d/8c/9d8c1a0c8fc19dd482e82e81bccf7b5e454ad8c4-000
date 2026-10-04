@@ -345,3 +345,11 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:32:25 +0200)
 
 > 4 October 2026: user correction supersedes hidden capture. Version 3.3 build 6 keeps native Gemini waveform and capsule visible at right throughout recording/finalization, outside fade ignored while active. Fn release remains active; next activation stops. Final text auto-copies and displays bottom center (720 points, 24-point inset), then outside-click fade is allowed. Real Gemini synthetic witness confirms every state, waveform, positions and clipboard; signed build and ten library tests pass. Physical Fn/outside mouse input remain manual checks. Next: archive final files and independently restore cloud. (4 October 2026, 09:32:25 +0200)
+
+## 4 October 2026, 09:36:13 +0200 : Iteration
+
+<!-- feedback-event:ddfa47b002de50c8eb9c6fa2b8f12673085be9f29412069245c6eeb99c9ffa76 (4 October 2026, 09:36:13 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:36:13 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:36:13 +0200)
+
+> 4 October 2026: version 3.3 build 6 running, commit 3b55c7f pushed. Native waveform stays visible right throughout capture; final text auto-copies and appears bottom center, then outside fade allowed. Real Gemini witness validates visible recording, fade ignored while active, Fn release/second activation, clipboard, result geometry and fade. Cloud proof: 110/110 current files archived, five mapped sources; six independent restores match SHA256, immutable workspace blob 71ba6744808d67b413bc1d86bfb0b42d09cc5553. Closing proof/memory/checkpoint need final archive. Next: manual physical Fn and outside mouse check; no personal browser used. (4 October 2026, 09:36:13 +0200)
