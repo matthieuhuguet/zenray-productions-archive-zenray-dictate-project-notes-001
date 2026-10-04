@@ -495,3 +495,29 @@
 > | Cloud | En attente | Cinq fichiers dans la file de sauvegarde | (4 October 2026, 10:14:30 +0200)
 >
 > **Verdict : GO avec correction, validation physique en attente.** Je ne considère plus les tests internes comme une preuve que ta touche fonctionne. (4 October 2026, 10:14:30 +0200)
+
+## 4 October 2026, 10:22:54 +0200 : Prompt
+
+<!-- feedback-event:d3f7fca0e5d384d933eae6f36e0f5ea1c64c4612f0d9825a93e6cd1aed894959 (4 October 2026, 10:22:54 +0200) -->
+- Project: zenray-dictate; kind: prompt. (4 October 2026, 10:22:54 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 10:22:54 +0200)
+
+> quasi parfait faudrait juste accèlérer la fin une fois que la texte est a droite ça prends quasi 1 secondes pour aller en bas faudrait que ça prenne 0.2 avec fade out puis fade in rapidement ... donc 0.1 + 0.1 quasi fini puis cloud (4 October 2026, 10:22:54 +0200)
+>
+> [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) (4 October 2026, 10:22:54 +0200)
+
+## 4 October 2026, 10:27:13 +0200 : Iteration
+
+<!-- feedback-event:c5c869bd4bb9a85c7f17097a1fbe0f05930fb04f949342572d235ca61d8b26d9 (4 October 2026, 10:27:13 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:27:13 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 10:27:13 +0200)
+
+> 4 October 2026: physical Fn confirmed by actual AppKit global press -> Gemini start/stop -> clipboard logs from Chrome 10:20:30/40 and Codex 10:22:31/35 with appActive=false. Version 3.6 build 9 starts 0.1 s fade out then 0.1 s fade in relocation at capture stop; real native Gemini witness measures 0.231538 seconds. The 900 ms final-text stability guard no longer blocks presentation and still protects clipboard. Dismissal during stabilization is respected; final completion does not reopen the result. Native waveform, focus behavior and AppKit listeners remain. Signed release and composer guards pass, fourteen library/Fn tests run. Next: final archive and independent restore; shared writer currently processing another project batch. (4 October 2026, 10:27:13 +0200)
+
+## 4 October 2026, 10:29:13 +0200 : Iteration
+
+<!-- feedback-event:5f17443aca941ac8744ad3a0a75cf3485fd82014f4c5443289765984081fe42d (4 October 2026, 10:29:13 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:29:13 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 10:29:13 +0200)
+
+> 4 October 2026: final native Gemini witness measures 0.203239833 seconds for result transition, with two 0.1 s fades. Finalization no longer delays presentation. Early outside dismissal is honored and final completion does not reopen result; final clipboard remains full. Fourteen Swift tests, JS lifecycle guards and signed 3.6 build 9 pass. Physical AppKit Fn confirmed in actual Chrome/Codex start/stop/clipboard logs. Source edits now complete; previous archive correctly rejected a file changed during inventory and stable final archive is requested. Next: independent restore and zero-pending cloud confirmation. (4 October 2026, 10:29:13 +0200)
