@@ -353,3 +353,37 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:36:13 +0200)
 
 > 4 October 2026: version 3.3 build 6 running, commit 3b55c7f pushed. Native waveform stays visible right throughout capture; final text auto-copies and appears bottom center, then outside fade allowed. Real Gemini witness validates visible recording, fade ignored while active, Fn release/second activation, clipboard, result geometry and fade. Cloud proof: 110/110 current files archived, five mapped sources; six independent restores match SHA256, immutable workspace blob 71ba6744808d67b413bc1d86bfb0b42d09cc5553. Closing proof/memory/checkpoint need final archive. Next: manual physical Fn and outside mouse check; no personal browser used. (4 October 2026, 09:36:13 +0200)
+
+## 4 October 2026, 09:37:21 +0200 : Iteration
+
+<!-- feedback-event:0dc16f078020614d94c18eebbf20eae6f7e576c23d55765f5ceabae6b96264f8 (4 October 2026, 09:37:21 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:37:21 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:37:21 +0200)
+
+> Version 3.3 corrigée et lancée. (4 October 2026, 09:37:21 +0200)
+>
+> | Ce que tu veux | État | Preuve | (4 October 2026, 09:37:21 +0200)
+> |---|---|---| (4 October 2026, 09:37:21 +0200)
+> | Wavebar visible à droite pendant l’enregistrement | Fait | Animation native Gemini vérifiée, masquage bloqué pendant la capture | (4 October 2026, 09:37:21 +0200)
+> | Texte final en bas au milieu, copié automatiquement | Fait | Capture réelle Gemini et presse-papiers vérifiés | (4 October 2026, 09:37:21 +0200)
+> | Clic à côté pour faire disparaître le résultat | Codé | Fondu vérifié ; clic physique à confirmer | (4 October 2026, 09:37:21 +0200)
+> | Sauvegarde cloud | Fait | 110/110 fichiers archivés, six restaurations identiques | (4 October 2026, 09:37:21 +0200)
+>
+> Fn démarre puis arrête la capture. Le cycle est testé ; la touche physique reste à confirmer. (4 October 2026, 09:37:21 +0200)
+
+## 4 October 2026, 09:37:21 +0200 : Iteration
+
+<!-- feedback-event:54c13511c36d249093cadf838d7a5b25094183b01afb09e18740069625c57000 (4 October 2026, 09:37:21 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:37:21 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:37:21 +0200)
+
+> Version 3.3 corrigée et lancée. (4 October 2026, 09:37:21 +0200)
+>
+> | Ce que tu veux | État | Preuve | (4 October 2026, 09:37:21 +0200)
+> |---|---|---| (4 October 2026, 09:37:21 +0200)
+> | Wavebar visible à droite pendant l’enregistrement | Fait | Animation native Gemini vérifiée, masquage bloqué pendant la capture | (4 October 2026, 09:37:21 +0200)
+> | Texte final en bas au milieu, copié automatiquement | Fait | Capture réelle Gemini et presse-papiers vérifiés | (4 October 2026, 09:37:21 +0200)
+> | Clic à côté pour faire disparaître le résultat | Codé | Fondu vérifié ; clic physique à confirmer | (4 October 2026, 09:37:21 +0200)
+> | Sauvegarde cloud | Fait | 110/110 fichiers archivés, six restaurations identiques | (4 October 2026, 09:37:21 +0200)
+>
+> Fn démarre puis arrête la capture. Le cycle est testé ; la touche physique reste à confirmer. (4 October 2026, 09:37:21 +0200)
