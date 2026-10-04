@@ -83,3 +83,10 @@
 - Automated macOS icon pipeline implemented in Scripts/generate-icns.sh via rsvg-convert to multi-resolution iconset (16x16 to 1024x1024) and iconutil compile to AppIcon.icns. (4 October 2026)
 - Instant switcher script created in Scripts/apply-icon-proposal.sh for toggling between Proposition 1 (Spectrum), Proposition 2 (Antigravity Dark Glow), and Proposition 3 (Gemini Spark Signature). (4 October 2026)
 - AppIcon.icns generated and installed in ZenRayDictate.app/Contents/Resources/AppIcon.icns. (4 October 2026)
+
+
+## 4 October 2026 : Proposition 3 Dark Gemini confirmed as active icon
+
+- Proposition 3 Dark Gemini finalized: single Gemini star with rounded tips (r=7, R=85, waist cp=22.5) matching the exact 4-quadrant Google Gemini colors (Coral Red top, Electric Blue right, Emerald Green bottom, Golden Yellow left, Electric Blue core). (4 October 2026)
+- Soundwaves and microphone rendered in high-contrast luminous spectrum (Green -> Cyan -> Blue -> Indigo -> Coral) on dark obsidian squircle background. (4 October 2026)
+- AppIcon.svg updated, AppIcon.icns compiled (555 KB, 10 resolutions), and installed in ZenRayDictate.app/Contents/Resources/AppIcon.icns. (4 October 2026)
