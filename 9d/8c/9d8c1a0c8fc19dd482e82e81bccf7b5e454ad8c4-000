@@ -529,3 +529,29 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 10:35:36 +0200)
 
 > 4 October 2026: Signed ZenRayDictate 3.6 build 9 running; app commit fa77856 pushed. Right-to-bottom transition uses 0.1-second fade out plus 0.1-second fade in, measured 0.20323983335401863 seconds. Final transcript copied completely; dismissal during stabilization does not reopen the result. Physical global Fn start/stop confirmed in Chrome and Codex. Fourteen Swift tests and composer guards pass. Cloud has 112/112 admitted files archived across five sources; seven independent restorations match archived SHA256, including Fn, adapter, bridge, native composer, signed executable, feedback and Library.json. CloudMappingProof.json stores immutable mapping and restoration evidence. Next: final archive of closing proof, memory and this checkpoint, then use version 3.6. (4 October 2026, 10:35:36 +0200)
+
+## 4 October 2026, 10:38:22 +0200 : Iteration
+
+<!-- feedback-event:ff1f2697a6da61bf785de8aac177043bbca7feed8f2976e704d3a12a9b0ae567 (4 October 2026, 10:38:22 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:38:22 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 10:38:22 +0200)
+
+> La version 3.6 est corrigée et relancée. (4 October 2026, 10:38:22 +0200)
+>
+> | Ta demande | État | Preuve | (4 October 2026, 10:38:22 +0200)
+> |---|---|---| (4 October 2026, 10:38:22 +0200)
+> | Fondu 0,1 + 0,1 seconde | Fait | Transition mesurée à **0,203 seconde** | (4 October 2026, 10:38:22 +0200)
+> | Puis cloud | Fait | **112/112 fichiers archivés**, aucun en attente ; 7 restaurations identiques vérifiées | (4 October 2026, 10:38:22 +0200)
+
+## 4 October 2026, 10:38:22 +0200 : Iteration
+
+<!-- feedback-event:cd4d552d9837180154d87b6c14aa593eff44ebc1ea60d58085ef34d673d1b000 (4 October 2026, 10:38:22 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:38:22 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 10:38:22 +0200)
+
+> La version 3.6 est corrigée et relancée. (4 October 2026, 10:38:22 +0200)
+>
+> | Ta demande | État | Preuve | (4 October 2026, 10:38:22 +0200)
+> |---|---|---| (4 October 2026, 10:38:22 +0200)
+> | Fondu 0,1 + 0,1 seconde | Fait | Transition mesurée à **0,203 seconde** | (4 October 2026, 10:38:22 +0200)
+> | Puis cloud | Fait | **112/112 fichiers archivés**, aucun en attente ; 7 restaurations identiques vérifiées | (4 October 2026, 10:38:22 +0200)
