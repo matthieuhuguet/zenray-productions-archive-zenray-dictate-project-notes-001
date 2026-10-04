@@ -387,3 +387,11 @@
 > | Sauvegarde cloud | Fait | 110/110 fichiers archivés, six restaurations identiques | (4 October 2026, 09:37:21 +0200)
 >
 > Fn démarre puis arrête la capture. Le cycle est testé ; la touche physique reste à confirmer. (4 October 2026, 09:37:21 +0200)
+
+## 4 October 2026, 09:39:44 +0200 : Prompt
+
+<!-- feedback-event:6ea2c09613c9e831992107b161b3ed7a2982fef842cc430c3a6ca75a8f079231 (4 October 2026, 09:39:44 +0200) -->
+- Project: zenray-dictate; kind: prompt. (4 October 2026, 09:39:44 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:39:44 +0200)
+
+> Y'a encore des petits problèmes de focus parfois fn ne stop pas l'enregistrement car je clique a côté et aussi ça ne lance pas l'enregistrement peut être c'est fixable avec un event listener permanent ??? (4 October 2026, 09:39:44 +0200)
