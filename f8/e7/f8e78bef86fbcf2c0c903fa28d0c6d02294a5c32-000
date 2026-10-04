@@ -90,3 +90,11 @@
 - Proposition 3 Dark Gemini finalized: single Gemini star with rounded tips (r=7, R=85, waist cp=22.5) matching the exact 4-quadrant Google Gemini colors (Coral Red top, Electric Blue right, Emerald Green bottom, Golden Yellow left, Electric Blue core). (4 October 2026)
 - Soundwaves and microphone rendered in high-contrast luminous spectrum (Green -> Cyan -> Blue -> Indigo -> Coral) on dark obsidian squircle background. (4 October 2026)
 - AppIcon.svg updated, AppIcon.icns compiled (555 KB, 10 resolutions), and installed in ZenRayDictate.app/Contents/Resources/AppIcon.icns. (4 October 2026)
+
+
+## 4 October 2026 : Permanent silent microphone grant for Gemini WebKit
+
+- Cause identified: GeminiWebTranscriber.swift called decisionHandler(.prompt) inside webView(_:requestMediaCapturePermissionFor:initiatedByFrame:type:decisionHandler:), forcing WebKit to display the native microphone permission alert on every prompt. (4 October 2026)
+- Fix applied: decisionHandler(.grant) is now invoked directly for origin.host == Settings.url.host or *.google.com, automatically authorizing microphone capture without ever prompting the user. (4 October 2026)
+- Build and verification: 14 Swift unit tests pass, ./build.sh succeeds with local certificate signature, and independent composer checks pass. ZenRayDictate.app is deployed and running. (4 October 2026)
+- ZenRay Assets V2 cloud archive: 126 files backed up, 0 pending. Seven independent cloud restorations verified with matching SHA-256 including GeminiWebTranscriber.swift and the signed executable. Workspace blob 63a94ad2abd730a72a79b79e94061f24835d6259. (4 October 2026)

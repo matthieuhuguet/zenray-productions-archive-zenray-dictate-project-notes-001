@@ -589,3 +589,20 @@
 
 > Proposition 3 adaptée en Dark Mode : une seule étoile Gemini avec pointes arrondies et fidélité chromatique aux 4 quadrants de référence (Haut Corail #E25167, Droite Bleu #3186FF, Bas Vert #16B96B, Gauche Jaune #D6C42C, Cœur Bleu #348BE8). (4 October 2026, 12:28:00 +0200)
 > Icône compilée en AppIcon.icns (555 Ko) et installée dans ZenRayDictate.app. (4 October 2026, 12:28:00 +0200)
+
+
+## 4 October 2026, 13:44:10 +0200 : Prompt
+
+<!-- feedback-event:aa97c5897dee48ca7160f4d4499583ffa68b1df92255a1b7bc0fccdb6a70ced1 (4 October 2026, 13:44:10 +0200) -->
+- Project: zenray-dictate; kind: prompt. (4 October 2026, 13:44:10 +0200)
+
+> zenray-dictate J'ai un problème sur Gemini, c'est que à chaque fois que je lance un prompt en soi, il me redemande l'accès au micro. J'aimerais corriger rapidement ce problème. sur l'app. JE VEUX PLUS JAMAIS VEUT plus jamais avoir à le refaire. deploy et commit et archive /zenray-assets-v2 (4 October 2026, 13:44:10 +0200)
+
+## 4 October 2026, 13:51:00 +0200 : Iteration
+
+<!-- feedback-event:4131c7da465fd5dbd030ee14c32d082cd14b6672e1e68f5286593a83a50e6ebc (4 October 2026, 13:51:00 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 13:51:00 +0200)
+
+> Demande d'accès au micro supprimée : remplacement de decisionHandler(.prompt) par decisionHandler(.grant) dans GeminiWebTranscriber.swift pour gemini.google.com et les domaines google.com. (4 October 2026, 13:51:00 +0200)
+> Application recompilée, codesignée et relancée en production. (4 October 2026, 13:51:00 +0200)
+> Cloud mapping vérifié : 126/126 fichiers sauvegardés (0 en attente), 7 restaurations indépendantes validées avec SHA-256 identique. (4 October 2026, 13:51:00 +0200)
