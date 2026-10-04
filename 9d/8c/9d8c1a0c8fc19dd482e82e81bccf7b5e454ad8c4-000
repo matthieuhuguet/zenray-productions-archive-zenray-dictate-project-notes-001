@@ -321,3 +321,11 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:24:35 +0200)
 
 > continue (4 October 2026, 09:24:35 +0200)
+
+## 4 October 2026, 09:28:05 +0200 : Iteration
+
+<!-- feedback-event:247212901fb8981e1968e7c46dfc983d0b0712c1ca5a30835253896636e706d0 (4 October 2026, 09:28:05 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:28:05 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:28:05 +0200)
+
+> 4 October 2026: signed 3.2 build 5 running. Real Gemini synthetic witness confirms hidden Fn start, release keeps recording, second Fn stops and copies final 55 characters, 340-point right preview with 18-point inset, fade to alpha zero. Ten Swift tests, composer lifecycle and bridge guards pass. Physical Fn key and outside click remain manual checks; desktop UI control times out. Native waveform and built-in MacBook microphone lock retained. Next: verify final cloud archive and restoration. (4 October 2026, 09:28:05 +0200)
