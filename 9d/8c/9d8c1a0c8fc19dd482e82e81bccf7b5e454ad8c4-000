@@ -443,3 +443,55 @@
 > | Sauvegarde cloud | Fait | 111 fichiers archivés, sept restaurations identiques | (4 October 2026, 09:49:57 +0200)
 >
 > Les appuis physiques dans tes applications restent à confirmer ; ils sont maintenant journalisés pour identifier tout échec restant. (4 October 2026, 09:49:57 +0200)
+
+## 4 October 2026, 10:06:54 +0200 : Prompt
+
+<!-- feedback-event:4a879f5b6ff6e7d1ff74e339e9df23bba2c5c1cb3d082d9006d5f89feddc9240 (4 October 2026, 10:06:54 +0200) -->
+- Project: zenray-dictate; kind: prompt. (4 October 2026, 10:06:54 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 10:06:54 +0200)
+
+> bon la touche fn touche / marche pas pour lancer et stop l'enregistrement c'est bizarre parce que wispr flow y arrive il doit y avoir une parade [$think-of-everything](/Users/zenray/.codex/skills/think-of-everything/SKILL.md) (4 October 2026, 10:06:54 +0200)
+
+## 4 October 2026, 10:11:46 +0200 : Iteration
+
+<!-- feedback-event:71270132223aecdd4dc7add2dc9dcac072c6f6bbe00f5fc004f343336f6a9f14 (4 October 2026, 10:11:46 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:11:46 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 10:11:46 +0200)
+
+> 4 October 2026: think-of-everything pass identifies real disabled listener. Running app measures accessibility=true and quartzListenAccess=false; previous Quartz listener re-enabled four times/second but remained disabled. Version 3.5 build 8 replaces it with permanent AppKit global+local monitors, both runtime true, shared edge state and recovery. Apple event-monitor documentation consulted. Fourteen tests and signed release verification pass; commit f061f38 pushed. User physical Fn start/stop test from Codex requested and pending; do not equate installed monitors or synthetic handler tests with physical key success. FnListenerAudit.md preserves ranked risks, facts, checks and GO-with-corrections verdict. Next: read real AppKit press -> Gemini transition -> clipboard logs and archive. (4 October 2026, 10:11:46 +0200)
+
+## 4 October 2026, 10:14:30 +0200 : Iteration
+
+<!-- feedback-event:8761228217cf0ef60f8700e6273c7e4ca90bc9e974ca8a2a9db82e485d161a22 (4 October 2026, 10:14:30 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:14:30 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 10:14:30 +0200)
+
+> Le défaut est identifié : **Accessibilité autorisée, écoute Quartz refusée**. Réactiver l’ancien écouteur ne suffisait donc pas. (4 October 2026, 10:14:30 +0200)
+>
+> La version **3.5 est lancée**, avec deux écoutes AppKit permanentes : dans ZenRayDictate et dans les autres applications. (4 October 2026, 10:14:30 +0200)
+>
+> | Point | État | Preuve | (4 October 2026, 10:14:30 +0200)
+> |---|---|---| (4 October 2026, 10:14:30 +0200)
+> | Nouvelle écoute Fn | Installée | Deux moniteurs actifs, 14 tests réussis | (4 October 2026, 10:14:30 +0200)
+> | Fn physique démarre et arrête | À vérifier | Tes deux appuis depuis Codex restent nécessaires | (4 October 2026, 10:14:30 +0200)
+> | Cloud | En attente | Cinq fichiers dans la file de sauvegarde | (4 October 2026, 10:14:30 +0200)
+>
+> **Verdict : GO avec correction, validation physique en attente.** Je ne considère plus les tests internes comme une preuve que ta touche fonctionne. (4 October 2026, 10:14:30 +0200)
+
+## 4 October 2026, 10:14:30 +0200 : Iteration
+
+<!-- feedback-event:bf940870377b3b05b9508e1bb3fd694e4457a6179d4d1c79a975e709241f55b7 (4 October 2026, 10:14:30 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 10:14:30 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 10:14:30 +0200)
+
+> Le défaut est identifié : **Accessibilité autorisée, écoute Quartz refusée**. Réactiver l’ancien écouteur ne suffisait donc pas. (4 October 2026, 10:14:30 +0200)
+>
+> La version **3.5 est lancée**, avec deux écoutes AppKit permanentes : dans ZenRayDictate et dans les autres applications. (4 October 2026, 10:14:30 +0200)
+>
+> | Point | État | Preuve | (4 October 2026, 10:14:30 +0200)
+> |---|---|---| (4 October 2026, 10:14:30 +0200)
+> | Nouvelle écoute Fn | Installée | Deux moniteurs actifs, 14 tests réussis | (4 October 2026, 10:14:30 +0200)
+> | Fn physique démarre et arrête | À vérifier | Tes deux appuis depuis Codex restent nécessaires | (4 October 2026, 10:14:30 +0200)
+> | Cloud | En attente | Cinq fichiers dans la file de sauvegarde | (4 October 2026, 10:14:30 +0200)
+>
+> **Verdict : GO avec correction, validation physique en attente.** Je ne considère plus les tests internes comme une preuve que ta touche fonctionne. (4 October 2026, 10:14:30 +0200)
