@@ -403,3 +403,11 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:44:21 +0200)
 
 > 4 October 2026: version 3.4 build 7. Permanent 250 ms Fn health check recovers disabled/invalid event taps and missed releases without fabricated presses. Three state tests reproduce stuck-key failure and verify recovery; thirteen tests pass. Gemini inactiveSchedulingPolicy.none keeps background scripts active. Real Gemini synthetic witness explicitly deactivates app before start and during capture, then confirms background Fn start/stop, visible native waveform, final clipboard, bottom-center result and fade. Signed build passes. Physical Fn in user apps remains manual; state and recovery logs now distinguish keyboard event delivery from website failures. Next: archive and restore final changes. (4 October 2026, 09:44:21 +0200)
+
+## 4 October 2026, 09:48:21 +0200 : Iteration
+
+<!-- feedback-event:e6dbe5c2491f543c816e52512b1c3025bd63ee5ff6257cc53ee12b27b59f5781 (4 October 2026, 09:48:21 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:48:21 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:48:21 +0200)
+
+> 4 October 2026: version 3.4 build 7 running with Fn event tap active. Permanent 250 ms health recovery and inactive Gemini scheduling delivered; thirteen tests pass, including missed-release lock/recovery. Real Gemini witness starts and stops after application deactivation, with visible native waveform, automatic clipboard and bottom-center result. Code pushed: 644d54b (implementation 5fe00e4). CloudMappingProof.json: 111 current files archived, five mapped sources, seven SHA256-identical independent restores including FnKeyMonitor and signed executable; workspace blob a8a7baee58802ba7ea4afa5e330d66d92620acd6. Closing checkpoint/proof require their own final archive. Next: physical Fn use in target applications; logs now identify press delivery and capture state. (4 October 2026, 09:48:21 +0200)
