@@ -411,3 +411,35 @@
 - Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (4 October 2026, 09:48:21 +0200)
 
 > 4 October 2026: version 3.4 build 7 running with Fn event tap active. Permanent 250 ms health recovery and inactive Gemini scheduling delivered; thirteen tests pass, including missed-release lock/recovery. Real Gemini witness starts and stops after application deactivation, with visible native waveform, automatic clipboard and bottom-center result. Code pushed: 644d54b (implementation 5fe00e4). CloudMappingProof.json: 111 current files archived, five mapped sources, seven SHA256-identical independent restores including FnKeyMonitor and signed executable; workspace blob a8a7baee58802ba7ea4afa5e330d66d92620acd6. Closing checkpoint/proof require their own final archive. Next: physical Fn use in target applications; logs now identify press delivery and capture state. (4 October 2026, 09:48:21 +0200)
+
+## 4 October 2026, 09:49:56 +0200 : Iteration
+
+<!-- feedback-event:73c0ba205428a7cd76d68e8eb4f145f2f1a52ab2095388b2f7b3438d38c9f69a (4 October 2026, 09:49:56 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:49:56 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:49:56 +0200)
+
+> La version 3.4 est lancée : l’écoute globale de Fn se surveille toutes les 250 ms et se répare automatiquement. Gemini reste actif sans focus. (4 October 2026, 09:49:56 +0200)
+>
+> | Demande | État | Preuve | (4 October 2026, 09:49:56 +0200)
+> |---|---|---| (4 October 2026, 09:49:56 +0200)
+> | Fn fiable après changement de focus | Corrigé | Démarrage et arrêt Gemini testés avec l’application inactive | (4 October 2026, 09:49:56 +0200)
+> | Écoute permanente | Fait | Relâchement perdu et reprise vérifiés ; 13 tests réussis | (4 October 2026, 09:49:56 +0200)
+> | Sauvegarde cloud | Fait | 111 fichiers archivés, sept restaurations identiques | (4 October 2026, 09:49:56 +0200)
+>
+> Les appuis physiques dans tes applications restent à confirmer ; ils sont maintenant journalisés pour identifier tout échec restant. (4 October 2026, 09:49:56 +0200)
+
+## 4 October 2026, 09:49:57 +0200 : Iteration
+
+<!-- feedback-event:b6b0ac7118ff8f2d57bd7e497ce5ebf51073325d79cc7bbccce887cee57b9992 (4 October 2026, 09:49:57 +0200) -->
+- Project: zenray-dictate; kind: iteration. (4 October 2026, 09:49:57 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (4 October 2026, 09:49:57 +0200)
+
+> La version 3.4 est lancée : l’écoute globale de Fn se surveille toutes les 250 ms et se répare automatiquement. Gemini reste actif sans focus. (4 October 2026, 09:49:57 +0200)
+>
+> | Demande | État | Preuve | (4 October 2026, 09:49:57 +0200)
+> |---|---|---| (4 October 2026, 09:49:57 +0200)
+> | Fn fiable après changement de focus | Corrigé | Démarrage et arrêt Gemini testés avec l’application inactive | (4 October 2026, 09:49:57 +0200)
+> | Écoute permanente | Fait | Relâchement perdu et reprise vérifiés ; 13 tests réussis | (4 October 2026, 09:49:57 +0200)
+> | Sauvegarde cloud | Fait | 111 fichiers archivés, sept restaurations identiques | (4 October 2026, 09:49:57 +0200)
+>
+> Les appuis physiques dans tes applications restent à confirmer ; ils sont maintenant journalisés pour identifier tout échec restant. (4 October 2026, 09:49:57 +0200)
