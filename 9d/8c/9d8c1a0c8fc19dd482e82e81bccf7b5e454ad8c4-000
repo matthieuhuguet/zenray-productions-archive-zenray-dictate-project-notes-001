@@ -606,3 +606,55 @@
 > Demande d'accès au micro supprimée : remplacement de decisionHandler(.prompt) par decisionHandler(.grant) dans GeminiWebTranscriber.swift pour gemini.google.com et les domaines google.com. (4 October 2026, 13:51:00 +0200)
 > Application recompilée, codesignée et relancée en production. (4 October 2026, 13:51:00 +0200)
 > Cloud mapping vérifié : 126/126 fichiers sauvegardés (0 en attente), 7 restaurations indépendantes validées avec SHA-256 identique. (4 October 2026, 13:51:00 +0200)
+
+## 6 October 2026, 12:38:31 +0200 : Prompt
+
+<!-- feedback-event:29f69b6a8d452cf9730ebcdc8161ffa76f467f4bbf22a559ba93074237424903 (6 October 2026, 12:38:31 +0200) -->
+- Project: zenray-dictate; kind: prompt. (6 October 2026, 12:38:31 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T12-38-29-01a110cb-1d8a-7a82-b661-4ace652c8ac1.jsonl. (6 October 2026, 12:38:31 +0200)
+
+> <external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page> (6 October 2026, 12:38:31 +0200)
+
+## 6 October 2026, 12:38:31 +0200 : Prompt
+
+<!-- feedback-event:f325e25fd453cd4cbe9ae0a87e842fedc7cbd5995564ee8188411936c4ceacd4 (6 October 2026, 12:38:31 +0200) -->
+- Project: zenray-dictate; kind: prompt. (6 October 2026, 12:38:31 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T12-38-29-01a110cb-1d8a-7a82-b661-4ace652c8ac1.jsonl. (6 October 2026, 12:38:31 +0200)
+
+> [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) il doit y avoir un program qui fait que Il doit y avoir un programme sur mon PC qui fait que il va tout le temps essayer de setup le MacBook Input Audio, mais j'aimerais le désactiver si possible. par rapport à zenray dictate ou autre vérifie (6 October 2026, 12:38:31 +0200)
+
+## 6 October 2026, 12:40:09 +0200 : Iteration
+
+<!-- feedback-event:0d1576901ef6a464e7dff7733ce78f58d05e55f7bc90fe3b0893ff18434b2983 (6 October 2026, 12:40:09 +0200) -->
+- Project: zenray-dictate; kind: iteration. (6 October 2026, 12:40:09 +0200)
+- Source: checkpoint:codex:01a110cb-1d8a-7a82-b661-4ace652c8ac1. (6 October 2026, 12:40:09 +0200)
+
+> 6 October 2026: Cause verified in ZenRayDictate BuiltinMicrophone: startup listener resets system input to built-in; capture and permission callbacks also pin. Lock disabled centrally; Gemini bridge removes cached device IDs and respects system input. Fourteen Swift tests, JS bridge checks, signed build and native input/output preservation check pass. Application rebuilt and restarted. Next: user may select preferred microphone in macOS; actual physical dictation with another microphone remains unverified. (6 October 2026, 12:40:09 +0200)
+
+## 6 October 2026, 12:40:37 +0200 : Iteration
+
+<!-- feedback-event:55270c8bee31fab87ece298ece37b05026c843f26f624478cf12a7b40c51b316 (6 October 2026, 12:40:37 +0200) -->
+- Project: zenray-dictate; kind: iteration. (6 October 2026, 12:40:37 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T12-38-29-01a110cb-1d8a-7a82-b661-4ace652c8ac1.jsonl. (6 October 2026, 12:40:37 +0200)
+
+> C’était bien **ZenRayDictate**, qui remettait automatiquement le micro du MacBook dès que l’entrée audio changeait. Ce verrou est désactivé et l’application corrigée est relancée ; tu peux choisir ton micro dans les réglages Son de macOS. (6 October 2026, 12:40:37 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (6 October 2026, 12:40:37 +0200)
+> | --- | --- | --- | (6 October 2026, 12:40:37 +0200)
+> | Identifier le programme | Fait | Surveillance trouvée dans ZenRayDictate | (6 October 2026, 12:40:37 +0200)
+> | Désactiver le changement forcé | Fait | Verrou désactivé, application relancée, 14 tests réussis | (6 October 2026, 12:40:37 +0200)
+> | Dicter avec un autre micro | À vérifier | Essai physique restant | (6 October 2026, 12:40:37 +0200)
+
+## 6 October 2026, 12:40:38 +0200 : Iteration
+
+<!-- feedback-event:f30e47a911be232251dacdd798bdf9b63aa9d5b062f0e26a50a766e7e61a394c (6 October 2026, 12:40:38 +0200) -->
+- Project: zenray-dictate; kind: iteration. (6 October 2026, 12:40:38 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T12-38-29-01a110cb-1d8a-7a82-b661-4ace652c8ac1.jsonl. (6 October 2026, 12:40:38 +0200)
+
+> C’était bien **ZenRayDictate**, qui remettait automatiquement le micro du MacBook dès que l’entrée audio changeait. Ce verrou est désactivé et l’application corrigée est relancée ; tu peux choisir ton micro dans les réglages Son de macOS. (6 October 2026, 12:40:38 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (6 October 2026, 12:40:38 +0200)
+> | --- | --- | --- | (6 October 2026, 12:40:38 +0200)
+> | Identifier le programme | Fait | Surveillance trouvée dans ZenRayDictate | (6 October 2026, 12:40:38 +0200)
+> | Désactiver le changement forcé | Fait | Verrou désactivé, application relancée, 14 tests réussis | (6 October 2026, 12:40:38 +0200)
+> | Dicter avec un autre micro | À vérifier | Essai physique restant | (6 October 2026, 12:40:38 +0200)
