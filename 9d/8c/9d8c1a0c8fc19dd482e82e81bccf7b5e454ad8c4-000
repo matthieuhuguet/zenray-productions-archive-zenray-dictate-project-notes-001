@@ -1133,3 +1133,31 @@
 > Call update_goal only after the completion or blocked audit passes, or when the user explicitly requests pausing this goal. For a requested pause, use status "paused", report the returned status, and stop goal work; never pause on your own initiative. Do not mark a goal complete merely because the budget is nearly exhausted or because you are stopping work. (7 October 2026, 12:10:28 +0200)
 >
 > </codex_internal_context> (7 October 2026, 12:10:28 +0200)
+
+## 7 October 2026, 12:15:25 +0200 : Iteration
+
+<!-- feedback-event:fee276a99cb041549613bef88a6a7d071c7fad8664f7758d5417d02c4685729a (7 October 2026, 12:15:25 +0200) -->
+- Project: zenray-dictate; kind: iteration. (7 October 2026, 12:15:25 +0200)
+- Source: checkpoint:codex:01a10202-a5c2-7942-9ec6-be571d28506f. (7 October 2026, 12:15:25 +0200)
+
+> 7 October 2026: Completion is unproven. Three consecutive goal continuations confirm the same missing physical-input evidence: no Fn press since production relaunch at 12:03:20; requested two short Fn captures remain unanswered. Only production PID 86598 is active, signed 3.7 build 11 from origin/main 891a94e; 14 Swift tests and capture guards pass. Synthetic page-frame witnesses 17,78,30 ms are not substituted for real physical Fn proof; fourth repeated waveform check failed. Goal is blocked pending actual user Fn captures and symptom confirmation, without marking achieved. Cloud job 817ff3b0 advances to 151/152 archived then ends Cloud registry read failed; one archive plus this new checkpoint remain to be confirmed. Existing service surveillance remains active; no backup completeness claim. Next: receive two real Fn start/stop captures, inspect full-key timings and verify waveform/copy/no duplicate, then finish remaining cloud verification. (7 October 2026, 12:15:25 +0200)
+
+## 7 October 2026, 12:15:35 +0200 : Iteration
+
+<!-- feedback-event:c103773d1367ef4d625188a52fa5313eb602d4d1289d9b7cfa972b10d739da52 (7 October 2026, 12:15:35 +0200) -->
+- Project: zenray-dictate; kind: iteration. (7 October 2026, 12:15:35 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (7 October 2026, 12:15:35 +0200)
+
+> La validation est **bloquée en attente de deux courtes dictées Fn réelles**. Fais Fn pour démarrer, puis Fn pour arrêter, deux fois. (7 October 2026, 12:15:35 +0200)
+>
+> La version 3.7 tourne seule, mais les **100 ms restent non confirmés**. Le dernier relevé cloud compte **151/152 fichiers archivés** ; le reste et le compte rendu sont remis en file. (7 October 2026, 12:15:35 +0200)
+
+## 7 October 2026, 12:15:35 +0200 : Iteration
+
+<!-- feedback-event:7dea99da5b93ea53a41aca037adfa8cd47d8aa96350d65d4dc12fda2480c473d (7 October 2026, 12:15:35 +0200) -->
+- Project: zenray-dictate; kind: iteration. (7 October 2026, 12:15:35 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl. (7 October 2026, 12:15:35 +0200)
+
+> La validation est **bloquée en attente de deux courtes dictées Fn réelles**. Fais Fn pour démarrer, puis Fn pour arrêter, deux fois. (7 October 2026, 12:15:35 +0200)
+>
+> La version 3.7 tourne seule, mais les **100 ms restent non confirmés**. Le dernier relevé cloud compte **151/152 fichiers archivés** ; le reste et le compte rendu sont remis en file. (7 October 2026, 12:15:35 +0200)
