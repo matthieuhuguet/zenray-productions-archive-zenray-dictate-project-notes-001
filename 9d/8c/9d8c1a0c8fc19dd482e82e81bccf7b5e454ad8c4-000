@@ -1523,3 +1523,25 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:30:23 +0200)
 
 > **Levier activé (10 October 2026) :** consigner toute l'architecture audio `AUHAL` et les preuves `AirPods Pro` / `iPhone` dans la documentation datée au `10 October 2026`, pousser le dépôt complet sur `GitHub` (`main` et `codex/gemini-dict (10 October 2026, 13:30:23 +0200)
+
+## 10 October 2026, 13:21:00 +0200 : Prompt
+
+<!-- feedback-event:fd3c7ec4a34707a9bcb21045c7bc438cdd54dd13ea333e3891f79827dfd64cf9 (10 October 2026, 13:21:00 +0200) -->
+- Project: zenray-dictate; kind: prompt. (10 October 2026, 13:21:00 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:21:00 +0200)
+
+> parfait juste l'icone est un peu crop j'aimerai que ce soit pas crop et c'est parfait parfaite icone à refaire (10 October 2026, 13:21:00 +0200)
+
+## 10 October 2026, 13:35:32 +0200 : Iteration
+
+<!-- feedback-event:73ba065ee552da0bea9ea3f0675525b40be5072c5585ab2bf3deecd998da5cae (10 October 2026, 13:35:32 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 13:35:32 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:35:32 +0200)
+
+> **Levier activé (10 October 2026) :** remplacer la rastérisation `lockFocus()` du symbole `mic.fill` (qui rognait les 3 points supérieurs de la capsule dans une boîte `12 x 15` puis l'écrasait dans un carré `11 x 11`) par un tracé vectoriel pur `NSBezierPath` dans [`makePillImage`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneManager.swift#L366-L429), impossible à rogner quelle que soit la densité d'écran. (10 October 2026, 13:35:32 +0200)
+>
+> ### Pourquoi l'icône était rognée et ce qui a été corrigé (10 October 2026) (10 October 2026, 13:35:32 +0200)
+>
+> 1. **Cause mesurée :** `mic.fill` en `pointSize: 11, weight: .bold` possède une taille intrinsèque de `12.0 x 15.0` points avec un `alignmentRect` décalé de `+3.0` points vers le haut (`(0.0, 3.0, 12.0, 8.0)`). L'appel `tinted.lockFocus()` coupait le dôme supérieur et les bords latéraux hors du tampon `12 x 15`, puis `draw(in: 11 x 11)` déformait l'icône. (10 October 2026) (10 October 2026, 13:35:32 +0200)
+> 2. **Correctif appliqué :** [`makePillImage`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneManager.swift#L366-L429) dessine désormais le micro et la pastille directement en courbes vectorielles `NSBezierPath` : (10 October 2026, 13:35:32 +0200)
+>    - Pastille orange avec retrait de `0 (10 October 2026, 13:35:32 +0200)
