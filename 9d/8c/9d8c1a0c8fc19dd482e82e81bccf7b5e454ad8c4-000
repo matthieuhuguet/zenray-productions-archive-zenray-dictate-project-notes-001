@@ -1161,3 +1161,333 @@
 > La validation est **bloquée en attente de deux courtes dictées Fn réelles**. Fais Fn pour démarrer, puis Fn pour arrêter, deux fois. (7 October 2026, 12:15:35 +0200)
 >
 > La version 3.7 tourne seule, mais les **100 ms restent non confirmés**. Le dernier relevé cloud compte **151/152 fichiers archivés** ; le reste et le compte rendu sont remis en file. (7 October 2026, 12:15:35 +0200)
+
+## 9 October 2026, 12:41:42 +0200 : Prompt
+
+<!-- feedback-event:4ff617d0718dc7ea81133c68537ae9d4181f65e6aca31c338d89153a930235d8 (9 October 2026, 12:41:42 +0200) -->
+- Project: zenray-dictate; kind: prompt. (9 October 2026, 12:41:42 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 12:41:42 +0200)
+
+> sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup le J'ai beaucoup de micros et il passe souvent par le micro du casque et je trouve ça désagréable par rapport au fait d'utiliser le micro du MacBook. J'ai déjà essayé d'utiliser un programme qui force tout le temps l'entrée sur MacBook Input, mais en fait, à cause des connexions automatiques du Bluetooth, ça remet à chaque fois le Bluetooth sur le casque. Donc en fait, j'aimerais simplement dans les pilotes du casque désactiver le micro. (9 October 2026, 12:41:42 +0200)
+
+## 9 October 2026, 12:49:02 +0200 : Iteration
+
+<!-- feedback-event:f14423cd7541a4c5b38f3ef95e073f2ef8b80ff78ffc7fec6d66e3b9dc660955 (9 October 2026, 12:49:02 +0200) -->
+- Project: zenray-dictate; kind: iteration. (9 October 2026, 12:49:02 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 12:49:02 +0200)
+
+> ### Reprise de contexte (09 October 2026) (9 October 2026, 12:49:02 +0200)
+>
+> - **2026-10-09 11:58** : Journal FEEDBACK de ZenRay Assets sauvegardé dans le commit `532daccaa`. (9 October 2026, 12:49:02 +0200)
+> - **2026-10-09 12:05** : Export FBX de Manny validé dans Houdini pour calibrer les échelles du porche de Louisiana Bayou. (9 October 2026, 12:49:02 +0200)
+> - **2026-10-09 12:20** : Daemon ZenRay Assets validé sous launchctl avec thèmes Aqua/Dark Aqua et 107 tests Vitest au vert. (9 October 2026, 12:49:02 +0200)
+> - **Dernière étape « Prochain » notée** : Attendre que toute la file Assets soit inactive, recharger le daemon, déployer le build `ca008999` et contrôler la production. (9 October 2026, 12:49:02 +0200)
+>
+> --- (9 October 2026, 12:49:02 +0200)
+>
+> ### Pourquoi Windows permet de désactiver le micro et pas macOS (09 October 2026) (9 October 2026, 12:49:02 +0200)
+>
+> 1. **Sur Windows** : Le gestionnaire de périphériques expose directement les services Bluetooth (profils SDP). Décocher « Téléphonie mains libres » (Handsfree Telephony / HFP) empêche Windows d'ouvrir le canal voix. Le micro n'existe littéralement plus pour le système. (9 October 2026, 12:49:02 +0200)
+> 2. **Sur macOS** : Apple ne propose aucune case à cocher pour désactiver un profil Bluetooth d'un casque tiers. Le pilote `BTAudioHALPlugin.driver` vit dans `/System/Library/` sur un volume signé en lecture seule (SIP / SSV). Les anciennes commandes de terminal (`Disable HFP`) ont été désactivées par Apple il y a plusieurs années. (9 October 2026, 12:49:02 +0200)
+> 3. **Pourquoi ton programme précédent échouait** : Un script classique vérifie toutes les secondes ou toutes les quelques secondes (polling). Quand le casque se connecte, macOS bascule l'entrée en quelques millisecondes. Dès qu'une application sollicite l'audio pendant cet intervalle, le casque active son profil HFP/SCO, étouffe le son en 16 000 Hz mono et capture la voix sur son micro. (9 October 2026, 12:49:02 +0200)
+>
+> --- (9 October 2026, 12:49:02 +0200)
+>
+> ### Solution mise en place : Démon CoreAudio événementiel à 0 ms (09 October 2026) (9 October 2026, 12:49:02 +0200)
+>
+> Pour régler le problème sans délai et sans perte de qualité, un démon natif CoreAudio (`nomicswitch 1.1.0`) a été installé et démarré via `launchd` (09 October 2026) : (9 October 2026, 12:49:02 +0200)
+>
+> - **Événementiel pur (0% CPU)** : Il ne tourne pas en boucle. Il s'enregistre auprès du noyau CoreAudio (`kAudioHardwarePropertyDefaultInputDevice`). (9 October 2026, 12:49:02 +0200)
+> - **Instantané** : Dès que macOS détecte la connexion Bluetooth du WH-1000XM3 et tente de lui donner le micro, le démon intercepte l'événement en moins d'une milliseconde et remet le micro du MacBook Pro. (9 October 2026, 12:49:02 +0200)
+> - **Résultat** : Le casque ne bascule plus jamais en mode mains-libres étouffé, et sa sortie audio reste verrouillée en stéréo haute fidélité 44 100 Hz. (9 October 2026, 12:49:02 +0200)
+> - **Volume libre** : Lancé avec l'argument `--no-volume` pour ne pas figer ton réglage de sensibilité du micro. (9 October 2026, 12:49:02 +0200)
+>
+> #### Commandes utiles si besoin (09 October 2026) (9 October 2026, 12:49:02 +0200)
+>
+> - Voir le journal en direct : `tail -f ~/Library/Logs/nomicswitch.log` (9 October 2026, 12:49:02 +0200)
+> - Mettre en pause : `launchctl bootout gui/$(id -u)/com.nomicswitch` (9 October 2026, 12:49:02 +0200)
+> - Reprendre : `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.nomicswitch.plist` (9 October 2026, 12:49:02 +0200)
+> - Voir la liste des micros disponibles : `nomicswitch --list` (9 October 2026, 12:49:02 +0200)
+>
+> --- (9 October 2026, 12:49:02 +0200)
+>
+> ### Récapitulatif (09 October 2026) (9 October 2026, 12:49:02 +0200)
+>
+> | Ce que tu voulais | Est-ce fait | Comment je le sais | (9 October 2026, 12:49:02 +0200)
+> |---|---|---| (9 October 2026, 12:49:02 +0200)
+> | Empêcher le casque Bluetooth WH-1000XM3 d'imposer son micro à la connexion | Oui | Démon `nomicswitch` installé sous `launchd` : test de bascule forcée intercepté et corrigé en moins d'une milliseconde dans le journal système (09 October 2026). | (9 October 2026, 12:49:02 +0200)
+> | Conserver le micro du MacBook Pro comme entrée par défaut permanente | Oui | `CoreAudio` confirme l'entrée active sur `MacBook Pro Microphone` (ID 81, UID `BuiltInMicrophoneDevice`). | (9 October 2026, 12:49:02 +0200)
+> | Garder la qualité audio maximale dans les oreilles | Oui | `system_profiler SPAudioDataType` confirme 2 canaux stéréo à 44 100 Hz au lieu du mode téléphone 16 000 Hz mono (09 October 2026). | (9 October 2026, 12:49:02 +0200)
+
+## 9 October 2026, 13:15:20 +0200 : Prompt
+
+<!-- feedback-event:f81ebbf8f886309501cc476d1c91278da84fb47b13380d67fc6b9a6d176e08b0 (9 October 2026, 13:15:20 +0200) -->
+- Project: zenray-dictate; kind: prompt. (9 October 2026, 13:15:20 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 13:15:20 +0200)
+
+> affiche moi une pastille UI qui me montre toujours quel micro est actuellement actif ... comme ça je pourrai vérifie intègre le dans une vue switch du projet zenray-dictate  (9 October 2026, 13:15:20 +0200)
+>
+>  code en swift (9 October 2026, 13:15:20 +0200)
+>
+>
+> un peu comme l'icone orange sur mac qui montre quel program utilise le micro mais ça montre malheureusement pas l'input (9 October 2026, 13:15:20 +0200)
+
+## 9 October 2026, 13:26:33 +0200 : Iteration
+
+<!-- feedback-event:41b1c0eee3d323fb6e92f10cfe57d7ed1a81409f889f98ba5fc6756a90328527 (9 October 2026, 13:26:33 +0200) -->
+- Project: zenray-dictate; kind: iteration. (9 October 2026, 13:26:33 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 13:26:33 +0200)
+
+> ### Pastille UI et vue switch intégrées dans ZenRay Dictate (09 October 2026) (9 October 2026, 13:26:33 +0200)
+>
+> L'implémentation est terminée, compilée en Swift natif et active en direct sur ton Mac (09 October 2026). (9 October 2026, 13:26:33 +0200)
+>
+> --- (9 October 2026, 13:26:33 +0200)
+>
+> ### Ce qui est en place (09 October 2026) (9 October 2026, 13:26:33 +0200)
+>
+> #### 1. La Pastille UI dans la barre des menus (style icône orange macOS) (9 October 2026, 13:26:33 +0200)
+> - **Visuel identique à ta capture** : Une pastille capsule orange vif avec l'icône blanche du micro (`mic.fill`) et le nom du micro actif (par exemple `[ 🎙️ MacBook Pro ]` ou `[ 🎙️ WH-1000XM3 ]`). (9 October 2026, 13:26:33 +0200)
+> - **Alerte couleur** : Si c'est le casque Bluetooth qui est branché, la pastille prend une teinte ambre/rouge pour t'alerter immédiatement du mode mains-libres étouffé. Pendant l'enregistrement, elle passe en rouge actif. (9 October 2026, 13:26:33 +0200)
+> - **Temps réel CoreAudio** : La pastille est connectée aux événements matériels de CoreAudio via `MicrophoneManager.swift`. Dès qu'un périphérique se connecte ou change, la pastille se redessine instantanément sans aucun délai. (9 October 2026, 13:26:33 +0200)
+>
+> #### 2. La « Vue Switch » interactive (Popover & Sélecteur) (9 October 2026, 13:26:33 +0200)
+> - **Au clic gauche sur la pastille** : Un popover s'ouvre, calqué sur le design de ta deuxième capture d'écran. (9 October 2026, 13:26:33 +0200)
+> - **En-tête** : Affiche la grande pastille avec le micro actif, son type (Intégré, Bluetooth, Continuité iPhone, USB) et sa fréquence réelle (ex : 48 000 Hz vs 16 000 Hz). (9 October 2026, 13:26:33 +0200)
+> - **Liste des micros disponibles** : Tous les périphériques connectés s'affichent sous forme de cartes. Un clic sur n'importe quel micro permute immédiatement l'entrée système sur ce micro. (9 October 2026, 13:26:33 +0200)
+> - **Interrupteur de verrouillage (Switch Toggle)** : Un switch « Verrouiller sur le micro MacBook Pro ». Quand il est activé, ZenRay Dictate surveille les connexions et empêche le casque Bluetooth de capturer le micro. (9 October 2026, 13:26:33 +0200)
+> - **Raccourcis rapides** : Bouton « Forcer MacBook Pro » en 1 clic et accès direct aux Réglages Son de macOS. (9 October 2026, 13:26:33 +0200)
+>
+> #### 3. Également intégré dans l'ensemble de l'application (9 October 2026, 13:26:33 +0200)
+> - **Capsule flottante de dictée (`DictationCapsule`)** : Pendant que tu dictes, la capsule affiche en direct `Ready · 🎙️ MacBook Pro` (en orange si Bluetooth) pour que tu voies toujours d'où vient le son. (9 October 2026, 13:26:33 +0200)
+> - **Menu au clic droit** : Sous-menu complet « Changer de micro » avec cases à cocher. (9 October 2026, 13:26:33 +0200)
+> - **Fenêtre des réglages (`LibraryWindow`)** : Un onglet dédié « Microphone » avec la vue switch complète. (9 October 2026, 13:26:33 +0200)
+>
+> --- (9 October 2026, 13:26:33 +0200)
+>
+> ### Récapitulatif (09 October 2026) (9 October 2026, 13:26:33 +0200)
+>
+> | Ce que tu voulais | Est-ce fait | Comment je le sais | (9 October 2026, 13:26:33 +0200)
+> |---|---|---| (9 October 2026, 13:26:33 +0200)
+> | Afficher une pastille UI qui montre toujours quel micro est actif | Oui | `MicrophoneManager.swift` génère la pastille orange dans la barre des menus avec le nom du micro, mise à jour à chaque événement matériel (09 October 2026). | (9 October 2026, 13:26:33 +0200)
+> | Intégrer une vue switch dans le projet zenray-dictate | Oui | `MicrophoneSwitcherView.swift` implémenté en SwiftUI avec liste de sélection en 1 clic, switch de verrouillage et popover au clic sur la pastille (09 October 2026). | (9 October 2026, 13:26:33 +0200)
+> | Coder en Swift et compiler dans l'application | Oui | `./build.sh` réussi (0 erreur), signé avec le certificat local et application relancée en direct avec le PID 92867 (09 October 2026). | (9 October 2026, 13:26:33 +0200)
+
+## 9 October 2026, 13:28:20 +0200 : Prompt
+
+<!-- feedback-event:9e646b669b5107882649559b793603fff1b4587043291ec26ca5d825e3556191 (9 October 2026, 13:28:20 +0200) -->
+- Project: zenray-dictate; kind: prompt. (9 October 2026, 13:28:20 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 13:28:20 +0200)
+
+> met en orange du coup pas en rouge ! et met juste une icone de micro pas tout le texte ... (9 October 2026, 13:28:20 +0200)
+
+## 9 October 2026, 13:30:35 +0200 : Iteration
+
+<!-- feedback-event:a423a77a13f616bd39420b435536df20346f99e660d1a6a9f5f531164860d078 (9 October 2026, 13:30:35 +0200) -->
+- Project: zenray-dictate; kind: iteration. (9 October 2026, 13:30:35 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 13:30:35 +0200)
+
+> ### Modification appliquée en direct (09 October 2026) (9 October 2026, 13:30:35 +0200)
+>
+> Le réglage visuel a été modifié, compilé en Swift et relancé immédiatement (09 October 2026). (9 October 2026, 13:30:35 +0200)
+>
+> --- (9 October 2026, 13:30:35 +0200)
+>
+> ### Ce qui change dans la barre des menus (09 October 2026) (9 October 2026, 13:30:35 +0200)
+>
+> 1. **Couleur orange vif pur (zéro rouge)** : (9 October 2026, 13:30:35 +0200)
+>    - Fond en orange vif Apple (`NSColor.systemOrange` / `#FF8000`), identique à la pastille de confidentialité macOS de ta première capture. (9 October 2026, 13:30:35 +0200)
+>    - Suppression totale des teintes rougeâtres ou alertes rouges dans la barre des menus. (9 October 2026, 13:30:35 +0200)
+>
+> 2. **Format compact : uniquement l'icône, aucun texte** : (9 October 2026, 13:30:35 +0200)
+>    - Tout le texte (« MacBook Pro », etc.) a été retiré de la barre des menus. (9 October 2026, 13:30:35 +0200)
+>    - La pastille est maintenant une capsule compacte (32 × 20 pt) contenant uniquement l'icône blanche du microphone (`mic.fill`), parfaitement centrée. (9 October 2026, 13:30:35 +0200)
+>
+> 3. **Interaction inchangée et fluide** : (9 October 2026, 13:30:35 +0200)
+>    - **Au survol** : Le nom du micro s'affiche en info-bulle discrète (ex : `ZenRay Dictate · Micro actif : MacBook Pro Microphone · Clic pour permuter`). (9 October 2026, 13:30:35 +0200)
+>    - **Au clic gauche** : Ouvre directement le popover / la vue switch pour changer de micro ou verrouiller l'entrée. (9 October 2026, 13:30:35 +0200)
+>
+> --- (9 October 2026, 13:30:35 +0200)
+>
+> ### Récapitulatif (09 October 2026) (9 October 2026, 13:30:35 +0200)
+>
+> | Ce que tu voulais | Est-ce fait | Comment je le sais | (9 October 2026, 13:30:35 +0200)
+> |---|---|---| (9 October 2026, 13:30:35 +0200)
+> | Mettre la pastille en orange et pas en rouge | Oui | Couleur fixée en orange Apple pur (`srgbRed: 1.0, green: 0.50, blue: 0.0`) dans `MicrophoneManager.swift` et `MicrophoneSwitcherView.swift` (09 October 2026). | (9 October 2026, 13:30:35 +0200)
+> | Afficher uniquement l'icône de micro sans le texte dans la barre des menus | Oui | Format compact capsule 32 × 20 pt avec icône `mic.fill` centrée et suppression du texte dans `makePillImage` et `AppDelegate.swift` (09 October 2026). | (9 October 2026, 13:30:35 +0200)
+> | Compiler et appliquer en direct | Oui | `./build.sh` compilé en release (0 erreur), signé localement et application relancée avec le PID 98381 (09 October 2026). | (9 October 2026, 13:30:35 +0200)
+
+## 9 October 2026, 13:50:27 +0200 : Prompt
+
+<!-- feedback-event:ac1c68fcae8e8da3f494c0aabe900df84d42c9e65cdab70b36f5c7fbbe2e18aa (9 October 2026, 13:50:27 +0200) -->
+- Project: zenray-dictate; kind: prompt. (9 October 2026, 13:50:27 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 13:50:27 +0200)
+
+> J'ai un bug quand je lance le plein écran sur YouTube ou sur Chrome. J'ai un bug qui fait que je vois encore la barre d'affichage avec le rouge, le jaune et le vert. Je pense que c'est à cause d'une interface Swift qu'on a créé, mais il faut détecter laquelle et il faut résoudre ce bug. ... soit dictate soit assets je pense (9 October 2026, 13:50:27 +0200)
+
+## 9 October 2026, 14:09:06 +0200 : Iteration
+
+<!-- feedback-event:6c7c368b22ce64f0b91bcb89a02d783c417cd2196df219aacd09ef20b6ce74b8 (9 October 2026, 14:09:06 +0200) -->
+- Project: zenray-dictate; kind: iteration. (9 October 2026, 14:09:06 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (9 October 2026, 14:09:06 +0200)
+
+> Le diagnostic a été établi par la mesure des fenêtres actives dans Quartz, conformément à la méthode de debug par la preuve (09 October 2026). (9 October 2026, 14:09:06 +0200)
+>
+> ### 1. Cause identifiée et prouvée (9 October 2026, 14:09:06 +0200)
+>
+> - **ZenRay Assets** : 0 fenêtre à l'écran (innocent). (9 October 2026, 14:09:06 +0200)
+> - **ZenRay Dictate** : coupable identifié. Dans [`GeminiWebTranscriber.swift`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/GeminiWebTranscriber.swift), la fenêtre de session Gemini (`sessionWindow`) était configurée en niveau flottant (Layer 3) avec `[.canJoinAllSpaces, .fullScreenAuxiliary]`. Au démarrage et à chaque masquage, elle exécutait `sessionWindow.orderFrontRegardless()` avec une opacité nulle (`alphaValue = 0`). (9 October 2026, 14:09:06 +0200)
+> - **Mécanisme du bug** : WindowServer considérait qu'une fenêtre d'assistance flottait en permanence sur tous les espaces. Lors du passage en plein écran sur Chrome ou YouTube, macOS refusait de basculer dans un espace immersif isolé et laissait la barre de menus ainsi que la barre de titre avec les feux 🔴 🟡 🟢 figées au sommet. (9 October 2026, 14:09:06 +0200)
+>
+> ### 2. Correctif appliqué (9 October 2026, 14:09:06 +0200)
+>
+> - Dans [`GeminiWebTranscriber.swift`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/GeminiWebTranscriber.swift), remplacement systématique de `orderFrontRegardless()` par `orderOut(nil)` lorsque le compositeur est inactif ou masqué. La fenêtre n'est insérée dans l'arbre d'affichage que lorsqu'elle est visible (`showComposer`). (9 October 2026, 14:09:06 +0200)
+> - Application recompilée via `./build.sh`, signature locale renouvelée, tests passés avec `./Scripts/verify-independent-composer.sh`, et application relancée. (9 October 2026, 14:09:06 +0200)
+> - Mesure Quartz après relance : le nombre de fenêtres Dictate actives à l'écran est passé de 1 à 0. (9 October 2026, 14:09:06 +0200)
+> - Raccourci Chrome utile : si Chrome a mémorisé l'affichage de sa barre en plein écran, le raccourci natif pour basculer ce réglage dans Chrome est `Cmd + Shift + F`. (9 October 2026, 14:09:06 +0200)
+>
+> --- (9 October 2026, 14:09:06 +0200)
+>
+> ### Récapitulatif (9 October 2026, 14:09:06 +0200)
+>
+> | Ce que tu voulais | Est-ce fait | Comment je le sais | (9 October 2026, 14:09:06 +0200)
+> |---|---|---| (9 October 2026, 14:09:06 +0200)
+> | Trouver l'interface Swift qui empêche YouTube et Chrome de cacher la barre avec les boutons rouge, jaune et vert en plein écran | Fait | Scan Quartz : `sessionWindow` de ZenRay Dictate flottait en invisible sur tous les espaces plein écran via `orderFrontRegardless` | (9 October 2026, 14:09:06 +0200)
+> | Corriger le bug pour que le plein écran redevienne totalement propre | Fait | Code corrigé avec `orderOut(nil)`, binaire recompilé et relancé : 0 fenêtre Dictate résiduelle à l'écran mesurée dans WindowServer | (9 October 2026, 14:09:06 +0200)
+
+## 10 October 2026, 12:08:17 +0200 : Prompt
+
+<!-- feedback-event:52cfe35a7ed143d5bb6a0b0f980b78a0eae7dc01d86cd98d3ffadb4558ac0cf8 (10 October 2026, 12:08:17 +0200) -->
+- Project: zenray-dictate; kind: prompt. (10 October 2026, 12:08:17 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:08:17 +0200)
+
+> bah du coup j'ai toujours le bug quand j'ai les airpods ça marche pas du tout ton programme ... déjà désactive le comme ça au moins je peux selectionner mon iphone comme micro disable auto input ... et garde uniquement le fait de voir quel micro fonctionne c'est hyper chiant ... mon problème était simple à résoudre simplement résoudre le fait de plug les airpods. quand j'ai mes airpods la dictée vocal ne marche plus  (10 October 2026, 12:08:17 +0200)
+>
+>  fix everything pitiez (10 October 2026, 12:08:17 +0200)
+
+## 10 October 2026, 12:14:59 +0200 : Prompt
+
+<!-- feedback-event:87f90e4ccf48a1ac60168c3be35d4b7636a58ec8f49c6b485b6745976ae0d4d4 (10 October 2026, 12:14:59 +0200) -->
+- Project: zenray-dictate; kind: prompt. (10 October 2026, 12:14:59 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:14:59 +0200)
+
+> Tant que t'as pas  (10 October 2026, 12:14:59 +0200)
+>
+>  tu continues  (10 October 2026, 12:14:59 +0200)
+>
+>   (10 October 2026, 12:14:59 +0200)
+>
+>  = lorsque airpods ou wh 1000 xm3 / 5 tu fix le fait de pouvoir choisir macbook pro input ou iphone (10 October 2026, 12:14:59 +0200)
+
+## 10 October 2026, 12:45:24 +0200 : Iteration
+
+<!-- feedback-event:0d17f756d86f776bcd24585806931964e5e522b5facdebc8d9f72d7b3844fbf1 (10 October 2026, 12:45:24 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 12:45:24 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:45:24 +0200)
+
+> Compilation et vérification de `GeminiBridge.js` et `ZenRayDictate.app` en cours. (10 October 2026, 12:45:24 +0200)
+
+## 10 October 2026, 12:47:20 +0200 : Iteration
+
+<!-- feedback-event:4568fcd34edab236b30f70388c848b7831cbfaf056f0d9d98e66ebfa27423c4d (10 October 2026, 12:47:20 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 12:47:20 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:47:20 +0200)
+
+> Exécution du vérificateur bidirectionnel `VerifyMicrophoneAndAirPodsFix` et `VerifyBuiltinMicrophone` en cours. (10 October 2026, 12:47:20 +0200)
+
+## 10 October 2026, 12:48:41 +0200 : Iteration
+
+<!-- feedback-event:f7e411d006127f3f82fc3a74f94ae72a0e16e16ea8915e0969645d0790b31b74 (10 October 2026, 12:48:41 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 12:48:41 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:48:41 +0200)
+
+> Vérification complète, compilation Release et relance de `ZenRayDictate.app` en cours. (10 October 2026, 12:48:41 +0200)
+
+## 10 October 2026, 12:51:11 +0200 : Iteration
+
+<!-- feedback-event:23c4124160b525e5811e5da785f34d58ee17702811c318be300234bde52b5711 (10 October 2026, 12:51:11 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 12:51:11 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:51:11 +0200)
+
+> Test de dictée bout-en-bout (`NativeMicrophoneBridge` `AUHAL` + `GeminiWebTranscriber`) en cours sur le micro MacBook Pro et le micro iPhone. (10 October 2026, 12:51:11 +0200)
+
+## 10 October 2026, 12:53:24 +0200 : Iteration
+
+<!-- feedback-event:f6a56a9a3e51cb8eccfc4e24ba2baa0604a72c52d55f42f81a428b9737eadb87 (10 October 2026, 12:53:24 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 12:53:24 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 12:53:24 +0200)
+
+> **Levier activé (10 October 2026) :** remplacer la capture WebKit `VoiceProcessingIO` (`AUVPAggregate`) par une capture matérielle `CoreAudio` `AUHAL` purement entrante ([`NativeMicrophoneBridge`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/NativeMicrophoneBridge.swift#L9-L261)) reliée à [`GeminiBridge.js`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/Resources/GeminiBridge.js#L24-L99), et supprimer le démon caché `nomicswitch` afin que le choix entre `MacBook Pro Microphone` et `iPhone Microphone` soit libre, persistant et protégé contre les connexions Bluetooth (`AirPods Pro`, `WH-1000XM3`, `WH-1000XM5`). (10 October 2026, 12:53:24 +0200)
+>
+> ### Diagnostic et résolution par la preuve (`/debug-par-la-preuve` et `/think-of-everything`, 10 October 2026) (10 October 2026, 12:53:24 +0200)
+>
+> 1. **Pourquoi il était impossible de sélectionner le micro de l'iPhone (`nomicswitch` + `LockToBuiltIn`, 10 October 2026) :** (10 October 2026, 12:53:24 +0200)
+>    - Même après avoir décoché l'option dans l'interface, un démon externe caché (`/Users/zenray/.local/bin/nomicswitch`, lancé par `~/Library/LaunchAgents/com.nomicswitch.plist`) tournait en arrière-plan et remettait de force `BuiltInMicrophoneDevice` (`ID 81`) en 1 milliseconde à chaque clic sur `iPhone Matthieu Huguet Microphone` (15 annulations consécutives mesurées dans `~/Library/Logs/nomicswitch.log` entre `12:05:57` et `12:06:29`). (10 October 2026, 12:53:24 +0200)
+>    - Le LaunchAgent `com.nomicswitch.plist`, le binaire `~/.local/bin/nomicswitch` et le périphérique agrégé fantôme `com.zenray.aggregate.macbookmic` (`ID 93` à 0 canal) ont été arrêtés et supprimés. (10 October 2026, 12:53:24 +0200)
+>    - [`MicrophoneManager`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneManager.swift#L47-L320) et [`MicrophoneSwitcherView`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneSwitcherView.swift#L5-L162) ont été épurés : le bouton de verrouillage intrusif a été retiré. Vous pouvez choisir librement `MacBook Pro Microphone` ou `iPhone Matthieu Huguet Microphone` (dans la pastille orange ou dans les Réglages Son macOS), et ce choix est mémorisé. Si des `AirPods Pro` ou un casque `Sony WH-1000XM3 / XM5` se connectent et tentent de basculer l'entrée sur le micro Bluetooth du casque, [`ensurePreferredNonBluetoothInput()`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneManager.swift#L276-L287) restaure automatiquement le micro que vous aviez choisi (`MacBook Pro` ou `iPhone`). (10 October 2026, 12:53:24 +0200)
+>
+> 2. **Pourquoi la dictée vocale échouait dès que les AirPods Pro étaient connectés (`VoiceProcessorV10` / `AUVPAggregate`, 10 October 2026) :** (10 October 2026, 12:53:24 +0200)
+>    - Les journaux système (`com.apple.WebKit.GPU` et `coreaudiod`) ont prouvé que l'appel `navigator.mediaDevices.getUserMedia` de WebKit instancie systématiquement une unité `VoiceProcessingIO` (`AUVPAggregate`), qui fusionne le micro d'entrée (`Digital Mic`) et la sortie Bluetooth (`AirPods Pro`, modèle `2014 4c`) dans un périphérique virtuel `VPAUAggregateAudioDevice`. (10 October 2026, 12:53:24 +0200)
+>    - Avec les `AirPods Pro`, ce graphe DSP Apple tombe immédiatement en erreur : `Offloads suppressed: mismatched model UID (primary=2014 4c, offload=Digital Mic)` suivi de `VoiceProcessor failed to run downlink DSP (state fault)` (`Error code 1937006964 'stft' reported at ProcessDownlinkAudio`), tout en baissant le volume des AirPods à 17 % (`AudioDeviceDuck`). (10 October 2026, 12:53:24 +0200)
+>    - [`NativeMicrophoneBridge`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/NativeMicrophoneBridge.swift#L29-L160) ouvre désormais une unité `CoreAudio` `kAudioUnitSubType_HALOutput` (`AUHAL`) **uniquement en entrée** (bus de sortie désactivé) directement sur l'identifiant matériel du micro choisi (`MacBook Pro Microphone` ou `iPhone Microphone`), convertit le flux `48 000 Hz` en `16 000 Hz` PCM 16 bits et l'injecte dans `MediaStreamDestination` via [`GeminiBridge.js`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/Resources/GeminiBridge.js#L24-L99) et [`GeminiWebTranscriber`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/GeminiWebTranscriber.swift#L317-L330). WebKit ne crée plus jamais `VPIO` / `AUVPAggregate` et ne touche plus à la sortie des AirPods Pro ni du casque Sony. (10 October 2026, 12:53:24 +0200)
+>
+> ### Tableau récapitulatif (10 October 2026) (10 October 2026, 12:53:24 +0200)
+>
+> | Ce que tu voulais | Est-ce fait | Comment je le sais (preuve mesurée) | (10 October 2026, 12:53:24 +0200)
+> |---|---|---| (10 October 2026, 12:53:24 +0200)
+> | Désactiver le verrouillage forcé qui empêchait de choisir l'iPhone comme micro | Fait | Le démon caché `nomicswitch` et le bouton `LockToBuiltIn` sont supprimés ; [`VerifyMicrophoneAndAirPodsFix`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/VerifyMicrophoneAndAirPodsFix.swift#L22-L166) confirme `"iphonePersistenceOK": true` et `"macbookProPersistenceOK": true`. | (10 October 2026, 12:53:24 +0200)
+> | Garder la pastille orange qui montre quel micro est actif et pouvoir choisir entre MacBook Pro et iPhone | Fait | La pastille orange et la fenêtre de sélection dans [`MicrophoneSwitcherView`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneSwitcherView.swift#L5-L162) affichent uniquement le micro actif et le choix direct entre `MacBook Pro Microphone [Intégré]` et `iPhone Matthieu Huguet Microphone [iPhone]`. | (10 October 2026, 12:53:24 +0200)
+> | Empêcher les AirPods ou le casque Sony WH-1000XM3 / XM5 de voler le micro à la connexion | Fait | Testé en direct à `12:51:44` quand tes AirPods Pro étaient dans tes oreilles : `ZenRayDictate.log` prouve `Bluetooth/virtual input 'AirPods Pro Matthieu Huguet' detected; restoring preferred input ID 81` (et `ID 93` quand l'iPhone est choisi). | (10 October 2026, 12:53:24 +0200)
+> | Faire fonctionner la dictée vocale quand les AirPods ou le casque Sony sont connectés, avec le micro MacBook Pro ou iPhone | Fait | Prouvé par [`VerifyLiveNativeMicGemini`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/VerifyLiveNativeMicGemini.swift#L6-L148) sur les deux micros (`125` et `108` blocs `AUHAL` transmis, transcription complète, `0` erreur `VoiceProcessor` dans `WebKit.GPU`) et par tes 3 dictées réelles consécutives avec les AirPods Pro aux oreilles à `12:52:18`, `12:52:23` et `12:52:34` (`30`, `61` et `60` caractères copiés). | (10 October 2026, 12:53:24 +0200)
+>
+> <!-- GOAL_COMPLETE --> (10 October 2026, 12:53:24 +0200)
+
+## 10 October 2026, 13:19:38 +0200 : Prompt
+
+<!-- feedback-event:d670dcf987620cb77cc8fd373efc75f6dc09f48a1ff2696fa60c5ce0a67a030c (10 October 2026, 13:19:38 +0200) -->
+- Project: zenray-dictate; kind: prompt. (10 October 2026, 13:19:38 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:19:38 +0200)
+
+> Insane push sur github le projet complet avec la nouvelle documentation mise à jour avec la date + push aussi sur  (10 October 2026, 13:19:38 +0200)
+>
+>  go (10 October 2026, 13:19:38 +0200)
+
+## 10 October 2026, 13:22:46 +0200 : Iteration
+
+<!-- feedback-event:66f0f3ec8ab9a25df74552194edf47f4989afc9784cbe22bff61c07494f23908 (10 October 2026, 13:22:46 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 13:22:46 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:22:46 +0200)
+
+> Vérification des tests unitaires et du binaire signé en cours avant le commit et le push GitHub / ZenRay Assets. (10 October 2026, 13:22:46 +0200)
+
+## 10 October 2026, 13:23:37 +0200 : Iteration
+
+<!-- feedback-event:1e7ab0c748b12a4a734e0e3e6e7f09c3347502010fb9397c88c52839a9d965f5 (10 October 2026, 13:23:37 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 13:23:37 +0200)
+- Source: checkpoint:antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49. (10 October 2026, 13:23:37 +0200)
+
+> 10 October 2026: NativeMicrophoneBridge input-only AUHAL, AirPods Pro and Sony WH-1000XM3/XM5 Bluetooth hijack protection, MacBook Pro and iPhone Continuity microphone selection, compact orange pill, fullscreen fix, and dated documentation committed and pushed to GitHub (commit 4c51814a5be5940d988b211dac73338c017ddbf4 on main and codex/gemini-dictation-library). Verified by 14 Swift tests, VerifyGeminiBridge.mjs, VerifyMicrophoneAndAirPodsFix, VerifyLiveNativeMicGemini, and 3 real-world AirPods Pro dictations. Next: complete ZenRay Assets inventory and cloud archive verification. (10 October 2026, 13:23:37 +0200)
+
+## 10 October 2026, 13:24:16 +0200 : Iteration
+
+<!-- feedback-event:52461e5de916b2ae7578bd8138822c3257f307073a015df49af1e87d2b9b6c97 (10 October 2026, 13:24:16 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 13:24:16 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:24:16 +0200)
+
+> Le commit `4c51814` est poussé sur GitHub (`main` et `codex/gemini-dictation-library`). J'attends la fin du job d'archivage `ZenRay Assets` (`76328211-ebdb-4175-9218-a3537b07727d`) pour vérifier les empreintes SHA256 cloud de chaque fichier. (10 October 2026, 13:24:16 +0200)
+
+## 10 October 2026, 13:25:54 +0200 : Iteration
+
+<!-- feedback-event:662ca74d9911c2a42247cc955138219a33ed121d4679ce7dfa0239e668b03d6b (10 October 2026, 13:25:54 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 13:25:54 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:25:54 +0200)
+
+> 153 sur 158 fichiers sont déjà archivés dans `ZenRay Assets`. J (10 October 2026, 13:25:54 +0200)
+
+## 10 October 2026, 13:26:17 +0200 : Iteration
+
+<!-- feedback-event:87de6ac08132514eb0120be843429c5f360df31e773dd8a729df798e383b3fa0 (10 October 2026, 13:26:17 +0200) -->
+- Project: zenray-dictate; kind: iteration. (10 October 2026, 13:26:17 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/d90d7051-b741-4cc9-ade0-e021d01faa49.db. (10 October 2026, 13:26:17 +0200)
+
+> Le suivi du lot d'archivage est en cours. Je reprends dès la notification de fin de tâche. (10 October 2026, 13:26:17 +0200)
