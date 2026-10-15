@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-15T11:07:48.655Z",
+ "scannedAt": "2026-10-15T11:17:48.633Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -424,6 +424,22 @@
    "lines": 5,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-15T11:11:34.660Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "Motion Design Vector and Music",
+   "updatedAt": "2026-10-15T11:17:45.509Z",
+   "bytes": 39684175,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-09-14T16:42:01.719Z",
    "last": "2026-09-14T16:48:27.146Z",
    "strength": "weak",
@@ -433,22 +449,6 @@
    "title": "ZenRayHoudini",
    "updatedAt": "2026-09-15T15:03:58.525Z",
    "bytes": 20765,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-15T06:24:56.200Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-15T11:07:09.708Z",
-   "bytes": 37287744,
    "boundProject": null
   },
   {
