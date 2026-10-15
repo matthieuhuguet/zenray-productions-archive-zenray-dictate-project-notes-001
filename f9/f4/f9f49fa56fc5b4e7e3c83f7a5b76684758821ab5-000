@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-15T21:13:51.186Z",
+ "scannedAt": "2026-10-15T21:15:51.174Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -1151,8 +1151,8 @@
    "provider": "claude",
    "sessionId": "111d68e0-b7ba-43d9-b13a-faa853975fdc",
    "title": "Renommer et organiser fichiers médias",
-   "updatedAt": "2026-10-15T21:13:50.364Z",
-   "bytes": 1909524,
+   "updatedAt": "2026-10-15T21:15:01.627Z",
+   "bytes": 34560,
    "boundProject": null
   },
   {
