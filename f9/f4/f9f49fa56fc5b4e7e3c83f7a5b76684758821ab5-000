@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-15T13:00:49.533Z",
+ "scannedAt": "2026-10-15T13:15:49.712Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -408,6 +408,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-15T13:12:56.448Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "Motion Design Vector and Music",
+   "updatedAt": "2026-10-15T13:15:39.165Z",
+   "bytes": 77384663,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-12T00:43:49.456Z",
    "last": "2026-10-12T10:19:36.916Z",
    "strength": "weak",
@@ -417,22 +433,6 @@
    "title": "Motion Design GLSL (fork) Sonnet 5.5 Après Modules",
    "updatedAt": "2026-10-13T17:04:27.813Z",
    "bytes": 20264,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 5,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-15T11:11:34.660Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-15T13:00:03.899Z",
-   "bytes": 21651,
    "boundProject": null
   },
   {
