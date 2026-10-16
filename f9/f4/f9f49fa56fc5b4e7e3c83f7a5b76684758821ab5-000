@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-16T11:47:06.724Z",
+ "scannedAt": "2026-10-16T11:57:06.820Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -127,8 +127,8 @@
    "provider": "codex",
    "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
    "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-16T11:46:50.164Z",
-   "bytes": 35530599,
+   "updatedAt": "2026-10-16T11:57:04.364Z",
+   "bytes": 35820718,
    "boundProject": "zenray-japanese"
   },
   {
@@ -414,9 +414,9 @@
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-16T11:47:06.068Z",
-   "bytes": 161364064,
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-16T11:54:00.692Z",
+   "bytes": 22318,
    "boundProject": null
   },
   {
@@ -575,8 +575,8 @@
    "provider": "codex",
    "sessionId": "01a13ecc-751b-7bd3-8d67-6eaa5aaa5ed6",
    "title": "Conversation codex 01a13ecc",
-   "updatedAt": "2026-10-16T11:46:07.118Z",
-   "bytes": 1041496,
+   "updatedAt": "2026-10-16T11:57:04.578Z",
+   "bytes": 1760618,
    "boundProject": null
   },
   {
@@ -1144,15 +1144,31 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-16T11:43:19.042Z",
+   "first": "2026-10-16T11:40:57.498Z",
+   "last": "2026-10-16T11:40:57.498Z",
    "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "conversationId": "claude:d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "Louisiana Bayou modeling et vidéo",
-   "updatedAt": "2026-10-16T11:46:07.174Z",
-   "bytes": 1311401,
+   "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
+   "title": "4 sport section",
+   "updatedAt": "2026-10-16T11:56:51.270Z",
+   "bytes": 36864,
+   "boundProject": "zenray-progress"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-16T11:49:21.085Z",
+   "last": "2026-10-16T11:49:21.085Z",
+   "strength": "weak",
+   "conversationId": "claude:6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
+   "provider": "claude",
+   "sessionId": "6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
+   "title": "1 zenray freelance",
+   "updatedAt": "2026-10-16T11:56:51.157Z",
+   "bytes": 1926823,
    "boundProject": null
   },
   {
@@ -1160,16 +1176,16 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-16T11:40:57.498Z",
-   "last": "2026-10-16T11:40:57.498Z",
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-16T11:43:19.042Z",
    "strength": "weak",
-   "conversationId": "claude:d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
-   "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
-   "title": "Sport Section Save",
-   "updatedAt": "2026-10-16T11:45:52.738Z",
-   "bytes": 36742,
-   "boundProject": "zenray-progress"
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-16T11:52:24.348Z",
+   "bytes": 36990,
+   "boundProject": null
   },
   {
    "projectId": "zenray-dictate",
