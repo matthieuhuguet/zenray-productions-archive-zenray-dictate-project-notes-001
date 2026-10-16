@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-16T12:28:07.741Z",
+ "scannedAt": "2026-10-16T12:40:07.417Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -127,8 +127,8 @@
    "provider": "codex",
    "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
    "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-16T12:27:59.476Z",
-   "bytes": 38373201,
+   "updatedAt": "2026-10-16T12:39:44.531Z",
+   "bytes": 38904725,
    "boundProject": "zenray-japanese"
   },
   {
@@ -415,8 +415,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-16T12:27:57.665Z",
-   "bytes": 169459871,
+   "updatedAt": "2026-10-16T12:39:07.739Z",
+   "bytes": 180110335,
    "boundProject": null
   },
   {
@@ -1144,6 +1144,22 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-16T11:43:19.042Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-16T12:39:30.333Z",
+   "bytes": 2453758,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-16T11:40:57.498Z",
    "last": "2026-10-16T11:40:57.498Z",
    "strength": "weak",
@@ -1151,8 +1167,8 @@
    "provider": "claude",
    "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "title": "4 sport section",
-   "updatedAt": "2026-10-16T12:10:21.838Z",
-   "bytes": 36484,
+   "updatedAt": "2026-10-16T12:38:37.154Z",
+   "bytes": 36554,
    "boundProject": "zenray-progress"
   },
   {
@@ -1169,22 +1185,6 @@
    "title": "1 zenray freelance",
    "updatedAt": "2026-10-16T12:05:33.919Z",
    "bytes": 36846,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-16T11:43:19.042Z",
-   "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-16T11:59:07.615Z",
-   "bytes": 36521,
    "boundProject": null
   },
   {
