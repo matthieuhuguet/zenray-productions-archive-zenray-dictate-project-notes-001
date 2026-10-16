@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-16T10:24:06.962Z",
+ "scannedAt": "2026-10-16T10:37:06.283Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -415,8 +415,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-16T10:23:54.934Z",
-   "bytes": 22305,
+   "updatedAt": "2026-10-16T10:36:51.650Z",
+   "bytes": 118000062,
    "boundProject": null
   },
   {
