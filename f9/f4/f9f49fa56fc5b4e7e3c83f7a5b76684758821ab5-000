@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-17T13:58:33.425Z",
+ "scannedAt": "2026-10-17T14:06:32.966Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -360,6 +360,22 @@
    "lines": 9,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-17T14:05:32.257Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-17T14:05:41.988Z",
+   "bytes": 237280826,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 9,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-12T09:52:06.211Z",
    "last": "2026-10-14T10:29:29.564Z",
    "strength": "weak",
@@ -385,22 +401,6 @@
    "title": "DRIVE evolution",
    "updatedAt": "2026-10-14T09:54:43.918Z",
    "bytes": 20819,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 8,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-16T11:34:23.994Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-17T13:58:24.561Z",
-   "bytes": 236151161,
    "boundProject": null
   },
   {
