@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-18T19:59:55.443Z",
+ "scannedAt": "2026-10-18T20:07:55.661Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -351,8 +351,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T19:58:50.500Z",
-   "bytes": 379412783,
+   "updatedAt": "2026-10-18T20:07:40.739Z",
+   "bytes": 380783639,
    "boundProject": null
   },
   {
