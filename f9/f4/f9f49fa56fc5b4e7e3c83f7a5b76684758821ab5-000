@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-18T17:25:59.261Z",
+ "scannedAt": "2026-10-18T18:02:54.415Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -78,8 +78,8 @@
    "conversationId": "gemini:d90d7051-b741-4cc9-ade0-e021d01faa49",
    "provider": "gemini",
    "sessionId": "d90d7051-b741-4cc9-ade0-e021d01faa49",
-   "title": "Conversation Gemini d90d7051",
-   "updatedAt": "2026-10-10T11:36:17.526Z",
+   "title": "sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup ",
+   "updatedAt": "2026-10-10T11:35:32.512557+00:00",
    "bytes": 19038208,
    "boundProject": "zenray-dictate"
   },
@@ -238,8 +238,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "Conversation Gemini 8c359457",
-   "updatedAt": "2026-10-05T23:45:47.114Z",
+   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
+   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -254,8 +254,8 @@
    "conversationId": "gemini:1cd2bf0a-3853-426a-8b4a-4852b413ad87",
    "provider": "gemini",
    "sessionId": "1cd2bf0a-3853-426a-8b4a-4852b413ad87",
-   "title": "Conversation Gemini 1cd2bf0a",
-   "updatedAt": "2026-09-16T22:56:24.281Z",
+   "title": "est ce que le script python hda à bien été écrit et consigné ?",
+   "updatedAt": "2026-09-16T22:55:49.102683+00:00",
    "bytes": 19431424,
    "boundProject": null
   },
@@ -341,18 +341,18 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 9,
+   "lines": 10,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-17T14:05:32.257Z",
+   "last": "2026-10-18T17:55:21.104Z",
    "strength": "weak",
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T10:02:02.400Z",
-   "bytes": 22324,
+   "updatedAt": "2026-10-18T18:02:51.600Z",
+   "bytes": 338584003,
    "boundProject": null
   },
   {
@@ -935,22 +935,6 @@
    "projectId": "zenray-dictate",
    "lines": 2,
    "work": 0,
-   "prompts": 1,
-   "first": "2026-10-11T11:56:32.733Z",
-   "last": "2026-10-11T11:56:32.734Z",
-   "strength": "weak",
-   "conversationId": "codex:01a12ad2-5a97-7ce2-9df7-044b2c43bb67",
-   "provider": "codex",
-   "sessionId": "01a12ad2-5a97-7ce2-9df7-044b2c43bb67",
-   "title": "Conversation codex 01a12ad2",
-   "updatedAt": "2026-10-11T11:57:48.734Z",
-   "bytes": 760044,
-   "boundProject": "conversation-codex-bda04145d7f792b08c0d8f03"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 2,
-   "work": 0,
    "prompts": 0,
    "first": "2026-10-04T09:09:42.092Z",
    "last": "2026-10-04T09:14:26.450Z",
@@ -1007,8 +991,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T17:25:34.130Z",
-   "bytes": 36752,
+   "updatedAt": "2026-10-18T17:42:58.191Z",
+   "bytes": 36767,
    "boundProject": null
   },
   {
