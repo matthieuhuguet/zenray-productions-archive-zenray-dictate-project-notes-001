@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-18T21:13:57.102Z",
+ "scannedAt": "2026-10-18T21:31:59.170Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -472,6 +472,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-18T21:19:04.005Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-18T21:31:53.327Z",
+   "bytes": 56574087,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-11T22:13:26.358Z",
    "last": "2026-10-11T22:42:37.331Z",
    "strength": "weak",
@@ -513,22 +529,6 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T21:10:20.767Z",
-   "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T21:13:37.574Z",
-   "bytes": 47651084,
    "boundProject": null
   },
   {
