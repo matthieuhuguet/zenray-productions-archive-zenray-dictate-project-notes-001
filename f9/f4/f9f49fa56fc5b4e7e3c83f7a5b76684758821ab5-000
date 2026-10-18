@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-18T18:34:55.409Z",
+ "scannedAt": "2026-10-18T18:53:55.267Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -351,8 +351,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T18:33:12.776Z",
-   "bytes": 22316,
+   "updatedAt": "2026-10-18T18:53:47.458Z",
+   "bytes": 367954050,
    "boundProject": null
   },
   {
@@ -513,6 +513,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-18T18:35:06.838Z",
+   "last": "2026-10-18T18:35:06.839Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1504b-8bc4-7743-8866-fa57df496522",
+   "provider": "codex",
+   "sessionId": "01a1504b-8bc4-7743-8866-fa57df496522",
+   "title": "Conversation codex 01a1504b",
+   "updatedAt": "2026-10-18T18:36:36.649Z",
+   "bytes": 945860,
    "boundProject": null
   },
   {
@@ -991,8 +1007,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T18:34:29.443Z",
-   "bytes": 36780,
+   "updatedAt": "2026-10-18T18:53:01.928Z",
+   "bytes": 36775,
    "boundProject": null
   },
   {
