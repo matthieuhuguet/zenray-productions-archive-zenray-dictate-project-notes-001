@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-18T23:25:37.714Z",
+ "scannedAt": "2026-10-18T23:55:38.100Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -312,6 +312,22 @@
    "lines": 13,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-18T23:35:20.588Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-18T23:39:36.416Z",
+   "bytes": 22317,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 13,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-10T20:53:28.651Z",
    "last": "2026-10-14T17:42:20.422Z",
    "strength": "weak",
@@ -337,22 +353,6 @@
    "title": "Design Lecteur Video",
    "updatedAt": "2026-10-14T13:45:00.698Z",
    "bytes": 21122,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 12,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-18T20:24:51.117Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T22:52:07.963Z",
-   "bytes": 22320,
    "boundProject": null
   },
   {
@@ -440,6 +440,22 @@
    "lines": 5,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-18T23:42:54.000Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-18T23:55:14.503Z",
+   "bytes": 79591193,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-09-14T16:42:01.719Z",
    "last": "2026-09-14T16:48:27.146Z",
    "strength": "weak",
@@ -449,22 +465,6 @@
    "title": "ZenRayHoudini",
    "updatedAt": "2026-09-15T15:03:58.525Z",
    "bytes": 20765,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T22:38:41.083Z",
-   "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T23:24:52.777Z",
-   "bytes": 76712042,
    "boundProject": null
   },
   {
