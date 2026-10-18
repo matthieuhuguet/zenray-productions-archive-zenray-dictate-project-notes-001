@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-18T19:02:54.799Z",
+ "scannedAt": "2026-10-18T19:09:54.935Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -351,8 +351,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T19:02:06.146Z",
-   "bytes": 368972372,
+   "updatedAt": "2026-10-18T19:09:52.948Z",
+   "bytes": 369566200,
    "boundProject": null
   },
   {
@@ -527,8 +527,8 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto",
-   "updatedAt": "2026-10-18T19:01:25.998Z",
-   "bytes": 16501592,
+   "updatedAt": "2026-10-18T19:05:09.218Z",
+   "bytes": 36729,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
