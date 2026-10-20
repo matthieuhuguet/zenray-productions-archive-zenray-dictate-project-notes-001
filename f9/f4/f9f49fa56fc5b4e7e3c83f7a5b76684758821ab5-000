@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-20T11:27:34.250Z",
+ "scannedAt": "2026-10-20T11:46:33.780Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -239,8 +239,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T11:27:24.189Z",
-   "bytes": 233900902,
+   "updatedAt": "2026-10-20T11:45:48.360Z",
+   "bytes": 237199230,
    "boundProject": null
   },
   {
