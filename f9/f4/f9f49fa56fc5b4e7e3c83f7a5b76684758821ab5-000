@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-20T03:02:29.081Z",
+ "scannedAt": "2026-10-20T03:10:28.952Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -319,8 +319,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-20T03:02:10.192Z",
-   "bytes": 192221580,
+   "updatedAt": "2026-10-20T03:09:52.298Z",
+   "bytes": 193236396,
    "boundProject": null
   },
   {
