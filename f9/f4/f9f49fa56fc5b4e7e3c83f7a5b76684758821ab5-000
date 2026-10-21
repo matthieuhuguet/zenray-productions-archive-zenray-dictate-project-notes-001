@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-21T14:00:57.535Z",
+ "scannedAt": "2026-10-21T14:09:57.543Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -261,19 +261,19 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 46,
+   "lines": 47,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-21T03:41:38.312Z",
+   "last": "2026-10-21T14:08:58.060Z",
    "strength": "weak",
    "conversationId": "claude:beb9938e-4434-4925-8d13-137bb7940fc0",
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-21T14:00:37.362Z",
-   "bytes": 40358,
-   "boundProject": null
+   "updatedAt": "2026-10-21T14:09:34.717Z",
+   "bytes": 324620047,
+   "boundProject": "louisiana-bayou"
   },
   {
    "projectId": "zenray-dictate",
