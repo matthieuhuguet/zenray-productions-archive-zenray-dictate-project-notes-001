@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-21T17:20:36.628Z",
+ "scannedAt": "2026-10-21T17:29:36.770Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -271,8 +271,8 @@
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-21T17:19:25.468Z",
-   "bytes": 348299794,
+   "updatedAt": "2026-10-21T17:28:55.097Z",
+   "bytes": 348754239,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -319,8 +319,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-21T17:20:17.251Z",
-   "bytes": 397780885,
+   "updatedAt": "2026-10-21T17:29:31.626Z",
+   "bytes": 398531453,
    "boundProject": null
   },
   {
