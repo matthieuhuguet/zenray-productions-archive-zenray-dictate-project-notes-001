@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-21T10:37:18.168Z",
+ "scannedAt": "2026-10-21T10:39:39.714Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -399,8 +399,8 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto Enhancing Assets",
-   "updatedAt": "2026-10-21T10:37:15.417Z",
-   "bytes": 32642045,
+   "updatedAt": "2026-10-21T10:38:59.798Z",
+   "bytes": 32676455,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
