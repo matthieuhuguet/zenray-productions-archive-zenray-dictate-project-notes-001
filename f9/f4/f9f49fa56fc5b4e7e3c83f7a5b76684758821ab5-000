@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-21T16:55:36.447Z",
+ "scannedAt": "2026-10-21T17:12:36.588Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -271,8 +271,8 @@
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-21T16:55:16.533Z",
-   "bytes": 40534,
+   "updatedAt": "2026-10-21T17:12:34.906Z",
+   "bytes": 346202631,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -288,7 +288,7 @@
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
-   "bytes": 44784,
+   "bytes": 45467,
    "boundProject": null
   },
   {
@@ -309,6 +309,22 @@
   },
   {
    "projectId": "zenray-dictate",
+   "lines": 16,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-21T17:09:07.625Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-21T17:11:57.474Z",
+   "bytes": 397178805,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
    "lines": 14,
    "work": 0,
    "prompts": 0,
@@ -322,22 +338,6 @@
    "updatedAt": "2026-10-14T13:36:42.695Z",
    "bytes": 46514632,
    "boundProject": "zenray-motion-design"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 13,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-18T23:35:20.588Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T23:39:36.416Z",
-   "bytes": 22317,
-   "boundProject": null
   },
   {
    "projectId": "zenray-dictate",
@@ -399,7 +399,7 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto Enhancing Assets",
-   "updatedAt": "2026-10-21T16:51:30.092Z",
+   "updatedAt": "2026-10-21T17:12:05.515Z",
    "bytes": 38437,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
