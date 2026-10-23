@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-23T20:35:27.294Z",
+ "scannedAt": "2026-10-23T20:54:28.192Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -543,8 +543,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T19:13:34.107Z",
-   "bytes": 38265,
+   "updatedAt": "2026-10-23T20:53:49.571Z",
+   "bytes": 38406,
    "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
@@ -593,6 +593,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T20:51:55.558Z",
+   "last": "2026-10-23T20:51:55.558Z",
+   "strength": "weak",
+   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "provider": "claude",
+   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "title": "zenray calendar plan",
+   "updatedAt": "2026-10-23T20:54:27.960Z",
+   "bytes": 2140050,
    "boundProject": null
   },
   {
