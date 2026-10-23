@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-23T21:14:29.455Z",
+ "scannedAt": "2026-10-23T21:29:28.696Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -447,8 +447,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T21:13:23.958Z",
-   "bytes": 38031,
+   "updatedAt": "2026-10-23T21:29:23.803Z",
+   "bytes": 34476056,
    "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
@@ -482,6 +482,22 @@
    "updatedAt": "2026-09-15T15:03:58.525Z",
    "bytes": 20766,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 4,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T20:51:55.558Z",
+   "last": "2026-10-23T21:14:30.809Z",
+   "strength": "weak",
+   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "provider": "claude",
+   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "title": "zenray calendar plan",
+   "updatedAt": "2026-10-23T21:23:06.962Z",
+   "bytes": 38353,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-dictate",
@@ -546,22 +562,6 @@
    "updatedAt": "2026-09-23T17:08:49.694Z",
    "bytes": 79106,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T20:51:55.558Z",
-   "last": "2026-10-23T21:01:19.136Z",
-   "strength": "weak",
-   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "provider": "claude",
-   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "title": "zenray calendar plan",
-   "updatedAt": "2026-10-23T21:14:27.325Z",
-   "bytes": 4277836,
-   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-dictate",
