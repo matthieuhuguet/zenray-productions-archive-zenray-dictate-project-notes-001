@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-23T18:52:18.602Z",
+ "scannedAt": "2026-10-23T19:22:28.478Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -62,8 +62,8 @@
    "conversationId": "gemini:d90d7051-b741-4cc9-ade0-e021d01faa49",
    "provider": "gemini",
    "sessionId": "d90d7051-b741-4cc9-ade0-e021d01faa49",
-   "title": "Conversation Gemini d90d7051",
-   "updatedAt": "2026-10-10T11:36:17.526Z",
+   "title": "sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup ",
+   "updatedAt": "2026-10-10T11:35:32.512557+00:00",
    "bytes": 19038208,
    "boundProject": "zenray-dictate"
   },
@@ -174,8 +174,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "Conversation Gemini 8c359457",
-   "updatedAt": "2026-10-05T23:45:47.114Z",
+   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
+   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -190,8 +190,8 @@
    "conversationId": "gemini:1cd2bf0a-3853-426a-8b4a-4852b413ad87",
    "provider": "gemini",
    "sessionId": "1cd2bf0a-3853-426a-8b4a-4852b413ad87",
-   "title": "Conversation Gemini 1cd2bf0a",
-   "updatedAt": "2026-09-16T22:56:24.281Z",
+   "title": "est ce que le script python hda à bien été écrit et consigné ?",
+   "updatedAt": "2026-09-16T22:55:49.102683+00:00",
    "bytes": 19431424,
    "boundProject": null
   },
@@ -239,8 +239,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-23T18:52:05.049Z",
-   "bytes": 491447356,
+   "updatedAt": "2026-10-23T19:21:37.994Z",
+   "bytes": 22405,
    "boundProject": null
   },
   {
@@ -447,8 +447,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray sales",
-   "updatedAt": "2026-10-23T18:24:20.609Z",
-   "bytes": 40361,
+   "updatedAt": "2026-10-23T19:08:40.874Z",
+   "bytes": 40322,
    "boundProject": "zenray-plan"
   },
   {
@@ -543,9 +543,9 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T18:52:04.218Z",
-   "bytes": 29631020,
-   "boundProject": null
+   "updatedAt": "2026-10-23T19:13:34.107Z",
+   "bytes": 38265,
+   "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
    "projectId": "zenray-dictate",
