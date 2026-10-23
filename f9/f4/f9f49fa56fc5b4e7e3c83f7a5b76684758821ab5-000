@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-23T12:22:29.495Z",
+ "scannedAt": "2026-10-23T12:31:29.593Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -224,7 +224,7 @@
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
-   "bytes": 44395,
+   "bytes": 45453,
    "boundProject": null
   },
   {
@@ -495,8 +495,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T12:22:24.044Z",
-   "bytes": 26181366,
+   "updatedAt": "2026-10-23T12:31:20.289Z",
+   "bytes": 27212449,
    "boundProject": null
   },
   {
@@ -559,8 +559,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray meeting",
-   "updatedAt": "2026-10-23T12:19:58.490Z",
-   "bytes": 38383,
+   "updatedAt": "2026-10-23T12:27:55.097Z",
+   "bytes": 38206,
    "boundProject": null
   },
   {
