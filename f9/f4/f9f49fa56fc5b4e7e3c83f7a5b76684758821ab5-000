@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-23T14:54:30.569Z",
+ "scannedAt": "2026-10-23T14:55:30.545Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -495,8 +495,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray meeting",
-   "updatedAt": "2026-10-23T14:54:28.689Z",
-   "bytes": 4118179,
+   "updatedAt": "2026-10-23T14:55:28.727Z",
+   "bytes": 4986273,
    "boundProject": "zenray-plan"
   },
   {
