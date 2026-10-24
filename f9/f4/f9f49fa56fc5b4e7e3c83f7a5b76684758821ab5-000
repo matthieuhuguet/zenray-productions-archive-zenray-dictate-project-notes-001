@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-23T23:49:32.558Z",
+ "scannedAt": "2026-10-24T12:13:34.830Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -62,8 +62,8 @@
    "conversationId": "gemini:d90d7051-b741-4cc9-ade0-e021d01faa49",
    "provider": "gemini",
    "sessionId": "d90d7051-b741-4cc9-ade0-e021d01faa49",
-   "title": "sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup ",
-   "updatedAt": "2026-10-10T11:35:32.512557+00:00",
+   "title": "Conversation Gemini d90d7051",
+   "updatedAt": "2026-10-10T11:36:17.526Z",
    "bytes": 19038208,
    "boundProject": "zenray-dictate"
   },
@@ -174,8 +174,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
-   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
+   "title": "Conversation Gemini 8c359457",
+   "updatedAt": "2026-10-05T23:45:47.114Z",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -190,8 +190,8 @@
    "conversationId": "gemini:1cd2bf0a-3853-426a-8b4a-4852b413ad87",
    "provider": "gemini",
    "sessionId": "1cd2bf0a-3853-426a-8b4a-4852b413ad87",
-   "title": "est ce que le script python hda à bien été écrit et consigné ?",
-   "updatedAt": "2026-09-16T22:55:49.102683+00:00",
+   "title": "Conversation Gemini 1cd2bf0a",
+   "updatedAt": "2026-09-16T22:56:24.281Z",
    "bytes": 19431424,
    "boundProject": null
   },
@@ -408,6 +408,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T20:51:55.558Z",
+   "last": "2026-10-24T12:12:06.179Z",
+   "strength": "weak",
+   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "provider": "claude",
+   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "title": "zenray calendar plan",
+   "updatedAt": "2026-10-24T12:12:38.523Z",
+   "bytes": 38215,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T15:13:39.496Z",
    "last": "2026-10-23T17:33:24.058Z",
    "strength": "weak",
@@ -482,22 +498,6 @@
    "updatedAt": "2026-09-15T15:03:58.525Z",
    "bytes": 20766,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T20:51:55.558Z",
-   "last": "2026-10-23T21:14:30.809Z",
-   "strength": "weak",
-   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "provider": "claude",
-   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "title": "zenray calendar plan",
-   "updatedAt": "2026-10-23T22:47:04.509Z",
-   "bytes": 38373,
-   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-dictate",
