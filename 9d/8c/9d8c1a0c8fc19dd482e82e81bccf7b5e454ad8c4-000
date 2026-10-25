@@ -4109,3 +4109,81 @@
 > - Le contrôle du carré : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/ShadowCheck.py](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/ShadowCheck.py) (25 October 2026, 19:57:46 +0100)
 >
 > Ta demande, en plus court : « Enlève le carré autour de la capsule, et fais apparaître le texte en 0,1 s comme sur Claude.app. » Deux mots utiles : le **streaming** consiste à envoyer le son au fur et à mesure au lieu d'attendre la fin ; un **interim** est le texte provisoire que le serveur renvoie pendant que tu parles. (25 October 2026, 19:57:46 +0100)
+
+## 25 October 2026, 20:08:49 +0100 : Prompt
+
+<!-- feedback-event:b95da096b46e260a266879ed6fba6382c5dcfc42261c7864c96b3dbaa73dc593 (25 October 2026, 20:08:49 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 20:08:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 20:08:49 +0100)
+
+> je pense que tu peux enlever transcription et les messages d'UI du bas pour simplifier (25 October 2026, 20:08:49 +0100)
+
+## 25 October 2026, 20:08:49 +0100 : Prompt
+
+<!-- feedback-event:02a470d32b803229fac9aff63e689423f982319cb889580f7e8562625b3f7986 (25 October 2026, 20:08:49 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 20:08:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 20:08:49 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d/images/1.png] (25 October 2026, 20:08:49 +0100)
+
+## 25 October 2026, 20:08:53 +0100 : Prompt
+
+<!-- feedback-event:9365323859b2b40e8f4e2b617cf4496db5da6d2417254c81fc9586d9733b23ed (25 October 2026, 20:08:53 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 20:08:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 20:08:53 +0100)
+
+> je pense que tu peux enlever transcription et les messages d'UI du bas pour simplifier (25 October 2026, 20:08:53 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d/images/1.png] (25 October 2026, 20:08:53 +0100)
+
+## 25 October 2026, 20:08:55 +0100 : Iteration
+
+<!-- feedback-event:c6e780655b45e1a6d3598288e85f80b12ddccb658b53da75ae5c0f0bbc2af661 (25 October 2026, 20:08:55 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 20:08:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 20:08:55 +0100)
+
+> Je retire le titre « Transcription » et la ligne d'actions : la carte ne garde que ton texte, déjà copié. Je laisse les deux éléments activables par un réglage, au cas où tu voudrais les retrouver. (25 October 2026, 20:08:55 +0100)
+
+## 25 October 2026, 20:10:15 +0100 : Prompt
+
+<!-- feedback-event:0ca9d5c08fa6b90bd319841243f7ba1e2d74a9e442cffc55313f64631b99916f (25 October 2026, 20:10:15 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 20:10:15 +0100)
+
+> je pense que tu peux enlever transcription et les messages d'UI du bas pour simplifier (25 October 2026, 20:10:15 +0100)
+
+## 25 October 2026, 20:10:15 +0100 : Standing rule
+
+<!-- feedback-event:4bdbc2c42d13234ece599964cdd3a23d26576067928d15af9c3def1d849d236c (25 October 2026, 20:10:15 +0100) -->
+- Project: zenray-dictate; kind: rule. (25 October 2026, 20:10:15 +0100)
+
+> La carte de résultat ne montre que le texte dicté, sans titre ni actions (version 3.12) ; réglages ClaudeOverlay.Tokens.showTitle et showActions pour les rétablir. (25 October 2026, 20:10:15 +0100)
+
+## 25 October 2026, 20:10:16 +0100 : Iteration
+
+<!-- feedback-event:145386dea729e5b031396293b0ac47ef962c50f3d02dbb4f6f6baacf09f2db58 (25 October 2026, 20:10:16 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 20:10:16 +0100)
+- Source: checkpoint:claude:7b4fce4a-5400-4962-a3d3-28b11fde651d. (25 October 2026, 20:10:16 +0100)
+
+> Version 3.12 poussée : carte de résultat réduite au texte seul, largeur ajustée, réglages showTitle et showActions. Prochain : dictée Fn réelle. (25 October 2026, 20:10:16 +0100)
+
+## 25 October 2026, 20:10:32 +0100 : Iteration
+
+<!-- feedback-event:f2b1f772b2c0e0d3578d69f8acb615da6c9f0e1f9922b594cae21b56e92ddb9a (25 October 2026, 20:10:32 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 20:10:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 20:10:32 +0100)
+
+> C'est fait : la carte en bas au centre ne montre plus que ton texte, sans le titre « Transcription » ni la ligne Copié, Insérer, Refaire. Le texte reste copié automatiquement. La carte s'ajuste maintenant à la longueur de la phrase, de 240 à 640 pt de large, au lieu de garder toujours la même taille. La version 3.12 tourne déjà sur ton Mac et elle est poussée sur `main` (`479501d`). (25 October 2026, 20:10:32 +0100)
+>
+> Le titre et les actions ne sont pas supprimés du code : il suffit de passer `showTitle` ou `showActions` à vrai en tête de `ClaudeOverlay.swift` pour les retrouver. (25 October 2026, 20:10:32 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 20:10:32 +0100)
+> |---|---|---| (25 October 2026, 20:10:32 +0100)
+> | Enlever « Transcription » | Oui | Capture de la vraie fenêtre : seul le texte apparaît | (25 October 2026, 20:10:32 +0100)
+> | Enlever les messages du bas | Oui | Même capture, plus aucune action | (25 October 2026, 20:10:32 +0100)
+> | Garder la carte bien placée | Oui | 575 × 49 pt pour la phrase test, centrée, à 24 pt au-dessus du Dock | (25 October 2026, 20:10:32 +0100)
+> | Déployer et consigner | Oui | App 3.12 relancée, 15 tests verts, poussé sur `main`, article et suivi du projet à jour | (25 October 2026, 20:10:32 +0100)
+> | Sauvegarde cloud | En cours | Les lots du code et de l'article sont en file, pas encore confirmés | (25 October 2026, 20:10:32 +0100)
+>
+> Une précision sur mon contrôle de l'ombre : il classe cette carte plus courte comme un « carré », alors que la capture n'en montre aucun. Ses seuils sont réglés pour la capsule, et l'ombre portée vers le bas assombrit un peu les coins inférieurs de la carte. Je l'ai noté dans la documentation pour qu'il ne trompe personne. (25 October 2026, 20:10:32 +0100)
+>
+> Ta demande, en plus court : « Garde seulement le texte dans la carte du bas. » (25 October 2026, 20:10:32 +0100)
