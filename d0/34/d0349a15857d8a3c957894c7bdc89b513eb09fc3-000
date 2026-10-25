@@ -1,0 +1,74 @@
+# Resume zenray-dictate (25 October 2026 at 18:47)
+
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (25 October 2026 at 18:47)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-dictate/Rules.md) (0 rules). (25 October 2026 at 18:47)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-dictate/FEEDBACK.md), 104 entries, last Iteration at 10 October 2026, 13:35:32 +0200. (25 October 2026 at 18:47)
+
+## Latest conversations (25 October 2026 at 18:47)
+
+- LATEST gemini:d90d7051-b741-4cc9-ade0-e021d01faa49, « sur bluetooth sur windows on pouvait désactiver le micro completement  », last activity 10 October 2026 at 13:35 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:d90d7051-b741-4cc9-ade0-e021d01faa49 --out <file.md>`. (25 October 2026 at 18:47)
+- antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49, last activity 10 October 2026 at 13:35 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49 --out <file.md>`. (25 October 2026 at 18:47)
+- codex:01a10202-a5c2-7942-9ec6-be571d28506f, « 01a10202-a5c2-7942-9ec6-be571d28506f », last activity 7 October 2026 at 12:15 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a10202-a5c2-7942-9ec6-be571d28506f --out <file.md>`. (25 October 2026 at 18:47)
+
+## Last 6 prompts of Matthieu, oldest first (25 October 2026 at 18:47)
+
+### 9 October 2026, 13:28:20 +0200 · Prompt · antigravity:d90d7051
+
+> met en orange du coup pas en rouge ! et met juste une icone de micro pas tout le texte ...
+
+### 9 October 2026, 13:50:27 +0200 · Prompt · antigravity:d90d7051
+
+> J'ai un bug quand je lance le plein écran sur YouTube ou sur Chrome. J'ai un bug qui fait que je vois encore la barre d'affichage avec le rouge, le jaune et le vert. Je pense que c'est à cause d'une interface Swift qu'on a créé, mais il faut détecter laquelle et il faut résoudre ce bug. ... soit dictate soit assets je pense
+
+### 10 October 2026, 12:08:17 +0200 · Prompt · antigravity:d90d7051
+
+> bah du coup j'ai toujours le bug quand j'ai les airpods ça marche pas du tout ton programme ... déjà désactive le comme ça au moins je peux selectionner mon iphone comme micro disable auto input ... et garde uniquement le fait de voir quel micro fonctionne c'est hyper chiant ... mon problème était simple à résoudre simplement résoudre le fait de plug les airpods. quand j'ai mes airpods la dictée vocal ne marche plus
+> 
+>  fix everything pitiez
+
+### 10 October 2026, 12:14:59 +0200 · Prompt · antigravity:d90d7051
+
+> Tant que t'as pas
+> 
+>  tu continues
+> 
+> 
+> 
+>  = lorsque airpods ou wh 1000 xm3 / 5 tu fix le fait de pouvoir choisir macbook pro input ou iphone
+
+### 10 October 2026, 13:19:38 +0200 · Prompt · antigravity:d90d7051
+
+> Insane push sur github le projet complet avec la nouvelle documentation mise à jour avec la date + push aussi sur
+> 
+>  go
+
+### 10 October 2026, 13:21:00 +0200 · Prompt · antigravity:d90d7051
+
+> parfait juste l'icone est un peu crop j'aimerai que ce soit pas crop et c'est parfait parfaite icone à refaire
+
+
+## Last 3 iterations or checkpoints (25 October 2026 at 18:47)
+
+### 10 October 2026, 13:29:17 +0200 · Iteration · antigravity:d90d7051
+
+> En attente de la fin de `task-935`. Je reprends automatiquement dès qu'elle se termine.
+
+### 10 October 2026, 13:30:23 +0200 · Iteration · antigravity:d90d7051
+
+> **Levier activé (10 October 2026) :** consigner toute l'architecture audio `AUHAL` et les preuves `AirPods Pro` / `iPhone` dans la documentation datée au `10 October 2026`, pousser le dépôt complet sur `GitHub` (`main` et `codex/gemini-dict
+
+### 10 October 2026, 13:35:32 +0200 · Iteration · antigravity:d90d7051
+
+> **Levier activé (10 October 2026) :** remplacer la rastérisation `lockFocus()` du symbole `mic.fill` (qui rognait les 3 points supérieurs de la capsule dans une boîte `12 x 15` puis l'écrasait dans un carré `11 x 11`) par un tracé vectoriel pur `NSBezierPath` dans [`makePillImage`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneManager.swift#L366-L429), impossible à rogner quelle que soit la densité d'écran.
+> 
+> ### Pourquoi l'icône était rognée et ce qui a été corrigé (10 October 2026)
+> 
+> 1. **Cause mesurée :** `mic.fill` en `pointSize: 11, weight: .bold` possède une taille intrinsèque de `12.0 x 15.0` points avec un `alignmentRect` 
+> [... 544 more characters in FEEDBACK.md]
+
+
+## Last order of work (25 October 2026 at 18:47)
+
+- None recorded. (25 October 2026 at 18:47)
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (25 October 2026 at 18:47)

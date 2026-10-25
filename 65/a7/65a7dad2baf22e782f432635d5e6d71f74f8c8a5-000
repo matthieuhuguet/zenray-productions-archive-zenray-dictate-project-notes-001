@@ -2,3 +2,4 @@
 
 Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (12 October 2026)
 
+- Le moteur de dictée par défaut est Claude voice_stream (harmonic-asr-8, mesuré meilleur que Nova-3 et Whisper sur FLEURS le 25 October 2026) ; Gemini, Whisper et Parakeet restent sélectionnables dans Settings. (25 October 2026) <!-- rule:7fe367fba74a -->
