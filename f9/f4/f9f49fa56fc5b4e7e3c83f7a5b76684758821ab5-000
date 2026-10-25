@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-25T13:39:25.723Z",
+ "scannedAt": "2026-10-25T13:40:25.777Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -623,8 +623,8 @@
    "provider": "claude",
    "sessionId": "80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
    "title": "Chicorée avantages/inconvénients et citation lion",
-   "updatedAt": "2026-10-25T13:38:28.374Z",
-   "bytes": 2850965,
+   "updatedAt": "2026-10-25T13:40:23.232Z",
+   "bytes": 3199975,
    "boundProject": null
   },
   {
