@@ -3459,3 +3459,447 @@
 > ``` (25 October 2026, 19:10:44 +0100)
 >
 > Ta demande, en plus court : « Pousse l'app, rattache cette conversation au projet ZenRay Dictate existant, et publie un article au ton neutre. » Un mot utile : un **fallback** (repli) est le moteur de secours qui prend le relais quand le moteur principal échoue ; dans l'app, c'est l'option « Whisper fallback », désactivée par défaut. (25 October 2026, 19:10:44 +0100)
+
+## 25 October 2026, 19:18:49 +0100 : Prompt
+
+<!-- feedback-event:4695a92696baae1d7e1b9b87056002ea4743979d1978850506ace4b451513d4a (25 October 2026, 19:18:49 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:18:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:18:49 +0100)
+
+> Non, ça marche pas du tout. il me faut une ui sleek sur le côté et je t'avais Je t'avais déjà expliqué comment ça marche, du coup. D'abord, tu utilises... D'abord, tu appuies sur FN. Tu as un petit widget qui prend l'enregistrement à droite, au milieu de l'écran. Et ensuite, une fois que tu as fini, en bas, au milieu de l'écran, tu obtiens ton texte. /zenray-edit (25 October 2026, 19:18:49 +0100)
+
+## 25 October 2026, 19:18:59 +0100 : Prompt
+
+<!-- feedback-event:f0d852c07c9e568edd75319c5b5dd51da512bc0f4f7c010b2f276a748d0d2f94 (25 October 2026, 19:18:59 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:18:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:18:59 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-edit (25 October 2026, 19:18:59 +0100)
+>
+> # ZenRay Edit (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## PRIORITÉ 0 : chaque HTML fait avec zenray-edit est rangé dans le skill ET poussé dans Assets (23 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> - Question de Matthieu (23 October 2026) : « chaque ZenRay Edit est directement lié au skill ZenRay Edit, chaque HTML est relié à ZenRay Edit et ensuite tout est push dans Assets du projet zenray-edit ? » Réponse : oui, et c'est obligatoire. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Tout HTML de design produit sous ce skill (maquette, galerie de propositions, planche) se termine par `node /Users/zenray/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets-du-chantier>` : copie dans `designs/<date>-<slug>/`, ligne dans `designs/INDEX.md`, copie dans le projet Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/` et `~/.claude/tmp/tmp-zenray-edit/Designs/`), copie dans le projet du chantier, puis inventaire et archive Assets. Sans cette commande le design n'est pas fini. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Le choix de Matthieu s'ajoute par `file-design.mjs --decide <slug> --choice <n> --note "<texte>"`, jamais en réécrivant une ligne. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 25 October 2026, PRIORITÉ 0 (demande de Matthieu) : toute réponse zenray-edit se termine par le chemin ABSOLU complet du HTML autonome des propositions (`/Users/zenray/.claude/tmp/tmp-<nom>-<date>/index.html`), en lien cliquable, pour qu'il l'ouvre dans le Finder et compare les propositions dans son propre navigateur, fenêtre entière. Même quand les propositions vivent dans une app (ZenRayProgress, etc.), on livre AUSSI ce HTML autonome, toutes les propositions côte à côte. Je l'ouvre en plus dans le navigateur interne (servi en local, car une page `file://` n'y est pas pilotable) pour vérifier, jamais dans son navigateur personnel. Cause : le 25 October 2026, l'onglet Abonnement Max a été livré seulement dans le site, sans HTML ni chemin. (25 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Piège payé le 23 October 2026 : relancer `file-design.mjs` pour « vérifier » refile un doublon (`-v2`) ; pour contrôler, lire `designs/INDEX.md` et lister `Memory1/Projects/zenray-edit/Designs/`. Les deux designs du Plan de ce jour ont d'abord été livrés sans la commande, puis rangés. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+>
+> Atelier de création et d’édition, de la demande à un média vérifié et modifiable. Lire [ActiveContract.md](references/ActiveContract.md), puis seulement les références du mode utile. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> - Reprendre l’identité Assets existante, son contexte et son feedback avec zenray-assets ; travailler dans l’atelier ou les sources effectivement liées. Une conversation ne se réattribue jamais implicitement. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Pour un texte de Matthieu, corriger uniquement grammaire, orthographe, conjugaison et transcription manifestement erronée. Conserver vocabulaire, rythme, ordre, répétitions et contenu ; réécriture, réorganisation et traduction exigent une demande explicite. Lire [TextEditing.md](references/TextEditing.md). (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Chercher un gabarit avant de construire : `node scripts/zr-design.mjs list`, puis `get <id>`. Instancier la définition existante ; paramètres globaux, de famille et d’instance distincts. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Images et post : `python3 scripts/zr-hda-instance.py <source> --dest <atelier/instance> --mode light --post <draft>`. Heavy sert une URL locale pour WebGL ; ouvrir cette URL uniquement dans le navigateur interne. `--force` conserve textes, réglages et sorties, avec historique de code. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Composition : `scripts/new-project.sh <name> <atelier>` puis `<instance>/render.sh`. Le fichier export.json centralise dimensions, facteur, format et limites ; un facteur absent atteint au moins 3840 pixels sur le grand côté. Les sources et le master sont conservés même si une livraison échoue. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Avant traitement média lourd, appliquer ffmpeg-hardware-check ; utiliser PDF, Houdini ou téléchargement seulement si le mode le nécessite. Aucun script historique externe absent ne vaut capacité vérifiée. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Vérifier dimensions, poids, codec/durée et alpha selon le média, regarder le rendu réel en navigateur isolé ; fournir sources et exports identifiés. Archiver via Assets et vérifier le cloud avant de l’annoncer ; publication publique seulement dans le périmètre autorisé. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## Montage / motion design (10 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> - Une vidéo de motion design se reproduit depuis une référence mesurée : analyse, storyboard, paramètres HDA, composition HyperFrames, rendu, contrat de vérification. Méthode complète : `~/.claude/skills/zenray-motion-design/SKILL.md`. (10 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Référence de premier jet : `zenray-motion-design-01` (OneKey Pro 2, 68,05 s), vérifiée par `Verify.py` avec tous les contrôles réussis en v3. (10 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Chaque valeur de marque vit dans `params/tokens.json` ; chaque plan et chaque légende dans `params/timeline.json` ; la chorégraphie dans `params/choreography.json`. Ne jamais recopier une valeur dans le gabarit. (10 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Une référence téléchargée reste dans le scratchpad, sans archivage ni publication ; seul le rendu produit part vers l'atelier. (10 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Rendu : `HYPERFRAMES_BROWSER_PATH` sur le shell géré par HyperFrames, jamais le Chrome personnel. (10 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 11 October 2026 : passe 2, l'animatique : le montage reprend la structure mesurée (coupes, caméra, tempo) et chaque asset manquant devient un emplacement nommé et animé ; les assets faisables en code sont faits, les autres reçoivent un prompt validé avant toute génération. Méthode : section « Passe 2 » de `~/.claude/skills/zenray-motion-design/SKILL.md`. (11 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 11 October 2026 : génération d'assets : Google Flow n'a pas d'API ; la voie conseillée est l'API Gemini (Veo 3.1, images, Lyria) avec une clé rangée par Matthieu dans le trousseau macOS ; rien ne part avant la validation de la fiche A00 et des prompts. (11 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## Modes et références ciblées (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> | Mode | Références | Date | (25 October 2026, 19:18:59 +0100)
+> |---|---|---| (25 October 2026, 19:18:59 +0100)
+> | Correction et rédaction | TextEditing.md ; legacy/EditText.md pour historique | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Photo et cadrage | legacy/PhotoWorkflow.md ; legacy/EditorCorrections.md ; post-editor.md | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Composition et carrousel | legacy/CompositionFoundation.md ; legacy/CompositionRecipes.md | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Template depuis référence | template-creator.md ; legacy/DesignLibrary.md | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | PDF | legacy/PdfEditing.md, puis skill PDF si nécessaire | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Reel et short | legacy/ShortsPipeline.md ; legacy/ShortsCorrections.md | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | UI paramétrique | legacy/ParameterPanels.md ; legacy/UiContract.md ; legacy/NativeUiReference.md si besoin natif | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Post social et vignette | legacy/SocialText.md ; legacy/VignetteWorkflow.md ; legacy/PostEditorContract.md | 7 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Montage et motion design | ~/.claude/skills/zenray-motion-design/SKILL.md (analyse, storyboard, HyperFrames, contrat de vérification) | 10 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Animatique et inventaire d'assets | ~/.claude/skills/zenray-motion-design/SKILL.md, section Passe 2 (caméra mesurée, emplacements nommés, prompts, son, fiche) | 11 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Titre animé Vogun jaune ou blanc | templates/vogun-yellow-title/README.md (gabarit paramétrique, rendu `RenderTitle.cjs`, preuve) ; règles dans ~/.claude/skills/zenray-houdini/references/shorts/VogunTitles.md | 14 October 2026 | (25 October 2026, 19:18:59 +0100)
+> | Photo de profil | references/StudioPhotos.md ; skill zenray-studio-photos | 23 October 2026 | (25 October 2026, 19:18:59 +0100)
+>
+> Les 15 blocs historiques, les corpus d’origine et leur provenance restent consultables par [INDEX.md](references/INDEX.md). Les anciennes consignes sont des recettes historiques ; ActiveContract.md gouverne les commandes actuelles et tranche leurs contradictions. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## Preuves et contrôles (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> - `python3 scripts/index-skill.py --verify-only` vérifie les archives historiques et leurs empreintes ; `python3 scripts/CheckContract.py` vérifie les empreintes du bundle courant, routes, catalogue, entrées actives et configuration d’export. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - `python3 scripts/verify-post-instance.py <images> <fixture-neuve>` vérifie la reprise sans perte. Les vérificateurs navigateur exigent Playwright disponible dans le runtime, tournent isolés et produisent leurs captures dans la fixture. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Distinguer contrôles structurels, rendu réellement mesuré et cloud réellement vérifié ; une preuve ne couvre que ce qu’elle inspecte. (7 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 8 October 2026 : Vitesse de rotation uniforme depuis une prise de vue réelle (25 October 2026, 19:18:59 +0100)
+>
+> - 8 October 2026 (demande de Matthieu) : un plateau tournant filmé à la main tourne à vitesse variable (départ à l'arrêt, ralentissement, nouvelle poussée). `python3 scripts/UniformTurn.py <src> <out.mp4> --seconds 5 --fps 24 --size 1080x1920 --k 3` rend un tour à vitesse angulaire constante pour la durée voulue. (8 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 8 October 2026 : méthode mesurée, jamais devinée : corrélation de phase image par image sur une fenêtre centrale (`--win y0,y1,x0,x1` en fractions) donne le décalage horizontal de la surface ; sa somme cumulée est l'angle ; on coupe le début et la fin à l'arrêt (lissage sur 4 images, seuil `--thr`) ; minterpolate mci ×K ; chaque image de sortie prend l'image interpolée dont l'angle tombe sur la droite. Écart-type de vitesse mesuré 2,5 px par image avant, 0,88 après (pot de poterie, 8 October 2026). (8 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 8 October 2026 : limites : une caméra qui bouge ajoute son décalage à la mesure ; le fond de la fenêtre doit être le pot ; sortie sans audio ; la qualité est celle de la source (une source 1024×576 est agrandie en lanczos). Vérifier en remesurant la sortie avec le même script. (8 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 8 October 2026 : titre Vogun jaune : recette dans `zenray-houdini/references/shorts/VogunTitles.md` ; exemple de montage complet (grade, titre trois lignes Vogun et Yu Mincho, easeOutBack d'entrée, rendu alpha ProRes 4444) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/Montage.py`. (8 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 8 October 2026 : Sound Design / Edit Sound (25 October 2026, 19:18:59 +0100)
+>
+> - 8 October 2026 : mode son : transformer un effet sonore court (interface, jeu) en restant proche de la source ; recette validée `python3 scripts/SoundF1.py <source.flac> <sortie.wav>` (gonflement inversé de 1,2 s, corps une octave plus bas déclenché à −20 ms, réverbération douce), résultat de référence `assets/sound/F1_Trigger_minus20ms.flac`. Protocole complet, mesures et limites : [SoundDesign.md](references/SoundDesign.md). (8 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 8 October 2026 : ajouter ici seulement ce que Matthieu a validé à l'oreille ; les essais non retenus ne se consignent pas. (8 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+>
+> ## 9 October 2026 : tour uniforme SANS fantômes (remplace l'interpolation minterpolate) (25 October 2026, 19:18:59 +0100)
+>
+> - 9 October 2026 : cause des bandes blanches qui apparaissent et disparaissent dans un tour de plateau : `minterpolate` (UniformTurn.py) ne suit pas une surface texturée qui tourne ; il mélange deux positions et des lignes blanches se dédoublent dans une partie des images. Utiliser `python3 scripts/UniformTurnWarp.py <src> <out.mp4> --seconds 12.5` : angle mesuré par corrélation de phase, champ de déplacement horizontal mesuré sur 10 bandes verticales, et l'image source la plus proche est déplacée du reste (au plus une demi-image), sans mélange de deux images. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 9 October 2026 : mesuré sur le pot de poterie : netteté de A 2,56 (source 2,91, ancienne méthode 2,49), irrégularité de netteté d'image à image 0,063 (ancienne méthode 0,121, source 0,104) ; B 0,085 contre 0,119. Une première version qui mélangeait deux images déplacées était plus floue (0,162) : ne jamais mélanger. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 9 October 2026 : limites : un mouvement de caméra à la main reste mesuré avec le pot ; la vitesse d'angle vient d'une fenêtre centrale. Les anciens scripts restent pour comparaison. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 9 October 2026 : montage motion design complet de référence (sous-titres lettre par lettre calés sur le tempo détecté, zooms sur les temps forts, zoom au raccord, SFX calés sur l'attaque mesurée) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/FinalMontage3.py`. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 9 October 2026 : Leçons HTML illustrées et calculateurs procéduraux (25 October 2026, 19:18:59 +0100)
+>
+> - 9 October 2026 (demande de Matthieu) : une leçon se fait en HTML autonome, niveau 12 ans, pas à pas, avec images réelles, schémas SVG, glossaire, quiz et SIMULATIONS interactives (curseurs) plutôt que du texte seul. Exemple de référence : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html`. Polices embarquées (InterVariable, AnthropicSerif, AnthropicMono en woff2 copiés depuis `ZenRayProgress/public/fonts`), thème clair et sombre par `:root`. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 9 October 2026 : toute leçon se vérifie dans le navigateur interne sur un serveur local, largeur étroite comprise (aucun débordement horizontal, tables dans un bloc défilant), et ses nombres se recalculent à la main : une erreur de tuiles de 340 px (6 × 340 + 7 × 8 dépasse 2048) a été trouvée en écrivant la leçon. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 9 October 2026 : pour tout système procédural, le calculateur HTML de test est dans le skill `zenray-houdini` : `templates/roof-tile-calculator/index.html`. L'adapter (champs, règle, sorties) à un autre système avant de toucher Houdini. (9 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 12 October 2026 : Effacer une marque d'une texture (logo, silhouette d'échelle) par greffe de texture (25 October 2026, 19:18:59 +0100)
+>
+> - 12 October 2026 : `python3 scripts/PatchFill.py <in> <out> --crop x,y,w,h --rect x,y,w,h [--rect ...] --search 700 --search-y 12 --ring 18 --feather 16`. Le `--crop` s'applique d'abord (garder la moitié height d'une planche), les rectangles sont en coordonnées après recadrage. Numpy et Pillow seulement, environ 1 s. (12 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 12 October 2026 : méthode : l'anneau de pixels autour du trou est comparé à chaque place candidate par corrélation normalisée plus une pénalité de contraste ; la meilleure place est recopiée dans le trou, sa luminosité calée par un plan ajusté sur l'anneau, puis fondue sur le bord. Rien n'est inventé, la texture vient de la même image. (12 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 12 October 2026 : pièges payés : un simple écart au carré choisit des zones plates et bouche le trou d'une tache lisse ; un calage de luminosité constant laisse un rectangle plus clair ; sur une roche en strates, chercher dans les mêmes rangées (`--search-y` petit) garde les lignes alignées. Vérifier toujours sur un zoom avant/après. (12 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 12 October 2026 : exemple : planche de Javier Perez, moitié droite, silhouette `--rect 126,866,48,96` et logo `--rect 850,910,102,44`, atelier `/Users/zenray/.claude/tmp/tmp-height-javier-perez-clean/`. Un aperçu ombré en gris n'est pas une height linéaire : il sert de référence de mesure, pas de carte finale. (12 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 14 October 2026 : maquettes du rework Assets et titre Vogun rangés ici (25 October 2026, 19:18:59 +0100)
+>
+> - 14 October 2026 : les trois maquettes du rework ZenRay Assets (Tube, détails, page projet) et leurs décisions sont dans `templates/zenray-assets-mockups/rework-12-october-2026/` ; son README donne les choix de Matthieu et le code de production correspondant. (14 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 14 October 2026 : le titre animé Vogun jaune `#FFFF00` de Vegetation Collection 01 est un gabarit paramétrique dans `templates/vogun-yellow-title/` (durées, lignes, couleur et ombre dans un JSON, rendu 4K transparent par `RenderTitle.cjs`). (14 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 14 October 2026 : tout index de design est rangé automatiquement (25 October 2026, 19:18:59 +0100)
+>
+> - 14 October 2026 : dès qu'un index de design (galerie de propositions) est créé pour Matthieu, la dernière étape est `node ~/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets>`. Il copie l'index dans `designs/<date>-<slug>/` (polices partagées), ajoute une ligne au registre `designs/INDEX.md` et, avec `--project`, copie l'index dans `Memory1/Projects/<id>/Designs/`. Sans cette étape le design n'est pas fini. (14 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 14 October 2026 : son choix s'ajoute par `file-design.mjs --decide <slug> --choice <A|B|C>`, jamais en réécrivant une ligne. `designs/` est un registre vivant, hors du lot attesté par `CheckContract.py`. (14 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 14 October 2026 : la lecture du registre par projet dans `zenray-assets` n'existe pas encore ; aujourd'hui seule la copie dans la mémoire du projet est faite (colonne « Projet Assets » du registre). (14 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 18 October 2026 : archivage automatique dans le projet ZenRay Assets `zenray-edit` et typographie Medium `500` (25 October 2026, 19:18:59 +0100)
+>
+> - 18 October 2026 : à chaque appel, `scripts/file-design.mjs` copie l'index dans `designs/<date>-<slug>/`, ajoute la ligne à `designs/INDEX.md`, copie systématiquement dans le projet ZenRay Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/<folder>/` et `~/.claude/tmp/tmp-zenray-edit/Designs/<folder>/`, plus `--project <id>` si fourni), lance `sync-skill.sh zenray-edit` et déclenche `Client.mjs inventory zenray-edit` puis `Client.mjs archive zenray-edit`. (18 October 2026) (25 October 2026, 19:18:59 +0100)
+> - 18 October 2026 : interdiction absolue de toute fonte Light (`300`/`350`, `AnthropicSerif-Light.ttf` banni car trop AI-like). Utiliser uniquement `AnthropicSerif Medium` (`AnthropicSerif-Medium.ttf`, `500`) et `InterVariable Medium` (`500`). (18 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+>
+> ## 20 October 2026 : articles de projet (25 October 2026, 19:18:59 +0100)
+>
+> - Contrat, commande et validation : [ProjectArticles.md](references/ProjectArticles.md). (20 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 23 October 2026 : thème Liquid Glass (25 October 2026, 19:18:59 +0100)
+>
+> - Référence visuelle : `references/liquid-glass/liquid-glass-claude.png`. Gabarit vérifié : `templates/liquid-glass/` (README : jetons, onglet de verre unique par `clip-path: path()`, alignement mesuré, poids 315 Ko). Instance d'origine : ZenRay Knowledge V5, `/Users/zenray/.claude/tmp/tmp-zenray-knowledge-23-october-2026/ZenRayKnowledgeDesignsV5.html`. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Fond du verre : le wallpaper de Create (`ZenRayProgress/public/wallpaper.webp`) dans `body::before`, jamais sur un ancêtre ; jamais deux `backdrop-filter` imbriqués. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 23 October 2026 : titres d'article en GT Sectra LCG italique (25 October 2026, 19:18:59 +0100)
+>
+> - 23 October 2026 : tout article ou page fait avec ce skill met ses TITRES en GT Sectra LCG Regular italique (chiffres et corps droits, Anthropic Serif) ; c'est le défaut du générateur d'articles (`titleStyle`). Règle : `/Users/zenray/.claude/rules/Typography1.md`, section du 23 October 2026, 18:20. (23 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+> ## 25 October 2026 : thème Papier pour les nouveaux articles, QLMarkdown B (25 October 2026, 19:18:59 +0100)
+>
+> - Choix de Matthieu (25 October 2026) : « QLMarkdown B (Papier éditorial) : baseSize=18 parfait. Tu peux même appliquer ce thème aussi aux articles neutres qui sont générés par ZenRay Assets et par ZenRay Edit, à l'avenir uniquement, pas les articles existants. » B est le thème actif de QLMarkdown. (25 October 2026) (25 October 2026, 19:18:59 +0100)
+> - `scripts/render-project-article.mjs` a une option `"theme"` : `papier` (défaut pour toute définition nouvelle) ou `galerie` (le gabarit d'avant). Les valeurs de Papier (couleurs claires et sombres, corps 18 px, interligne 1,7, colonne de 68 caractères, en-tête centré) se lisent dans `templates/qlmarkdown-themes/ThemeEngine.js`, design B : une seule source pour Quick Look et les articles. Un nom de thème inconnu lève une erreur. (25 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Les définitions existantes qui se régénèrent encore sont épinglées `"theme": "galerie"`, sans changer leur date de modification : `zenray-calendar-plan/ARTICLE.json`, `zenray-sales/ARTICLE.json`, la définition UV-Match Height et les deux `Article.json` de `zenray-houdini/docs`. `refresh-skill-article.mjs` transmet `theme` depuis ARTICLE.json ; un nouvel ARTICLE.json sans `theme` donne Papier. Rendu avec galerie identique octet pour octet à l'ancien générateur ; `refresh-articles.mjs --check` vert. (25 October 2026) (25 October 2026, 19:18:59 +0100)
+> - Piège payé (25 October 2026) : `refresh-articles` compare aussi la TAILLE des entrées, pas seulement la date ; épingler un fichier le marque donc à reconstruire. Comme la reconstruction aurait changé l'article publié UV-Match Height (gabarit modifié le 23 October 2026), son empreinte a été enregistrée par `--baseline` sans le republier. (25 October 2026) (25 October 2026, 19:18:59 +0100)
+>
+>
+> ARGUMENTS: ZenRay Dictate : UI native sleek pour le moteur Claude, widget d'enregistrement à droite au milieu, résultat en bas au centre (25 October 2026, 19:18:59 +0100)
+
+## 25 October 2026, 19:19:07 +0100 : Prompt
+
+<!-- feedback-event:42d3eb62d68471f4f1161cdc2ee380f7680f22e0ff9292a75ce9eed489bc2ab1 (25 October 2026, 19:19:07 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:19:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:19:07 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-edit (25 October 2026, 19:19:07 +0100)
+>
+> # ZenRay Edit (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## PRIORITÉ 0 : chaque HTML fait avec zenray-edit est rangé dans le skill ET poussé dans Assets (23 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> - Question de Matthieu (23 October 2026) : « chaque ZenRay Edit est directement lié au skill ZenRay Edit, chaque HTML est relié à ZenRay Edit et ensuite tout est push dans Assets du projet zenray-edit ? » Réponse : oui, et c'est obligatoire. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Tout HTML de design produit sous ce skill (maquette, galerie de propositions, planche) se termine par `node /Users/zenray/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets-du-chantier>` : copie dans `designs/<date>-<slug>/`, ligne dans `designs/INDEX.md`, copie dans le projet Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/` et `~/.claude/tmp/tmp-zenray-edit/Designs/`), copie dans le projet du chantier, puis inventaire et archive Assets. Sans cette commande le design n'est pas fini. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Le choix de Matthieu s'ajoute par `file-design.mjs --decide <slug> --choice <n> --note "<texte>"`, jamais en réécrivant une ligne. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 25 October 2026, PRIORITÉ 0 (demande de Matthieu) : toute réponse zenray-edit se termine par le chemin ABSOLU complet du HTML autonome des propositions (`/Users/zenray/.claude/tmp/tmp-<nom>-<date>/index.html`), en lien cliquable, pour qu'il l'ouvre dans le Finder et compare les propositions dans son propre navigateur, fenêtre entière. Même quand les propositions vivent dans une app (ZenRayProgress, etc.), on livre AUSSI ce HTML autonome, toutes les propositions côte à côte. Je l'ouvre en plus dans le navigateur interne (servi en local, car une page `file://` n'y est pas pilotable) pour vérifier, jamais dans son navigateur personnel. Cause : le 25 October 2026, l'onglet Abonnement Max a été livré seulement dans le site, sans HTML ni chemin. (25 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Piège payé le 23 October 2026 : relancer `file-design.mjs` pour « vérifier » refile un doublon (`-v2`) ; pour contrôler, lire `designs/INDEX.md` et lister `Memory1/Projects/zenray-edit/Designs/`. Les deux designs du Plan de ce jour ont d'abord été livrés sans la commande, puis rangés. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+>
+> Atelier de création et d’édition, de la demande à un média vérifié et modifiable. Lire [ActiveContract.md](references/ActiveContract.md), puis seulement les références du mode utile. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> - Reprendre l’identité Assets existante, son contexte et son feedback avec zenray-assets ; travailler dans l’atelier ou les sources effectivement liées. Une conversation ne se réattribue jamais implicitement. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Pour un texte de Matthieu, corriger uniquement grammaire, orthographe, conjugaison et transcription manifestement erronée. Conserver vocabulaire, rythme, ordre, répétitions et contenu ; réécriture, réorganisation et traduction exigent une demande explicite. Lire [TextEditing.md](references/TextEditing.md). (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Chercher un gabarit avant de construire : `node scripts/zr-design.mjs list`, puis `get <id>`. Instancier la définition existante ; paramètres globaux, de famille et d’instance distincts. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Images et post : `python3 scripts/zr-hda-instance.py <source> --dest <atelier/instance> --mode light --post <draft>`. Heavy sert une URL locale pour WebGL ; ouvrir cette URL uniquement dans le navigateur interne. `--force` conserve textes, réglages et sorties, avec historique de code. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Composition : `scripts/new-project.sh <name> <atelier>` puis `<instance>/render.sh`. Le fichier export.json centralise dimensions, facteur, format et limites ; un facteur absent atteint au moins 3840 pixels sur le grand côté. Les sources et le master sont conservés même si une livraison échoue. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Avant traitement média lourd, appliquer ffmpeg-hardware-check ; utiliser PDF, Houdini ou téléchargement seulement si le mode le nécessite. Aucun script historique externe absent ne vaut capacité vérifiée. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Vérifier dimensions, poids, codec/durée et alpha selon le média, regarder le rendu réel en navigateur isolé ; fournir sources et exports identifiés. Archiver via Assets et vérifier le cloud avant de l’annoncer ; publication publique seulement dans le périmètre autorisé. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## Montage / motion design (10 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> - Une vidéo de motion design se reproduit depuis une référence mesurée : analyse, storyboard, paramètres HDA, composition HyperFrames, rendu, contrat de vérification. Méthode complète : `~/.claude/skills/zenray-motion-design/SKILL.md`. (10 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Référence de premier jet : `zenray-motion-design-01` (OneKey Pro 2, 68,05 s), vérifiée par `Verify.py` avec tous les contrôles réussis en v3. (10 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Chaque valeur de marque vit dans `params/tokens.json` ; chaque plan et chaque légende dans `params/timeline.json` ; la chorégraphie dans `params/choreography.json`. Ne jamais recopier une valeur dans le gabarit. (10 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Une référence téléchargée reste dans le scratchpad, sans archivage ni publication ; seul le rendu produit part vers l'atelier. (10 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Rendu : `HYPERFRAMES_BROWSER_PATH` sur le shell géré par HyperFrames, jamais le Chrome personnel. (10 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 11 October 2026 : passe 2, l'animatique : le montage reprend la structure mesurée (coupes, caméra, tempo) et chaque asset manquant devient un emplacement nommé et animé ; les assets faisables en code sont faits, les autres reçoivent un prompt validé avant toute génération. Méthode : section « Passe 2 » de `~/.claude/skills/zenray-motion-design/SKILL.md`. (11 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 11 October 2026 : génération d'assets : Google Flow n'a pas d'API ; la voie conseillée est l'API Gemini (Veo 3.1, images, Lyria) avec une clé rangée par Matthieu dans le trousseau macOS ; rien ne part avant la validation de la fiche A00 et des prompts. (11 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## Modes et références ciblées (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> | Mode | Références | Date | (25 October 2026, 19:19:07 +0100)
+> |---|---|---| (25 October 2026, 19:19:07 +0100)
+> | Correction et rédaction | TextEditing.md ; legacy/EditText.md pour historique | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Photo et cadrage | legacy/PhotoWorkflow.md ; legacy/EditorCorrections.md ; post-editor.md | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Composition et carrousel | legacy/CompositionFoundation.md ; legacy/CompositionRecipes.md | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Template depuis référence | template-creator.md ; legacy/DesignLibrary.md | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | PDF | legacy/PdfEditing.md, puis skill PDF si nécessaire | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Reel et short | legacy/ShortsPipeline.md ; legacy/ShortsCorrections.md | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | UI paramétrique | legacy/ParameterPanels.md ; legacy/UiContract.md ; legacy/NativeUiReference.md si besoin natif | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Post social et vignette | legacy/SocialText.md ; legacy/VignetteWorkflow.md ; legacy/PostEditorContract.md | 7 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Montage et motion design | ~/.claude/skills/zenray-motion-design/SKILL.md (analyse, storyboard, HyperFrames, contrat de vérification) | 10 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Animatique et inventaire d'assets | ~/.claude/skills/zenray-motion-design/SKILL.md, section Passe 2 (caméra mesurée, emplacements nommés, prompts, son, fiche) | 11 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Titre animé Vogun jaune ou blanc | templates/vogun-yellow-title/README.md (gabarit paramétrique, rendu `RenderTitle.cjs`, preuve) ; règles dans ~/.claude/skills/zenray-houdini/references/shorts/VogunTitles.md | 14 October 2026 | (25 October 2026, 19:19:07 +0100)
+> | Photo de profil | references/StudioPhotos.md ; skill zenray-studio-photos | 23 October 2026 | (25 October 2026, 19:19:07 +0100)
+>
+> Les 15 blocs historiques, les corpus d’origine et leur provenance restent consultables par [INDEX.md](references/INDEX.md). Les anciennes consignes sont des recettes historiques ; ActiveContract.md gouverne les commandes actuelles et tranche leurs contradictions. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## Preuves et contrôles (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> - `python3 scripts/index-skill.py --verify-only` vérifie les archives historiques et leurs empreintes ; `python3 scripts/CheckContract.py` vérifie les empreintes du bundle courant, routes, catalogue, entrées actives et configuration d’export. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - `python3 scripts/verify-post-instance.py <images> <fixture-neuve>` vérifie la reprise sans perte. Les vérificateurs navigateur exigent Playwright disponible dans le runtime, tournent isolés et produisent leurs captures dans la fixture. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Distinguer contrôles structurels, rendu réellement mesuré et cloud réellement vérifié ; une preuve ne couvre que ce qu’elle inspecte. (7 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 8 October 2026 : Vitesse de rotation uniforme depuis une prise de vue réelle (25 October 2026, 19:19:07 +0100)
+>
+> - 8 October 2026 (demande de Matthieu) : un plateau tournant filmé à la main tourne à vitesse variable (départ à l'arrêt, ralentissement, nouvelle poussée). `python3 scripts/UniformTurn.py <src> <out.mp4> --seconds 5 --fps 24 --size 1080x1920 --k 3` rend un tour à vitesse angulaire constante pour la durée voulue. (8 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 8 October 2026 : méthode mesurée, jamais devinée : corrélation de phase image par image sur une fenêtre centrale (`--win y0,y1,x0,x1` en fractions) donne le décalage horizontal de la surface ; sa somme cumulée est l'angle ; on coupe le début et la fin à l'arrêt (lissage sur 4 images, seuil `--thr`) ; minterpolate mci ×K ; chaque image de sortie prend l'image interpolée dont l'angle tombe sur la droite. Écart-type de vitesse mesuré 2,5 px par image avant, 0,88 après (pot de poterie, 8 October 2026). (8 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 8 October 2026 : limites : une caméra qui bouge ajoute son décalage à la mesure ; le fond de la fenêtre doit être le pot ; sortie sans audio ; la qualité est celle de la source (une source 1024×576 est agrandie en lanczos). Vérifier en remesurant la sortie avec le même script. (8 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 8 October 2026 : titre Vogun jaune : recette dans `zenray-houdini/references/shorts/VogunTitles.md` ; exemple de montage complet (grade, titre trois lignes Vogun et Yu Mincho, easeOutBack d'entrée, rendu alpha ProRes 4444) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/Montage.py`. (8 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 8 October 2026 : Sound Design / Edit Sound (25 October 2026, 19:19:07 +0100)
+>
+> - 8 October 2026 : mode son : transformer un effet sonore court (interface, jeu) en restant proche de la source ; recette validée `python3 scripts/SoundF1.py <source.flac> <sortie.wav>` (gonflement inversé de 1,2 s, corps une octave plus bas déclenché à −20 ms, réverbération douce), résultat de référence `assets/sound/F1_Trigger_minus20ms.flac`. Protocole complet, mesures et limites : [SoundDesign.md](references/SoundDesign.md). (8 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 8 October 2026 : ajouter ici seulement ce que Matthieu a validé à l'oreille ; les essais non retenus ne se consignent pas. (8 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+>
+> ## 9 October 2026 : tour uniforme SANS fantômes (remplace l'interpolation minterpolate) (25 October 2026, 19:19:07 +0100)
+>
+> - 9 October 2026 : cause des bandes blanches qui apparaissent et disparaissent dans un tour de plateau : `minterpolate` (UniformTurn.py) ne suit pas une surface texturée qui tourne ; il mélange deux positions et des lignes blanches se dédoublent dans une partie des images. Utiliser `python3 scripts/UniformTurnWarp.py <src> <out.mp4> --seconds 12.5` : angle mesuré par corrélation de phase, champ de déplacement horizontal mesuré sur 10 bandes verticales, et l'image source la plus proche est déplacée du reste (au plus une demi-image), sans mélange de deux images. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 9 October 2026 : mesuré sur le pot de poterie : netteté de A 2,56 (source 2,91, ancienne méthode 2,49), irrégularité de netteté d'image à image 0,063 (ancienne méthode 0,121, source 0,104) ; B 0,085 contre 0,119. Une première version qui mélangeait deux images déplacées était plus floue (0,162) : ne jamais mélanger. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 9 October 2026 : limites : un mouvement de caméra à la main reste mesuré avec le pot ; la vitesse d'angle vient d'une fenêtre centrale. Les anciens scripts restent pour comparaison. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 9 October 2026 : montage motion design complet de référence (sous-titres lettre par lettre calés sur le tempo détecté, zooms sur les temps forts, zoom au raccord, SFX calés sur l'attaque mesurée) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/FinalMontage3.py`. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 9 October 2026 : Leçons HTML illustrées et calculateurs procéduraux (25 October 2026, 19:19:07 +0100)
+>
+> - 9 October 2026 (demande de Matthieu) : une leçon se fait en HTML autonome, niveau 12 ans, pas à pas, avec images réelles, schémas SVG, glossaire, quiz et SIMULATIONS interactives (curseurs) plutôt que du texte seul. Exemple de référence : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html`. Polices embarquées (InterVariable, AnthropicSerif, AnthropicMono en woff2 copiés depuis `ZenRayProgress/public/fonts`), thème clair et sombre par `:root`. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 9 October 2026 : toute leçon se vérifie dans le navigateur interne sur un serveur local, largeur étroite comprise (aucun débordement horizontal, tables dans un bloc défilant), et ses nombres se recalculent à la main : une erreur de tuiles de 340 px (6 × 340 + 7 × 8 dépasse 2048) a été trouvée en écrivant la leçon. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 9 October 2026 : pour tout système procédural, le calculateur HTML de test est dans le skill `zenray-houdini` : `templates/roof-tile-calculator/index.html`. L'adapter (champs, règle, sorties) à un autre système avant de toucher Houdini. (9 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 12 October 2026 : Effacer une marque d'une texture (logo, silhouette d'échelle) par greffe de texture (25 October 2026, 19:19:07 +0100)
+>
+> - 12 October 2026 : `python3 scripts/PatchFill.py <in> <out> --crop x,y,w,h --rect x,y,w,h [--rect ...] --search 700 --search-y 12 --ring 18 --feather 16`. Le `--crop` s'applique d'abord (garder la moitié height d'une planche), les rectangles sont en coordonnées après recadrage. Numpy et Pillow seulement, environ 1 s. (12 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 12 October 2026 : méthode : l'anneau de pixels autour du trou est comparé à chaque place candidate par corrélation normalisée plus une pénalité de contraste ; la meilleure place est recopiée dans le trou, sa luminosité calée par un plan ajusté sur l'anneau, puis fondue sur le bord. Rien n'est inventé, la texture vient de la même image. (12 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 12 October 2026 : pièges payés : un simple écart au carré choisit des zones plates et bouche le trou d'une tache lisse ; un calage de luminosité constant laisse un rectangle plus clair ; sur une roche en strates, chercher dans les mêmes rangées (`--search-y` petit) garde les lignes alignées. Vérifier toujours sur un zoom avant/après. (12 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 12 October 2026 : exemple : planche de Javier Perez, moitié droite, silhouette `--rect 126,866,48,96` et logo `--rect 850,910,102,44`, atelier `/Users/zenray/.claude/tmp/tmp-height-javier-perez-clean/`. Un aperçu ombré en gris n'est pas une height linéaire : il sert de référence de mesure, pas de carte finale. (12 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 14 October 2026 : maquettes du rework Assets et titre Vogun rangés ici (25 October 2026, 19:19:07 +0100)
+>
+> - 14 October 2026 : les trois maquettes du rework ZenRay Assets (Tube, détails, page projet) et leurs décisions sont dans `templates/zenray-assets-mockups/rework-12-october-2026/` ; son README donne les choix de Matthieu et le code de production correspondant. (14 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 14 October 2026 : le titre animé Vogun jaune `#FFFF00` de Vegetation Collection 01 est un gabarit paramétrique dans `templates/vogun-yellow-title/` (durées, lignes, couleur et ombre dans un JSON, rendu 4K transparent par `RenderTitle.cjs`). (14 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 14 October 2026 : tout index de design est rangé automatiquement (25 October 2026, 19:19:07 +0100)
+>
+> - 14 October 2026 : dès qu'un index de design (galerie de propositions) est créé pour Matthieu, la dernière étape est `node ~/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets>`. Il copie l'index dans `designs/<date>-<slug>/` (polices partagées), ajoute une ligne au registre `designs/INDEX.md` et, avec `--project`, copie l'index dans `Memory1/Projects/<id>/Designs/`. Sans cette étape le design n'est pas fini. (14 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 14 October 2026 : son choix s'ajoute par `file-design.mjs --decide <slug> --choice <A|B|C>`, jamais en réécrivant une ligne. `designs/` est un registre vivant, hors du lot attesté par `CheckContract.py`. (14 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 14 October 2026 : la lecture du registre par projet dans `zenray-assets` n'existe pas encore ; aujourd'hui seule la copie dans la mémoire du projet est faite (colonne « Projet Assets » du registre). (14 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 18 October 2026 : archivage automatique dans le projet ZenRay Assets `zenray-edit` et typographie Medium `500` (25 October 2026, 19:19:07 +0100)
+>
+> - 18 October 2026 : à chaque appel, `scripts/file-design.mjs` copie l'index dans `designs/<date>-<slug>/`, ajoute la ligne à `designs/INDEX.md`, copie systématiquement dans le projet ZenRay Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/<folder>/` et `~/.claude/tmp/tmp-zenray-edit/Designs/<folder>/`, plus `--project <id>` si fourni), lance `sync-skill.sh zenray-edit` et déclenche `Client.mjs inventory zenray-edit` puis `Client.mjs archive zenray-edit`. (18 October 2026) (25 October 2026, 19:19:07 +0100)
+> - 18 October 2026 : interdiction absolue de toute fonte Light (`300`/`350`, `AnthropicSerif-Light.ttf` banni car trop AI-like). Utiliser uniquement `AnthropicSerif Medium` (`AnthropicSerif-Medium.ttf`, `500`) et `InterVariable Medium` (`500`). (18 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+>
+> ## 20 October 2026 : articles de projet (25 October 2026, 19:19:07 +0100)
+>
+> - Contrat, commande et validation : [ProjectArticles.md](references/ProjectArticles.md). (20 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 23 October 2026 : thème Liquid Glass (25 October 2026, 19:19:07 +0100)
+>
+> - Référence visuelle : `references/liquid-glass/liquid-glass-claude.png`. Gabarit vérifié : `templates/liquid-glass/` (README : jetons, onglet de verre unique par `clip-path: path()`, alignement mesuré, poids 315 Ko). Instance d'origine : ZenRay Knowledge V5, `/Users/zenray/.claude/tmp/tmp-zenray-knowledge-23-october-2026/ZenRayKnowledgeDesignsV5.html`. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Fond du verre : le wallpaper de Create (`ZenRayProgress/public/wallpaper.webp`) dans `body::before`, jamais sur un ancêtre ; jamais deux `backdrop-filter` imbriqués. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 23 October 2026 : titres d'article en GT Sectra LCG italique (25 October 2026, 19:19:07 +0100)
+>
+> - 23 October 2026 : tout article ou page fait avec ce skill met ses TITRES en GT Sectra LCG Regular italique (chiffres et corps droits, Anthropic Serif) ; c'est le défaut du générateur d'articles (`titleStyle`). Règle : `/Users/zenray/.claude/rules/Typography1.md`, section du 23 October 2026, 18:20. (23 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+> ## 25 October 2026 : thème Papier pour les nouveaux articles, QLMarkdown B (25 October 2026, 19:19:07 +0100)
+>
+> - Choix de Matthieu (25 October 2026) : « QLMarkdown B (Papier éditorial) : baseSize=18 parfait. Tu peux même appliquer ce thème aussi aux articles neutres qui sont générés par ZenRay Assets et par ZenRay Edit, à l'avenir uniquement, pas les articles existants. » B est le thème actif de QLMarkdown. (25 October 2026) (25 October 2026, 19:19:07 +0100)
+> - `scripts/render-project-article.mjs` a une option `"theme"` : `papier` (défaut pour toute définition nouvelle) ou `galerie` (le gabarit d'avant). Les valeurs de Papier (couleurs claires et sombres, corps 18 px, interligne 1,7, colonne de 68 caractères, en-tête centré) se lisent dans `templates/qlmarkdown-themes/ThemeEngine.js`, design B : une seule source pour Quick Look et les articles. Un nom de thème inconnu lève une erreur. (25 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Les définitions existantes qui se régénèrent encore sont épinglées `"theme": "galerie"`, sans changer leur date de modification : `zenray-calendar-plan/ARTICLE.json`, `zenray-sales/ARTICLE.json`, la définition UV-Match Height et les deux `Article.json` de `zenray-houdini/docs`. `refresh-skill-article.mjs` transmet `theme` depuis ARTICLE.json ; un nouvel ARTICLE.json sans `theme` donne Papier. Rendu avec galerie identique octet pour octet à l'ancien générateur ; `refresh-articles.mjs --check` vert. (25 October 2026) (25 October 2026, 19:19:07 +0100)
+> - Piège payé (25 October 2026) : `refresh-articles` compare aussi la TAILLE des entrées, pas seulement la date ; épingler un fichier le marque donc à reconstruire. Comme la reconstruction aurait changé l'article publié UV-Match Height (gabarit modifié le 23 October 2026), son empreinte a été enregistrée par `--baseline` sans le republier. (25 October 2026) (25 October 2026, 19:19:07 +0100)
+>
+>
+> ARGUMENTS: ZenRay Dictate : UI native sleek pour le moteur Claude, widget d'enregistrement à droite au milieu, résultat en bas au centre (25 October 2026, 19:19:07 +0100)
+
+## 25 October 2026, 19:19:14 +0100 : Iteration
+
+<!-- feedback-event:8f32cc6d7ff51976e68ad64b98e2c091b1f441ff0654b5897c78892bae2a705c (25 October 2026, 19:19:14 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:19:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:19:14 +0100)
+
+> Je regarde d'abord dans le journal de l'app ce qui s'est passé quand tu as essayé, pour savoir si c'est seulement l'interface ou aussi la transcription. (25 October 2026, 19:19:14 +0100)
+
+## 25 October 2026, 19:19:16 +0100 : Prompt
+
+<!-- feedback-event:da927b75abf4e874f012d353d2aa48c382d358fda07554ef81566c52d11d2c4f (25 October 2026, 19:19:16 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:19:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:19:16 +0100)
+
+> 3 propositions d'UI (25 October 2026, 19:19:16 +0100)
+
+## 25 October 2026, 19:19:46 +0100 : Prompt
+
+<!-- feedback-event:630b10e95ea42892787995474976c69250710ad9b722420066efc908cf47249d (25 October 2026, 19:19:46 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:19:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:19:46 +0100)
+
+> The user sent a new message while you were working: (25 October 2026, 19:19:46 +0100)
+> l'icone aussi à changer car c'est claude maintenant pas gemini (25 October 2026, 19:19:46 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (25 October 2026, 19:19:46 +0100)
+
+## 25 October 2026, 19:22:58 +0100 : Iteration
+
+<!-- feedback-event:f932592893c50fc574a04861214e4a6c1fd454bd4469496911cacb4bb97135c8 (25 October 2026, 19:22:58 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:22:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:22:58 +0100)
+
+> Les trois propositions et les trois icônes s'affichent bien, sans débordement, même en largeur téléphone. Je range le design dans le skill et dans le projet Assets ZenRay Dictate. (25 October 2026, 19:22:58 +0100)
+
+## 25 October 2026, 19:23:36 +0100 : Prompt
+
+<!-- feedback-event:7f2d8cc3319f7177a89dfc83bf74e2b5a286e8c845b068fca541e4e80c864e2d (25 October 2026, 19:23:36 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:23:36 +0100)
+
+> Non, ça marche pas du tout. il me faut une ui sleek sur le côté et je t'avais Je t'avais déjà expliqué comment ça marche, du coup. D'abord, tu utilises... D'abord, tu appuies sur FN. Tu as un petit widget qui prend l'enregistrement à droite, au milieu de l'écran. Et ensuite, une fois que tu as fini, en bas, au milieu de l'écran, tu obtiens ton texte. /zenray-edit — puis : 3 propositions d'UI — puis : l'icone aussi à changer car c'est claude maintenant pas gemini (25 October 2026, 19:23:36 +0100)
+
+## 25 October 2026, 19:23:36 +0100 : Standing rule
+
+<!-- feedback-event:e769f9dce2dfeb174e36f1e336091335b294be0742ba0cd29e3fea06cbb132f7 (25 October 2026, 19:23:36 +0100) -->
+- Project: zenray-dictate; kind: rule. (25 October 2026, 19:23:36 +0100)
+
+> Parcours de dictée de référence, quel que soit le moteur : Fn ouvre un petit widget d'enregistrement à droite, au milieu de l'écran ; à la fin, le texte apparaît en bas au centre. Le moteur Claude ne doit jamais ouvrir l'ancien grand compositeur. (25 October 2026, 19:23:36 +0100)
+
+## 25 October 2026, 19:23:58 +0100 : Iteration
+
+<!-- feedback-event:e56da087ea10092ac9cb89b75bf7afb1a2e906e9bf7837da78346144777cdab5 (25 October 2026, 19:23:58 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:23:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:23:58 +0100)
+
+> La transcription marche bien : le journal de l'app montre qu'à chacun de tes appuis sur Fn, harmonic-asr-8 a rendu du texte en environ 2 secondes. Le problème vient de l'écran. Avec le moteur Claude, Fn ouvrait l'ancien grand compositeur en bas de l'écran au lieu de ton parcours : un petit widget à droite au milieu pendant que tu parles, puis le texte en bas au centre. J'ai donc dessiné trois interfaces et trois icônes ; rien n'est encore codé dans l'app. (25 October 2026, 19:23:58 +0100)
+>
+> Les trois interfaces suivent le même parcours : Fn ouvre le widget à droite au milieu, un second Fn l'arrête, le texte apparaît en bas au centre et part dans le presse-papiers, puis un clic ailleurs le fait disparaître. (25 October 2026, 19:23:58 +0100)
+>
+> - **A · Verre** : une pilule verticale sombre et translucide collée au bord droit. Un point orange pulse, une onde verticale suit ta voix, un minuteur tourne. Le texte arrive dans une carte de verre large en bas. (25 October 2026, 19:23:58 +0100)
+> - **B · Papier** : une capsule crème aux couleurs de Claude, avec un micro terracotta qui pulse, une onde et un minuteur. Le texte arrive dans une carte papier avec un petit titre et les raccourcis Copier, Insérer, Refaire. (25 October 2026, 19:23:58 +0100)
+> - **C · Orbe** : juste un rond terracotta dont l'anneau grossit quand tu parles, sans aucun texte. Le résultat tient sur une ligne dans une pilule noire, comme une notification. (25 October 2026, 19:23:58 +0100)
+>
+> Les trois icônes sont terracotta et crème, les couleurs de Claude, et je les ai dessinées sans copier son logo : (25 October 2026, 19:23:58 +0100)
+> 1. un micro blanc entouré de rayons sur fond terracotta ; (25 October 2026, 19:23:58 +0100)
+> 2. un éclat terracotta sur fond crème, avec un micro au centre ; (25 October 2026, 19:23:58 +0100)
+> 3. une onde terracotta sur fond sombre. (25 October 2026, 19:23:58 +0100)
+>
+> Chaque faux écran rejoue la séquence en boucle, et un agrandissement en taille réelle montre le widget et le texte en dessous. Les dimensions, couleurs, marges et durées sont des variables en tête du fichier : elles deviendront les réglages de l'app native. (25 October 2026, 19:23:58 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 19:23:58 +0100)
+> |---|---|---| (25 October 2026, 19:23:58 +0100)
+> | Comprendre pourquoi ça ne marchait pas | Oui | Le journal : texte rendu à chaque appui sur Fn, mais dans l'ancien grand compositeur | (25 October 2026, 19:23:58 +0100)
+> | Trois propositions d'interface | Oui | La page s'affiche avec les polices chargées, sans débordement en largeur bureau ni téléphone | (25 October 2026, 19:23:58 +0100)
+> | Une icône Claude à la place de Gemini | Proposée | Trois icônes dans la page, montrées aussi en taille Dock (16, 32 et 64 pixels) | (25 October 2026, 19:23:58 +0100)
+> | Les ranger dans ZenRay Edit et Assets | Oui | Ligne ajoutée au registre des designs, copie dans le projet ZenRay Dictate | (25 October 2026, 19:23:58 +0100)
+> | L'interface codée dans l'app | Pas encore | J'attends ton choix | (25 October 2026, 19:23:58 +0100)
+>
+> Le fichier à ouvrir dans ton navigateur pour comparer : [/Users/zenray/.claude/tmp/tmp-zenray-dictate-ui-25-october-2026/index.html](/Users/zenray/.claude/tmp/tmp-zenray-dictate-ui-25-october-2026/index.html) (25 October 2026, 19:23:58 +0100)
+>
+> Ta demande, en plus court : « Fn ouvre un petit widget à droite au milieu, le texte arrive en bas au centre ; propose trois interfaces et une icône Claude. » Un mot utile : une **maquette** est une image fonctionnelle de l'interface, qu'on valide avant de la coder. (25 October 2026, 19:23:58 +0100)
+
+## 25 October 2026, 19:24:05 +0100 : Prompt
+
+<!-- feedback-event:ec1f5a4eb1571776a390a61012b536ccaa63613a0351127475c50f73cc158643 (25 October 2026, 19:24:05 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:24:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:24:05 +0100)
+
+> 1 · Terracotta, micro et rayons (25 October 2026, 19:24:05 +0100)
+> mais 3 propals beaucoup plus simple et via les icones apple SF symbols (25 October 2026, 19:24:05 +0100)
+>
+> B · Papier (25 October 2026, 19:24:05 +0100)
+>
+> * theme liquid glass à ajouter (25 October 2026, 19:24:05 +0100)
+>
+>
+> refais trois propositions à partir de mes choix (25 October 2026, 19:24:05 +0100)
+
+## 25 October 2026, 19:24:18 +0100 : Iteration
+
+<!-- feedback-event:106ad5475ac58dc93692b4e9dc27ce5fb27e7a06d34d8e5c88368ee86a6422ad (25 October 2026, 19:24:18 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:24:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:24:18 +0100)
+
+> Je reprends tes choix : interface B Papier en verre (Liquid Glass) et icône 1 terracotta, en trois variantes plus simples bâties sur de vrais symboles SF Symbols. Je relis d'abord le gabarit Liquid Glass qui existe déjà. (25 October 2026, 19:24:18 +0100)
+
+## 25 October 2026, 19:27:08 +0100 : Iteration
+
+<!-- feedback-event:00fcb143def43e78f0a5c463bd52f9de125078e5dd2fc21e570fe8ee31e8a437 (25 October 2026, 19:27:08 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:27:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:27:08 +0100)
+
+> Les trois icônes ressortent bien, y compris en petite taille dans le Dock. Je range le design et je te l'envoie. (25 October 2026, 19:27:08 +0100)
+
+## 25 October 2026, 19:27:58 +0100 : Prompt
+
+<!-- feedback-event:6d93ac3ea548b3054a1211c9e9e89f632a39176b07965aff4376ff81ffc2103a (25 October 2026, 19:27:58 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:27:58 +0100)
+
+> 1 · Terracotta, micro et rayons (25 October 2026, 19:27:58 +0100)
+> mais 3 propals beaucoup plus simple et via les icones apple SF symbols (25 October 2026, 19:27:58 +0100)
+>
+> B · Papier (25 October 2026, 19:27:58 +0100)
+>
+> * theme liquid glass à ajouter (25 October 2026, 19:27:58 +0100)
+>
+>
+> refais trois propositions à partir de mes choix (25 October 2026, 19:27:58 +0100)
+
+## 25 October 2026, 19:28:12 +0100 : Iteration
+
+<!-- feedback-event:7c87194f9b1fe69fdde89ef821b38d0f81300e7bda1d700a0222b180afdde5a5 (25 October 2026, 19:28:12 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:28:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:28:12 +0100)
+
+> J'ai refait trois propositions à partir de tes choix : l'interface B Papier en verre (Liquid Glass) et l'icône 1 terracotta, simplifiée. Tous les pictogrammes sont de vrais symboles SF Symbols, exportés depuis ton Mac. L'app reprendra donc exactement les mêmes. Le parcours ne change pas : Fn ouvre la capsule à droite au milieu, un second Fn l'arrête, puis le texte arrive en bas au centre, déjà copié. (25 October 2026, 19:28:12 +0100)
+>
+> **Interfaces**, chacune posée sur le fond d'écran de Create pour voir le verre : (25 October 2026, 19:28:12 +0100)
+> - **B1 · Papier crème**, la plus proche de B. Verre teinté crème, bouton terracotta avec le micro, onde terracotta et minuteur. Le texte arrive dans une carte avec un petit titre et trois actions : Copié, Insérer, Refaire. (25 October 2026, 19:28:12 +0100)
+> - **B2 · Verre clair**. C'est le verre de ton gabarit Liquid Glass, avec du texte blanc et des touches terracotta. Le texte arrive avec trois boutons ronds et sans titre. (25 October 2026, 19:28:12 +0100)
+> - **B3 · Compact**, la plus simple. La capsule, plus petite (168 × 44 pt), ne montre que le micro et l'onde. Le texte arrive précédé d'une coche, sans aucun bouton. (25 October 2026, 19:28:12 +0100)
+>
+> **Icônes** : le même carré arrondi terracotta avec un reflet de verre en haut, et un seul symbole blanc. (25 October 2026, 19:28:12 +0100)
+> - **I1** : `mic.fill`, le micro seul. (25 October 2026, 19:28:12 +0100)
+> - **I2** : `mic.fill` devant `rays`, la version simplifiée du « micro et rayons ». (25 October 2026, 19:28:12 +0100)
+> - **I3** : `waveform.and.mic`, une onde avec un micro. (25 October 2026, 19:28:12 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 19:28:12 +0100)
+> |---|---|---| (25 October 2026, 19:28:12 +0100)
+> | Trois propositions à partir de B Papier | Oui | B1, B2 et B3 rejouent le parcours en boucle, avec chacune un agrandissement en taille réelle | (25 October 2026, 19:28:12 +0100)
+> | Le thème Liquid Glass | Oui | Les huit réglages de verre de ton gabarit sont repris, avec le fond d'écran de Create | (25 October 2026, 19:28:12 +0100)
+> | Des icônes beaucoup plus simples | Oui | Un seul symbole par icône, lisible même à 16 pixels dans le Dock | (25 October 2026, 19:28:12 +0100)
+> | De vraies icônes SF Symbols | Oui | Onze symboles exportés par macOS, aucun manquant, chacun avec sa transparence | (25 October 2026, 19:28:12 +0100)
+> | Ranger et noter ton choix | Oui | Design rangé dans ZenRay Edit et le projet ZenRay Dictate ; ton choix de B est noté au registre | (25 October 2026, 19:28:12 +0100)
+> | Le coder dans l'app | Pas encore | J'attends ta variante et ton icône | (25 October 2026, 19:28:12 +0100)
+>
+> J'ai corrigé deux défauts vus pendant la vérification : le premier bouton rond de B2 s'affichait vide, et l'onde de B1 touchait le minuteur. Il ne reste aucun débordement, même en largeur téléphone. (25 October 2026, 19:28:12 +0100)
+>
+> Le fichier à ouvrir dans ton navigateur : [/Users/zenray/.claude/tmp/tmp-zenray-dictate-ui-v2-25-october-2026/index.html](/Users/zenray/.claude/tmp/tmp-zenray-dictate-ui-v2-25-october-2026/index.html) (25 October 2026, 19:28:12 +0100)
+>
+> Ta demande, en plus court : « Pars de B Papier en Liquid Glass et de l'icône 1 terracotta, et propose trois versions plus simples avec des SF Symbols. » Un mot utile : un **masque**, ici, est une image dont on ne garde que la forme, puis qu'on remplit de la couleur voulue ; c'est ce qui permet au même symbole d'être blanc sur l'icône et terracotta dans la capsule. (25 October 2026, 19:28:12 +0100)
