@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-25T20:23:48.278Z",
+ "scannedAt": "2026-10-25T20:30:57.599Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -287,8 +287,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T20:23:30.102Z",
-   "bytes": 109075912,
+   "updatedAt": "2026-10-25T20:30:37.051Z",
+   "bytes": 38258,
    "boundProject": "zenray-meshes"
   },
   {
