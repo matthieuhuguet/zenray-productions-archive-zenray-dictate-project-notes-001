@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-25T16:33:35.503Z",
+ "scannedAt": "2026-10-25T16:38:49.720Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -591,8 +591,8 @@
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-25T16:30:37.291Z",
-   "bytes": 8796931,
+   "updatedAt": "2026-10-25T16:38:47.670Z",
+   "bytes": 8902229,
    "boundProject": null
   },
   {
