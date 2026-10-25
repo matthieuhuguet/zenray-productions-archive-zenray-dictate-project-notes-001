@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-25T13:44:25.755Z",
+ "scannedAt": "2026-10-25T14:08:54.816Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -62,8 +62,8 @@
    "conversationId": "gemini:d90d7051-b741-4cc9-ade0-e021d01faa49",
    "provider": "gemini",
    "sessionId": "d90d7051-b741-4cc9-ade0-e021d01faa49",
-   "title": "Conversation Gemini d90d7051",
-   "updatedAt": "2026-10-10T11:36:17.526Z",
+   "title": "sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup ",
+   "updatedAt": "2026-10-10T11:35:32.512557+00:00",
    "bytes": 19038208,
    "boundProject": "zenray-dictate"
   },
@@ -174,8 +174,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "Conversation Gemini 8c359457",
-   "updatedAt": "2026-10-05T23:45:47.114Z",
+   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
+   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -190,8 +190,8 @@
    "conversationId": "gemini:1cd2bf0a-3853-426a-8b4a-4852b413ad87",
    "provider": "gemini",
    "sessionId": "1cd2bf0a-3853-426a-8b4a-4852b413ad87",
-   "title": "Conversation Gemini 1cd2bf0a",
-   "updatedAt": "2026-09-16T22:56:24.281Z",
+   "title": "est ce que le script python hda à bien été écrit et consigné ?",
+   "updatedAt": "2026-09-16T22:55:49.102683+00:00",
    "bytes": 19431424,
    "boundProject": null
   },
@@ -616,22 +616,6 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-25T11:28:08.321Z",
-   "last": "2026-10-25T11:28:08.321Z",
-   "strength": "weak",
-   "conversationId": "claude:80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
-   "provider": "claude",
-   "sessionId": "80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
-   "title": "Chicorée avantages/inconvénients et citation lion",
-   "updatedAt": "2026-10-25T13:43:50.142Z",
-   "bytes": 38430,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
    "first": "2026-10-25T13:40:53.907Z",
    "last": "2026-10-25T13:40:53.907Z",
    "strength": "weak",
@@ -639,8 +623,24 @@
    "provider": "claude",
    "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
    "title": "zenray argent",
-   "updatedAt": "2026-10-25T13:43:19.313Z",
-   "bytes": 38312,
+   "updatedAt": "2026-10-25T14:04:12.731Z",
+   "bytes": 38366,
+   "boundProject": "qlmarkdown-designs-25-october-2026"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T11:28:08.321Z",
+   "last": "2026-10-25T11:28:08.321Z",
+   "strength": "weak",
+   "conversationId": "claude:80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
+   "provider": "claude",
+   "sessionId": "80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
+   "title": "Chicorée avantages/inconvénients et citation lion",
+   "updatedAt": "2026-10-25T13:56:04.497Z",
+   "bytes": 38383,
    "boundProject": null
   },
   {
