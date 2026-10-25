@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-25T18:53:54.395Z",
+ "scannedAt": "2026-10-25T19:00:21.280Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
-   "lines": 148,
+   "lines": 149,
    "work": 15,
    "prompts": 0,
    "first": "2026-10-25T16:05:21.061Z",
-   "last": "2026-10-25T18:52:54.323Z",
+   "last": "2026-10-25T18:57:46.742Z",
    "strength": "strong",
    "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "provider": "claude",
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
-   "updatedAt": "2026-10-25T18:53:04.415Z",
-   "bytes": 10107108,
+   "updatedAt": "2026-10-25T18:57:50.393Z",
+   "bytes": 38422,
    "boundProject": "zenray-dictate"
   },
   {

@@ -4072,3 +4072,40 @@
 - Source: checkpoint:claude:7b4fce4a-5400-4962-a3d3-28b11fde651d. (25 October 2026, 19:52:54 +0100)
 
 > Version 3.11 poussée (2109875) : dictée Claude en direct, texte à 0 ms puis final en 0,3 à 0,47 s ; carré de la capsule corrigé et contrôlé dans les deux sens. Prochain : dictée Fn réelle par Matthieu. (25 October 2026, 19:52:54 +0100)
+
+## 25 October 2026, 19:57:46 +0100 : Iteration
+
+<!-- feedback-event:b5127d846e104f2ae3ade09c0a63ef05ad0e54218530c6b78d0c91fa32ce1bc1 (25 October 2026, 19:57:46 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:57:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:57:46 +0100)
+
+> Les deux défauts sont corrigés dans la version 3.11, qui tourne déjà et est poussée sur `main` (`2109875`). Tu avais raison : ce n'était pas une limite de la technologie. Les deux venaient de mon code. (25 October 2026, 19:57:46 +0100)
+>
+> **La lenteur.** Mon app attendait que tu aies fini de parler pour ouvrir la connexion et envoyer tout l'enregistrement. Claude.app fait l'inverse, et ZenRay Dictate fait maintenant pareil : la connexion s'ouvre dès que tu appuies sur Fn, et ta voix part au serveur pendant que tu parles. Le serveur renvoie un texte provisoire en continu. Au second appui, la carte en bas au centre s'ouvre aussitôt avec ce texte. Le texte final arrive 0,3 à 0,47 s plus tard et le remplace sur place : en général il ne fait qu'ajouter le dernier mot ou la ponctuation. Ce dernier délai, c'est le temps que met le serveur à finir ; je ne peux pas le raccourcir. La connexion à Claude est aussi lue une seule fois au lancement, au lieu d'à chaque dictée. (25 October 2026, 19:57:46 +0100)
+>
+> **Le carré.** C'était l'ombre de la fenêtre : macOS la calculait comme un rectangle, alors que le verre lui-même était bien arrondi. Le verre et son ombre suivent maintenant exactement la forme de la capsule et de la carte. Mon premier contrôle ne voyait pas ce carré, donc j'en ai écrit un autre, qui mesure la teinte autour des coins. J'ai vérifié qu'il signale bien le carré sur l'ancienne version et qu'il passe sur la nouvelle. (25 October 2026, 19:57:46 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 19:57:46 +0100)
+> |---|---|---| (25 October 2026, 19:57:46 +0100)
+> | Une capsule sans carré autour | Oui | Coins mesurés à 224 sur la 3.10 (carré), 241 sur la 3.11 (capsule) ; le contrôle signale un carré sous 235 | (25 October 2026, 19:57:46 +0100)
+> | Un passage de la capsule au texte en 0,1 s | Oui pour l'affichage | Texte déjà là 0 ms après l'arrêt, sur une phrase en français, une en japonais et une en anglais envoyées au rythme de la parole | (25 October 2026, 19:57:46 +0100)
+> | Le texte final aussi vite | Presque | Il arrive 297 à 471 ms après l'arrêt, le temps que le serveur finisse | (25 October 2026, 19:57:46 +0100)
+> | La même rapidité que Claude.app | Oui, même méthode | Son direct pendant la parole, texte provisoire, puis seulement la fermeture à l'arrêt | (25 October 2026, 19:57:46 +0100)
+> | Déployer et consigner | Oui | Commit poussé sur `main`, app 3.11 relancée, 15 tests verts, article et suivi du projet à jour | (25 October 2026, 19:57:46 +0100)
+> | Sauvegarde cloud | Presque | 211 fichiers sur 213 sauvegardés, le dernier lot est en cours | (25 October 2026, 19:57:46 +0100)
+> | Ta vraie dictée avec Fn | Pas vérifié | Seul test qui demande ta voix | (25 October 2026, 19:57:46 +0100)
+>
+> Un détail en japonais : avec la langue sur `auto`, le texte provisoire s'affiche d'abord en romaji (« Konnichiwa… »), puis passe en kana 0,36 s plus tard. Avec la langue réglée sur `ja` dans les réglages, il arrive directement en kana. (25 October 2026, 19:57:46 +0100)
+>
+> Pour remesurer la vitesse toi-même sur n'importe quel fichier audio : (25 October 2026, 19:57:46 +0100)
+>
+> ```bash (25 October 2026, 19:57:46 +0100)
+> /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/ZenRayDictate.app/Contents/MacOS/ZenRayDictate --live-latency /Users/zenray/.claude/tmp/tmp-claude-stt-probe-25-october-2026/audio/fr.aiff (25 October 2026, 19:57:46 +0100)
+> ``` (25 October 2026, 19:57:46 +0100)
+>
+> Fichiers : (25 October 2026, 19:57:46 +0100)
+> - Le moteur en direct : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeVoiceTranscriber.swift](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeVoiceTranscriber.swift) (25 October 2026, 19:57:46 +0100)
+> - L'interface et ses réglages : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeOverlay.swift](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeOverlay.swift) (25 October 2026, 19:57:46 +0100)
+> - Le contrôle du carré : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/ShadowCheck.py](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/ShadowCheck.py) (25 October 2026, 19:57:46 +0100)
+>
+> Ta demande, en plus court : « Enlève le carré autour de la capsule, et fais apparaître le texte en 0,1 s comme sur Claude.app. » Deux mots utiles : le **streaming** consiste à envoyer le son au fur et à mesure au lieu d'attendre la fin ; un **interim** est le texte provisoire que le serveur renvoie pendant que tu parles. (25 October 2026, 19:57:46 +0100)
