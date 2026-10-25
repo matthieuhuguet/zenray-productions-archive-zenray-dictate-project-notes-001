@@ -3404,3 +3404,58 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 18:58:47 +0100)
 
 > J'attends la fin des deux sauvegardes cloud de l'article ; je reprends dès que l'attente en arrière-plan rend son résultat. (25 October 2026, 18:58:47 +0100)
+
+## 25 October 2026, 19:09:40 +0100 : Prompt
+
+<!-- feedback-event:2e0ef9878cbf1dcba253fd8e263534f96a1b51cb1cec766e861ffd1d31ea0143 (25 October 2026, 19:09:40 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:09:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:09:40 +0100)
+
+> <task-notification> (25 October 2026, 19:09:40 +0100)
+> <task-id>btlj7cie2</task-id> (25 October 2026, 19:09:40 +0100)
+> <tool-use-id>toolu_01VaQTB3CxaRnhBtT9SyveG9</tool-use-id> (25 October 2026, 19:09:40 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d/tasks/btlj7cie2.output</output-file> (25 October 2026, 19:09:40 +0100)
+> <status>completed</status> (25 October 2026, 19:09:40 +0100)
+> <summary>Background command "Wait for article archive jobs to finish" completed (exit code 0)</summary> (25 October 2026, 19:09:40 +0100)
+> </task-notification> (25 October 2026, 19:09:40 +0100)
+
+## 25 October 2026, 19:10:44 +0100 : Iteration
+
+<!-- feedback-event:3e31dd08d5b7973b1f7b336c1f6483d14e894148611fc1ba990d44d05a1ca8fb (25 October 2026, 19:10:44 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:10:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:10:44 +0100)
+
+> ZenRay Dictate dicte maintenant avec le moteur de Claude (`harmonic-asr-8`) par défaut, à la place de Gemini. La version 3.9 est poussée sur GitHub, l'app tourne déjà avec, et l'article au ton neutre est publié dans le projet ZenRay Dictate qui existait déjà. Ce que je n'ai pas fait moi-même, c'est une vraie dictée avec la touche Fn et le micro : je l'ai testée sur des fichiers audio, pas avec ta voix. (25 October 2026, 19:10:44 +0100)
+>
+> **Ce qui change dans l'app.** Quand tu dictes, l'app enregistre le micro comme avant, puis envoie le son au même serveur que le bouton micro de claude.ai. Pour se connecter, elle réutilise la connexion de Claude Code déjà enregistrée sur ton Mac, donc tu n'as rien à saisir. Si cette connexion a expiré, l'app la renouvelle une fois toute seule. En langue `auto`, le serveur reconnaît seul le français, l'anglais et le japonais. Tes anciens réglages sont sauvegardés à côté, au cas où. (25 October 2026, 19:10:44 +0100)
+>
+> **Ce que tu peux régler toi-même**, dans l'onglet Settings, sans recompiler : (25 October 2026, 19:10:44 +0100)
+> - le moteur (claude, gemini, whisper ou parakeet) ; (25 October 2026, 19:10:44 +0100)
+> - le fournisseur Claude : vide pour harmonic, `nova3` pour Deepgram ; (25 October 2026, 19:10:44 +0100)
+> - les mots-clés à privilégier (Houdini, Unreal Engine, Copernicus, ZenRay, Claude Code), auxquels l'app ajoute ceux de ton vocabulaire ; (25 October 2026, 19:10:44 +0100)
+> - l'adresse du serveur et le programme qui renouvelle la connexion. (25 October 2026, 19:10:44 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 19:10:44 +0100)
+> |---|---|---| (25 October 2026, 19:10:44 +0100)
+> | Mettre ZenRay Dictate sur le moteur de Claude | Oui | Le vrai code de l'app transcrit sans faute une phrase en français, une en japonais et une en anglais, en 1,8 à 3 secondes | (25 October 2026, 19:10:44 +0100)
+> | Que l'app reste fiable | Oui | Les 15 tests automatiques passent ; un faux fichier audio donne un message d'erreur clair au lieu de planter | (25 October 2026, 19:10:44 +0100)
+> | Repousser l'app | Oui | GitHub montre `main` et la branche sur le même commit `d6016a3` | (25 October 2026, 19:10:44 +0100)
+> | Relier le travail au projet existant (le « bind » Assets) | Oui | Cette conversation est rattachée à ZenRay Dictate ; demandes, résultats et point d'étape sont notés dans son suivi | (25 October 2026, 19:10:44 +0100)
+> | Sauvegarder dans le cloud | Presque | 176 fichiers sur 179 sont sauvegardés ; il en reste 3, sans doute les fichiers de suivi que je venais d'écrire, que la sauvegarde automatique va prendre | (25 October 2026, 19:10:44 +0100)
+> | Écrire un article au ton neutre | Oui | Publié dans le projet et inscrit pour se mettre à jour tout seul ; vérifié sans débordement sur écran large et sur téléphone | (25 October 2026, 19:10:44 +0100)
+> | La dictée réelle avec Fn | Pas vérifié | C'est le seul test qui demande ta voix et ton clavier | (25 October 2026, 19:10:44 +0100)
+>
+> Le texte n'apparaît qu'une fois que tu as fini de parler, pas pendant que tu parles. Et ce serveur n'est pas une API officielle : Anthropic peut le modifier sans prévenir. Si ça arrive, choisis `gemini` dans Settings pour revenir à l'ancien fonctionnement. (25 October 2026, 19:10:44 +0100)
+>
+> Fichiers : (25 October 2026, 19:10:44 +0100)
+> - Le nouveau moteur : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeVoiceTranscriber.swift](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeVoiceTranscriber.swift) (25 October 2026, 19:10:44 +0100)
+> - L'article publié : [/Users/zenray/.claude/skills/zenray-edit/articles/25-October-2026-zenray-dictate-claude-engine/index.html](/Users/zenray/.claude/skills/zenray-edit/articles/25-October-2026-zenray-dictate-claude-engine/index.html) (25 October 2026, 19:10:44 +0100)
+> - Le texte de l'article, à modifier pour le faire évoluer : [/Users/zenray/.claude/tmp/tmp-zenray-dictate/Drafts/Article/Article-25-October-2026.json](/Users/zenray/.claude/tmp/tmp-zenray-dictate/Drafts/Article/Article-25-October-2026.json) (25 October 2026, 19:10:44 +0100)
+>
+> Pour tester le moteur sur n'importe quel fichier audio, sans passer par l'interface : (25 October 2026, 19:10:44 +0100)
+>
+> ```bash (25 October 2026, 19:10:44 +0100)
+> /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/ZenRayDictate.app/Contents/MacOS/ZenRayDictate --transcribe /Users/zenray/.claude/tmp/tmp-claude-stt-probe-25-october-2026/audio/fr.aiff (25 October 2026, 19:10:44 +0100)
+> ``` (25 October 2026, 19:10:44 +0100)
+>
+> Ta demande, en plus court : « Pousse l'app, rattache cette conversation au projet ZenRay Dictate existant, et publie un article au ton neutre. » Un mot utile : un **fallback** (repli) est le moteur de secours qui prend le relais quand le moteur principal échoue ; dans l'app, c'est l'option « Whisper fallback », désactivée par défaut. (25 October 2026, 19:10:44 +0100)
