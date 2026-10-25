@@ -4019,3 +4019,56 @@
 > Je crois qu'il y a juste un léger problème de transparence d'une icône à l'autre. Quoique non, en fait, c'est bon. Ah si, en fait, il y a un léger bug sur le fait que le widget n'est pas totalement transparent. C'est comme s'il y avait un carré, alors qu'en fait, je t'ai demandé de faire une capsule. Mais c'est quasi bon en soi. par contre le transcribing et beaucoup trop lent il faut que ça dure 0.1 sec ... Mais je pense pas que ce soit un problème de technologie, je pense que c'est surtout un problème de... c'est pas un problème de technologie, parce que sur l'app Claude.app, lorsque je clique sur Start Dictation et Stop Dictation, c'est ultra rapide, c'est environ 0,1 seconde. Tandis que quand je le fais via mon app custom, vu que c'est le même code, logiquement ça devrait être instantané. Et là, c'est pas le cas, donc il faut corriger ces problèmes de vitesse et de transcription instantanée, notamment lorsqu'on passe du widget qui est à droite au widget qui est en bas au centre. Enfin, pas au centre, en bas... en bas au centre de l'écran. VS, celui qui est à droite au centre de l'écran. (25 October 2026, 19:44:11 +0100)
 >
 > This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (25 October 2026, 19:44:11 +0100)
+
+## 25 October 2026, 19:50:58 +0100 : Iteration
+
+<!-- feedback-event:123f0cbcc71695e8b25bf51147b2b181d0b9e45f07618b2a9dc7454a5d9bf5e5 (25 October 2026, 19:50:58 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:50:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:50:58 +0100)
+
+> Hypothèse confirmée : l'ombre est rectangulaire, c'est elle qui dessine le carré autour de la capsule. Je vérifie la nouvelle version de la même façon. (25 October 2026, 19:50:58 +0100)
+
+## 25 October 2026, 19:51:21 +0100 : Iteration
+
+<!-- feedback-event:30b0cb8082e78911d0074c6bd2dadfb451d5f837f078a649465ff712aa62cf92 (25 October 2026, 19:51:21 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:51:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:51:21 +0100)
+
+> La nouvelle version a une ombre qui suit bien la capsule. Je transforme ce constat en mesure chiffrée, qui doit être rouge sur l'ancienne version et verte sur la nouvelle. (25 October 2026, 19:51:21 +0100)
+
+## 25 October 2026, 19:52:26 +0100 : Iteration
+
+<!-- feedback-event:5c27a81cf8173eae136a06f9a07c3219fc518975e97a414793965c149c153077 (25 October 2026, 19:52:26 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:52:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (25 October 2026, 19:52:26 +0100)
+
+> Poussé (`2109875`). Je mets à jour l'article et je consigne. (25 October 2026, 19:52:26 +0100)
+
+## 25 October 2026, 19:52:53 +0100 : Prompt
+
+<!-- feedback-event:73dd3642130f5c3d26e68c578044bc50d568f69062c269d820112611adb2957d (25 October 2026, 19:52:53 +0100) -->
+- Project: zenray-dictate; kind: prompt. (25 October 2026, 19:52:53 +0100)
+
+> Je crois qu'il y a juste un léger problème de transparence d'une icône à l'autre. Quoique non, en fait, c'est bon. Ah si, en fait, il y a un léger bug sur le fait que le widget n'est pas totalement transparent. C'est comme s'il y avait un carré, alors qu'en fait, je t'ai demandé de faire une capsule. Mais c'est quasi bon en soi. par contre le transcribing et beaucoup trop lent il faut que ça dure 0.1 sec ... Mais je pense pas que ce soit un problème de technologie, je pense que c'est surtout un problème de... c'est pas un problème de technologie, parce que sur l'app Claude.app, lorsque je clique sur Start Dictation et Stop Dictation, c'est ultra rapide, c'est environ 0,1 seconde. Tandis que quand je le fais via mon app custom, vu que c'est le même code, logiquement ça devrait être instantané. Et là, c'est pas le cas, donc il faut corriger ces problèmes de vitesse et de transcription instantanée, notamment lorsqu'on passe du widget qui est à droite au widget qui est en bas au centre. Enfin, pas au centre, en bas... en bas au centre de l'écran. VS, celui qui est à droite au centre de l'écran. (25 October 2026, 19:52:53 +0100)
+
+## 25 October 2026, 19:52:53 +0100 : Iteration
+
+<!-- feedback-event:e5e76210e2c5072d471d33952df3e603b35383522074c30eb38147f4f85106d4 (25 October 2026, 19:52:53 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:52:53 +0100)
+
+> Version 3.11 (commit 2109875) : session Claude en direct ouverte à l'appui sur Fn, son envoyé pendant la parole avec forward_interims=typed ; à l'arrêt la carte s'ouvre à 0 ms avec le texte reçu puis passe au texte final en 297 à 471 ms (mesure --live-latency sur fr, ja, en). Jeton gardé en mémoire. Carré corrigé : l'ombre de fenêtre était rectangulaire, maskImage la met en capsule ; Scripts/ShadowCheck.py rouge sur 3.10 (224), vert sur 3.11 (241). (25 October 2026, 19:52:53 +0100)
+
+## 25 October 2026, 19:52:53 +0100 : Standing rule
+
+<!-- feedback-event:a8fef4f3e25aa731a07961dfd74143234164ca16a48419a85b27a7db49b6825c (25 October 2026, 19:52:53 +0100) -->
+- Project: zenray-dictate; kind: rule. (25 October 2026, 19:52:53 +0100)
+
+> La dictée Claude s'envoie en direct pendant la parole, jamais après l'arrêt : la carte s'affiche à l'arrêt avec le texte déjà reçu, puis se corrige avec le texte final. Le verre et son ombre ont toujours la forme du panneau (maskImage). (25 October 2026, 19:52:53 +0100)
+
+## 25 October 2026, 19:52:54 +0100 : Iteration
+
+<!-- feedback-event:456a2a0819d6c15c53a50688e0821ae6de2a0e3e92b366128de13a88ccfbdfb4 (25 October 2026, 19:52:54 +0100) -->
+- Project: zenray-dictate; kind: iteration. (25 October 2026, 19:52:54 +0100)
+- Source: checkpoint:claude:7b4fce4a-5400-4962-a3d3-28b11fde651d. (25 October 2026, 19:52:54 +0100)
+
+> Version 3.11 poussée (2109875) : dictée Claude en direct, texte à 0 ms puis final en 0,3 à 0,47 s ; carré de la capsule corrigé et contrôlé dans les deux sens. Prochain : dictée Fn réelle par Matthieu. (25 October 2026, 19:52:54 +0100)
