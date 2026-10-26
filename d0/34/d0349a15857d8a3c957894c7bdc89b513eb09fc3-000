@@ -1,74 +1,95 @@
-# Resume zenray-dictate (25 October 2026 at 18:47)
+# Resume zenray-dictate (26 October 2026 at 15:58)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (25 October 2026 at 18:47)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-dictate/Rules.md) (0 rules). (25 October 2026 at 18:47)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-dictate/FEEDBACK.md), 104 entries, last Iteration at 10 October 2026, 13:35:32 +0200. (25 October 2026 at 18:47)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (26 October 2026 at 15:58)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-dictate/Rules.md) (12 rules). (26 October 2026 at 15:58)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-dictate/FEEDBACK.md), 247 entries, last Iteration at 26 October 2026, 12:24:35 +0100. (26 October 2026 at 15:58)
 
-## Latest conversations (25 October 2026 at 18:47)
+## Latest conversations (26 October 2026 at 15:58)
 
-- LATEST gemini:d90d7051-b741-4cc9-ade0-e021d01faa49, « sur bluetooth sur windows on pouvait désactiver le micro completement  », last activity 10 October 2026 at 13:35 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:d90d7051-b741-4cc9-ade0-e021d01faa49 --out <file.md>`. (25 October 2026 at 18:47)
-- antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49, last activity 10 October 2026 at 13:35 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49 --out <file.md>`. (25 October 2026 at 18:47)
-- codex:01a10202-a5c2-7942-9ec6-be571d28506f, « 01a10202-a5c2-7942-9ec6-be571d28506f », last activity 7 October 2026 at 12:15 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a10202-a5c2-7942-9ec6-be571d28506f --out <file.md>`. (25 October 2026 at 18:47)
+- LATEST claude:7b4fce4a-5400-4962-a3d3-28b11fde651d, « speech to text claude », last activity 26 October 2026 at 12:24 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:7b4fce4a-5400-4962-a3d3-28b11fde651d --out <file.md>`. (26 October 2026 at 15:58)
+- gemini:d90d7051-b741-4cc9-ade0-e021d01faa49, « sur bluetooth sur windows on pouvait désactiver le micro completement  », last activity 10 October 2026 at 13:35 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:d90d7051-b741-4cc9-ade0-e021d01faa49 --out <file.md>`. (26 October 2026 at 15:58)
+- antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49, last activity 10 October 2026 at 13:35 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:d90d7051-b741-4cc9-ade0-e021d01faa49 --out <file.md>`. (26 October 2026 at 15:58)
 
-## Last 6 prompts of Matthieu, oldest first (25 October 2026 at 18:47)
+## Last 6 prompts of Matthieu, oldest first (26 October 2026 at 15:58)
 
-### 9 October 2026, 13:28:20 +0200 · Prompt · antigravity:d90d7051
+### 26 October 2026, 12:02:42 +0100 · Prompt · claude:7b4fce4a
 
-> met en orange du coup pas en rouge ! et met juste une icone de micro pas tout le texte ...
-
-### 9 October 2026, 13:50:27 +0200 · Prompt · antigravity:d90d7051
-
-> J'ai un bug quand je lance le plein écran sur YouTube ou sur Chrome. J'ai un bug qui fait que je vois encore la barre d'affichage avec le rouge, le jaune et le vert. Je pense que c'est à cause d'une interface Swift qu'on a créé, mais il faut détecter laquelle et il faut résoudre ce bug. ... soit dictate soit assets je pense
-
-### 10 October 2026, 12:08:17 +0200 · Prompt · antigravity:d90d7051
-
-> bah du coup j'ai toujours le bug quand j'ai les airpods ça marche pas du tout ton programme ... déjà désactive le comme ça au moins je peux selectionner mon iphone comme micro disable auto input ... et garde uniquement le fait de voir quel micro fonctionne c'est hyper chiant ... mon problème était simple à résoudre simplement résoudre le fait de plug les airpods. quand j'ai mes airpods la dictée vocal ne marche plus
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-progress
 > 
->  fix everything pitiez
-
-### 10 October 2026, 12:14:59 +0200 · Prompt · antigravity:d90d7051
-
-> Tant que t'as pas
+> # ZenRay Progress (14 October 2026)
 > 
->  tu continues
+> Ce skill est le seul point d'entrée du site ZenRayProgress : son code, son interface, la vue Create et TOUTES les politiques de drive et d'upload. Il s'appelait `zenrayprogress-context` jusqu'au 14 October 2026 ; ce nom n'existe plus. (14 October 2026)
 > 
+> ## Ne pas confondre avec zenray-assets (14 October 2026)
 > 
+> | Demande | Skill | Pourquoi |
+> |---|---|---|
+> | Envoyer, uploader, streamer un film, un épisode, une photo, un son vers le drive | `zenray-progress` | c'est la bibliothèque (vue Create) |
+> | Politique de push GitHub, dépôts d'archive, CMAF, sous-titres, miniatures, noms, doss
+> [... 33070 more characters in FEEDBACK.md]
+
+### 26 October 2026, 12:07:14 +0100 · Prompt · claude:7b4fce4a
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
 > 
->  = lorsque airpods ou wh 1000 xm3 / 5 tu fix le fait de pouvoir choisir macbook pro input ou iphone
+> <tools-used-before-summary>Bash, Monitor, Read, SendUserFile, Skill, ToolSearch, WebSearch, Write, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__read_console_messages, mcp__Claude_Browser__resize_window, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up</tools-used-before-summary>
+> Summary:
+> 1. Primary Request and Intent:
+>    Matthieu (French-speaking, dictates by voice) develops **ZenRay Dictate**, a macOS Swift dictation app (r
+> [... 20639 more characters in FEEDBACK.md]
 
-### 10 October 2026, 13:19:38 +0200 · Prompt · antigravity:d90d7051
+### 26 October 2026, 12:08:50 +0100 · Prompt · claude:7b4fce4a
 
-> Insane push sur github le projet complet avec la nouvelle documentation mise à jour avec la date + push aussi sur
+> The user sent a new message while you were working:
+> Ta miniature est bizarre parce que je t'ai demandé de consigner tout à l'heure l'iterata et GT standard L. Donc je comprends pas pourquoi tu n'utilises pas ça. Je pense que tu as mal consigné les choses. dans /claude-md-global typo et /zenray-edit ... Autrement, tu ne te saurais pas tromper. En fait, je t'avais pas dit d'enlever complètement GTS Extra et Anthropic Serif, ni Inter, mais ce que je t'avais dit, c'est de mettre en priorité d'abord, par default, Literata et... comment ça s'appelle, cette fonte, GT Standard L
 > 
->  go
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next too
+> [... 107 more characters in FEEDBACK.md]
 
-### 10 October 2026, 13:21:00 +0200 · Prompt · antigravity:d90d7051
+### 26 October 2026, 12:10:16 +0100 · Prompt · claude:7b4fce4a
 
-> parfait juste l'icone est un peu crop j'aimerai que ce soit pas crop et c'est parfait parfaite icone à refaire
-
-
-## Last 3 iterations or checkpoints (25 October 2026 at 18:47)
-
-### 10 October 2026, 13:29:17 +0200 · Iteration · antigravity:d90d7051
-
-> En attente de la fin de `task-935`. Je reprends automatiquement dès qu'elle se termine.
-
-### 10 October 2026, 13:30:23 +0200 · Iteration · antigravity:d90d7051
-
-> **Levier activé (10 October 2026) :** consigner toute l'architecture audio `AUHAL` et les preuves `AirPods Pro` / `iPhone` dans la documentation datée au `10 October 2026`, pousser le dépôt complet sur `GitHub` (`main` et `codex/gemini-dict
-
-### 10 October 2026, 13:35:32 +0200 · Iteration · antigravity:d90d7051
-
-> **Levier activé (10 October 2026) :** remplacer la rastérisation `lockFocus()` du symbole `mic.fill` (qui rognait les 3 points supérieurs de la capsule dans une boîte `12 x 15` puis l'écrasait dans un carré `11 x 11`) par un tracé vectoriel pur `NSBezierPath` dans [`makePillImage`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/MicrophoneManager.swift#L366-L429), impossible à rogner quelle que soit la densité d'écran.
+> The user sent a new message while you were working:
+> D'ailleurs zenray dictate doit utiliser dans le texte reçu et dans les nombres, enfin pas dans les nombres. Les nombres, tu dois utiliser GT standard L, parce qu'on te l'a déjà dit. Mais par contre, pour le texte reçu, tu dois utiliser literata ... update le code. J'espère que c'est bien consigné aussi dans les deux skills.
 > 
-> ### Pourquoi l'icône était rognée et ce qui a été corrigé (10 October 2026)
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn.
+
+### 26 October 2026, 12:12:53 +0100 · Prompt · claude:7b4fce4a
+
+> The user sent a new message while you were working:
+> on va utiliser Et en fait, au final, on va utiliser GT ultra régular pour les titres, sans forcément caps lock, ni sans forcément d'espace. Et tu vas consigner dans les deux skills. Donc, c'est-à-dire dans ZenRay Edit et dans , dans Claude.md global, section typographie. Toujours en première priorité pour l'utilisation. a update puis refaire  Puis il faut refaire du coup la miniature.
 > 
-> 1. **Cause mesurée :** `mic.fill` en `pointSize: 11, weight: .bold` possède une taille intrinsèque de `12.0 x 15.0` points avec un `alignmentRect` 
-> [... 544 more characters in FEEDBACK.md]
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn.
+
+### 26 October 2026, 12:13:31 +0100 · Prompt · claude:7b4fce4a
+
+> The user sent a new message while you were working:
+> Et les chiffres, du coup, on peut aussi les mettre en GT Ultra. Donc, si je récapitule, on a les titres en GT Ultra. On a les nombres en GT Ultra. On a le corps qui est en literata. Et on a tout le reste de l'UI qui est en GT Standard L.
+> 
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn.
 
 
-## Last order of work (25 October 2026 at 18:47)
+## Last 3 iterations or checkpoints (26 October 2026 at 15:58)
 
-- None recorded. (25 October 2026 at 18:47)
+### 26 October 2026, 12:15:23 +0100 · Iteration · claude:7b4fce4a
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (25 October 2026 at 18:47)
+> Le navigateur intégré refuse localhost ; je vérifie les polices avec un Chromium isolé en ligne de commande.
+
+### 26 October 2026, 12:23:24 +0100 · Iteration · checkpoint claude:7b4fce4a
+
+> Version 3.16 : titres et nombres en GT Ultra, texte reçu en Literata, reste en GT Standard L (alternatives GT Sectra, Anthropic Serif, Inter conservées) ; interface rouge sous Whisper, garde de silence, icône #e96944 ; planche refaite et posée comme miniature Assets (choix manuel, 720x406) ; article mis à jour (fontSet gtultra) ; règles dans CLAUDE.md, Typography1.md, zenray-edit, claude-md-global. Vérifié : 35 tests, commit ce1b4d3, Chromium isolé. Non vérifié : renouvellement du jeton vers 19:13, limite de session du compte, dictée réelle Fn en 3.16, relecture cloud indépendante (verifiedCount 0). Prochain : contrôler le jeton vers 19:13 puis une dictée réelle.
+
+### 26 October 2026, 12:24:35 +0100 · Iteration · claude:7b4fce4a
+
+> Ta consigne de départ était la bonne et je l'avais mal écrite : j'avais écrit « abandonné » là où tu disais « en priorité, par défaut ». C'est corrigé partout, et ZenRay Dictate 3.16 suit maintenant tes quatre rôles : titres et nombres en GT Ultra Regular, texte reçu en Literata, reste de l'interface en GT Standard L. GT Sectra, Anthropic Serif et Inter restent des alternatives valables.
+> 
+> Les polices sont consignées dans `CLAUDE.md` (section typographie), `rules/Typography1.md`, le skill `zenray-edit` et le skill `claude-md-global`. J'ai aussi ajouté une option `fontSet gtultra` au générateur d'articles de `zenray-edit`, qui met chaque nombre en GT Ultra.
+> 
+> | Ce que tu voulais | Fait ? | Comm
+> [... 1733 more characters in FEEDBACK.md]
+
+
+## Last order of work (26 October 2026 at 15:58)
+
+- None recorded. (26 October 2026 at 15:58)
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (26 October 2026 at 15:58)
