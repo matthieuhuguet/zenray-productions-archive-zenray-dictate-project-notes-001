@@ -4187,3 +4187,534 @@
 > Une précision sur mon contrôle de l'ombre : il classe cette carte plus courte comme un « carré », alors que la capture n'en montre aucun. Ses seuils sont réglés pour la capsule, et l'ombre portée vers le bas assombrit un peu les coins inférieurs de la carte. Je l'ai noté dans la documentation pour qu'il ne trompe personne. (25 October 2026, 20:10:32 +0100)
 >
 > Ta demande, en plus court : « Garde seulement le texte dans la carte du bas. » (25 October 2026, 20:10:32 +0100)
+
+## 26 October 2026, 11:10:24 +0100 : Prompt
+
+<!-- feedback-event:3f273c7fd2610a39d93de2fcc9b993475e4143e8fbb34673d318b589ab95d6ff (26 October 2026, 11:10:24 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:24 +0100)
+
+> ça marche plus fix it et corrige tout les bugs potentielles /think-of-everything (26 October 2026, 11:10:24 +0100)
+
+## 26 October 2026, 11:10:24 +0100 : Prompt
+
+<!-- feedback-event:c530b20804c91c0147c893361d3ab09067e48a3e7b2cc2d5222ca15eb67b0d8d (26 October 2026, 11:10:24 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:24 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d/images/2.png] (26 October 2026, 11:10:24 +0100)
+
+## 26 October 2026, 11:10:26 +0100 : Prompt
+
+<!-- feedback-event:bfb182e32a7104a0070f3a645f399ba47bc7b3658d5c877fa2e43160702e2c64 (26 October 2026, 11:10:26 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:26 +0100)
+
+> [Request interrupted by user] (26 October 2026, 11:10:26 +0100)
+
+## 26 October 2026, 11:10:26 +0100 : Prompt
+
+<!-- feedback-event:94be6eda9b1ea6ea140eb046e7d7f9bfd0205d0e85fa2845cd186d1aff3c806a (26 October 2026, 11:10:26 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:26 +0100)
+
+> Je crois qu'il y a juste un léger problème de transparence d'une icône à l'autre. Quoique non, en fait, c'est bon. Ah si, en fait, il y a un léger bug sur le fait que le widget n'est pas totalement transparent. C'est comme s'il y avait un carré, alors qu'en fait, je t'ai demandé de faire une capsule. Mais c'est quasi bon en soi. par contre le transcribing et beaucoup trop lent il faut que ça dure 0.1 sec ... Mais je pense pas que ce soit un problème de technologie, je pense que c'est surtout un problème de... c'est pas un problème de technologie, parce que sur l'app Claude.app, lorsque je clique sur Start Dictation et Stop Dictation, c'est ultra rapide, c'est environ 0,1 seconde. Tandis que quand je le fais via mon app custom, vu que c'est le même code, logiquement ça devrait être instantané. Et là, c'est pas le cas, donc il faut corriger ces problèmes de vitesse et de transcription instantanée, notamment lorsqu'on passe du widget qui est à droite au widget qui est en bas au centre. Enfin, pas au centre, en bas... en bas au centre de l'écran. VS, celui qui est à droite au centre de l'écran. (26 October 2026, 11:10:26 +0100)
+
+## 26 October 2026, 11:10:28 +0100 : Prompt
+
+<!-- feedback-event:1da77ad8689659523f97de47a3fe1754ccc9f8b1f8f349347094ec69c72f360d (26 October 2026, 11:10:28 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:28 +0100)
+
+> <local-command-caveat>The command below was run directly in Claude Code, not sent to you as a request, and its output goes straight to the user. It's recorded here as context for later messages.</local-command-caveat> (26 October 2026, 11:10:28 +0100)
+
+## 26 October 2026, 11:10:28 +0100 : Prompt
+
+<!-- feedback-event:c4a4bbdb5c421fe598284c2f3e4aa73d7698ec11c673e9b39c20fd56d788a9a4 (26 October 2026, 11:10:28 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:28 +0100)
+
+> <command-name>/model</command-name> (26 October 2026, 11:10:28 +0100)
+>             <command-message>model</command-message> (26 October 2026, 11:10:28 +0100)
+>             <command-args>claude-sonnet-5-5</command-args> (26 October 2026, 11:10:28 +0100)
+
+## 26 October 2026, 11:10:28 +0100 : Prompt
+
+<!-- feedback-event:9b9c5f0bdba16312480596b57890f561a496d17eebec48bfc38893f08ce17d7d (26 October 2026, 11:10:28 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:28 +0100)
+
+> <local-command-stdout>Set model to `claude-sonnet-5-5`</local-command-stdout> (26 October 2026, 11:10:28 +0100)
+
+## 26 October 2026, 11:10:44 +0100 : Prompt
+
+<!-- feedback-event:3d82b8d2250a627d7aafda7b7b757901d659c9b0c6b28ba7a25c73d465cca4a2 (26 October 2026, 11:10:44 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:44 +0100)
+
+> ça marche plus fix it et corrige tout les bugs potentielles /think-of-everything (26 October 2026, 11:10:44 +0100)
+
+## 26 October 2026, 11:10:44 +0100 : Prompt
+
+<!-- feedback-event:4d787d16869742cf179bff812392d239c89f2c29dd82b01d0131c4ef2615eb6e (26 October 2026, 11:10:44 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:10:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:10:44 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d/images/3.png] (26 October 2026, 11:10:44 +0100)
+
+## 26 October 2026, 11:11:01 +0100 : Prompt
+
+<!-- feedback-event:c5fb63edee8b268ea342afbe2c29e8aa3630d65fd67cad66025a02311afd03df (26 October 2026, 11:11:01 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:11:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:11:01 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (26 October 2026, 11:11:01 +0100)
+>
+> # Think of Everything (Pense à Tout) (26 October 2026, 11:11:01 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (26 October 2026, 11:11:01 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (26 October 2026, 11:11:01 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (26 October 2026, 11:11:01 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (26 October 2026, 11:11:01 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (26 October 2026, 11:11:01 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (26 October 2026, 11:11:01 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (26 October 2026, 11:11:01 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (26 October 2026, 11:11:01 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (26 October 2026, 11:11:01 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (26 October 2026, 11:11:01 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (26 October 2026, 11:11:01 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (26 October 2026, 11:11:01 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (26 October 2026, 11:11:01 +0100)
+>
+> Sources by domain: (26 October 2026, 11:11:01 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (26 October 2026, 11:11:01 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (26 October 2026, 11:11:01 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (26 October 2026, 11:11:01 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (26 October 2026, 11:11:01 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (26 October 2026, 11:11:01 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (26 October 2026, 11:11:01 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (26 October 2026, 11:11:01 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (26 October 2026, 11:11:01 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (26 October 2026, 11:11:01 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (26 October 2026, 11:11:01 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (26 October 2026, 11:11:01 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (26 October 2026, 11:11:01 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (26 October 2026, 11:11:01 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (26 October 2026, 11:11:01 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (26 October 2026, 11:11:01 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (26 October 2026, 11:11:01 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (26 October 2026, 11:11:01 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (26 October 2026, 11:11:01 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (26 October 2026, 11:11:01 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (26 October 2026, 11:11:01 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (26 October 2026, 11:11:01 +0100)
+>
+> ## Step 5: Rank, cut, decide (26 October 2026, 11:11:01 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (26 October 2026, 11:11:01 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (26 October 2026, 11:11:01 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (26 October 2026, 11:11:01 +0100)
+>
+> ## Output format (compact, French by default on this account) (26 October 2026, 11:11:01 +0100)
+>
+> ``` (26 October 2026, 11:11:01 +0100)
+> Décision/changement : 1 à 3 lignes. (26 October 2026, 11:11:01 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (26 October 2026, 11:11:01 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (26 October 2026, 11:11:01 +0100)
+> Écartés : 1 ligne. (26 October 2026, 11:11:01 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (26 October 2026, 11:11:01 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (26 October 2026, 11:11:01 +0100)
+> ``` (26 October 2026, 11:11:01 +0100)
+>
+> ## Stop conditions and anti-goals (26 October 2026, 11:11:01 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (26 October 2026, 11:11:01 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (26 October 2026, 11:11:01 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (26 October 2026, 11:11:01 +0100)
+>
+>
+> ARGUMENTS: ZenRay Dictate : « There was a bad response from the server. Recording saved for retry. » la dictée Claude ne marche plus ; corriger et traquer tous les bugs potentiels (26 October 2026, 11:11:01 +0100)
+
+## 26 October 2026, 11:11:26 +0100 : Prompt
+
+<!-- feedback-event:91f0f804d60beb478a0dc5570a921490a5eb218373edfeb9507c9830e1fa49ee (26 October 2026, 11:11:26 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:11:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:11:26 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (26 October 2026, 11:11:26 +0100)
+>
+> # Think of Everything (Pense à Tout) (26 October 2026, 11:11:26 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (26 October 2026, 11:11:26 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (26 October 2026, 11:11:26 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (26 October 2026, 11:11:26 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (26 October 2026, 11:11:26 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (26 October 2026, 11:11:26 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (26 October 2026, 11:11:26 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (26 October 2026, 11:11:26 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (26 October 2026, 11:11:26 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (26 October 2026, 11:11:26 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (26 October 2026, 11:11:26 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (26 October 2026, 11:11:26 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (26 October 2026, 11:11:26 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (26 October 2026, 11:11:26 +0100)
+>
+> Sources by domain: (26 October 2026, 11:11:26 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (26 October 2026, 11:11:26 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (26 October 2026, 11:11:26 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (26 October 2026, 11:11:26 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (26 October 2026, 11:11:26 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (26 October 2026, 11:11:26 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (26 October 2026, 11:11:26 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (26 October 2026, 11:11:26 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (26 October 2026, 11:11:26 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (26 October 2026, 11:11:26 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (26 October 2026, 11:11:26 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (26 October 2026, 11:11:26 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (26 October 2026, 11:11:26 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (26 October 2026, 11:11:26 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (26 October 2026, 11:11:26 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (26 October 2026, 11:11:26 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (26 October 2026, 11:11:26 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (26 October 2026, 11:11:26 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (26 October 2026, 11:11:26 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (26 October 2026, 11:11:26 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (26 October 2026, 11:11:26 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (26 October 2026, 11:11:26 +0100)
+>
+> ## Step 5: Rank, cut, decide (26 October 2026, 11:11:26 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (26 October 2026, 11:11:26 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (26 October 2026, 11:11:26 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (26 October 2026, 11:11:26 +0100)
+>
+> ## Output format (compact, French by default on this account) (26 October 2026, 11:11:26 +0100)
+>
+> ``` (26 October 2026, 11:11:26 +0100)
+> Décision/changement : 1 à 3 lignes. (26 October 2026, 11:11:26 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (26 October 2026, 11:11:26 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (26 October 2026, 11:11:26 +0100)
+> Écartés : 1 ligne. (26 October 2026, 11:11:26 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (26 October 2026, 11:11:26 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (26 October 2026, 11:11:26 +0100)
+> ``` (26 October 2026, 11:11:26 +0100)
+>
+> ## Stop conditions and anti-goals (26 October 2026, 11:11:26 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (26 October 2026, 11:11:26 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (26 October 2026, 11:11:26 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (26 October 2026, 11:11:26 +0100)
+>
+>
+> ARGUMENTS: ZenRay Dictate : « There was a bad response from the server. Recording saved for retry. » la dictée Claude ne marche plus ; corriger et traquer tous les bugs potentiels (26 October 2026, 11:11:26 +0100)
+
+## 26 October 2026, 11:21:12 +0100 : Iteration
+
+<!-- feedback-event:8f916ad67794a2dde01f9d764fc99fca36641010b6c54b4089802a814e4510b2 (26 October 2026, 11:21:12 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:21:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:21:12 +0100)
+
+> Pendant que le test d'une session de 107 secondes se termine, je construis la version 3.13 sans toucher au serveur, pour ne pas fausser la mesure. (26 October 2026, 11:21:12 +0100)
+
+## 26 October 2026, 11:23:47 +0100 : Prompt
+
+<!-- feedback-event:9d878f8209ec979d17631e19d1293ec9cd4be7494157e950c904f7b2b0442b50 (26 October 2026, 11:23:47 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:23:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:23:47 +0100)
+
+> ça a l'air de fonctionner désormais fais en sorte que ça ne casse plus jamais ... /think-of-everything (26 October 2026, 11:23:47 +0100)
+
+## 26 October 2026, 11:24:10 +0100 : Prompt
+
+<!-- feedback-event:529b6d8df4b930962cdbe268057e9730c3ef171e6dffdd5e3350ed019d3b269f (26 October 2026, 11:24:10 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:24:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:24:10 +0100)
+
+> (Re-invocation of /think-of-everything — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (26 October 2026, 11:24:10 +0100)
+
+## 26 October 2026, 11:24:10 +0100 : Prompt
+
+<!-- feedback-event:227ff260202a058ca3c6ca28abfd96fb713230893b4307cb528de500a3c58687 (26 October 2026, 11:24:10 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:24:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:24:10 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (26 October 2026, 11:24:10 +0100)
+>
+> # Think of Everything (Pense à Tout) (26 October 2026, 11:24:10 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (26 October 2026, 11:24:10 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (26 October 2026, 11:24:10 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (26 October 2026, 11:24:10 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (26 October 2026, 11:24:10 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (26 October 2026, 11:24:10 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (26 October 2026, 11:24:10 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (26 October 2026, 11:24:10 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (26 October 2026, 11:24:10 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (26 October 2026, 11:24:10 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (26 October 2026, 11:24:10 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (26 October 2026, 11:24:10 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (26 October 2026, 11:24:10 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (26 October 2026, 11:24:10 +0100)
+>
+> Sources by domain: (26 October 2026, 11:24:10 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (26 October 2026, 11:24:10 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (26 October 2026, 11:24:10 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (26 October 2026, 11:24:10 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (26 October 2026, 11:24:10 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (26 October 2026, 11:24:10 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (26 October 2026, 11:24:10 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (26 October 2026, 11:24:10 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (26 October 2026, 11:24:10 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (26 October 2026, 11:24:10 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (26 October 2026, 11:24:10 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (26 October 2026, 11:24:10 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (26 October 2026, 11:24:10 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (26 October 2026, 11:24:10 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (26 October 2026, 11:24:10 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (26 October 2026, 11:24:10 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (26 October 2026, 11:24:10 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (26 October 2026, 11:24:10 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (26 October 2026, 11:24:10 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (26 October 2026, 11:24:10 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (26 October 2026, 11:24:10 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (26 October 2026, 11:24:10 +0100)
+>
+> ## Step 5: Rank, cut, decide (26 October 2026, 11:24:10 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (26 October 2026, 11:24:10 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (26 October 2026, 11:24:10 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (26 October 2026, 11:24:10 +0100)
+>
+> ## Output format (compact, French by default on this account) (26 October 2026, 11:24:10 +0100)
+>
+> ``` (26 October 2026, 11:24:10 +0100)
+> Décision/changement : 1 à 3 lignes. (26 October 2026, 11:24:10 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (26 October 2026, 11:24:10 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (26 October 2026, 11:24:10 +0100)
+> Écartés : 1 ligne. (26 October 2026, 11:24:10 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (26 October 2026, 11:24:10 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (26 October 2026, 11:24:10 +0100)
+> ``` (26 October 2026, 11:24:10 +0100)
+>
+> ## Stop conditions and anti-goals (26 October 2026, 11:24:10 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (26 October 2026, 11:24:10 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (26 October 2026, 11:24:10 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (26 October 2026, 11:24:10 +0100)
+>
+>
+> ARGUMENTS: ZenRay Dictate 3.13 : la dictée Claude marche à nouveau ; la rendre durable pour qu'elle ne casse plus (jeton, serveur non officiel, hors ligne, protocole qui change) (26 October 2026, 11:24:10 +0100)
+
+## 26 October 2026, 11:24:20 +0100 : Prompt
+
+<!-- feedback-event:23006888362d4dec0ef66c318ea31913057e55ea5f67f945175993a365d7f792 (26 October 2026, 11:24:20 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:24:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:24:20 +0100)
+
+> (Re-invocation of /think-of-everything — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (26 October 2026, 11:24:20 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (26 October 2026, 11:24:20 +0100)
+>
+> # Think of Everything (Pense à Tout) (26 October 2026, 11:24:20 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (26 October 2026, 11:24:20 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (26 October 2026, 11:24:20 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (26 October 2026, 11:24:20 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (26 October 2026, 11:24:20 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (26 October 2026, 11:24:20 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (26 October 2026, 11:24:20 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (26 October 2026, 11:24:20 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (26 October 2026, 11:24:20 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (26 October 2026, 11:24:20 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (26 October 2026, 11:24:20 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (26 October 2026, 11:24:20 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (26 October 2026, 11:24:20 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (26 October 2026, 11:24:20 +0100)
+>
+> Sources by domain: (26 October 2026, 11:24:20 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (26 October 2026, 11:24:20 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (26 October 2026, 11:24:20 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (26 October 2026, 11:24:20 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (26 October 2026, 11:24:20 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (26 October 2026, 11:24:20 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (26 October 2026, 11:24:20 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (26 October 2026, 11:24:20 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (26 October 2026, 11:24:20 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (26 October 2026, 11:24:20 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (26 October 2026, 11:24:20 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (26 October 2026, 11:24:20 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (26 October 2026, 11:24:20 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (26 October 2026, 11:24:20 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (26 October 2026, 11:24:20 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (26 October 2026, 11:24:20 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (26 October 2026, 11:24:20 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (26 October 2026, 11:24:20 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (26 October 2026, 11:24:20 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (26 October 2026, 11:24:20 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (26 October 2026, 11:24:20 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (26 October 2026, 11:24:20 +0100)
+>
+> ## Step 5: Rank, cut, decide (26 October 2026, 11:24:20 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (26 October 2026, 11:24:20 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (26 October 2026, 11:24:20 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (26 October 2026, 11:24:20 +0100)
+>
+> ## Output format (compact, French by default on this account) (26 October 2026, 11:24:20 +0100)
+>
+> ``` (26 October 2026, 11:24:20 +0100)
+> Décision/changement : 1 à 3 lignes. (26 October 2026, 11:24:20 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (26 October 2026, 11:24:20 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (26 October 2026, 11:24:20 +0100)
+> Écartés : 1 ligne. (26 October 2026, 11:24:20 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (26 October 2026, 11:24:20 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (26 October 2026, 11:24:20 +0100)
+> ``` (26 October 2026, 11:24:20 +0100)
+>
+> ## Stop conditions and anti-goals (26 October 2026, 11:24:20 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (26 October 2026, 11:24:20 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (26 October 2026, 11:24:20 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (26 October 2026, 11:24:20 +0100)
+>
+>
+> ARGUMENTS: ZenRay Dictate 3.13 : la dictée Claude marche à nouveau ; la rendre durable pour qu'elle ne casse plus (jeton, serveur non officiel, hors ligne, protocole qui change) (26 October 2026, 11:24:20 +0100)
+
+## 26 October 2026, 11:25:54 +0100 : Iteration
+
+<!-- feedback-event:9a59f6778b1c22d6b67a91219ba572ad5532b489d950bb6fa9d653ffc2dcf42a (26 October 2026, 11:25:54 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:25:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:25:54 +0100)
+
+> Je teste dans les deux sens : d'abord sans le repli (ça doit échouer, c'est la panne que je veux empêcher), puis avec (ça doit répondre via Whisper local). (26 October 2026, 11:25:54 +0100)
+
+## 26 October 2026, 11:33:36 +0100 : Prompt
+
+<!-- feedback-event:3112caa50775b075207615f9e5acb6018c331060b467d3a2ee8b6d30eb4323b9 (26 October 2026, 11:33:36 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:33:36 +0100)
+
+> ça marche plus fix it et corrige tout les bugs potentielles /think-of-everything (26 October 2026, 11:33:36 +0100)
+
+## 26 October 2026, 11:33:36 +0100 : Prompt
+
+<!-- feedback-event:325b45b80aae02489d07258648e6f195efca58a0e0e1731cbf4589ce2c435777 (26 October 2026, 11:33:36 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:33:36 +0100)
+
+> ça a l'air de fonctionner désormais fais en sorte que ça ne casse plus jamais ... /think-of-everything (26 October 2026, 11:33:36 +0100)
+
+## 26 October 2026, 11:33:37 +0100 : Iteration
+
+<!-- feedback-event:19f751a9d41a5a2f249e82bc3ed9c5a4f72c9438cbefb2ebc3dc3a78cce095a8 (26 October 2026, 11:33:37 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:33:37 +0100)
+
+> 26 October 2026 : cause de « bad response from the server » = jeton OAuth Claude expiré (expiresAt 01:10, valable environ 8 h), le serveur répond 401 à l'ouverture du WebSocket. Corrigé en 3.13 (ClaudeCredentials : lecture de l'expiration, renouvellement par claude -p avant expiration et sur rejet, un seul à la fois, erreurs typées, jamais de texte partiel). 3.14 (commit 1980dfe) : repli Whisper local par défaut sauf silence, délai de 45 s, moniteur de santé (lancement, 6 h, réveil, infobulle, journal), 32 tests, vérifications --transcribe-pipeline, --health, --bad-token. Preuves : jeton réellement expiré renouvelé et dictée en 7,5 s ; serveur mort sans repli échoue en 1,1 s, avec repli Whisper répond en 3,2 s ; session directe de 107 s sans coupure. (26 October 2026, 11:33:37 +0100)
+
+## 26 October 2026, 11:33:37 +0100 : Standing rule
+
+<!-- feedback-event:9c03a0dba95ca2f9075218c63f521378458644ddc0bbd3f442a42916499aa7b8 (26 October 2026, 11:33:37 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 11:33:37 +0100)
+
+> La dictée Claude ne doit jamais dépendre d'un seul chemin : jeton renouvelé avant expiration, repli Whisper local (jamais sur silence), contrôle de santé visible dans l'infobulle, messages d'erreur français qui disent quoi faire. Tout changement du moteur Claude se prouve dans les deux sens (rouge sans la garde, vert avec). (26 October 2026, 11:33:37 +0100)
+
+## 26 October 2026, 11:33:51 +0100 : Iteration
+
+<!-- feedback-event:9d55486e8d95390d91530aa2341ddb64e12832a6bad4cbd70fbc7ac2d4e5e51e (26 October 2026, 11:33:51 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:33:51 +0100)
+- Source: checkpoint:claude:7b4fce4a-5400-4962-a3d3-28b11fde651d. (26 October 2026, 11:33:51 +0100)
+
+> Version 3.14 poussée (1980dfe) : cause du bad response = jeton OAuth expiré (401), renouvelé automatiquement ; repli Whisper local par défaut sauf silence ; moniteur de santé dans l infobulle ; 32 tests ; article mis à jour. Prochain : usage réel, lire l infobulle en cas de souci. (26 October 2026, 11:33:51 +0100)
+
+## 26 October 2026, 11:34:05 +0100 : Iteration
+
+<!-- feedback-event:facfecc6ee33018b0f18f6ba9377c136432badd7c419919c851d2d4866709bad (26 October 2026, 11:34:05 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:34:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:34:05 +0100)
+
+> Décision : la version 3.14 de ZenRay Dictate, poussée sur `main` (`1980dfe`), tourne déjà sur ton Mac. La panne venait du jeton de connexion à Claude, qui avait expiré à 01:10 cette nuit. Il vaut environ 8 h. Une fois expiré, le serveur répond HTTP 401, et macOS affiche « bad response from the server ». Mon code ne se renouvelait que sur un message d'erreur interne, jamais sur ce refus. La 3.13 corrige cette cause, la 3.14 ajoute les protections pour que ça ne casse plus en silence. (26 October 2026, 11:34:05 +0100)
+>
+> **Ce qui peut encore casser, par ordre de gravité** (26 October 2026, 11:34:05 +0100)
+>
+> | # | Risque | Preuve vue aujourd'hui | Protection | Vérification faite | (26 October 2026, 11:34:05 +0100)
+> |---|---|---|---|---| (26 October 2026, 11:34:05 +0100)
+> | 1 | Anthropic change ou ferme ce serveur non officiel | Je l'ai trouvé par rétro-ingénierie hier, aucune documentation | Repli automatique sur Whisper local, jamais sur du silence | Serveur mort sans repli : échec en 1,1 s. Avec repli : Whisper répond en 3,2 s | (26 October 2026, 11:34:05 +0100)
+> | 2 | Panne silencieuse que tu découvres en plein travail | Il a fallu ton message pour la voir | Contrôle de santé : au lancement, toutes les 6 h, après chaque réveil, résultat dans l'infobulle de l'icône | `--health` donne OK ; sur un chemin déplacé, il alerte « HTTP 404 » | (26 October 2026, 11:34:05 +0100)
+> | 3 | Jeton qui expire de nouveau | `expiresAt` lu : 01:10, nouvelle échéance 19:18 | Renouvellement avant l'échéance (vérif. toutes les 5 min et au réveil), un seul à la fois | Jeton réellement expiré : renouvelé seul, dictée en 7,5 s. Jeton refusé : 4,7 s | (26 October 2026, 11:34:05 +0100)
+> | 4 | Coupure réseau pendant que tu parles | Un texte partiel passerait pour final | Une connexion perdue ne rend jamais de texte partiel : l'enregistrement complet est retranscrit | Session directe de 107 s sans coupure, texte complet | (26 October 2026, 11:34:05 +0100)
+> | 5 | Whisper bloqué ou serveur qui ne répond pas | Le test s'est figé 5 min, à cause de mon outil de test | Délai de 45 s côté Claude, 90 s côté Whisper | Test unitaire : abandon après 0,2 s | (26 October 2026, 11:34:05 +0100)
+>
+> Écartés : un fichier de connexion de secours (il n'existe pas sur ce Mac), les 8 paramètres du serveur (inutiles à ce stade). (26 October 2026, 11:34:05 +0100)
+>
+> **Deux choses que j'ai changées pour toi.** Le repli Whisper est maintenant activé dans ta bibliothèque, après une sauvegarde (`Library.json.backup-26-October-2026`) : si Claude échoue, tu reçois du texte de moindre qualité plutôt qu'une erreur. Et si tu dictes deux secondes de silence, l'app dit « Aucun texte entendu » sans lancer Whisper, qui invente des mots sur du silence. (26 October 2026, 11:34:05 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 11:34:05 +0100)
+> |---|---|---| (26 October 2026, 11:34:05 +0100)
+> | Que ça remarche | Oui | Tes dictées réelles de 11:23 : texte à 2 ms après l'arrêt, final 341 à 423 ms plus tard | (26 October 2026, 11:34:05 +0100)
+> | Que ça ne casse plus jamais | Presque | Quatre protections, chacune testée dans les deux sens ; 32 tests, dont 2 passent au rouge si je retire une garde. « Jamais » reste impossible tant que le serveur est non officiel | (26 October 2026, 11:34:05 +0100)
+> | Déployer et consigner | Oui | App 3.14 relancée, premier contrôle de santé OK à 11:32:46, poussé sur `main`, suivi et article à jour | (26 October 2026, 11:34:05 +0100)
+> | Sauvegarde cloud | En cours | Les jobs du code et de l'article sont en file, non confirmés | (26 October 2026, 11:34:05 +0100)
+>
+> Si ça se reproduit, regarde d'abord l'infobulle de l'icône du micro, puis les lignes `health:` de `~/Library/Logs/ZenRayDictate.log`. Si le renouvellement échoue, lance `claude /login` dans un terminal. (26 October 2026, 11:34:05 +0100)
+>
+> Fichiers : (26 October 2026, 11:34:05 +0100)
+> - Gestion de la connexion : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeCredentials.swift](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeCredentials.swift) (26 October 2026, 11:34:05 +0100)
+> - Contrôle de santé : [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeHealth.swift](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Sources/ZenRayDictate/ClaudeHealth.swift) (26 October 2026, 11:34:05 +0100)
+>
+> Question ouverte, avec un défaut : un message d'alerte macOS quand la santé passe au rouge (en plus de l'infobulle) ? Sans réponse de ta part, je ne l'ajoute pas, pour ne pas t'interrompre. (26 October 2026, 11:34:05 +0100)
+>
+> Ta demande, en plus court : « Fais en sorte que la dictée Claude ne tombe plus en panne sans que je le sache. » Un mot utile : un **repli** (*fallback*) est le chemin de secours qui prend la suite quand le chemin principal échoue. (26 October 2026, 11:34:05 +0100)
