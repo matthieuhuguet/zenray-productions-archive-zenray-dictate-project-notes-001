@@ -4718,3 +4718,1089 @@
 > Question ouverte, avec un défaut : un message d'alerte macOS quand la santé passe au rouge (en plus de l'infobulle) ? Sans réponse de ta part, je ne l'ajoute pas, pour ne pas t'interrompre. (26 October 2026, 11:34:05 +0100)
 >
 > Ta demande, en plus court : « Fais en sorte que la dictée Claude ne tombe plus en panne sans que je le sache. » Un mot utile : un **repli** (*fallback*) est le chemin de secours qui prend la suite quand le chemin principal échoue. (26 October 2026, 11:34:05 +0100)
+
+## 26 October 2026, 11:52:54 +0100 : Prompt
+
+<!-- feedback-event:b35b84a29e06e11a775b61b15eeccf5f0c530f42df9b86f0aee8e5d0cbf4753e (26 October 2026, 11:52:54 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:52:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:52:54 +0100)
+
+> Ok, mais la vraie question, c'est de savoir, est-ce que au bout de 8 heures désormais, est-ce que Claude va assurer le speech to text ou est-ce que ça va forcément fallback en whisper? Parce que moi, c'est pas ce que je veux. Moi, ce que je veux, c'est utiliser le plus souvent possible Claude en tant que speech to text ? /zenray-1-line (26 October 2026, 11:52:54 +0100)
+
+## 26 October 2026, 11:53:05 +0100 : Prompt
+
+<!-- feedback-event:ad295ef893f7fd4c14a5b5047c8982eb23b67c223398113e531a93dcc871ff4d (26 October 2026, 11:53:05 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:53:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:53:05 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-1-line (26 October 2026, 11:53:05 +0100)
+>
+> # ZenRay OneLine (14 October 2026) (26 October 2026, 11:53:05 +0100)
+>
+> Réponds en une seule ligne stricte, dense et autosuffisante, sans préambule, sans puce et sans conclusion. (14 October 2026) (26 October 2026, 11:53:05 +0100)
+
+## 26 October 2026, 11:53:19 +0100 : Prompt
+
+<!-- feedback-event:4a1ed644a43ae6838e1c267f52425ad7b294437c5a9be11da73198c9fdf2662a (26 October 2026, 11:53:19 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:53:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:53:19 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-1-line (26 October 2026, 11:53:19 +0100)
+>
+> # ZenRay OneLine (14 October 2026) (26 October 2026, 11:53:19 +0100)
+>
+> Réponds en une seule ligne stricte, dense et autosuffisante, sans préambule, sans puce et sans conclusion. (14 October 2026) (26 October 2026, 11:53:19 +0100)
+
+## 26 October 2026, 11:55:03 +0100 : Prompt
+
+<!-- feedback-event:c93aeb2c0b244a42de1f0fddc38214b7c7428ffbae3a68985e02ae1a0e1914f7 (26 October 2026, 11:55:03 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:55:03 +0100)
+
+> Est-ce que au bout de 8 heures désormais, est-ce que Claude va assurer le speech to text ou est-ce que ça va forcément fallback en whisper ? Moi, ce que je veux, c'est utiliser le plus souvent possible Claude en tant que speech to text ? /zenray-1-line (26 October 2026, 11:55:03 +0100)
+
+## 26 October 2026, 11:55:03 +0100 : Standing rule
+
+<!-- feedback-event:31322e88054780e3e65a12643517e2d1a82941f0cbe25c42850e6871fa1e422c (26 October 2026, 11:55:03 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 11:55:03 +0100)
+
+> Claude reste le moteur de dictée après 8 h : le jeton est renouvelé par le CLI dans ses 5 dernières minutes (marge 280 s, contrôle chaque minute), Whisper ne sert que si ce renouvellement ou le serveur échoue. Un appel plus précoce du CLI est un no-op. (26 October 2026, 11:55:03 +0100)
+
+## 26 October 2026, 11:55:08 +0100 : Iteration
+
+<!-- feedback-event:58fa64ad5f953bf8055c7f8c9ea7ddc0f860c36be779697f6f566fdde71a557a (26 October 2026, 11:55:08 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:55:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:55:08 +0100)
+
+> Oui, Claude reste le moteur : à chaque échéance de 8 h l'app renouvelle le jeton elle-même dans les 5 dernières minutes (je viens de corriger une marge de 30 min qui était inutile, car le CLI de Claude ignore tout jeton avec plus de 5 min restantes, `f18c0c4`) et Whisper ne sert que si ce renouvellement ou le serveur échoue, mais le renouvellement préventif de 19:13 n'est pas encore prouvé en vrai (seul le renouvellement après expiration l'est) et je n'ai pas vérifié qu'il passe si ton quota de session Claude est atteint, ce qu'indique un « session limit » reçu à l'instant (reset 12:50). (26 October 2026, 11:55:08 +0100)
+
+## 26 October 2026, 11:56:07 +0100 : Prompt
+
+<!-- feedback-event:f9d80b7a5ba07eb151c5c865bfc3ffdda9c559af7aa02c943abe44bb07bd24ac (26 October 2026, 11:56:07 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 11:56:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:56:07 +0100)
+
+> De toute manière, passe l'interface en rouge s'il s'agit de Whisper. Comme ça, par exemple, tu vois, là, actuellement, j'ai une interface plutôt orangée sur le widget de droite et le widget du centre. Et lorsque tu passes sur, sur Whisper, bah, du coup, tu détectes ce chemin et du coup, tu mets l'interface en rouge. Et montre-moi le widget en rouge, comme ça, je valide et on termine. (26 October 2026, 11:56:07 +0100)
+
+## 26 October 2026, 11:57:39 +0100 : Iteration
+
+<!-- feedback-event:c3243baa792e77169aa622b092bb83e33ca4d5e8377cf98163fde1261e63e25d (26 October 2026, 11:57:39 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 11:57:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 11:57:39 +0100)
+
+> Ça compile. Je capture maintenant les deux widgets en terracotta (Claude) et en rouge (Whisper), côte à côte, pour que tu valides. (26 October 2026, 11:57:39 +0100)
+
+## 26 October 2026, 12:02:11 +0100 : Prompt
+
+<!-- feedback-event:06848a6c283ce7e089060e570e7fe7b3f9e7a86bfe99a4223f303d3709e5350c (26 October 2026, 12:02:11 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:02:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:02:11 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 12:02:11 +0100)
+> Push maintenant tout le binding assets de tout les fichiers code et images et tous en fait bind au projet zenray dictate et push tout localement pour envoyer dans le cloud et change la miniature du projet sur zenray assets et github via une sheet qui présente les deux widgets orangé (26 October 2026, 12:02:11 +0100)
+> change aussi d'abord l'icone : #e96944 avec un dégradé au centre qui va vers le blanc... comme actuellement en fait (juste la couleur) (26 October 2026, 12:02:11 +0100)
+> /zenray-assets directement sur /zenray-progress  (26 October 2026, 12:02:11 +0100)
+>
+> push tout et finit proprement /ctrl-s (26 October 2026, 12:02:11 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 12:02:11 +0100)
+
+## 26 October 2026, 12:02:37 +0100 : Prompt
+
+<!-- feedback-event:a383e1fc22015fbc73fdf445b55e6d75ec7e9efdb0350f36cc2649a21350e742 (26 October 2026, 12:02:37 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:02:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:02:37 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-progress (26 October 2026, 12:02:37 +0100)
+>
+> # ZenRay Progress (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> Ce skill est le seul point d'entrée du site ZenRayProgress : son code, son interface, la vue Create et TOUTES les politiques de drive et d'upload. Il s'appelait `zenrayprogress-context` jusqu'au 14 October 2026 ; ce nom n'existe plus. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## Ne pas confondre avec zenray-assets (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> | Demande | Skill | Pourquoi | (26 October 2026, 12:02:37 +0100)
+> |---|---|---| (26 October 2026, 12:02:37 +0100)
+> | Envoyer, uploader, streamer un film, un épisode, une photo, un son vers le drive | `zenray-progress` | c'est la bibliothèque (vue Create) | (26 October 2026, 12:02:37 +0100)
+> | Politique de push GitHub, dépôts d'archive, CMAF, sous-titres, miniatures, noms, dossiers Anime/Movies/Series/Documentaries | `zenray-progress` | politiques du drive | (26 October 2026, 12:02:37 +0100)
+> | Code, UI, déploiement, bugs du site (Create, Assets, Plan, Media...) | `zenray-progress` | c'est le dépôt ZenRayProgress | (26 October 2026, 12:02:37 +0100)
+> | Charger, décharger, restaurer une copie locale ; archiver un projet de production ; mapping, FEEDBACK.md, Rules.md, conversations, FileMap, panneau macOS | `zenray-assets` | c'est le service Assets et ses projets | (26 October 2026, 12:02:37 +0100)
+>
+> - Un film ou une photo est un objet de la bibliothèque Create : ce n'est JAMAIS un projet Assets. Un projet Assets est un chantier de production (Houdini, Unreal, TMP) archivé par le service. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - L'onglet « Assets » du site est de l'interface : son code se modifie ici ; le moteur qui archive et restaure appartient à `zenray-assets`. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - Le verbe tranche, jamais un nom de dossier : `envoie / upload / streaming` = ce skill ; `charge / décharge / restaure / archive le projet` = `zenray-assets`. Commande : `node ~/.claude/skills/zenray-progress/scripts/route-method.mjs "<la phrase>"`, qui rend UNE méthode ou « AUCUNE METHODE » (alors poser la question). (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## Commencer un travail sur le site (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> Travailler dans `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress` (ou un checkout propre à jour d'`origin/main`). (26 October 2026, 12:02:37 +0100)
+>
+> 1. Lire `docs/INDEX-ERREURS-FEATURES.md` d'abord, puis `CLAUDE.md` et les dernières entrées utiles avec `progress.mjs tail --project "ZenRayProgress" --count 3`. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> 2. Inspecter `git status --short` ; conserver les changements des autres. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> 3. Lire les vrais appelants avec `rg` ; ne pas se fier à la mémoire ou à de vieux plans quand le dépôt diffère. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> 4. Réutiliser les helpers existants et valider le vrai flux (build, endpoint, navigateur) avant d'annoncer un succès. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> 5. Journaliser dans `/Users/zenray/.claude/PROGRESS.md` par le skill `progress` seulement. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> 6. Déployer : `npx vite build && npx wrangler pages deploy dist --project-name zenray-progress --branch main`, depuis un arbre propre d'origin/main ; contrôle : l'`index-*.js` servi est celui de `dist/index.html`. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## Politiques de drive et d'upload en vigueur (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> Valeurs courantes ; le détail daté et les corrections sont dans [references/UploadPolicies.md](references/UploadPolicies.md), les règles épinglées dans `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`, les incidents dans `docs/INDEX-ERREURS-FEATURES.md`. Le code fait foi des chiffres : `scripts/lib/push-batch-policy.mjs`, `scripts/lib/repo-create-policy.mjs`. (26 October 2026, 12:02:37 +0100)
+>
+> | Sujet | Règle | (26 October 2026, 12:02:37 +0100)
+> |---|---| (26 October 2026, 12:02:37 +0100)
+> | Une entrée | un film ou un épisode part par UN worker, `ZR_ONLY_PLAN=<plan.json> ZR_PROGRESS_REPO=<checkout propre> python3 ~/.claude/tmp/tmp-movies-series-upload/Scripts/ProcessFilmsSequentially.py` : archive chiffrée, CMAF, sous-titres, preuve, déchargement. `upload-mapped-git.mjs` seul (archive sans CMAF) ne suffit jamais | (26 October 2026, 12:02:37 +0100)
+> | Dossier cloud | `pages/Anime_Movies_Series_Documentaries/{Anime,Movies,Series,Documentaries}`, décidé AVANT l'envoi par `scripts/Films/WorkCategories.json` ; oeuvre inconnue = refusée, on demande à Matthieu puis on l'ajoute à la table ; une oeuvre n'a qu'un dossier | (26 October 2026, 12:02:37 +0100)
+> | Noms | nom local propre = nom cloud, `MediaRename.mjs plan` validé par Matthieu avant l'upload | (26 October 2026, 12:02:37 +0100)
+> | Taille d'un push | 1 900 Mio, soit 20 parts de 95 Mio, dimensionnée par la ligne mesurée ; échecs comptés par lot, 3 échecs retombent à 190 Mio puis remontée 2, 4, 8, 12, 16, 20 après 3 réussites ; jamais deux pushes simultanés vers un dépôt | (26 October 2026, 12:02:37 +0100)
+> | Dépôts | archive de film 4 096 Mio (43 parts) ; archive de dossier 2 048 Mio ; réutilisation d'un dépôt par voie, créations espacées de 120 s, 12 par heure au plus (24 si le volume l'exige) ; un blocage GitHub 403 divise le budget par deux | (26 October 2026, 12:02:37 +0100)
+> | Preuve avant de décharger | preuve par identité d'objets (manifeste en ligne, noms et blobs, une vraie part relue), pas de relecture complète sauf échec ; déchargement refusé sans `master` et `mpd` (sauf `"cmaf": false` explicite) et sans affiche publique | (26 October 2026, 12:02:37 +0100)
+> | CMAF | copie directe d'abord, sinon transcodage 4K 16, 8, 4, 2 Mbit/s et autre source 8, 4, 2 ; chaque segment sous 19 Mio ; `hvc1` pour tout HEVC | (26 October 2026, 12:02:37 +0100)
+> | Streaming | sous-titres obligatoires pour toute vidéo HLS/DASH, toutes les pistes audio nommées par langue | (26 October 2026, 12:02:37 +0100)
+> | Miniatures | URL jsDelivr publique pinnée sur un commit, jamais `/api/raw-proxy` ni `raw.githubusercontent.com` ; `scripts/CheckFilmPosters.mjs` vert avant d'annoncer un lot fini | (26 October 2026, 12:02:37 +0100)
+> | Écriture GitHub | un seul écrivain Git sur `zenray-data` pendant un lot ; au-delà de 100 fichiers, clone sparse puis commit et push, jamais l'API en boucle ; jamais de fetch en boucle sans cache ni voie hors quota | (26 October 2026, 12:02:37 +0100)
+> | Index et recherche | `build-search-index.mjs --apply` est réservé à Matthieu | (26 October 2026, 12:02:37 +0100)
+>
+> ## Références (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> - [references/UploadPolicies.md](references/UploadPolicies.md) : toutes les sections datées de politique d'upload, intégrales. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - [references/Upload.md](references/Upload.md) : ex-skill `zenray-upload`, vidéo privée chiffrée, hvc1, pipeline de base. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - [references/AssetsUpload.md](references/AssetsUpload.md) : ex-skill `zenray-assets-upload`, workflow de sous-titres. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - `scripts/PrepareSubtitleCopy.py`, `scripts/RestartFilmWorker.sh`, `scripts/route-method.mjs` : outils du worker. Relancer le worker uniquement par `RestartFilmWorker.sh [--wait-upload-end]`. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## Historique du skill zenrayprogress-context (conservé tel quel) (26 October 2026, 12:02:37 +0100)
+>
+> Work in `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress`. (26 October 2026, 12:02:37 +0100)
+>
+> 1. Read `docs/INDEX-ERREURS-FEATURES.md` first, then `CLAUDE.md` and the last relevant global entries with (26 October 2026, 12:02:37 +0100)
+>    `progress.mjs tail --project "ZenRayProgress" --count 3`. (26 October 2026, 12:02:37 +0100)
+> 2. Inspect `git status --short`; preserve unrelated changes. (26 October 2026, 12:02:37 +0100)
+> 3. Read the actual call sites and code for the requested feature with `rg`; do not rely on Memory or old plans when the repository differs. (26 October 2026, 12:02:37 +0100)
+> 4. Reuse existing helpers and validate the real flow (build, endpoint, or browser) before claiming success. (26 October 2026, 12:02:37 +0100)
+> 5. Journal the result only in `/Users/zenray/.claude/PROGRESS.md` through the `progress` skill. The repository's (26 October 2026, 12:02:37 +0100)
+>    former `PROGRESS.md` is legacy read-only until Matthieu validates its deletion. (26 October 2026, 12:02:37 +0100)
+>
+> ## Téléchargements ZIP, contrôle du 2026-09-03 (26 October 2026, 12:02:37 +0100)
+>
+> Réutiliser `src/lib/bulkZip.js` et `notifyProgress` dans `src/components/Notifications.jsx`. (26 October 2026, 12:02:37 +0100)
+> `runZipDownload` dans App relie la notification et le spinner Finder au même état réel. (26 October 2026, 12:02:37 +0100)
+> Le callback annonce lecture, écriture et finalisation ; 100 % attend la fermeture disque. (26 October 2026, 12:02:37 +0100)
+> Vérifier avec `npx vitest run src/lib/bulkZip.test.js src/components/Notifications.test.jsx` : (26 October 2026, 12:02:37 +0100)
+> archives relues, fermeture retardée, erreurs disque, annulation, repli Blob et notification persistante. (26 October 2026, 12:02:37 +0100)
+>
+> ## 11 October 2026 : Branche de production Cloudflare Pages (26 October 2026, 12:02:37 +0100)
+>
+> - 11 October 2026 : La production de `zenray-progress.pages.dev` se déploie avec `npx wrangler pages deploy dist --project-name zenray-progress --branch main` ; `--branch master` ne crée qu'un aperçu (`master.zenray-progress.pages.dev`). Contrôle : l'`index-*.js` servi par `https://zenray-progress.pages.dev/` doit être celui de `dist/index.html`. (11 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 11 October 2026 : Le panneau Assets lit le relais local `http://127.0.0.1:47831/activity` (`relay/activity-source.mjs`, LaunchAgent `com.zenray.journal-relay`) ; le navigateur intégré de l'agent ne peut pas le joindre, seul le Chrome du Mac le peut. (11 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 12 October 2026 : Miniatures de films et renommage propre avant upload (26 October 2026, 12:02:37 +0100)
+>
+> - 12 October 2026 : Un poster de film est TOUJOURS une URL jsDelivr publique pinnée sur un commit, jamais `/api/raw-proxy` ni `raw.githubusercontent.com` (la production n'a pas `ZENRAY_RAW_TOKEN`, les tuiles sortaient noires). Avant d'annoncer un lot de films fini : `node scripts/CheckFilmPosters.mjs --manifests <clone zenray-data>` doit être vert. Réparation : `scripts/RepairFilmPosters.mjs`. Les caches `localStorage` de poster sont versionnés (`zrposter2:`, `zrfthumb2:`, `zrvcard6:`) : changer la forme d'une URL d'image impose de bumper la clé. (26 October 2026, 12:02:37 +0100)
+> - 12 October 2026 : Tout upload de médias commence par `node scripts/MediaRename.mjs plan --root <dossier>`, un tableau Avant/Après présenté à Matthieu (sous-dossiers `Titre/Saison NN/` proposés), puis `apply --plan <plan.json> --approved` seulement après sa validation. Le nom local est le nom cloud, propre (`Under The Open Sky.mkv`, `Akane Banashi S01E12.mkv`). Nouveau lot : `ZR_REQUIRE_CLEAN_NAMES=1`. Après l'upload : index mapping puis `MediaRename.mjs check --upload-plan ReadyUploadPlan.json` vert. (26 October 2026, 12:02:37 +0100)
+> - 12 October 2026 : Avant de dépendre d'un secret serveur, le chercher dans `npx wrangler pages secret list --project-name zenray-progress` ; `server/raw-proxy.js` exige `ZENRAY_RAW_TOKEN`, qui n'y figure pas. (26 October 2026, 12:02:37 +0100)
+>
+> ## 12 October 2026 : Audio, sous-titres sans ré-upload, reçus et renommage du cloud (26 October 2026, 12:02:37 +0100)
+>
+> - 12 October 2026 : Piste audio = sa langue (`日本語`), jamais `audio_1` ; `scripts/RepairAudioNames.mjs` répare l'existant. Le menu Audio du lecteur est toujours visible. (26 October 2026, 12:02:37 +0100)
+> - 12 October 2026 : Un film déjà déchargé qui manque de sous-titres se complète par `scripts/AppendSubtitlesFromCloud.mjs` (restauration depuis le reçu cloud, extraction, ajout au manifeste), jamais par un ré-upload. À lancer depuis le dépôt principal, environ 2,3 Mo/s. (26 October 2026, 12:02:37 +0100)
+> - 12 October 2026 : Les reçus de récupération comparent `manifestRecoverySha256`, pas le manifeste entier. `RenameCloudMedia.mjs` renomme et range les films du cloud (manifestes et `.streams` ensemble, reçus mis à jour). (26 October 2026, 12:02:37 +0100)
+>
+> ## 14 October 2026 : décision streaming seul (code en attente de validation) (26 October 2026, 12:02:37 +0100)
+>
+> - 14 October 2026 : décision de Matthieu : tous les films et formats vidéo passent par le CMAF streamé seul, sans archive chiffrée de l'original ; toutes les pistes audio gardées avec un nom clair ; film transcodé accepté ; re-téléchargement en fichiers séparés (vidéo, audio au choix, sous-titres). Règle complète : `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`. Le tableau « Politiques en vigueur » plus haut décrit encore l'état AVANT cette décision (archive + CMAF) tant que le code n'est pas livré. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 14 October 2026 : etat final des envois de films (decision de Matthieu, plus de question) (26 October 2026, 12:02:37 +0100)
+>
+> - 14 October 2026 : streaming seul, toutes les pistes audio, TOUS les sous-titres dans le cloud (trop gros pour le manifeste = fichier texte dans le depot public des segments, `src` dans le manifeste). (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 14 October 2026 : plusieurs films en streaming = le worker : `ZR_ONLY_PLAN=<plan.json> ZR_UNLOAD_ROOTS=<dossier source> ZR_PROGRESS_REPO=<depot> python3 scripts/Films/ProcessFilmsSequentially.py` (StreamBatch.py est supprime) : prepare (CMAF local, `--stage-only`), publie des qu'un depot de 4,2 Gio est pret (`PublishStagedBatch.mjs`, pushes remplis a 1 900 Mio), sous-titres, preuve, dechargement automatique si la preuve est verte. Etat : `StreamBatchStatus.json` dans `~/.claude/tmp/tmp-movies-series-upload/`. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 14 October 2026 : tout envoi passe par `ProcessFilmsSequentially.py` ; aucun autre script d'envoi. Lecture : `src/lib/cdnFallbackLoader.js` (jsDelivr 3 s puis raw). En cas de doute l'agent tranche seul et le dit apres coup. Regle complete : `Memory1/Projects/zenray-progress/Rules.md`. (14 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 15 October 2026 : affinage du site, ce qui a changé et comment le livrer (15 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> - 15 October 2026 : Cmd/Ctrl+K est la palette UNIQUE de l'app, montée à la racine d'`App.jsx` (`src/components/SpotlightSearch.jsx`) : destinations de `NAV` d'abord, fichiers de l'index ensuite, depuis toutes les vues. Ne pas la remonter dans Create. (15 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 15 October 2026 : les demandes vers Create faites depuis une autre vue (note du jour, dossier, lecteur audio, YouTube, Spotify) passent par `poserDemandePages`, exportée de `src/create/Pages.jsx` : la boîte aux lettres vit à côté de `pagesMonte` et `demandePages`. L'ancienne copie dans `App.jsx` levait une ReferenceError et perdait la demande. (15 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 15 October 2026 : index de recherche : `refresh()` lit les 400 premiers octets de `delta.json` (22 Mo) par `peekDeltaBuiltAt`, et les shards déchiffrés sont réutilisés tant que seul le delta bouge (`loadShardBase`). Le delta se replie dans les shards par `build-search-index.mjs --apply`, réservé à Matthieu. (15 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 15 October 2026 : `Pages.jsx` : le sondage de l'arbre (25 s) saute le corps quand l'ETag n'a pas bougé ; les marqueurs de visibilité de dossier persistent dix minutes (`zr:folderVis:v1`) et un échec de lecture n'est JAMAIS mémorisé comme absence. (15 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 15 October 2026 : Freelance : lot de 3, 5, 10, 20 ou 50 ; « Ouvrir les N pages » ouvre les pages de candidature en onglets par le service local (`open-links`, https public seulement, 60 au plus), « Copier » met la lettre prête dans le presse-papiers, « Tout marquer fait » demande une confirmation ; un groupe de cartes affiche 72 fiches puis « Afficher plus ». Gallery : filtre texte qui ne change que l'affichage. (15 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 15 October 2026 : films : `ProcessFilmsSequentially.py` termine sous-titres, preuve et déchargement 4 films à la fois (`ZR_FINISH_FLOWS`) ; l'encodeur matériel VideoToolbox plafonne vers 20 fois le temps réel dès 2 flux, ne pas monter `ZR_PACKAGE_FLOWS` pour aller plus vite. (15 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 15 October 2026 : livrer = `~/.claude/tmp/tmp-zenray-refine-14oct/Scripts/Ship.sh [--restart-assets] [--restart-freelance] [--no-deploy]` depuis le worktree `~/.claude/tmp/tmp-zenray-refine-14oct/work` (rebase origin/main, suite complète, build, push, déploiement Pages, fast-forward du dépôt principal, vérification du bundle servi). Prévisualiser : `preview_start zenray-refine` (port 3300, Assets passif, vraie clé média). (15 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 16 October 2026 : Livraison et limites des processus de test (26 October 2026, 12:02:37 +0100)
+>
+> - Ship.sh accepte ZR_SHIP_TEST_WORKERS, défaut4 ; valeur1 pour une vérification globale sans concurrence entre fichiers lorsque les nettoyages des tests Assets rencontrent la charge. Le script conserve désormais le code d’échec avant d’afficher le rapport et de tenter sa relance ; set-e coupait auparavant ce chemin. Aucun échec n’autorise le déploiement. (16 October 2026) (26 October 2026, 12:02:37 +0100)
+> - Dans AssetsService.test.js, le nettoyage ferme les services avant de supprimer leurs dossiers temporaires ; l’attente d’un audit courant inclut aussi la disparition de son diagnostic périmé. Les assertions restent présentes et aucun comportement de production Assets n’est modifié par cette correction de tests. (16 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 16 October 2026 : vue Sport (Plan et note du jour) (26 October 2026, 12:02:37 +0100)
+>
+> - 16 October 2026 : la vue `sport` (menu Create, après Goals) tient la base d'exercices en tuiles, UNE carte Plan par jour (`sport-<date>`, `sport.entries` structuré et `note` lisible) et le bloc Sport de la note du jour entre `<!-- sport:start -->` et `<!-- sport:end -->`. Tout est dans `src/sport/`, `src/config/sport.js` et `docs/SPORT.md` du dépôt ZenRayProgress ; ajouter un exercice, une photo ou une valeur cliquable s'y décrit en trois lignes. (16 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 16 October 2026 : le plan actif se résout par réglage manuel `zr:sport:planPath`, puis premier plan épinglé, puis cache, puis chemin de repli ; un plan introuvable ou illisible n'est jamais traité comme vide. Déployé le 16 October 2026 ; la première écriture réelle dans le vrai Plan n'a PAS été exécutée (testée par 19 tests avec écritures simulées). (16 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+>
+> ## 19 October 2026 : Plan, pièces jointes Create et liens Calendar (26 October 2026, 12:02:37 +0100)
+>
+> - 19 October 2026 : le détail d'une tâche Plan accepte les fichiers originaux par `src/create/PlanAttachments.jsx` et `captureAttachment`, sous `pages/PlanAttachments/<task-id>` ; aucun texte converti ni vidéo transcodée. Les paramètres communs sont dans `src/create/planAttachments.js`. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : les liens `/api/attachment-download?share=…` utilisent le partage signé `kind=file`, permanent et révocable, ciblé sur un seul manifeste `.media.json`. Le retrait révoque le lien et conserve le fichier Create. Le serveur vérifie le jeton avant toute lecture puis déchiffre en flux ; la route Pages native conserve la pression du lecteur. Ne pas utiliser `/api/stream`, qui ne sert qu'une fenêtre de 4 Mio. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : les liens passent dans la description Google Calendar par `workers/plan-gcal/src/core.js`, y compris sur les événements importés modifiables sans tronquer leur description. Déployer Pages ET le Worker `workers/plan-gcal/wrangler.toml` ; valider les tests du composant, du téléchargement et de la synchronisation, puis télécharger un vrai fichier et comparer son SHA-256. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : correction Cloudflare du téléchargement : workerd impose `setAuthTag` AVANT `update`. Lire les 16 derniers octets par Range sur GitHub raw pinné, puis fournir ce tag avant le flux. Le Range jsDelivr peut viser le contenu compressé, donc ne pas y lire le tag. Contrôle local du vrai handler dans workerd : 7 299 017 octets exacts. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 19 October 2026 : limite et progression des pièces jointes Plan (26 October 2026, 12:02:37 +0100)
+>
+> - 19 October 2026 : limite explicite de l'ajout navigateur Plan : 95 Mio par fichier, issue de RAW_THRESHOLD dans src/config/chunkPolicy.js et configurée par src/config/attachmentPolicy.js. Les fichiers vides ou trop gros sont refusés avant tout réseau. Les sélections de 100 fichiers ou plus renvoient vers l'import Create en masse par Git. Il s'agit d'une limite produit Plan, pas de la limite des fichiers GitHub. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : l'ajout ponctuel conserve le moteur universalCapture, AES-GCM, les morceaux de stockage de 19 Mio, les fragments de transport de 3 Mio, le sémaphore API existant, les reprises et le rollover. La politique Git des lots de 1900 Mio s'applique aux transferts Git en masse, pas à cette API navigateur. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : progression par fragment de transport accepté, barre pondérée par la taille des fichiers, SpinnerApple existant, phase réelle et secondes écoulées. La création du lien et la sauvegarde Plan restent visibles ; 100 % attend une confirmation du drive. Réglages dans PLAN_UI.attachments. Tests : src/capture/captureAttachment.test.js, src/config/attachmentPolicy.test.js et src/create/PlanAttachments.test.jsx. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 19 October 2026 : Plan creation attachments and existing Create media (26 October 2026, 12:02:37 +0100)
+>
+> - 19 October 2026 : New goal and task details share PlanAttachments.jsx: visible file drop, Add attachments, From Create index search and direct manifest path. Existing Create media bypasses the 95 MiB new-upload cap because no binary is uploaded. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : linkCreateAttachment.js reads only the selected manifest with raw=1, creates a permanent revocable video/image viewer share for Calendar, or a file download for encrypted originals. The ordinary share expiry remains unchanged without permanent=true. Never send DASH/HLS manifests to the original-file download route. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+> - 19 October 2026 : Regression checks: PlanBoardAttachments.test.jsx covers real creation and persistence; linkCreateAttachment.test.js covers a 9 GB movie without reupload, original audio downloads and invalid drops; shareRecordGraphql.test.js covers viewer permanence and revocation. No Calendar Worker change is required when only viewer URLs replace download URLs. (19 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 20 October 2026 : articles intégrés à Assets, préparation locale (26 October 2026, 12:02:37 +0100)
+>
+> - Les projets qui déclarent `article.fileId` s’ouvrent sur Article avant Fichiers, en Classique et Tube. Les autres projets gardent leur comportement. `ProjectArticle.jsx` rend un HTML autonome dans une iframe isolée ; `assetsProjectArticle.js` porte la limite de lecture, les références et la politique de contenu. (20 October 2026) (26 October 2026, 12:02:37 +0100)
+> - Le début du HTML sert de miniature, transportée dans la référence compacte du catalogue ; aucun HTML complet n’est chargé pour la grille. Les fichiers HTML sélectionnés se lisent aussi directement dans l’aperçu Assets. (20 October 2026) (26 October 2026, 12:02:37 +0100)
+> - Le service accepte `preview-text` avec `format=html` et `set-article` : déployer le code puis recharger le daemon sans interrompre ses archives avant de publier un article. La commande de création et la validation du SHA se décrivent dans le skill zenray-edit, référence ProjectArticles.md. L’article UV-Match Height reste à valider avant publication. (20 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> - Livraison depuis un worktree : le build doit reprendre les variables VITE du dépôt principal ; sans .env.local, les paramètres Spotify disparaissent du bundle. Pour UV-Match Height, le build final est produit et déployé depuis le checkout principal propre à jour d’origin/main ; le bundle servi est comparé à son dist/index.html. Ne pas afficher les valeurs de configuration dans les logs. (20 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 20 October 2026 : collections ArtStation dans Design (26 October 2026, 12:02:37 +0100)
+>
+> - Import complet des collections, couvertures, images et aperçus vidéo/3D : lire [references/ArtstationCollections.md](references/ArtstationCollections.md), puis réutiliser les scripts et preuves de l'atelier existant. Les cookies restent en mémoire, les fichiers passent par le moteur Git existant, et la vérification compare chaque identité d'image avant l'ouverture de Design. (20 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+> ## 23 October 2026 : sous-skill zenray-plan (26 October 2026, 12:02:37 +0100)
+>
+> - 23 October 2026 : tout ce qui touche ZenRay Plan (agenda, tâches, séries, heures, tuiles) passe par le sous-skill `zenray-calendar-plan` (`/Users/zenray/.claude/skills/zenray-calendar-plan/SKILL.md`, outil `scripts/PlanTool.mjs`, projet Assets `zenray-calendar-plan-23-october-2026`). `zenray-plan-publish` en est le mode publication. (23 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+>
+> ARGUMENTS: pousser l'app ZenRay Dictate, ses images et sa miniature de projet (covers) dans ZenRay Assets / cloud (26 October 2026, 12:02:37 +0100)
+
+## 26 October 2026, 12:02:37 +0100 : Prompt
+
+<!-- feedback-event:a3c100eb8eb4d3702200f8881a0831c92b1a13d7951615d58219eceb67892708 (26 October 2026, 12:02:37 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:02:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:02:37 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/ctrl-s (26 October 2026, 12:02:37 +0100)
+>
+> # Ctrl-S (26 October 2026, 12:02:37 +0100)
+>
+> Le geste répond à une seule question : (26 October 2026, 12:02:37 +0100)
+>
+> > Où faut-il écrire ce que nous venons d'apprendre pour que cela serve encore dans six mois ? (26 October 2026, 12:02:37 +0100)
+>
+> La réponse comporte parfois deux écritures, dont les rôles ne se doublonnent jamais : (26 October 2026, 12:02:37 +0100)
+>
+> - le fichier `*1.md` garde la connaissance durable du projet ; (26 October 2026, 12:02:37 +0100)
+> - `/Users/zenray/.claude/PROGRESS.md` garde la trace datée de l'action et pointe vers cette source. (26 October 2026, 12:02:37 +0100)
+>
+> ## Architecture canonique (26 October 2026, 12:02:37 +0100)
+>
+> | Question | Source unique | (26 October 2026, 12:02:37 +0100)
+> |---|---| (26 October 2026, 12:02:37 +0100)
+> | Quand, quoi, quel agent, quelle preuve, quelle suite ? | `~/.claude/PROGRESS.md` via le skill `progress` | (26 October 2026, 12:02:37 +0100)
+> | Que sait durablement un projet ou un domaine ? | `Memory/<domaine>/<Nom>1.md` | (26 October 2026, 12:02:37 +0100)
+> | Comment retrouver une section dans un gros fichier ? | skill routeur de contexte | (26 October 2026, 12:02:37 +0100)
+> | Quelle méthode réutiliser ? | `~/.claude/skills/<méthode>/` | (26 October 2026, 12:02:37 +0100)
+> | Quelle loi vaut encore demain ? | `CLAUDE.md` global ou du projet | (26 October 2026, 12:02:37 +0100)
+> | Pourquoi cette ligne de code surprenante existe-t-elle ? | commentaire au point exact | (26 October 2026, 12:02:37 +0100)
+> | Quel plan ou état de chantier détaillé reprendre ? | fichier dédié dans le projet | (26 October 2026, 12:02:37 +0100)
+> | Où vit un secret ? | section autorisée de `Identity/Matthieu1.md`, jamais ailleurs | (26 October 2026, 12:02:37 +0100)
+>
+> Une information, un seul endroit. Le journal cite la source durable ; il n'en recopie pas le contenu. (26 October 2026, 12:02:37 +0100)
+>
+> ## Arbre de décision (26 October 2026, 12:02:37 +0100)
+>
+> 1. **Secret** : utiliser seulement la valeur nécessaire depuis `Identity/Matthieu1.md`. Ne jamais l'afficher, (26 October 2026, 12:02:37 +0100)
+>    la journaliser ni la mettre dans un commit. (26 October 2026, 12:02:37 +0100)
+> 2. **Connaissance durable d'un projet ou de Matthieu** : trouver son `*1.md` avec le routeur correspondant, (26 October 2026, 12:02:37 +0100)
+>    puis ajouter une section datée sans effacer l'historique. (26 October 2026, 12:02:37 +0100)
+> 3. **Méthode réutilisable** : créer ou corriger le skill source dans `~/.claude/skills/`, puis le synchroniser. (26 October 2026, 12:02:37 +0100)
+> 4. **Loi transversale** : modifier `~/.claude/CLAUDE.md`. Une loi propre à un dépôt va dans son `CLAUDE.md`. (26 October 2026, 12:02:37 +0100)
+> 5. **Cause locale d'un code surprenant** : commenter au point exact, avec symptôme, cause, fausse piste et risque. (26 October 2026, 12:02:37 +0100)
+> 6. **Plan ou chantier long** : utiliser `KANBAN.md`, `PROTOCOLE.md`, `docs/<sujet>-design.md` ou le fichier déjà (26 October 2026, 12:02:37 +0100)
+>    en vigueur dans le projet. (26 October 2026, 12:02:37 +0100)
+> 7. **Chronologie** : appeler le skill `progress` dans tous les cas notables, avec un pointeur vers la source (26 October 2026, 12:02:37 +0100)
+>    durable quand les étapes précédentes ont écrit ailleurs. (26 October 2026, 12:02:37 +0100)
+>
+> ## Bases Memory (26 October 2026, 12:02:37 +0100)
+>
+> Les gros fichiers restent entiers. Un skill court sert d'index dynamique et ne charge que la section utile. (26 October 2026, 12:02:37 +0100)
+>
+> - `matthieu-context` route vers `/Users/zenray/.claude/Memory1/Identity/Matthieu1.md` ; (26 October 2026, 12:02:37 +0100)
+> - `japanese-context` route vers `/Users/zenray/.claude/Memory1/Japanese/Japanese1.md` ; (26 October 2026, 12:02:37 +0100)
+> - `zenrayshards-context` route vers `/Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md` ; (26 October 2026, 12:02:37 +0100)
+> - les autres domaines suivent le même contrat, par exemple `Design/Design1.md`, `Houdini/Houdini1.md`, (26 October 2026, 12:02:37 +0100)
+>   `UnrealEngine/UnrealEngine1.md`, `AudioProductions/Audio1.md`. (26 October 2026, 12:02:37 +0100)
+>
+> Avant d'écrire, chercher les titres avec `rg -n '^#{1,4} '` et la notion avec `rg -n -i '<termes>'`. Ajouter (26 October 2026, 12:02:37 +0100)
+> dans la section concernée avec la date. Une correction nouvelle annule explicitement l'ancienne sans l'effacer. (26 October 2026, 12:02:37 +0100)
+>
+> Un fait ne va dans un `*1.md` que s'il change ce que le projet saura encore dans six mois. Une simple commande (26 October 2026, 12:02:37 +0100)
+> exécutée, un build vert ou une étape intermédiaire restent dans le journal global. (26 October 2026, 12:02:37 +0100)
+>
+> ## Journal global (26 October 2026, 12:02:37 +0100)
+>
+> Ne jamais créer ni compléter un `PROGRESS.md` dans le projet courant. Appeler : (26 October 2026, 12:02:37 +0100)
+>
+> ```zsh (26 October 2026, 12:02:37 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append \ (26 October 2026, 12:02:37 +0100)
+>   --project "Nom du projet" \ (26 October 2026, 12:02:37 +0100)
+>   --fait "Résultat factuel" \ (26 October 2026, 12:02:37 +0100)
+>   --verifie "Preuve réelle" \ (26 October 2026, 12:02:37 +0100)
+>   --source-durable "/chemin/vers/Projet1.md" \ (26 October 2026, 12:02:37 +0100)
+>   --prochain "Action suivante" (26 October 2026, 12:02:37 +0100)
+> ``` (26 October 2026, 12:02:37 +0100)
+>
+> Champs disponibles : `Mesuré`, `Décision`, `Échoué`, `Écarté`, `Apprentissage`, `Vérifié`, `Source durable`, (26 October 2026, 12:02:37 +0100)
+> `Prochain`, `Blocage`. `Fait` est obligatoire. Un chiffre porte son unité, sa méthode et sa date. (26 October 2026, 12:02:37 +0100)
+>
+> Le script `progress` est obligatoire parce que deux instances, Claude Code et Codex, peuvent écrire au même (26 October 2026, 12:02:37 +0100)
+> instant. Il verrouille l'append, relève l'agent et le modèle depuis l'hôte et masque les secrets. Ne jamais (26 October 2026, 12:02:37 +0100)
+> pré-rédiger un résultat avant la commande qui le prouve. (26 October 2026, 12:02:37 +0100)
+>
+> ## Agent et modèle (26 October 2026, 12:02:37 +0100)
+>
+> L'infrastructure se déduit de l'hôte, jamais d'une introspection du modèle : (26 October 2026, 12:02:37 +0100)
+>
+> - session avec métadonnées Codex : `Codex Desktop`, modèle et effort lus dans le dernier `turn_context` ; (26 October 2026, 12:02:37 +0100)
+> - session Claude Code : `Claude Code Desktop`, modèle lu dans les métadonnées ou le transcript seulement s'il (26 October 2026, 12:02:37 +0100)
+>   y apparaît ; (26 October 2026, 12:02:37 +0100)
+> - donnée absente : écrire `non exposé par l'hôte`. (26 October 2026, 12:02:37 +0100)
+>
+> Les noms configurés ou attendus ne deviennent pas automatiquement le modèle de la session, car une sélection (26 October 2026, 12:02:37 +0100)
+> dans l'interface ou une option de lancement peut les surcharger. (26 October 2026, 12:02:37 +0100)
+>
+> ## Reprise (26 October 2026, 12:02:37 +0100)
+>
+> Au début d'une session, lire trois entrées, éventuellement filtrées par projet : (26 October 2026, 12:02:37 +0100)
+>
+> ```zsh (26 October 2026, 12:02:37 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --count 3 (26 October 2026, 12:02:37 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --project "ZenRayShards" --count 3 (26 October 2026, 12:02:37 +0100)
+> ``` (26 October 2026, 12:02:37 +0100)
+>
+> Résumer ces trois entrées en trois lignes maximum et annoncer la dernière action `Prochain`. Ne jamais charger (26 October 2026, 12:02:37 +0100)
+> le journal entier pour une reprise ordinaire ; le détail vient ensuite du skill routeur et du `*1.md` concerné. (26 October 2026, 12:02:37 +0100)
+>
+> ## Journaux legacy (26 October 2026, 12:02:37 +0100)
+>
+> Les sept anciens `PROGRESS.md` sont retirés le 2026-08-22 après audit complet et validation explicite. Ne jamais (26 October 2026, 12:02:37 +0100)
+> les recréer. Si un autre journal legacy est découvert, le skill `progress` l’importe de façon idempotente dans (26 October 2026, 12:02:37 +0100)
+> le global, masque les secrets dans la copie et conserve son chemin et sa ligne avant toute suppression autorisée. (26 October 2026, 12:02:37 +0100)
+>
+> ## Déclencheurs (26 October 2026, 12:02:37 +0100)
+>
+> Sauvegarder automatiquement lorsqu'une tâche significative finit, qu'une décision se tranche, qu'une mesure (26 October 2026, 12:02:37 +0100)
+> produit un chiffre, qu'une piste échoue ou s'écarte, qu'un blocage apparaît ou se lève, qu'un fichier important (26 October 2026, 12:02:37 +0100)
+> change de rôle, qu'un agent rend un résultat, que le contexte va se compacter, ou que Matthieu marque une pause. (26 October 2026, 12:02:37 +0100)
+>
+> Ne rien sauvegarder quand l'état se reconstruit en trois secondes, qu'aucune décision n'en dépend et qu'aucune (26 October 2026, 12:02:37 +0100)
+> session future n'en bénéficiera. Écrire trop enterre autant qu'écrire au mauvais endroit. (26 October 2026, 12:02:37 +0100)
+>
+> ## Le cas japonais — ce qu'un Ctrl-S doit produire pour que la leçon apparaisse sur le site (26 October 2026, 12:02:37 +0100)
+>
+> Depuis le 2026-08-27, une leçon japonaise n'est plus seulement archivée : elle est **affichée**, par la vue (26 October 2026, 12:02:37 +0100)
+> ZenRayJapanese de ZenRayProgress (zone Learn, nav Japanese). Cette vue ne lit rien d'autre que ce que le Ctrl-S (26 October 2026, 12:02:37 +0100)
+> écrit, si bien qu'une leçon mal rangée ne disparaît pas, elle devient invisible, ce qui est pire. (26 October 2026, 12:02:37 +0100)
+>
+> La règle d'or reste la même : **une information, un seul endroit**. `Memory/Japanese/Japanese1.md` demeure la (26 October 2026, 12:02:37 +0100)
+> source unique et append-only ; `Memory/Japanese/Site/japanese.json` n'en est que l'index dérivé, produit par un (26 October 2026, 12:02:37 +0100)
+> script, jamais écrit à la main. Modifier l'index sans modifier le corpus fabrique une seconde vérité qui sera (26 October 2026, 12:02:37 +0100)
+> écrasée à la première régénération. (26 October 2026, 12:02:37 +0100)
+>
+> ### Le routage, section par section (26 October 2026, 12:02:37 +0100)
+>
+> La vue possède quatre sections, et chacune se remplit par une FORME d'écriture précise dans le corpus. Écrire (26 October 2026, 12:02:37 +0100)
+> la bonne chose sous la mauvaise forme la range dans le carnet papier plutôt que sur le site. (26 October 2026, 12:02:37 +0100)
+>
+> | Ce qu'on vient d'enseigner | La forme à écrire dans `Japanese1.md` | Où cela apparaît | (26 October 2026, 12:02:37 +0100)
+> |---|---|---| (26 October 2026, 12:02:37 +0100)
+> | Une leçon entière | un titre `## L<n> — <AAAA-MM-JJ> — <titre>` | onglet **Leçons**, une carte | (26 October 2026, 12:02:37 +0100)
+> | Un point de grammaire | un titre `### Grammaire — ~point` **ou** une ligne de tableau `\| Point \| Sens \|` | onglet **Grammaire** | (26 October 2026, 12:02:37 +0100)
+> | Du vocabulaire | un tableau à deux colonnes `\| Mot \| Sens \|` | onglet **Vocabulaire** | (26 October 2026, 12:02:37 +0100)
+> | Un kanji | une fiche `Lessons/KanjiCards/<plage>/NNN 漢 Kun On.html` | onglet **Kanji** | (26 October 2026, 12:02:37 +0100)
+> | Un nouvel état chiffré | la ligne `### État mesuré au <AAAA-MM-JJ>` puis sa phrase `N5 : x% enseigné, ~y% consolidé. N4 : …` | la **jauge** en tête | (26 October 2026, 12:02:37 +0100)
+>
+> Trois pièges, tous payés au moins une fois : (26 October 2026, 12:02:37 +0100)
+>
+> Le vocabulaire dicté en prose (« il a recopié はし, みず, えき ») n'atteint JAMAIS le site : seul un tableau est (26 October 2026, 12:02:37 +0100)
+> lu. C'est exactement l'écart que la vue affiche elle-même sous la jauge, trois cent douze mots tabulés contre (26 October 2026, 12:02:37 +0100)
+> sept cents comptés, et cet écart est de la matière perdue, pas une imprécision d'affichage. (26 October 2026, 12:02:37 +0100)
+>
+> Un tableau d'exercice (`\| # \| Question \| Réponse Matthieu \| Verdict \|`) est délibérément écarté du (26 October 2026, 12:02:37 +0100)
+> vocabulaire : y ranger un mot nouveau revient à le cacher. (26 October 2026, 12:02:37 +0100)
+>
+> La jauge n'est jamais calculée, elle est RELUE. Tant que la ligne « État mesuré au … » n'est pas mise à jour, (26 October 2026, 12:02:37 +0100)
+> les pourcentages du site restent ceux du dernier comptage, quelle que soit la quantité de leçons ajoutées (26 October 2026, 12:02:37 +0100)
+> depuis. C'est voulu : le corpus distingue **enseigné** et **consolidé**, et seul un drill réel produit le second. (26 October 2026, 12:02:37 +0100)
+>
+> ### La séquence, dans l'ordre (26 October 2026, 12:02:37 +0100)
+>
+> ```zsh (26 October 2026, 12:02:37 +0100)
+> # 1. la leçon s'ajoute au corpus, en append, jamais en réécriture (26 October 2026, 12:02:37 +0100)
+> #    (édition de /Users/zenray/.claude/Memory1/Japanese/Japanese1.md) (26 October 2026, 12:02:37 +0100)
+>
+> # 2. l'index se régénère depuis le corpus (26 October 2026, 12:02:37 +0100)
+> cd /Users/zenray/.claude/Memory1/Japanese (26 October 2026, 12:02:37 +0100)
+> python3 Scripts/build-japanese-index.py (26 October 2026, 12:02:37 +0100)
+>
+> # 3. le contrôle échoue si l'index et le corpus divergent (26 October 2026, 12:02:37 +0100)
+> python3 Scripts/build-japanese-index.py --verify (26 October 2026, 12:02:37 +0100)
+>
+> # 4. publication (26 October 2026, 12:02:37 +0100)
+> cd /Users/zenray/.claude/Memory1 (26 October 2026, 12:02:37 +0100)
+> git add -- Japanese/Japanese1.md Japanese/Site/japanese.json (26 October 2026, 12:02:37 +0100)
+> git commit -m "japonais : L<n> — <titre>" && git push (26 October 2026, 12:02:37 +0100)
+> ``` (26 October 2026, 12:02:37 +0100)
+>
+> Le site lit ensuite le dépôt Memory par son API. Compter jusqu'à cinq minutes de cache CDN avant que la (26 October 2026, 12:02:37 +0100)
+> nouvelle leçon n'apparaisse : un rechargement immédiat qui montre l'ancien compte n'est pas une panne, et (26 October 2026, 12:02:37 +0100)
+> l'écart se vérifie en interrogeant l'API plutôt qu'en rechargeant la page en boucle. (26 October 2026, 12:02:37 +0100)
+>
+> ### Ce qui reste interdit (26 October 2026, 12:02:37 +0100)
+>
+> La vue est en **lecture seule**, et c'est une décision, pas une limite technique : un journal append-only qu'on (26 October 2026, 12:02:37 +0100)
+> pourrait retoucher depuis une page web cesserait de dire ce qu'on croyait à l'époque, ce qui est justement ce (26 October 2026, 12:02:37 +0100)
+> qu'on vient y chercher. Une correction s'écrit donc comme une nouvelle entrée qui cite l'ancienne, jamais comme (26 October 2026, 12:02:37 +0100)
+> une réécriture, exactement comme dans le journal global. (26 October 2026, 12:02:37 +0100)
+>
+> ## Contrôle avant de rendre (26 October 2026, 12:02:37 +0100)
+>
+> 1. La connaissance durable se trouve dans un seul `*1.md`. (26 October 2026, 12:02:37 +0100)
+> 2. La chronologie se trouve uniquement dans le global. (26 October 2026, 12:02:37 +0100)
+> 3. Toute mesure a une preuve ; toute hypothèse porte son incertitude. (26 October 2026, 12:02:37 +0100)
+> 4. Les échecs et les options écartées disent pourquoi. (26 October 2026, 12:02:37 +0100)
+> 5. `Prochain` est une action unique avec le chemin utile. (26 October 2026, 12:02:37 +0100)
+> 6. Aucun secret n'apparaît. (26 October 2026, 12:02:37 +0100)
+> 7. Les modifications sont commitées dans leur dépôt source. (26 October 2026, 12:02:37 +0100)
+>
+> Le test final tient en une phrase : la session suivante peut-elle reprendre sans relire cette conversation ? (26 October 2026, 12:02:37 +0100)
+>
+> ## 23 October 2026 : consigner, c'est aussi l'article et le cloud (26 October 2026, 12:02:37 +0100)
+>
+> - Mots de Matthieu (23 October 2026) : « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». Un Ctrl-S sur un skill qui a `ARTICLE.json` passe par `sync-skill.sh` (article reconstruit et publié), puis `refresh-skill-article.mjs <skill> --check` vert, puis commit et push de `~/.claude` (chemins explicites) et de Memory1. Rien n'est « consigné » tant que l'article dit autre chose que le skill. (23 October 2026) (26 October 2026, 12:02:37 +0100)
+>
+>
+> ARGUMENTS: fin de chantier ZenRay Dictate 3.15 : sauvegarder au bon endroit (26 October 2026, 12:02:37 +0100)
+
+## 26 October 2026, 12:02:42 +0100 : Prompt
+
+<!-- feedback-event:f8dd72dc696bd8647050600c5cf5d5f2b4be5d3ccda4c62890df7318ef097922 (26 October 2026, 12:02:42 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:02:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:02:42 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-progress (26 October 2026, 12:02:42 +0100)
+>
+> # ZenRay Progress (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> Ce skill est le seul point d'entrée du site ZenRayProgress : son code, son interface, la vue Create et TOUTES les politiques de drive et d'upload. Il s'appelait `zenrayprogress-context` jusqu'au 14 October 2026 ; ce nom n'existe plus. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## Ne pas confondre avec zenray-assets (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> | Demande | Skill | Pourquoi | (26 October 2026, 12:02:42 +0100)
+> |---|---|---| (26 October 2026, 12:02:42 +0100)
+> | Envoyer, uploader, streamer un film, un épisode, une photo, un son vers le drive | `zenray-progress` | c'est la bibliothèque (vue Create) | (26 October 2026, 12:02:42 +0100)
+> | Politique de push GitHub, dépôts d'archive, CMAF, sous-titres, miniatures, noms, dossiers Anime/Movies/Series/Documentaries | `zenray-progress` | politiques du drive | (26 October 2026, 12:02:42 +0100)
+> | Code, UI, déploiement, bugs du site (Create, Assets, Plan, Media...) | `zenray-progress` | c'est le dépôt ZenRayProgress | (26 October 2026, 12:02:42 +0100)
+> | Charger, décharger, restaurer une copie locale ; archiver un projet de production ; mapping, FEEDBACK.md, Rules.md, conversations, FileMap, panneau macOS | `zenray-assets` | c'est le service Assets et ses projets | (26 October 2026, 12:02:42 +0100)
+>
+> - Un film ou une photo est un objet de la bibliothèque Create : ce n'est JAMAIS un projet Assets. Un projet Assets est un chantier de production (Houdini, Unreal, TMP) archivé par le service. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - L'onglet « Assets » du site est de l'interface : son code se modifie ici ; le moteur qui archive et restaure appartient à `zenray-assets`. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - Le verbe tranche, jamais un nom de dossier : `envoie / upload / streaming` = ce skill ; `charge / décharge / restaure / archive le projet` = `zenray-assets`. Commande : `node ~/.claude/skills/zenray-progress/scripts/route-method.mjs "<la phrase>"`, qui rend UNE méthode ou « AUCUNE METHODE » (alors poser la question). (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## Commencer un travail sur le site (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> Travailler dans `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress` (ou un checkout propre à jour d'`origin/main`). (26 October 2026, 12:02:42 +0100)
+>
+> 1. Lire `docs/INDEX-ERREURS-FEATURES.md` d'abord, puis `CLAUDE.md` et les dernières entrées utiles avec `progress.mjs tail --project "ZenRayProgress" --count 3`. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> 2. Inspecter `git status --short` ; conserver les changements des autres. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> 3. Lire les vrais appelants avec `rg` ; ne pas se fier à la mémoire ou à de vieux plans quand le dépôt diffère. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> 4. Réutiliser les helpers existants et valider le vrai flux (build, endpoint, navigateur) avant d'annoncer un succès. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> 5. Journaliser dans `/Users/zenray/.claude/PROGRESS.md` par le skill `progress` seulement. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> 6. Déployer : `npx vite build && npx wrangler pages deploy dist --project-name zenray-progress --branch main`, depuis un arbre propre d'origin/main ; contrôle : l'`index-*.js` servi est celui de `dist/index.html`. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## Politiques de drive et d'upload en vigueur (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> Valeurs courantes ; le détail daté et les corrections sont dans [references/UploadPolicies.md](references/UploadPolicies.md), les règles épinglées dans `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`, les incidents dans `docs/INDEX-ERREURS-FEATURES.md`. Le code fait foi des chiffres : `scripts/lib/push-batch-policy.mjs`, `scripts/lib/repo-create-policy.mjs`. (26 October 2026, 12:02:42 +0100)
+>
+> | Sujet | Règle | (26 October 2026, 12:02:42 +0100)
+> |---|---| (26 October 2026, 12:02:42 +0100)
+> | Une entrée | un film ou un épisode part par UN worker, `ZR_ONLY_PLAN=<plan.json> ZR_PROGRESS_REPO=<checkout propre> python3 ~/.claude/tmp/tmp-movies-series-upload/Scripts/ProcessFilmsSequentially.py` : archive chiffrée, CMAF, sous-titres, preuve, déchargement. `upload-mapped-git.mjs` seul (archive sans CMAF) ne suffit jamais | (26 October 2026, 12:02:42 +0100)
+> | Dossier cloud | `pages/Anime_Movies_Series_Documentaries/{Anime,Movies,Series,Documentaries}`, décidé AVANT l'envoi par `scripts/Films/WorkCategories.json` ; oeuvre inconnue = refusée, on demande à Matthieu puis on l'ajoute à la table ; une oeuvre n'a qu'un dossier | (26 October 2026, 12:02:42 +0100)
+> | Noms | nom local propre = nom cloud, `MediaRename.mjs plan` validé par Matthieu avant l'upload | (26 October 2026, 12:02:42 +0100)
+> | Taille d'un push | 1 900 Mio, soit 20 parts de 95 Mio, dimensionnée par la ligne mesurée ; échecs comptés par lot, 3 échecs retombent à 190 Mio puis remontée 2, 4, 8, 12, 16, 20 après 3 réussites ; jamais deux pushes simultanés vers un dépôt | (26 October 2026, 12:02:42 +0100)
+> | Dépôts | archive de film 4 096 Mio (43 parts) ; archive de dossier 2 048 Mio ; réutilisation d'un dépôt par voie, créations espacées de 120 s, 12 par heure au plus (24 si le volume l'exige) ; un blocage GitHub 403 divise le budget par deux | (26 October 2026, 12:02:42 +0100)
+> | Preuve avant de décharger | preuve par identité d'objets (manifeste en ligne, noms et blobs, une vraie part relue), pas de relecture complète sauf échec ; déchargement refusé sans `master` et `mpd` (sauf `"cmaf": false` explicite) et sans affiche publique | (26 October 2026, 12:02:42 +0100)
+> | CMAF | copie directe d'abord, sinon transcodage 4K 16, 8, 4, 2 Mbit/s et autre source 8, 4, 2 ; chaque segment sous 19 Mio ; `hvc1` pour tout HEVC | (26 October 2026, 12:02:42 +0100)
+> | Streaming | sous-titres obligatoires pour toute vidéo HLS/DASH, toutes les pistes audio nommées par langue | (26 October 2026, 12:02:42 +0100)
+> | Miniatures | URL jsDelivr publique pinnée sur un commit, jamais `/api/raw-proxy` ni `raw.githubusercontent.com` ; `scripts/CheckFilmPosters.mjs` vert avant d'annoncer un lot fini | (26 October 2026, 12:02:42 +0100)
+> | Écriture GitHub | un seul écrivain Git sur `zenray-data` pendant un lot ; au-delà de 100 fichiers, clone sparse puis commit et push, jamais l'API en boucle ; jamais de fetch en boucle sans cache ni voie hors quota | (26 October 2026, 12:02:42 +0100)
+> | Index et recherche | `build-search-index.mjs --apply` est réservé à Matthieu | (26 October 2026, 12:02:42 +0100)
+>
+> ## Références (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> - [references/UploadPolicies.md](references/UploadPolicies.md) : toutes les sections datées de politique d'upload, intégrales. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - [references/Upload.md](references/Upload.md) : ex-skill `zenray-upload`, vidéo privée chiffrée, hvc1, pipeline de base. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - [references/AssetsUpload.md](references/AssetsUpload.md) : ex-skill `zenray-assets-upload`, workflow de sous-titres. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - `scripts/PrepareSubtitleCopy.py`, `scripts/RestartFilmWorker.sh`, `scripts/route-method.mjs` : outils du worker. Relancer le worker uniquement par `RestartFilmWorker.sh [--wait-upload-end]`. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## Historique du skill zenrayprogress-context (conservé tel quel) (26 October 2026, 12:02:42 +0100)
+>
+> Work in `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress`. (26 October 2026, 12:02:42 +0100)
+>
+> 1. Read `docs/INDEX-ERREURS-FEATURES.md` first, then `CLAUDE.md` and the last relevant global entries with (26 October 2026, 12:02:42 +0100)
+>    `progress.mjs tail --project "ZenRayProgress" --count 3`. (26 October 2026, 12:02:42 +0100)
+> 2. Inspect `git status --short`; preserve unrelated changes. (26 October 2026, 12:02:42 +0100)
+> 3. Read the actual call sites and code for the requested feature with `rg`; do not rely on Memory or old plans when the repository differs. (26 October 2026, 12:02:42 +0100)
+> 4. Reuse existing helpers and validate the real flow (build, endpoint, or browser) before claiming success. (26 October 2026, 12:02:42 +0100)
+> 5. Journal the result only in `/Users/zenray/.claude/PROGRESS.md` through the `progress` skill. The repository's (26 October 2026, 12:02:42 +0100)
+>    former `PROGRESS.md` is legacy read-only until Matthieu validates its deletion. (26 October 2026, 12:02:42 +0100)
+>
+> ## Téléchargements ZIP, contrôle du 2026-09-03 (26 October 2026, 12:02:42 +0100)
+>
+> Réutiliser `src/lib/bulkZip.js` et `notifyProgress` dans `src/components/Notifications.jsx`. (26 October 2026, 12:02:42 +0100)
+> `runZipDownload` dans App relie la notification et le spinner Finder au même état réel. (26 October 2026, 12:02:42 +0100)
+> Le callback annonce lecture, écriture et finalisation ; 100 % attend la fermeture disque. (26 October 2026, 12:02:42 +0100)
+> Vérifier avec `npx vitest run src/lib/bulkZip.test.js src/components/Notifications.test.jsx` : (26 October 2026, 12:02:42 +0100)
+> archives relues, fermeture retardée, erreurs disque, annulation, repli Blob et notification persistante. (26 October 2026, 12:02:42 +0100)
+>
+> ## 11 October 2026 : Branche de production Cloudflare Pages (26 October 2026, 12:02:42 +0100)
+>
+> - 11 October 2026 : La production de `zenray-progress.pages.dev` se déploie avec `npx wrangler pages deploy dist --project-name zenray-progress --branch main` ; `--branch master` ne crée qu'un aperçu (`master.zenray-progress.pages.dev`). Contrôle : l'`index-*.js` servi par `https://zenray-progress.pages.dev/` doit être celui de `dist/index.html`. (11 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 11 October 2026 : Le panneau Assets lit le relais local `http://127.0.0.1:47831/activity` (`relay/activity-source.mjs`, LaunchAgent `com.zenray.journal-relay`) ; le navigateur intégré de l'agent ne peut pas le joindre, seul le Chrome du Mac le peut. (11 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 12 October 2026 : Miniatures de films et renommage propre avant upload (26 October 2026, 12:02:42 +0100)
+>
+> - 12 October 2026 : Un poster de film est TOUJOURS une URL jsDelivr publique pinnée sur un commit, jamais `/api/raw-proxy` ni `raw.githubusercontent.com` (la production n'a pas `ZENRAY_RAW_TOKEN`, les tuiles sortaient noires). Avant d'annoncer un lot de films fini : `node scripts/CheckFilmPosters.mjs --manifests <clone zenray-data>` doit être vert. Réparation : `scripts/RepairFilmPosters.mjs`. Les caches `localStorage` de poster sont versionnés (`zrposter2:`, `zrfthumb2:`, `zrvcard6:`) : changer la forme d'une URL d'image impose de bumper la clé. (26 October 2026, 12:02:42 +0100)
+> - 12 October 2026 : Tout upload de médias commence par `node scripts/MediaRename.mjs plan --root <dossier>`, un tableau Avant/Après présenté à Matthieu (sous-dossiers `Titre/Saison NN/` proposés), puis `apply --plan <plan.json> --approved` seulement après sa validation. Le nom local est le nom cloud, propre (`Under The Open Sky.mkv`, `Akane Banashi S01E12.mkv`). Nouveau lot : `ZR_REQUIRE_CLEAN_NAMES=1`. Après l'upload : index mapping puis `MediaRename.mjs check --upload-plan ReadyUploadPlan.json` vert. (26 October 2026, 12:02:42 +0100)
+> - 12 October 2026 : Avant de dépendre d'un secret serveur, le chercher dans `npx wrangler pages secret list --project-name zenray-progress` ; `server/raw-proxy.js` exige `ZENRAY_RAW_TOKEN`, qui n'y figure pas. (26 October 2026, 12:02:42 +0100)
+>
+> ## 12 October 2026 : Audio, sous-titres sans ré-upload, reçus et renommage du cloud (26 October 2026, 12:02:42 +0100)
+>
+> - 12 October 2026 : Piste audio = sa langue (`日本語`), jamais `audio_1` ; `scripts/RepairAudioNames.mjs` répare l'existant. Le menu Audio du lecteur est toujours visible. (26 October 2026, 12:02:42 +0100)
+> - 12 October 2026 : Un film déjà déchargé qui manque de sous-titres se complète par `scripts/AppendSubtitlesFromCloud.mjs` (restauration depuis le reçu cloud, extraction, ajout au manifeste), jamais par un ré-upload. À lancer depuis le dépôt principal, environ 2,3 Mo/s. (26 October 2026, 12:02:42 +0100)
+> - 12 October 2026 : Les reçus de récupération comparent `manifestRecoverySha256`, pas le manifeste entier. `RenameCloudMedia.mjs` renomme et range les films du cloud (manifestes et `.streams` ensemble, reçus mis à jour). (26 October 2026, 12:02:42 +0100)
+>
+> ## 14 October 2026 : décision streaming seul (code en attente de validation) (26 October 2026, 12:02:42 +0100)
+>
+> - 14 October 2026 : décision de Matthieu : tous les films et formats vidéo passent par le CMAF streamé seul, sans archive chiffrée de l'original ; toutes les pistes audio gardées avec un nom clair ; film transcodé accepté ; re-téléchargement en fichiers séparés (vidéo, audio au choix, sous-titres). Règle complète : `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`. Le tableau « Politiques en vigueur » plus haut décrit encore l'état AVANT cette décision (archive + CMAF) tant que le code n'est pas livré. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 14 October 2026 : etat final des envois de films (decision de Matthieu, plus de question) (26 October 2026, 12:02:42 +0100)
+>
+> - 14 October 2026 : streaming seul, toutes les pistes audio, TOUS les sous-titres dans le cloud (trop gros pour le manifeste = fichier texte dans le depot public des segments, `src` dans le manifeste). (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 14 October 2026 : plusieurs films en streaming = le worker : `ZR_ONLY_PLAN=<plan.json> ZR_UNLOAD_ROOTS=<dossier source> ZR_PROGRESS_REPO=<depot> python3 scripts/Films/ProcessFilmsSequentially.py` (StreamBatch.py est supprime) : prepare (CMAF local, `--stage-only`), publie des qu'un depot de 4,2 Gio est pret (`PublishStagedBatch.mjs`, pushes remplis a 1 900 Mio), sous-titres, preuve, dechargement automatique si la preuve est verte. Etat : `StreamBatchStatus.json` dans `~/.claude/tmp/tmp-movies-series-upload/`. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 14 October 2026 : tout envoi passe par `ProcessFilmsSequentially.py` ; aucun autre script d'envoi. Lecture : `src/lib/cdnFallbackLoader.js` (jsDelivr 3 s puis raw). En cas de doute l'agent tranche seul et le dit apres coup. Regle complete : `Memory1/Projects/zenray-progress/Rules.md`. (14 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 15 October 2026 : affinage du site, ce qui a changé et comment le livrer (15 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> - 15 October 2026 : Cmd/Ctrl+K est la palette UNIQUE de l'app, montée à la racine d'`App.jsx` (`src/components/SpotlightSearch.jsx`) : destinations de `NAV` d'abord, fichiers de l'index ensuite, depuis toutes les vues. Ne pas la remonter dans Create. (15 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 15 October 2026 : les demandes vers Create faites depuis une autre vue (note du jour, dossier, lecteur audio, YouTube, Spotify) passent par `poserDemandePages`, exportée de `src/create/Pages.jsx` : la boîte aux lettres vit à côté de `pagesMonte` et `demandePages`. L'ancienne copie dans `App.jsx` levait une ReferenceError et perdait la demande. (15 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 15 October 2026 : index de recherche : `refresh()` lit les 400 premiers octets de `delta.json` (22 Mo) par `peekDeltaBuiltAt`, et les shards déchiffrés sont réutilisés tant que seul le delta bouge (`loadShardBase`). Le delta se replie dans les shards par `build-search-index.mjs --apply`, réservé à Matthieu. (15 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 15 October 2026 : `Pages.jsx` : le sondage de l'arbre (25 s) saute le corps quand l'ETag n'a pas bougé ; les marqueurs de visibilité de dossier persistent dix minutes (`zr:folderVis:v1`) et un échec de lecture n'est JAMAIS mémorisé comme absence. (15 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 15 October 2026 : Freelance : lot de 3, 5, 10, 20 ou 50 ; « Ouvrir les N pages » ouvre les pages de candidature en onglets par le service local (`open-links`, https public seulement, 60 au plus), « Copier » met la lettre prête dans le presse-papiers, « Tout marquer fait » demande une confirmation ; un groupe de cartes affiche 72 fiches puis « Afficher plus ». Gallery : filtre texte qui ne change que l'affichage. (15 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 15 October 2026 : films : `ProcessFilmsSequentially.py` termine sous-titres, preuve et déchargement 4 films à la fois (`ZR_FINISH_FLOWS`) ; l'encodeur matériel VideoToolbox plafonne vers 20 fois le temps réel dès 2 flux, ne pas monter `ZR_PACKAGE_FLOWS` pour aller plus vite. (15 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 15 October 2026 : livrer = `~/.claude/tmp/tmp-zenray-refine-14oct/Scripts/Ship.sh [--restart-assets] [--restart-freelance] [--no-deploy]` depuis le worktree `~/.claude/tmp/tmp-zenray-refine-14oct/work` (rebase origin/main, suite complète, build, push, déploiement Pages, fast-forward du dépôt principal, vérification du bundle servi). Prévisualiser : `preview_start zenray-refine` (port 3300, Assets passif, vraie clé média). (15 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 16 October 2026 : Livraison et limites des processus de test (26 October 2026, 12:02:42 +0100)
+>
+> - Ship.sh accepte ZR_SHIP_TEST_WORKERS, défaut4 ; valeur1 pour une vérification globale sans concurrence entre fichiers lorsque les nettoyages des tests Assets rencontrent la charge. Le script conserve désormais le code d’échec avant d’afficher le rapport et de tenter sa relance ; set-e coupait auparavant ce chemin. Aucun échec n’autorise le déploiement. (16 October 2026) (26 October 2026, 12:02:42 +0100)
+> - Dans AssetsService.test.js, le nettoyage ferme les services avant de supprimer leurs dossiers temporaires ; l’attente d’un audit courant inclut aussi la disparition de son diagnostic périmé. Les assertions restent présentes et aucun comportement de production Assets n’est modifié par cette correction de tests. (16 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 16 October 2026 : vue Sport (Plan et note du jour) (26 October 2026, 12:02:42 +0100)
+>
+> - 16 October 2026 : la vue `sport` (menu Create, après Goals) tient la base d'exercices en tuiles, UNE carte Plan par jour (`sport-<date>`, `sport.entries` structuré et `note` lisible) et le bloc Sport de la note du jour entre `<!-- sport:start -->` et `<!-- sport:end -->`. Tout est dans `src/sport/`, `src/config/sport.js` et `docs/SPORT.md` du dépôt ZenRayProgress ; ajouter un exercice, une photo ou une valeur cliquable s'y décrit en trois lignes. (16 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 16 October 2026 : le plan actif se résout par réglage manuel `zr:sport:planPath`, puis premier plan épinglé, puis cache, puis chemin de repli ; un plan introuvable ou illisible n'est jamais traité comme vide. Déployé le 16 October 2026 ; la première écriture réelle dans le vrai Plan n'a PAS été exécutée (testée par 19 tests avec écritures simulées). (16 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+>
+> ## 19 October 2026 : Plan, pièces jointes Create et liens Calendar (26 October 2026, 12:02:42 +0100)
+>
+> - 19 October 2026 : le détail d'une tâche Plan accepte les fichiers originaux par `src/create/PlanAttachments.jsx` et `captureAttachment`, sous `pages/PlanAttachments/<task-id>` ; aucun texte converti ni vidéo transcodée. Les paramètres communs sont dans `src/create/planAttachments.js`. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : les liens `/api/attachment-download?share=…` utilisent le partage signé `kind=file`, permanent et révocable, ciblé sur un seul manifeste `.media.json`. Le retrait révoque le lien et conserve le fichier Create. Le serveur vérifie le jeton avant toute lecture puis déchiffre en flux ; la route Pages native conserve la pression du lecteur. Ne pas utiliser `/api/stream`, qui ne sert qu'une fenêtre de 4 Mio. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : les liens passent dans la description Google Calendar par `workers/plan-gcal/src/core.js`, y compris sur les événements importés modifiables sans tronquer leur description. Déployer Pages ET le Worker `workers/plan-gcal/wrangler.toml` ; valider les tests du composant, du téléchargement et de la synchronisation, puis télécharger un vrai fichier et comparer son SHA-256. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : correction Cloudflare du téléchargement : workerd impose `setAuthTag` AVANT `update`. Lire les 16 derniers octets par Range sur GitHub raw pinné, puis fournir ce tag avant le flux. Le Range jsDelivr peut viser le contenu compressé, donc ne pas y lire le tag. Contrôle local du vrai handler dans workerd : 7 299 017 octets exacts. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 19 October 2026 : limite et progression des pièces jointes Plan (26 October 2026, 12:02:42 +0100)
+>
+> - 19 October 2026 : limite explicite de l'ajout navigateur Plan : 95 Mio par fichier, issue de RAW_THRESHOLD dans src/config/chunkPolicy.js et configurée par src/config/attachmentPolicy.js. Les fichiers vides ou trop gros sont refusés avant tout réseau. Les sélections de 100 fichiers ou plus renvoient vers l'import Create en masse par Git. Il s'agit d'une limite produit Plan, pas de la limite des fichiers GitHub. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : l'ajout ponctuel conserve le moteur universalCapture, AES-GCM, les morceaux de stockage de 19 Mio, les fragments de transport de 3 Mio, le sémaphore API existant, les reprises et le rollover. La politique Git des lots de 1900 Mio s'applique aux transferts Git en masse, pas à cette API navigateur. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : progression par fragment de transport accepté, barre pondérée par la taille des fichiers, SpinnerApple existant, phase réelle et secondes écoulées. La création du lien et la sauvegarde Plan restent visibles ; 100 % attend une confirmation du drive. Réglages dans PLAN_UI.attachments. Tests : src/capture/captureAttachment.test.js, src/config/attachmentPolicy.test.js et src/create/PlanAttachments.test.jsx. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 19 October 2026 : Plan creation attachments and existing Create media (26 October 2026, 12:02:42 +0100)
+>
+> - 19 October 2026 : New goal and task details share PlanAttachments.jsx: visible file drop, Add attachments, From Create index search and direct manifest path. Existing Create media bypasses the 95 MiB new-upload cap because no binary is uploaded. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : linkCreateAttachment.js reads only the selected manifest with raw=1, creates a permanent revocable video/image viewer share for Calendar, or a file download for encrypted originals. The ordinary share expiry remains unchanged without permanent=true. Never send DASH/HLS manifests to the original-file download route. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+> - 19 October 2026 : Regression checks: PlanBoardAttachments.test.jsx covers real creation and persistence; linkCreateAttachment.test.js covers a 9 GB movie without reupload, original audio downloads and invalid drops; shareRecordGraphql.test.js covers viewer permanence and revocation. No Calendar Worker change is required when only viewer URLs replace download URLs. (19 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 20 October 2026 : articles intégrés à Assets, préparation locale (26 October 2026, 12:02:42 +0100)
+>
+> - Les projets qui déclarent `article.fileId` s’ouvrent sur Article avant Fichiers, en Classique et Tube. Les autres projets gardent leur comportement. `ProjectArticle.jsx` rend un HTML autonome dans une iframe isolée ; `assetsProjectArticle.js` porte la limite de lecture, les références et la politique de contenu. (20 October 2026) (26 October 2026, 12:02:42 +0100)
+> - Le début du HTML sert de miniature, transportée dans la référence compacte du catalogue ; aucun HTML complet n’est chargé pour la grille. Les fichiers HTML sélectionnés se lisent aussi directement dans l’aperçu Assets. (20 October 2026) (26 October 2026, 12:02:42 +0100)
+> - Le service accepte `preview-text` avec `format=html` et `set-article` : déployer le code puis recharger le daemon sans interrompre ses archives avant de publier un article. La commande de création et la validation du SHA se décrivent dans le skill zenray-edit, référence ProjectArticles.md. L’article UV-Match Height reste à valider avant publication. (20 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> - Livraison depuis un worktree : le build doit reprendre les variables VITE du dépôt principal ; sans .env.local, les paramètres Spotify disparaissent du bundle. Pour UV-Match Height, le build final est produit et déployé depuis le checkout principal propre à jour d’origin/main ; le bundle servi est comparé à son dist/index.html. Ne pas afficher les valeurs de configuration dans les logs. (20 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 20 October 2026 : collections ArtStation dans Design (26 October 2026, 12:02:42 +0100)
+>
+> - Import complet des collections, couvertures, images et aperçus vidéo/3D : lire [references/ArtstationCollections.md](references/ArtstationCollections.md), puis réutiliser les scripts et preuves de l'atelier existant. Les cookies restent en mémoire, les fichiers passent par le moteur Git existant, et la vérification compare chaque identité d'image avant l'ouverture de Design. (20 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+> ## 23 October 2026 : sous-skill zenray-plan (26 October 2026, 12:02:42 +0100)
+>
+> - 23 October 2026 : tout ce qui touche ZenRay Plan (agenda, tâches, séries, heures, tuiles) passe par le sous-skill `zenray-calendar-plan` (`/Users/zenray/.claude/skills/zenray-calendar-plan/SKILL.md`, outil `scripts/PlanTool.mjs`, projet Assets `zenray-calendar-plan-23-october-2026`). `zenray-plan-publish` en est le mode publication. (23 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+>
+> ARGUMENTS: pousser l'app ZenRay Dictate, ses images et sa miniature de projet (covers) dans ZenRay Assets / cloud (26 October 2026, 12:02:42 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/ctrl-s (26 October 2026, 12:02:42 +0100)
+>
+> # Ctrl-S (26 October 2026, 12:02:42 +0100)
+>
+> Le geste répond à une seule question : (26 October 2026, 12:02:42 +0100)
+>
+> > Où faut-il écrire ce que nous venons d'apprendre pour que cela serve encore dans six mois ? (26 October 2026, 12:02:42 +0100)
+>
+> La réponse comporte parfois deux écritures, dont les rôles ne se doublonnent jamais : (26 October 2026, 12:02:42 +0100)
+>
+> - le fichier `*1.md` garde la connaissance durable du projet ; (26 October 2026, 12:02:42 +0100)
+> - `/Users/zenray/.claude/PROGRESS.md` garde la trace datée de l'action et pointe vers cette source. (26 October 2026, 12:02:42 +0100)
+>
+> ## Architecture canonique (26 October 2026, 12:02:42 +0100)
+>
+> | Question | Source unique | (26 October 2026, 12:02:42 +0100)
+> |---|---| (26 October 2026, 12:02:42 +0100)
+> | Quand, quoi, quel agent, quelle preuve, quelle suite ? | `~/.claude/PROGRESS.md` via le skill `progress` | (26 October 2026, 12:02:42 +0100)
+> | Que sait durablement un projet ou un domaine ? | `Memory/<domaine>/<Nom>1.md` | (26 October 2026, 12:02:42 +0100)
+> | Comment retrouver une section dans un gros fichier ? | skill routeur de contexte | (26 October 2026, 12:02:42 +0100)
+> | Quelle méthode réutiliser ? | `~/.claude/skills/<méthode>/` | (26 October 2026, 12:02:42 +0100)
+> | Quelle loi vaut encore demain ? | `CLAUDE.md` global ou du projet | (26 October 2026, 12:02:42 +0100)
+> | Pourquoi cette ligne de code surprenante existe-t-elle ? | commentaire au point exact | (26 October 2026, 12:02:42 +0100)
+> | Quel plan ou état de chantier détaillé reprendre ? | fichier dédié dans le projet | (26 October 2026, 12:02:42 +0100)
+> | Où vit un secret ? | section autorisée de `Identity/Matthieu1.md`, jamais ailleurs | (26 October 2026, 12:02:42 +0100)
+>
+> Une information, un seul endroit. Le journal cite la source durable ; il n'en recopie pas le contenu. (26 October 2026, 12:02:42 +0100)
+>
+> ## Arbre de décision (26 October 2026, 12:02:42 +0100)
+>
+> 1. **Secret** : utiliser seulement la valeur nécessaire depuis `Identity/Matthieu1.md`. Ne jamais l'afficher, (26 October 2026, 12:02:42 +0100)
+>    la journaliser ni la mettre dans un commit. (26 October 2026, 12:02:42 +0100)
+> 2. **Connaissance durable d'un projet ou de Matthieu** : trouver son `*1.md` avec le routeur correspondant, (26 October 2026, 12:02:42 +0100)
+>    puis ajouter une section datée sans effacer l'historique. (26 October 2026, 12:02:42 +0100)
+> 3. **Méthode réutilisable** : créer ou corriger le skill source dans `~/.claude/skills/`, puis le synchroniser. (26 October 2026, 12:02:42 +0100)
+> 4. **Loi transversale** : modifier `~/.claude/CLAUDE.md`. Une loi propre à un dépôt va dans son `CLAUDE.md`. (26 October 2026, 12:02:42 +0100)
+> 5. **Cause locale d'un code surprenant** : commenter au point exact, avec symptôme, cause, fausse piste et risque. (26 October 2026, 12:02:42 +0100)
+> 6. **Plan ou chantier long** : utiliser `KANBAN.md`, `PROTOCOLE.md`, `docs/<sujet>-design.md` ou le fichier déjà (26 October 2026, 12:02:42 +0100)
+>    en vigueur dans le projet. (26 October 2026, 12:02:42 +0100)
+> 7. **Chronologie** : appeler le skill `progress` dans tous les cas notables, avec un pointeur vers la source (26 October 2026, 12:02:42 +0100)
+>    durable quand les étapes précédentes ont écrit ailleurs. (26 October 2026, 12:02:42 +0100)
+>
+> ## Bases Memory (26 October 2026, 12:02:42 +0100)
+>
+> Les gros fichiers restent entiers. Un skill court sert d'index dynamique et ne charge que la section utile. (26 October 2026, 12:02:42 +0100)
+>
+> - `matthieu-context` route vers `/Users/zenray/.claude/Memory1/Identity/Matthieu1.md` ; (26 October 2026, 12:02:42 +0100)
+> - `japanese-context` route vers `/Users/zenray/.claude/Memory1/Japanese/Japanese1.md` ; (26 October 2026, 12:02:42 +0100)
+> - `zenrayshards-context` route vers `/Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md` ; (26 October 2026, 12:02:42 +0100)
+> - les autres domaines suivent le même contrat, par exemple `Design/Design1.md`, `Houdini/Houdini1.md`, (26 October 2026, 12:02:42 +0100)
+>   `UnrealEngine/UnrealEngine1.md`, `AudioProductions/Audio1.md`. (26 October 2026, 12:02:42 +0100)
+>
+> Avant d'écrire, chercher les titres avec `rg -n '^#{1,4} '` et la notion avec `rg -n -i '<termes>'`. Ajouter (26 October 2026, 12:02:42 +0100)
+> dans la section concernée avec la date. Une correction nouvelle annule explicitement l'ancienne sans l'effacer. (26 October 2026, 12:02:42 +0100)
+>
+> Un fait ne va dans un `*1.md` que s'il change ce que le projet saura encore dans six mois. Une simple commande (26 October 2026, 12:02:42 +0100)
+> exécutée, un build vert ou une étape intermédiaire restent dans le journal global. (26 October 2026, 12:02:42 +0100)
+>
+> ## Journal global (26 October 2026, 12:02:42 +0100)
+>
+> Ne jamais créer ni compléter un `PROGRESS.md` dans le projet courant. Appeler : (26 October 2026, 12:02:42 +0100)
+>
+> ```zsh (26 October 2026, 12:02:42 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append \ (26 October 2026, 12:02:42 +0100)
+>   --project "Nom du projet" \ (26 October 2026, 12:02:42 +0100)
+>   --fait "Résultat factuel" \ (26 October 2026, 12:02:42 +0100)
+>   --verifie "Preuve réelle" \ (26 October 2026, 12:02:42 +0100)
+>   --source-durable "/chemin/vers/Projet1.md" \ (26 October 2026, 12:02:42 +0100)
+>   --prochain "Action suivante" (26 October 2026, 12:02:42 +0100)
+> ``` (26 October 2026, 12:02:42 +0100)
+>
+> Champs disponibles : `Mesuré`, `Décision`, `Échoué`, `Écarté`, `Apprentissage`, `Vérifié`, `Source durable`, (26 October 2026, 12:02:42 +0100)
+> `Prochain`, `Blocage`. `Fait` est obligatoire. Un chiffre porte son unité, sa méthode et sa date. (26 October 2026, 12:02:42 +0100)
+>
+> Le script `progress` est obligatoire parce que deux instances, Claude Code et Codex, peuvent écrire au même (26 October 2026, 12:02:42 +0100)
+> instant. Il verrouille l'append, relève l'agent et le modèle depuis l'hôte et masque les secrets. Ne jamais (26 October 2026, 12:02:42 +0100)
+> pré-rédiger un résultat avant la commande qui le prouve. (26 October 2026, 12:02:42 +0100)
+>
+> ## Agent et modèle (26 October 2026, 12:02:42 +0100)
+>
+> L'infrastructure se déduit de l'hôte, jamais d'une introspection du modèle : (26 October 2026, 12:02:42 +0100)
+>
+> - session avec métadonnées Codex : `Codex Desktop`, modèle et effort lus dans le dernier `turn_context` ; (26 October 2026, 12:02:42 +0100)
+> - session Claude Code : `Claude Code Desktop`, modèle lu dans les métadonnées ou le transcript seulement s'il (26 October 2026, 12:02:42 +0100)
+>   y apparaît ; (26 October 2026, 12:02:42 +0100)
+> - donnée absente : écrire `non exposé par l'hôte`. (26 October 2026, 12:02:42 +0100)
+>
+> Les noms configurés ou attendus ne deviennent pas automatiquement le modèle de la session, car une sélection (26 October 2026, 12:02:42 +0100)
+> dans l'interface ou une option de lancement peut les surcharger. (26 October 2026, 12:02:42 +0100)
+>
+> ## Reprise (26 October 2026, 12:02:42 +0100)
+>
+> Au début d'une session, lire trois entrées, éventuellement filtrées par projet : (26 October 2026, 12:02:42 +0100)
+>
+> ```zsh (26 October 2026, 12:02:42 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --count 3 (26 October 2026, 12:02:42 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --project "ZenRayShards" --count 3 (26 October 2026, 12:02:42 +0100)
+> ``` (26 October 2026, 12:02:42 +0100)
+>
+> Résumer ces trois entrées en trois lignes maximum et annoncer la dernière action `Prochain`. Ne jamais charger (26 October 2026, 12:02:42 +0100)
+> le journal entier pour une reprise ordinaire ; le détail vient ensuite du skill routeur et du `*1.md` concerné. (26 October 2026, 12:02:42 +0100)
+>
+> ## Journaux legacy (26 October 2026, 12:02:42 +0100)
+>
+> Les sept anciens `PROGRESS.md` sont retirés le 2026-08-22 après audit complet et validation explicite. Ne jamais (26 October 2026, 12:02:42 +0100)
+> les recréer. Si un autre journal legacy est découvert, le skill `progress` l’importe de façon idempotente dans (26 October 2026, 12:02:42 +0100)
+> le global, masque les secrets dans la copie et conserve son chemin et sa ligne avant toute suppression autorisée. (26 October 2026, 12:02:42 +0100)
+>
+> ## Déclencheurs (26 October 2026, 12:02:42 +0100)
+>
+> Sauvegarder automatiquement lorsqu'une tâche significative finit, qu'une décision se tranche, qu'une mesure (26 October 2026, 12:02:42 +0100)
+> produit un chiffre, qu'une piste échoue ou s'écarte, qu'un blocage apparaît ou se lève, qu'un fichier important (26 October 2026, 12:02:42 +0100)
+> change de rôle, qu'un agent rend un résultat, que le contexte va se compacter, ou que Matthieu marque une pause. (26 October 2026, 12:02:42 +0100)
+>
+> Ne rien sauvegarder quand l'état se reconstruit en trois secondes, qu'aucune décision n'en dépend et qu'aucune (26 October 2026, 12:02:42 +0100)
+> session future n'en bénéficiera. Écrire trop enterre autant qu'écrire au mauvais endroit. (26 October 2026, 12:02:42 +0100)
+>
+> ## Le cas japonais — ce qu'un Ctrl-S doit produire pour que la leçon apparaisse sur le site (26 October 2026, 12:02:42 +0100)
+>
+> Depuis le 2026-08-27, une leçon japonaise n'est plus seulement archivée : elle est **affichée**, par la vue (26 October 2026, 12:02:42 +0100)
+> ZenRayJapanese de ZenRayProgress (zone Learn, nav Japanese). Cette vue ne lit rien d'autre que ce que le Ctrl-S (26 October 2026, 12:02:42 +0100)
+> écrit, si bien qu'une leçon mal rangée ne disparaît pas, elle devient invisible, ce qui est pire. (26 October 2026, 12:02:42 +0100)
+>
+> La règle d'or reste la même : **une information, un seul endroit**. `Memory/Japanese/Japanese1.md` demeure la (26 October 2026, 12:02:42 +0100)
+> source unique et append-only ; `Memory/Japanese/Site/japanese.json` n'en est que l'index dérivé, produit par un (26 October 2026, 12:02:42 +0100)
+> script, jamais écrit à la main. Modifier l'index sans modifier le corpus fabrique une seconde vérité qui sera (26 October 2026, 12:02:42 +0100)
+> écrasée à la première régénération. (26 October 2026, 12:02:42 +0100)
+>
+> ### Le routage, section par section (26 October 2026, 12:02:42 +0100)
+>
+> La vue possède quatre sections, et chacune se remplit par une FORME d'écriture précise dans le corpus. Écrire (26 October 2026, 12:02:42 +0100)
+> la bonne chose sous la mauvaise forme la range dans le carnet papier plutôt que sur le site. (26 October 2026, 12:02:42 +0100)
+>
+> | Ce qu'on vient d'enseigner | La forme à écrire dans `Japanese1.md` | Où cela apparaît | (26 October 2026, 12:02:42 +0100)
+> |---|---|---| (26 October 2026, 12:02:42 +0100)
+> | Une leçon entière | un titre `## L<n> — <AAAA-MM-JJ> — <titre>` | onglet **Leçons**, une carte | (26 October 2026, 12:02:42 +0100)
+> | Un point de grammaire | un titre `### Grammaire — ~point` **ou** une ligne de tableau `\| Point \| Sens \|` | onglet **Grammaire** | (26 October 2026, 12:02:42 +0100)
+> | Du vocabulaire | un tableau à deux colonnes `\| Mot \| Sens \|` | onglet **Vocabulaire** | (26 October 2026, 12:02:42 +0100)
+> | Un kanji | une fiche `Lessons/KanjiCards/<plage>/NNN 漢 Kun On.html` | onglet **Kanji** | (26 October 2026, 12:02:42 +0100)
+> | Un nouvel état chiffré | la ligne `### État mesuré au <AAAA-MM-JJ>` puis sa phrase `N5 : x% enseigné, ~y% consolidé. N4 : …` | la **jauge** en tête | (26 October 2026, 12:02:42 +0100)
+>
+> Trois pièges, tous payés au moins une fois : (26 October 2026, 12:02:42 +0100)
+>
+> Le vocabulaire dicté en prose (« il a recopié はし, みず, えき ») n'atteint JAMAIS le site : seul un tableau est (26 October 2026, 12:02:42 +0100)
+> lu. C'est exactement l'écart que la vue affiche elle-même sous la jauge, trois cent douze mots tabulés contre (26 October 2026, 12:02:42 +0100)
+> sept cents comptés, et cet écart est de la matière perdue, pas une imprécision d'affichage. (26 October 2026, 12:02:42 +0100)
+>
+> Un tableau d'exercice (`\| # \| Question \| Réponse Matthieu \| Verdict \|`) est délibérément écarté du (26 October 2026, 12:02:42 +0100)
+> vocabulaire : y ranger un mot nouveau revient à le cacher. (26 October 2026, 12:02:42 +0100)
+>
+> La jauge n'est jamais calculée, elle est RELUE. Tant que la ligne « État mesuré au … » n'est pas mise à jour, (26 October 2026, 12:02:42 +0100)
+> les pourcentages du site restent ceux du dernier comptage, quelle que soit la quantité de leçons ajoutées (26 October 2026, 12:02:42 +0100)
+> depuis. C'est voulu : le corpus distingue **enseigné** et **consolidé**, et seul un drill réel produit le second. (26 October 2026, 12:02:42 +0100)
+>
+> ### La séquence, dans l'ordre (26 October 2026, 12:02:42 +0100)
+>
+> ```zsh (26 October 2026, 12:02:42 +0100)
+> # 1. la leçon s'ajoute au corpus, en append, jamais en réécriture (26 October 2026, 12:02:42 +0100)
+> #    (édition de /Users/zenray/.claude/Memory1/Japanese/Japanese1.md) (26 October 2026, 12:02:42 +0100)
+>
+> # 2. l'index se régénère depuis le corpus (26 October 2026, 12:02:42 +0100)
+> cd /Users/zenray/.claude/Memory1/Japanese (26 October 2026, 12:02:42 +0100)
+> python3 Scripts/build-japanese-index.py (26 October 2026, 12:02:42 +0100)
+>
+> # 3. le contrôle échoue si l'index et le corpus divergent (26 October 2026, 12:02:42 +0100)
+> python3 Scripts/build-japanese-index.py --verify (26 October 2026, 12:02:42 +0100)
+>
+> # 4. publication (26 October 2026, 12:02:42 +0100)
+> cd /Users/zenray/.claude/Memory1 (26 October 2026, 12:02:42 +0100)
+> git add -- Japanese/Japanese1.md Japanese/Site/japanese.json (26 October 2026, 12:02:42 +0100)
+> git commit -m "japonais : L<n> — <titre>" && git push (26 October 2026, 12:02:42 +0100)
+> ``` (26 October 2026, 12:02:42 +0100)
+>
+> Le site lit ensuite le dépôt Memory par son API. Compter jusqu'à cinq minutes de cache CDN avant que la (26 October 2026, 12:02:42 +0100)
+> nouvelle leçon n'apparaisse : un rechargement immédiat qui montre l'ancien compte n'est pas une panne, et (26 October 2026, 12:02:42 +0100)
+> l'écart se vérifie en interrogeant l'API plutôt qu'en rechargeant la page en boucle. (26 October 2026, 12:02:42 +0100)
+>
+> ### Ce qui reste interdit (26 October 2026, 12:02:42 +0100)
+>
+> La vue est en **lecture seule**, et c'est une décision, pas une limite technique : un journal append-only qu'on (26 October 2026, 12:02:42 +0100)
+> pourrait retoucher depuis une page web cesserait de dire ce qu'on croyait à l'époque, ce qui est justement ce (26 October 2026, 12:02:42 +0100)
+> qu'on vient y chercher. Une correction s'écrit donc comme une nouvelle entrée qui cite l'ancienne, jamais comme (26 October 2026, 12:02:42 +0100)
+> une réécriture, exactement comme dans le journal global. (26 October 2026, 12:02:42 +0100)
+>
+> ## Contrôle avant de rendre (26 October 2026, 12:02:42 +0100)
+>
+> 1. La connaissance durable se trouve dans un seul `*1.md`. (26 October 2026, 12:02:42 +0100)
+> 2. La chronologie se trouve uniquement dans le global. (26 October 2026, 12:02:42 +0100)
+> 3. Toute mesure a une preuve ; toute hypothèse porte son incertitude. (26 October 2026, 12:02:42 +0100)
+> 4. Les échecs et les options écartées disent pourquoi. (26 October 2026, 12:02:42 +0100)
+> 5. `Prochain` est une action unique avec le chemin utile. (26 October 2026, 12:02:42 +0100)
+> 6. Aucun secret n'apparaît. (26 October 2026, 12:02:42 +0100)
+> 7. Les modifications sont commitées dans leur dépôt source. (26 October 2026, 12:02:42 +0100)
+>
+> Le test final tient en une phrase : la session suivante peut-elle reprendre sans relire cette conversation ? (26 October 2026, 12:02:42 +0100)
+>
+> ## 23 October 2026 : consigner, c'est aussi l'article et le cloud (26 October 2026, 12:02:42 +0100)
+>
+> - Mots de Matthieu (23 October 2026) : « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». Un Ctrl-S sur un skill qui a `ARTICLE.json` passe par `sync-skill.sh` (article reconstruit et publié), puis `refresh-skill-article.mjs <skill> --check` vert, puis commit et push de `~/.claude` (chemins explicites) et de Memory1. Rien n'est « consigné » tant que l'article dit autre chose que le skill. (23 October 2026) (26 October 2026, 12:02:42 +0100)
+>
+>
+> ARGUMENTS: fin de chantier ZenRay Dictate 3.15 : sauvegarder au bon endroit (26 October 2026, 12:02:42 +0100)
+
+## 26 October 2026, 12:07:14 +0100 : Prompt
+
+<!-- feedback-event:0c462a282cee1232d6880815bd6e4d585124e18de879a40cbbb33816bbd79d8e (26 October 2026, 12:07:14 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:07:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:07:14 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (26 October 2026, 12:07:14 +0100)
+>
+> <tools-used-before-summary>Bash, Monitor, Read, SendUserFile, Skill, ToolSearch, WebSearch, Write, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__read_console_messages, mcp__Claude_Browser__resize_window, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up</tools-used-before-summary> (26 October 2026, 12:07:14 +0100)
+> Summary: (26 October 2026, 12:07:14 +0100)
+> 1. Primary Request and Intent: (26 October 2026, 12:07:14 +0100)
+>    Matthieu (French-speaking, dictates by voice) develops **ZenRay Dictate**, a macOS Swift dictation app (repo `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate`, Assets project id `zenray-dictate`). Over this session the intents were: (a) find, by tests/reverse-engineering, which speech-to-text Claude.ai/Desktop/Claude Code use (answer: Anthropic-internal `harmonic-asr-8` via `wss://api.anthropic.com/api/ws/speech_to_text/voice_stream`) and benchmark it vs Nova-3 and Whisper; (b) wire ZenRay Dictate to that endpoint (default engine "claude"); (c) sleek UI: Fn → capsule at right-middle of screen while recording, text card at bottom-center, chosen design B1 "Papier crème" Liquid Glass + icon I1 `mic.fill`; (d) instant transcription like Claude.app (live streaming); (e) fix "There was a bad response from the server" failure (expired OAuth token) and "never break again" (renewal, Whisper fallback, health monitor); (f) keep Claude the engine as often as possible (answer: CLI renews only in last 5 min → margin 280 s); (g) **interface turns red when Whisper local is the path** and show the red widget for validation; (h) **latest request (in progress)**: change the app icon base colour to `#e96944` (same gradient as before, top toward white); push all code and images bound to project zenray-dictate and send to cloud; change the project thumbnail on ZenRay Assets and on GitHub using a sheet presenting the two orange widgets; work with /zenray-assets directly on /zenray-progress (ZenRayProgress repo scripts/Assets); push everything and finish properly with /ctrl-s. (26 October 2026, 12:07:14 +0100)
+>
+> 2. Key Technical Concepts: (26 October 2026, 12:07:14 +0100)
+>    - Claude voice_stream WebSocket protocol: query `encoding=linear16&sample_rate=16000&channels=1&endpointing_ms=300&utterance_end_ms=1000&use_conversation_engine=true&announce_provider=true[&forward_interims=typed][&language=xx][&stt_provider=nova3][&keyterms=…]`; client frames: binary PCM16 chunks (3200 B = 100 ms), text `{"type":"KeepAlive"}`, `{"type":"CloseStream"}`; server frames `ProviderInfo`, `TranscriptInterim`, `TranscriptText`, `TranscriptEndpoint`, `TranscriptError`/`error`; language `auto` is refused (omit param); close code 4029 = too many concurrent sessions; HTTP 401 at upgrade when token expired. (26 October 2026, 12:07:14 +0100)
+>    - Auth: Claude Code OAuth token in keychain item `Claude Code-credentials` (JSON `claudeAiOauth.accessToken`, `expiresAt` ms), ~8 h lifetime; Claude CLI renews only when `now + 300000 >= expiresAt` (5 min buffer, read in binary). (26 October 2026, 12:07:14 +0100)
+>    - Swift/AppKit: NSPanel non-activating overlays, NSVisualEffectView + `maskImage` (capsule shape, shadow), CAGradientLayer tint, AVAudioEngine tap → `onPCM16`, URLSessionWebSocketTask, actors (`TranscriptCollector`), NSLock only in sync helpers, `@MainActor ClaudeHealth`. (26 October 2026, 12:07:14 +0100)
+>    - Whisper hallucinates ("Thank you.", "Mm.") on near-silence → silence gate (peak < -42 dBFS). (26 October 2026, 12:07:14 +0100)
+>    - ZenRay Assets: `Client.mjs start/inventory/archive/checkpoint/context`, source `include`/`exclude` rules (`isExcludedSourcePath`: segment/prefix match), project covers in `pages/.zr-assets-covers.json` (720x406 WebP data URI, `coverReference(file)`), cloud writes via git/gh, "queued job ≠ cloud proof". (26 October 2026, 12:07:14 +0100)
+>    - zenray-edit: article registry `Registry.json`, `render-project-article.mjs`, `file-article.mjs`, `refresh-articles.mjs`, `file-design.mjs`; Papier theme default for new articles. (26 October 2026, 12:07:14 +0100)
+>    - Verification doctrine: test both directions (red without guard, green with), mutation checks, real-flow checks. (26 October 2026, 12:07:14 +0100)
+>
+> 3. Files and Code Sections (ZenRayDictate repo unless stated; `Sources/ZenRayDictate/`): (26 October 2026, 12:07:14 +0100)
+>    - `ClaudeCredentials.swift` (new): `ClaudeDictationFailure` enum (noToken, notSignedIn, unauthorized, rejected, busy, network, empty; French messages; `classify(error,status:)`); `ClaudeCredentials.shared` with `Settings` (`skew` 120, `refreshMargin` 280 (under CLI's 300 s buffer), `refreshTimeout` 30, `checkInterval` 60, `rereadWithin` 900), `validToken()`, `remaining()`, `forget()`, `freshToken(cli:)`, `forceRefresh(cli:)`, `keepFresh(cli:)`, single-flight `refreshTask`, test hooks `readKeychain/runRefresh/now/seed`, `readKeychainLease`, `resolveCLI`, `runCLI` (args `-p ok --model haiku --no-session-persistence`, env stripped of CLAUDE*/ANTHROPIC*, neutral temp cwd). (26 October 2026, 12:07:14 +0100)
+>    - `ClaudeVoiceTranscriber.swift`: `Wire` constants (incl. `fileDeadlineSeconds` 45, `maxKeytermLength` 40, `maxKeytermCharacters` 1500, busy/network retry delays, `maxAttempts` 3); file-mode `transcribe(audioURL:)` retry loop (unauthorized → forget+forceRefresh; busy → 1.5 s; network once); `request(preferences:token:live:)`; `pcm16(from:)`; bounded `keyterms`; `TranscriptOutcome`; `actor TranscriptCollector` (liveText, markClosing, droppedEarly logic, `closeFailure`, `frameFailure`); `ClaudeLiveSession(preferences:token:)` with `feed`, `liveText`, `finish`, `cancel`. (26 October 2026, 12:07:14 +0100)
+>    - `ClaudeHealth.swift` (new): `@MainActor` monitor; `Verdict` (healthy/unhealthy/skip), `verdict(for:)` pure; `check(preferences:)` (0.6 s silence probe, retries once after forced refresh), `noteFallback`, `onFallbackStarted`, `isDegraded`, `tooltip`, `schedule(isIdle:)` (15 s after launch, 6 h, 8 s after wake); `ClaudeDictationFailure.allowsLocalFallback` (false for `.empty`). (26 October 2026, 12:07:14 +0100)
+>    - `ClaudeOverlay.swift`: B1 design; `Tokens` (capsule 300x60, edgeInset 16, bottomInset 24, card width 640, `showTitle=false`, `showActions=false`, textOnlyPadding, fitWidth/minCardWidth 240, clay `#D97757`, red `localAccent` (214,40,40), `localAccentDeep`, `localTint`, `localBorderAlpha` 0.65); `enum Theme {claude, local}`; `setTheme(_:)`; `showRecording(theme:)`, `showTranscribing()` (hides card), `showResult(_:insertable:local:)`, `showMessage(_:title:retry:)`, `updateResult`, `onRetry`, `roundedMask`, `OverlayPanel`, `ActionButton`, `BarsView.accent`. (26 October 2026, 12:07:14 +0100)
+>    - `DictationCoordinator.swift`: live session opened at Fn if `ClaudeCredentials.validToken()` else file mode + background renewal; `processLive` (instant liveText card, `finish()`, `.empty` short recording → "Rien entendu", else fallback to file `process`; format failure keeps raw text); `upkeepSignIn()` timer (60 s) + wake observer; `fail(_:retry:)`; overlay red when engine whisper/parakeet/localOnly or health degraded; `ClaudeHealth.shared.onFallbackStarted` → `overlay.setTheme(.local)`; process() result `local: result.provider.hasPrefix("Local")`; `.empty` handling in catch. (26 October 2026, 12:07:14 +0100)
+>    - `Transcriber.swift`: Claude branch with `withDeadline(45 s)` then Whisper fallback (not on `.empty`, only if `allowLocalFallback`), `ClaudeHealth.noteFallback`; Whisper 90 s process timeout; `AudioLevel.isSilent` gate in `LocalWhisperTranscriber.transcribe` (throws `ClaudeDictationFailure.empty`). (26 October 2026, 12:07:14 +0100)
+>    - `AudioLevel.swift` (new): `silencePeakDecibels = -42`, `peakDecibels(of:)`, `isSilent`. (26 October 2026, 12:07:14 +0100)
+>    - `AudioCapture.swift`: `onPCM16` hook (Int16 LE 16 kHz mono). (26 October 2026, 12:07:14 +0100)
+>    - `DictationLibrary.swift`: new prefs `claudeVoiceBaseURL`, `claudeSttProvider`, `claudeKeyterms`, `claudeKeytermLimit`, `claudeExecutable`, `autoInsert` (false), `allowLocalFallback` default true, engine default `.claude`. (26 October 2026, 12:07:14 +0100)
+>    - `LibraryWindow.swift` settings fields; `AppDelegate.swift` (tooltip with health, `ClaudeHealth.shared.onChange`/`schedule`); `main.swift` CLI checks: `--transcribe <file> [--bad-token]`, `--live-latency <file> [--bad-token]`, `--transcribe-pipeline <file> [--dead-server] [--no-fallback]`, `--health [--wrong-path]`, `--overlay-preview [local]`. (26 October 2026, 12:07:14 +0100)
+>    - `Tests/ZenRayDictateTests/ClaudeCredentialsTests.swift` (35 tests total pass): renewal, single-flight, skew, keepFresh (no CLI call with 20 min left), classification, frames, health verdicts, silence never falls back, fallback default on, deadline, keyterm bounds, silence gate (WAV generation), fallback announces itself. (26 October 2026, 12:07:14 +0100)
+>    - `Scripts/RenderClaudeIcon.swift`: now base `#e96944` (baseRed 0xe9, baseGreen 0x69, baseBlue 0x44), `whiteMix 0.25`, `darken 0.84`, glass highlight clipped to squircle; outputs `AppIcon.icns` and `docs/AppIcon-claude-1024.png`. `Scripts/MakeSheet.py` (PARAMS dict: size 1920x1080, wallpaper `/Users/zenray/.claude/skills/zenray-edit/templates/liquid-glass/wallpaper.webp`, veil 0.42, shades, widget_scale 0.90, labels) → `docs/ZenRayDictate-sheet.png`. `Scripts/ShadowCheck.py`. Widget captures in `docs/widgets/` (capsule/card claude-orange, whisper-red, real-flow-whisper-fallback-sequence.png). (26 October 2026, 12:07:14 +0100)
+>    - `README.md` (header image + dated sections for 3.9–3.15), `build.sh` (APP_VERSION 3.15, APP_BUILD 20; bundles GT Sectra OTF). (26 October 2026, 12:07:14 +0100)
+>    - Outside repo: article draft `/Users/zenray/.claude/tmp/tmp-zenray-dictate/Drafts/Article/Article-25-October-2026.json` (+ Sources manifest); published copy under `/Users/zenray/.claude/skills/zenray-edit/articles/25-October-2026-zenray-dictate-claude-engine/` (last refresh job c3a784ca…, article still describes 3.14: needs a 3.15 update); designs filed: `2026-10-25-zenray-dictate-claude-ui` (choice B), `2026-10-25-zenray-dictate-papier-verre` (choice B1); memory file `/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/memory/claude-stt-harmonic-asr.md` (indexed in MEMORY.md); probe/bench scripts in `/Users/zenray/.claude/tmp/tmp-claude-stt-probe-25-october-2026/`; UI proposal pages in `/Users/zenray/.claude/tmp/tmp-zenray-dictate-ui-25-october-2026/` and `…-ui-v2-25-october-2026/`; scratchpad `/private/tmp/claude-501/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d/scratchpad/` (red/, real2/, start-payload.json, Library.json.before-red-test, postfn, listwin, kept.wav, icon-e96944.png). (26 October 2026, 12:07:14 +0100)
+>
+> 4. Errors and fixes: (26 October 2026, 12:07:14 +0100)
+>    - Expired token → 401 → "bad response": fixed with ClaudeCredentials (see above); previous code cached token forever and only refreshed on in-band error frame. (26 October 2026, 12:07:14 +0100)
+>    - Square around capsule: window shadow was rectangular; fixed with `NSVisualEffectView.maskImage`; verified by `ShadowCheck.py` (224 square on 3.10, 241 capsule on 3.11). (26 October 2026, 12:07:14 +0100)
+>    - Build errors: struct named `Protocol` conflicts → renamed `Wire`; NSLock in async context warnings → synchronous helpers (`store`, `cachedLease`, `clearInflight`, `refreshTask`). (26 October 2026, 12:07:14 +0100)
+>    - Test harness hang: CLI test flags blocked the main thread with a semaphore while code did `MainActor.run` → pumped the run loop (`--transcribe-pipeline`, `--health`). (26 October 2026, 12:07:14 +0100)
+>    - Probe script 30 s cap truncated 107 s test → added `PROBE_MAX_MS` env override (first sed attempt failed on an assertion, second succeeded). (26 October 2026, 12:07:14 +0100)
+>    - Keyterms could grow with long snippets → bounded (≤40 chars, ≤1500 total) + test. (26 October 2026, 12:07:14 +0100)
+>    - CLI renew margin 30 min was a no-op (CLI only renews in last 5 min) → margin 280 s, check every 60 s. (26 October 2026, 12:07:14 +0100)
+>    - Whisper "Mm."/"Thank you." on near-silent recording (my `say` playback never reached the mic; earlier "e2e" texts were partly the user's own dictation) → silence gate; real e2e of red theme validated via dead-server logs and window captures. (26 October 2026, 12:07:14 +0100)
+>    - Window lister initially matched owner "ZenRayDictate" but real owner name is "ZenRay Dictate". (26 October 2026, 12:07:14 +0100)
+>    - Unverified: whether `claude -p` still renews the token when the account's session usage limit is reached (a "session limit, resets 12:50pm" message was observed); preventive renewal at ~19:13 not yet proven in real life. (26 October 2026, 12:07:14 +0100)
+>
+> 5. Problem Solving: (26 October 2026, 12:07:14 +0100)
+>    Solved: engine identification and benchmark; live streaming speed (live text 0 ms, final 297–478 ms); sign-in expiry and renewal (proven on real expired token 7.5 s); typed errors and no partial text; Whisper fallback (dead server: no fallback fails in 1.1 s, with fallback Whisper answers in ~3.2 s); health check alert on moved endpoint (HTTP 404); red theme (compare image sent to user, real-flow capture sequence); silence gate; icon colour. Ongoing: Assets binding/archive/cover and GitHub thumbnail (README header done), cloud verification, ctrl-s consignation, article update to 3.15. (26 October 2026, 12:07:14 +0100)
+>
+> 6. All user messages: (26 October 2026, 12:07:14 +0100)
+>    - "Est-ce que tu peux me dire très précisément via un via des debugs et du prompt engineering ou du reverse engineering pour savoir exactement à date et aujourd'hui quelle solution utilise Claude.ai, Claude.ai ou AI, pour savoir exactement quelle solution de traitement speech to text Claude utilise actuellement. Mais à date, il faut vérifier. Et donc, il faut run des tests, etc. ? /dont-stop fais des tests pour prouver." (26 October 2026, 12:07:14 +0100)
+>    - "tu peux aussi chercher directement via l'app claude desktop ou claude code desktop via lle bouton audio et ce qu'il call comme fonction via inspect etc" (26 October 2026, 12:07:14 +0100)
+>    - "Maintenant, tu peux pas essayer de trouver sur Google si ce modèle a pas été annoncé quelque part ou s'il n'y a pas des benchmarks, etc. Tu peux peut-être essayer de chercher par mots-clés en cherchant par exemple Nova 3 ou Harmonic ASR 8, qu'est-ce que ça veut dire ASR, qu'est-ce que ça veut dire Harmonic, et voilà, essaie de voir et de trouver un peu à peu près comment le truc fonctionne. Bon, surtout, ce que je veux dire, c'est s'il n'aurait pas été benchmarké quelque part et s'il n'y aurait pas des résultats actuels. Parce que d'autres providers de speech-to-text existent. Ce que je veux, c'est comparer et savoir si leur modèle est bon." (26 October 2026, 12:07:14 +0100)
+>    - "Bah maintenant, du coup, tu vas update directement via Claude App mon application Zenray Dictate afin de l'update avec ce nouveau protocole qui part de Claude AI. Ça va être beaucoup mieux du coup. /zenray-resume-coordinator" (26 October 2026, 12:07:14 +0100)
+>    - "Non, ça marche pas du tout. il me faut une ui sleek sur le côté et je t'avais Je t'avais déjà expliqué comment ça marche, du coup. D'abord, tu utilises... D'abord, tu appuies sur FN. Tu as un petit widget qui prend l'enregistrement à droite, au milieu de l'écran. Et ensuite, une fois que tu as fini, en bas, au milieu de l'écran, tu obtiens ton texte. /zenray-edit" (26 October 2026, 12:07:14 +0100)
+>    - "3 propositions d'UI" (26 October 2026, 12:07:14 +0100)
+>    - "l'icone aussi à changer car c'est claude maintenant pas gemini" (26 October 2026, 12:07:14 +0100)
+>    - "1 · Terracotta, micro et rayons / mais 3 propals beaucoup plus simple et via les icones apple SF symbols / B · Papier / * theme liquid glass à ajouter / refais trois propositions à partir de mes choix" (26 October 2026, 12:07:14 +0100)
+>    - "theme B1 · Papier crème / et I1 · mic.fill seul / go code déploie et consigne" (26 October 2026, 12:07:14 +0100)
+>    - "Je crois qu'il y a juste un léger problème de transparence d'une icône à l'autre. Quoique non, en fait, c'est bon. Ah si, en fait, il y a un léger bug sur le fait que le widget n'est pas totalement transparent. C'est comme s'il y avait un carré, alors qu'en fait, je t'ai demandé de faire une capsule. Mais c'est quasi bon en soi. par contre le transcribing et beaucoup trop lent il faut que ça dure 0.1 sec ... [explains Claude.app does start/stop dictation in ~0.1 s, same code should be instant, fix speed and instant transition from the right widget to the bottom-center widget]" (26 October 2026, 12:07:14 +0100)
+>    - Screenshot of the card + "je pense que tu peux enlever transcription et les messages d'UI du bas pour simplifier" (26 October 2026, 12:07:14 +0100)
+>    - Screenshot "There was a bad response from the server. Recording saved for retry." + "ça marche plus fix it et corrige tout les bugs potentielles /think-of-everything" (sent twice, once before/after a /model switch to claude-sonnet-5-5) (26 October 2026, 12:07:14 +0100)
+>    - "ça a l'air de fonctionner désormais fais en sorte que ça ne casse plus jamais ... /think-of-everything" (26 October 2026, 12:07:14 +0100)
+>    - "Ok, mais la vraie question, c'est de savoir, est-ce que au bout de 8 heures désormais, est-ce que Claude va assurer le speech to text ou est-ce que ça va forcément fallback en whisper? Parce que moi, c'est pas ce que je veux. Moi, ce que je veux, c'est utiliser le plus souvent possible Claude en tant que speech to text ? /zenray-1-line" (26 October 2026, 12:07:14 +0100)
+>    - "De toute manière, passe l'interface en rouge s'il s'agit de Whisper. Comme ça, par exemple, tu vois, là, actuellement, j'ai une interface plutôt orangée sur le widget de droite et le widget du centre. Et lorsque tu passes sur, sur Whisper, bah, du coup, tu détectes ce chemin et du coup, tu mets l'interface en rouge. Et montre-moi le widget en rouge, comme ça, je valide et on termine." (26 October 2026, 12:07:14 +0100)
+>    - (mid-turn) "Push maintenant tout le binding assets de tout les fichiers code et images et tous en fait bind au projet zenray dictate et push tout localement pour envoyer dans le cloud et change la miniature du projet sur zenray assets et github via une sheet qui présente les deux widgets orangé / change aussi d'abord l'icone : #e96944 avec un dégradé au centre qui va vers le blanc... comme actuellement en fait (juste la couleur) / /zenray-assets directement sur /zenray-progress / push tout et finit proprement /ctrl-s" (26 October 2026, 12:07:14 +0100)
+>
+> 7. Pending Tasks: (26 October 2026, 12:07:14 +0100)
+>    - Run Assets inventory + archive for `zenray-dictate` after the new sources were registered (pendingCount was 90, state queued) and verify cloud receipts for the new files (code, docs/widgets, sheet, probe, UI proposals), not just job state. (26 October 2026, 12:07:14 +0100)
+>    - Set the ZenRay Assets project thumbnail to the sheet `docs/ZenRayDictate-sheet.png`: after the sheet is archived, read the project's `.workspace.json` from `matthieuhuguet/zenray-data` to get its file entry, build 720x406 WebP data URI, write `pages/.zr-assets-covers.json` entry `{file: coverReference(...), choice:'manual', reason, at}` (optionally via a new reusable `scripts/Assets/SetProjectCover.mjs` in ZenRayProgress; verify by reading back). (26 October 2026, 12:07:14 +0100)
+>    - GitHub thumbnail: README header done and pushed (11d372b); state that repo social-preview upload has no API. (26 October 2026, 12:07:14 +0100)
+>    - Update article (still says 3.14) with 3.15: red theme, silence gate, #e96944 icon, sheet; run `refresh-articles.mjs --only zenray-dictate-claude-engine`. (26 October 2026, 12:07:14 +0100)
+>    - ctrl-s consignation: `feedback.py add zenray-dictate` entries (prompts incl. the latest, iteration, rule: red = Whisper, silence gate, icon colour), PROGRESS.md entry via `progress.mjs append --project zenray-dictate …`, memory file update (`claude-stt-harmonic-asr.md`: 5-minute CLI buffer, red theme, silence gate), `Client.mjs checkpoint zenray-dictate` with real sessionId `7b4fce4a-5400-4962-a3d3-28b11fde651d`, commit/push of Memory1 with explicit paths if needed; check Library.json restored (verified: claudeVoiceBaseURL wss://api.anthropic.com, keepAudio false, allowLocalFallback true, engine claude) and kept test audio `Audio/2ABFAF1F-….wav` removed. (26 October 2026, 12:07:14 +0100)
+>    - Final French answer with the 3-column closing table; mention unverified items (preventive renewal at ~19:13 untested live; effect of Claude session-limit on CLI renewal not verified; user's physical Fn dictation on 3.15 not tested by me; GitHub social preview not settable by API). (26 October 2026, 12:07:14 +0100)
+>
+> 8. Current Work: (26 October 2026, 12:07:14 +0100)
+>    Immediately before the summary request I had just executed `node scripts/Assets/Client.mjs start zenray-dictate "$(cat start-payload.json)"` in `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress`, registering 8 sources (application [+Index.md], historical-post, workshop, project-notes, library, ui-proposals-v1, ui-proposals-v2, stt-probe with 19 chosen files). The response showed `"count":296,"bytes":45780689,"state":"queued","backedUpCount":206,"pendingCount":90`. Before that I committed and pushed the 3.15 work (commit `11d372b`, "Red interface for the local Whisper, silence gate, #e96944 icon, presentation sheet (26 October 2026)", on `main` and `codex/gemini-dictation-library`), rebuilt/relaunched app 3.15 with the new icon, built the sheet and README header. The plan list (update_plan) had 6 steps: icon (done), sheet (done), bind code and images to project (registered, archive pending), change Assets thumbnail + GitHub header (GitHub header done, Assets cover pending), commit/push/archive/verify (push done, archive/verify pending), ctrl-s (pending). (26 October 2026, 12:07:14 +0100)
+>
+> 9. Optional Next Step: (26 October 2026, 12:07:14 +0100)
+>    Continue the user's latest request ("push tout et finit proprement /ctrl-s"): run `node scripts/Assets/Client.mjs inventory zenray-dictate` then `archive zenray-dictate` from the ZenRayProgress repo, wait until job state is done and the sheet file shows as backed up, then set the project cover from `docs/ZenRayDictate-sheet.png` ("change la miniature du projet sur zenray assets … via une sheet qui présente les deux widgets orangé"), update the article and consign everything (feedback, PROGRESS.md, memory, checkpoint) before giving the final French closing table. (26 October 2026, 12:07:14 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl (26 October 2026, 12:07:14 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (26 October 2026, 12:07:14 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (26 October 2026, 12:07:14 +0100)
+
+## 26 October 2026, 12:08:50 +0100 : Prompt
+
+<!-- feedback-event:8a11b08bbc7f72c06c736ff1754501969b0b8862385dabae98a20b7643cf29bf (26 October 2026, 12:08:50 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:08:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:08:50 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 12:08:50 +0100)
+> Ta miniature est bizarre parce que je t'ai demandé de consigner tout à l'heure l'iterata et GT standard L. Donc je comprends pas pourquoi tu n'utilises pas ça. Je pense que tu as mal consigné les choses. dans /claude-md-global typo et /zenray-edit ... Autrement, tu ne te saurais pas tromper. En fait, je t'avais pas dit d'enlever complètement GTS Extra et Anthropic Serif, ni Inter, mais ce que je t'avais dit, c'est de mettre en priorité d'abord, par default, Literata et... comment ça s'appelle, cette fonte, GT Standard L (26 October 2026, 12:08:50 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 12:08:50 +0100)
+
+## 26 October 2026, 12:09:14 +0100 : Iteration
+
+<!-- feedback-event:7a5605f18d3f872e8d15ae9d8079e1c2bcb31f6118cd0a2d07a54e9a6967c2bf (26 October 2026, 12:09:14 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:09:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:09:14 +0100)
+
+> Je corrige la consigne typographique (Literata et GT Standard L passent en priorité par défaut, sans abandonner GT Sectra, Anthropic Serif ni Inter), puis je refais la planche avec ces polices. (26 October 2026, 12:09:14 +0100)
+
+## 26 October 2026, 12:09:55 +0100 : Iteration
+
+<!-- feedback-event:11c85ebf16c89b03b94c1086b419e9801bb1ca85b164ddd8933d8db1540a9f9b (26 October 2026, 12:09:55 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:09:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:09:55 +0100)
+
+> Je passe les polices de l'app sur Literata et GT Standard L (version 3.16), puis je recapture les widgets. (26 October 2026, 12:09:55 +0100)
+
+## 26 October 2026, 12:10:16 +0100 : Prompt
+
+<!-- feedback-event:df97de715db2665d0d5204eafc79119b8aa32ca524c278f7b08e76b19a3b8d2d (26 October 2026, 12:10:16 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:10:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:10:16 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 12:10:16 +0100)
+> D'ailleurs zenray dictate doit utiliser dans le texte reçu et dans les nombres, enfin pas dans les nombres. Les nombres, tu dois utiliser GT standard L, parce qu'on te l'a déjà dit. Mais par contre, pour le texte reçu, tu dois utiliser literata ... update le code. J'espère que c'est bien consigné aussi dans les deux skills. (26 October 2026, 12:10:16 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 12:10:16 +0100)
+
+## 26 October 2026, 12:11:20 +0100 : Iteration
+
+<!-- feedback-event:973a0ffd253690f5a531001c43c481fe0147697b4b034ec1b4492531d7a016af (26 October 2026, 12:11:20 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:11:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:11:20 +0100)
+
+> Les widgets sont recapturés avec Literata (texte reçu) et GT Standard L (chiffres) ; je reconstruis la planche et je vérifie. (26 October 2026, 12:11:20 +0100)
+
+## 26 October 2026, 12:12:35 +0100 : Iteration
+
+<!-- feedback-event:54a49b29839f9dd024b899734966f7c26a082cf2ed7c20ee4a97e5cf87734c00 (26 October 2026, 12:12:35 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:12:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:12:35 +0100)
+
+> Règles corrigées et synchronisées ; je lance les tests de l'app 3.16, j'ajoute la note au README et je pousse. (26 October 2026, 12:12:35 +0100)
+
+## 26 October 2026, 12:12:53 +0100 : Prompt
+
+<!-- feedback-event:73ba45e3c84d2c6d0053777f32b3848a905af1c5998a7d8237158e0d9d5e6435 (26 October 2026, 12:12:53 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:12:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:12:53 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 12:12:53 +0100)
+> on va utiliser Et en fait, au final, on va utiliser GT ultra régular pour les titres, sans forcément caps lock, ni sans forcément d'espace. Et tu vas consigner dans les deux skills. Donc, c'est-à-dire dans ZenRay Edit et dans , dans Claude.md global, section typographie. Toujours en première priorité pour l'utilisation. a update puis refaire  Puis il faut refaire du coup la miniature. (26 October 2026, 12:12:53 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 12:12:53 +0100)
+
+## 26 October 2026, 12:13:31 +0100 : Prompt
+
+<!-- feedback-event:0aed9b7fa591871eb47628f1b8046ba7a2691402cb7f5a28897f73f3bdda45b1 (26 October 2026, 12:13:31 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 12:13:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:13:31 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 12:13:31 +0100)
+> Et les chiffres, du coup, on peut aussi les mettre en GT Ultra. Donc, si je récapitule, on a les titres en GT Ultra. On a les nombres en GT Ultra. On a le corps qui est en literata. Et on a tout le reste de l'UI qui est en GT Standard L. (26 October 2026, 12:13:31 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 12:13:31 +0100)
+
+## 26 October 2026, 12:13:41 +0100 : Iteration
+
+<!-- feedback-event:ff1a893f7b6a0374a894456cb0f01925e90f2428222051503aa919abbd1b1bbf (26 October 2026, 12:13:41 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:13:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:13:41 +0100)
+
+> Compris : titres et nombres en GT Ultra, corps en Literata, tout le reste de l'interface en GT Standard L. J'applique ça à l'app, à la planche, au générateur d'articles et aux règles. (26 October 2026, 12:13:41 +0100)
+
+## 26 October 2026, 12:15:23 +0100 : Iteration
+
+<!-- feedback-event:3780b014140cf580c4c072a434780c84924a809897f2ef86272ce5ebedd47f9b (26 October 2026, 12:15:23 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:15:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:15:23 +0100)
+
+> Le navigateur intégré refuse localhost ; je vérifie les polices avec un Chromium isolé en ligne de commande. (26 October 2026, 12:15:23 +0100)
+
+## 26 October 2026, 12:22:27 +0100 : Standing rule
+
+<!-- feedback-event:495c686c392f3402cb6acfc09c2d287e227b54bc7c9cdd037d77fe1c8bfefd45 (26 October 2026, 12:22:27 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 12:22:27 +0100)
+
+> Interface rouge = Whisper local : la capsule et la carte passent au rouge (teinte, bordure, bouton micro, onde) dès que le moteur est local, que Claude est connu indisponible, ou à l'instant où le repli démarre ; le reste du temps l'interface reste terracotta. Valeurs dans ClaudeOverlay.Tokens (localAccent #D62828). (26 October 2026, 12:22:27 +0100)
+
+## 26 October 2026, 12:22:27 +0100 : Standing rule
+
+<!-- feedback-event:1229311490c761351f7a2c3f11016da813813876529f83be7188a2dd3675c95c (26 October 2026, 12:22:27 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 12:22:27 +0100)
+
+> Un enregistrement presque silencieux (crête sous -42 dBFS) ne part jamais vers Whisper et ne déclenche jamais le repli : Whisper invente « Thank you » ou « Mm » sur du silence. Message « Rien entendu ». (26 October 2026, 12:22:27 +0100)
+
+## 26 October 2026, 12:22:27 +0100 : Standing rule
+
+<!-- feedback-event:2624a637e55590af3a2fc07c84e59df7e7182f1195cde6035beb3d3160caf829 (26 October 2026, 12:22:27 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 12:22:27 +0100)
+
+> Polices de ZenRay Dictate (26 October 2026, 15:10, ordre de Matthieu) : titres et TOUS les nombres en GT Ultra Regular, texte reçu de la carte en Literata, reste de l'interface en GT Standard L ; GT Sectra, Anthropic Serif et Inter restent des alternatives valables. Quatre noms dans ClaudeOverlay.Tokens, trois polices embarquées par build.sh. Règle complète : rules/Typography1.md, section du 26 October 2026, 15:10. (26 October 2026, 12:22:27 +0100)
+
+## 26 October 2026, 12:22:27 +0100 : Standing rule
+
+<!-- feedback-event:578f0f9e6ab37934edcb4217df611f2170bb1f9416c72412fe9a9537a8ea32e1 (26 October 2026, 12:22:27 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 12:22:27 +0100)
+
+> Icône de l'application : couleur de base #e96944, même dégradé (haut vers le blanc, bas plus sombre), rendue par Scripts/RenderClaudeIcon.swift. La planche de présentation (miniature du projet et en-tête GitHub) se refait par Scripts/MakeSheet.py après chaque changement de widget ou de police. (26 October 2026, 12:22:27 +0100)
+
+## 26 October 2026, 12:22:27 +0100 : Standing rule
+
+<!-- feedback-event:b97866c4b285df64d98f23c2c9b6f4405fc7f2332805deb9f7a613efa4f9db8c (26 October 2026, 12:22:27 +0100) -->
+- Project: zenray-dictate; kind: rule. (26 October 2026, 12:22:27 +0100)
+
+> La commande claude ne renouvelle le jeton que dans les 5 dernières minutes avant son expiration : marge de renouvellement 280 s, vérification chaque minute (ClaudeCredentials.Settings), jamais 30 minutes à l'avance qui ne ferait rien. (26 October 2026, 12:22:27 +0100)
+
+## 26 October 2026, 12:22:27 +0100 : Log
+
+<!-- feedback-event:2fe321377c27dd4be46beab012452fbbe0d4bada7fdadc85910b99805b3c1a2c (26 October 2026, 12:22:27 +0100) -->
+- Project: zenray-dictate; kind: log. (26 October 2026, 12:22:27 +0100)
+
+> Version 3.16 livrée : 35 tests XCTest verts, commit ce1b4d3 sur main et codex/gemini-dictation-library, planche et widgets recapturés avec les nouvelles polices, article mis à jour (fontSet gtultra, 20 demandes), règles consignées dans CLAUDE.md, Typography1.md et les skills zenray-edit et claude-md-global. Non vérifié : renouvellement préventif réel vers 19:13, effet d'une limite de session sur le renouvellement, dictée réelle à la touche Fn en 3.16, miniature Assets (archive en file d'attente). (26 October 2026, 12:22:27 +0100)
+
+## 26 October 2026, 12:23:24 +0100 : Iteration
+
+<!-- feedback-event:2a03fd7645383cbc83ed2f5bc475d721fe55db105301ffe99c3096fd9e7343af (26 October 2026, 12:23:24 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:23:24 +0100)
+- Source: checkpoint:claude:7b4fce4a-5400-4962-a3d3-28b11fde651d. (26 October 2026, 12:23:24 +0100)
+
+> Version 3.16 : titres et nombres en GT Ultra, texte reçu en Literata, reste en GT Standard L (alternatives GT Sectra, Anthropic Serif, Inter conservées) ; interface rouge sous Whisper, garde de silence, icône #e96944 ; planche refaite et posée comme miniature Assets (choix manuel, 720x406) ; article mis à jour (fontSet gtultra) ; règles dans CLAUDE.md, Typography1.md, zenray-edit, claude-md-global. Vérifié : 35 tests, commit ce1b4d3, Chromium isolé. Non vérifié : renouvellement du jeton vers 19:13, limite de session du compte, dictée réelle Fn en 3.16, relecture cloud indépendante (verifiedCount 0). Prochain : contrôler le jeton vers 19:13 puis une dictée réelle. (26 October 2026, 12:23:24 +0100)
+
+## 26 October 2026, 12:24:35 +0100 : Iteration
+
+<!-- feedback-event:7b2e41a608b48c05ecfd540295fff3d79fac995967812c299bff8c9c74e181aa (26 October 2026, 12:24:35 +0100) -->
+- Project: zenray-dictate; kind: iteration. (26 October 2026, 12:24:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7b4fce4a-5400-4962-a3d3-28b11fde651d.jsonl. (26 October 2026, 12:24:35 +0100)
+
+> Ta consigne de départ était la bonne et je l'avais mal écrite : j'avais écrit « abandonné » là où tu disais « en priorité, par défaut ». C'est corrigé partout, et ZenRay Dictate 3.16 suit maintenant tes quatre rôles : titres et nombres en GT Ultra Regular, texte reçu en Literata, reste de l'interface en GT Standard L. GT Sectra, Anthropic Serif et Inter restent des alternatives valables. (26 October 2026, 12:24:35 +0100)
+>
+> Les polices sont consignées dans `CLAUDE.md` (section typographie), `rules/Typography1.md`, le skill `zenray-edit` et le skill `claude-md-global`. J'ai aussi ajouté une option `fontSet gtultra` au générateur d'articles de `zenray-edit`, qui met chaque nombre en GT Ultra. (26 October 2026, 12:24:35 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 12:24:35 +0100)
+> |---|---|---| (26 October 2026, 12:24:35 +0100)
+> | Miniature refaite avec les bonnes polices | Oui | Planche recapturée avec l'app 3.16 : titre en GT Ultra, « 0:01 » en GT Ultra, texte de la carte en Literata. Posée comme miniature du projet sur Assets (choix manuel, relue après écriture). Le même visuel sert d'en-tête GitHub. | (26 October 2026, 12:24:35 +0100)
+> | Texte reçu en Literata, nombres en GT Ultra, titres en GT Ultra | Oui | Code mis à jour, 35 tests verts, commit `ce1b4d3` poussé sur `main` et sur `codex/gemini-dictation-library`. | (26 October 2026, 12:24:35 +0100)
+> | Règle bien consignée dans les deux skills | Oui | `zenray-edit` et `claude-md-global` synchronisés, `CLAUDE.md` sous la limite (miroir Gemini 65 500 octets), commit `1c00841f` poussé. | (26 October 2026, 12:24:35 +0100)
+> | Article et mémoire du projet à jour | Oui | Article passé en 3.16 avec `fontSet gtultra` (vérifié dans un Chromium isolé : titres, nombres, corps et tableaux dans les bonnes polices, pas de débordement). Mémoire, journal et feedback du projet consignés. | (26 October 2026, 12:24:35 +0100)
+> | Tout envoyé dans le cloud | **Pas fini** | L'archive du projet est en file d'attente : 213 fichiers sur 315, 102 restent à envoyer. La planche, elle, est bien archivée. Aucune relecture cloud indépendante n'a été faite. | (26 October 2026, 12:24:35 +0100)
+> | Jeton Claude renouvelé sans casse | Pas vérifié | Le renouvellement vers 19:13 n'a pas encore eu lieu. L'effet d'une limite de session sur ce renouvellement est inconnu. Je n'ai pas testé une dictée réelle à la touche Fn en 3.16. | (26 October 2026, 12:24:35 +0100)
+>
+> La vue Freelance et la sidebar de ZenRayProgress gardent la version du matin, car je n'y ai pas touché ; c'est la question ci-dessus. (26 October 2026, 12:24:35 +0100)
+>
+> Pour reformuler ta consigne en plus court : « Défaut prioritaire : titres et nombres en GT Ultra, corps en Literata, reste de l'UI en GT Standard L. Les autres polices restent des alternatives. » (26 October 2026, 12:24:35 +0100)
