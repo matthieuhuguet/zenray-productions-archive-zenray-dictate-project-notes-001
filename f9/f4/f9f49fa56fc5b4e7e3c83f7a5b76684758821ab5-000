@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-26T08:51:31.912Z",
+ "scannedAt": "2026-10-26T08:53:31.295Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -229,18 +229,18 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 71,
+   "lines": 72,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T08:49:35.314Z",
+   "last": "2026-10-26T08:52:18.996Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:50:50.710Z",
-   "bytes": 373302155,
+   "updatedAt": "2026-10-26T08:53:27.587Z",
+   "bytes": 373412760,
    "boundProject": "zenray-meshes"
   },
   {
@@ -271,8 +271,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T08:51:14.840Z",
-   "bytes": 524868897,
+   "updatedAt": "2026-10-26T08:53:11.771Z",
+   "bytes": 524986144,
    "boundProject": null
   },
   {
@@ -616,6 +616,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:52:36.506Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T08:53:27.931Z",
+   "bytes": 38329,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-11T22:13:26.358Z",
    "last": "2026-10-11T22:42:37.331Z",
    "strength": "weak",
@@ -657,22 +673,6 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T08:47:05.520Z",
-   "strength": "weak",
-   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "provider": "claude",
-   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "title": "Zenray Freelance interface redesign",
-   "updatedAt": "2026-10-26T08:51:20.595Z",
-   "bytes": 37849,
    "boundProject": null
   },
   {
