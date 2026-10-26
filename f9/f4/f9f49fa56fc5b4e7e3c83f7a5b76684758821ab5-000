@@ -1,11 +1,11 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-26T12:23:32.793Z",
+ "scannedAt": "2026-10-26T12:44:41.452Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
-   "lines": 407,
+   "lines": 439,
    "work": 29,
    "prompts": 1,
    "first": "2026-10-25T16:05:21.061Z",
@@ -213,6 +213,22 @@
   },
   {
    "projectId": "zenray-dictate",
+   "lines": 93,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T14:43:32.510Z",
+   "last": "2026-10-26T12:39:36.945Z",
+   "strength": "weak",
+   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "provider": "claude",
+   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "title": "zenray meshes",
+   "updatedAt": "2026-10-26T12:41:18.810Z",
+   "bytes": 390670226,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "zenray-dictate",
    "lines": 88,
    "work": 0,
    "prompts": 0,
@@ -226,22 +242,6 @@
    "updatedAt": "2026-10-23T13:08:52.408Z",
    "bytes": 40374,
    "boundProject": "louisiana-bayou"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 86,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T12:20:23.308Z",
-   "strength": "weak",
-   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "provider": "claude",
-   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "title": "zenray meshes",
-   "updatedAt": "2026-10-26T12:20:23.647Z",
-   "bytes": 386667153,
-   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "zenray-dictate",
@@ -376,6 +376,22 @@
    "lines": 9,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T12:21:40.581Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T12:40:51.629Z",
+   "bytes": 38632,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 9,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T20:51:55.558Z",
    "last": "2026-10-25T11:15:32.120Z",
    "strength": "weak",
@@ -418,22 +434,6 @@
    "updatedAt": "2026-10-14T09:54:43.918Z",
    "bytes": 20819,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 8,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T12:12:41.158Z",
-   "strength": "weak",
-   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "provider": "claude",
-   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "title": "zenray freelance",
-   "updatedAt": "2026-10-26T12:19:18.245Z",
-   "bytes": 38489,
-   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-dictate",
