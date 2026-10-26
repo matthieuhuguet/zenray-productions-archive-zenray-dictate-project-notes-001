@@ -5854,3 +5854,11 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/26/rollout-2026-10-26T15-56-25-01a178b6-7452-7453-b053-6aa170b06b13.jsonl. (26 October 2026, 16:05:59 +0100)
 
 > ça reste visible donc ce n'est pas ce bug itère jusqu'à trouver la cause Peut-être que tu peux run Chrome testing et mettre en plein écran et faire des inspect pour peut-être voir. Je suis pas sûr de ce que j'avance, hein, mais faut que tu trouves la cause, quoi. (26 October 2026, 16:05:59 +0100)
+
+## 26 October 2026, 16:11:16 +0100 : Prompt
+
+<!-- feedback-event:19e36e2ada9b44fa8922089c3f5fb398d9201ebcadee29da843291a93630d931 (26 October 2026, 16:11:16 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 16:11:16 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/26/rollout-2026-10-26T15-56-25-01a178b6-7452-7453-b053-6aa170b06b13.jsonl. (26 October 2026, 16:11:16 +0100)
+
+> Ben en fait, je comprends pas pourquoi tu testes pas sur une vidéo, notamment sur YouTube directement, plutôt que de faire un test en HTML. Tu peux même faire. Enfin, ça aurait aucun intérêt de faire un. En fait, ça a aucun intérêt de faire un HTML puisque YouTube existe déjà et que c'est ça qu'on veut tester en fait. (26 October 2026, 16:11:16 +0100)
