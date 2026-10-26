@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-26T08:49:18.406Z",
+ "scannedAt": "2026-10-26T08:51:31.912Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -229,18 +229,18 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 69,
+   "lines": 71,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T08:38:01.789Z",
+   "last": "2026-10-26T08:49:35.314Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:48:52.389Z",
-   "bytes": 373164900,
+   "updatedAt": "2026-10-26T08:50:50.710Z",
+   "bytes": 373302155,
    "boundProject": "zenray-meshes"
   },
   {
@@ -271,8 +271,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T08:35:20.779Z",
-   "bytes": 22405,
+   "updatedAt": "2026-10-26T08:51:14.840Z",
+   "bytes": 524868897,
    "boundProject": null
   },
   {
@@ -664,22 +664,6 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-26T08:47:35.579Z",
-   "last": "2026-10-26T08:47:35.579Z",
-   "strength": "weak",
-   "conversationId": "claude:1558c782-52c7-4beb-aab4-1d4a8cf7a556",
-   "provider": "claude",
-   "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
-   "title": "Arbre méthodologique Zenray",
-   "updatedAt": "2026-10-26T08:49:16.944Z",
-   "bytes": 1950580,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
    "first": "2026-10-26T08:47:05.520Z",
    "last": "2026-10-26T08:47:05.520Z",
    "strength": "weak",
@@ -687,8 +671,24 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "Zenray Freelance interface redesign",
-   "updatedAt": "2026-10-26T08:49:08.737Z",
-   "bytes": 2188731,
+   "updatedAt": "2026-10-26T08:51:20.595Z",
+   "bytes": 37849,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:35.579Z",
+   "last": "2026-10-26T08:47:35.579Z",
+   "strength": "weak",
+   "conversationId": "claude:1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "provider": "claude",
+   "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "title": "Arbre méthodologique Zenray",
+   "updatedAt": "2026-10-26T08:49:53.379Z",
+   "bytes": 38296,
    "boundProject": null
   },
   {
