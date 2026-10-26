@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-26T08:44:31.201Z",
+ "scannedAt": "2026-10-26T08:49:18.406Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -16,7 +16,7 @@
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
    "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38406,
+   "bytes": 38407,
    "boundProject": "zenray-dictate"
   },
   {
@@ -239,8 +239,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:44:21.916Z",
-   "bytes": 372895021,
+   "updatedAt": "2026-10-26T08:48:52.389Z",
+   "bytes": 373164900,
    "boundProject": "zenray-meshes"
   },
   {
@@ -657,6 +657,38 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:35.579Z",
+   "last": "2026-10-26T08:47:35.579Z",
+   "strength": "weak",
+   "conversationId": "claude:1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "provider": "claude",
+   "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "title": "Arbre méthodologique Zenray",
+   "updatedAt": "2026-10-26T08:49:16.944Z",
+   "bytes": 1950580,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:47:05.520Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "Zenray Freelance interface redesign",
+   "updatedAt": "2026-10-26T08:49:08.737Z",
+   "bytes": 2188731,
    "boundProject": null
   },
   {
