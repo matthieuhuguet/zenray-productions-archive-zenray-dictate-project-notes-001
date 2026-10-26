@@ -5846,3 +5846,11 @@
 > |---|---|---| (26 October 2026, 15:59:41 +0100)
 > | Retrouver le bug recensé | Fait | Entrées des 9 et 11 October retrouvées | (26 October 2026, 15:59:41 +0100)
 > | Corriger l’app responsable | En cours | Test sans panneau Assets, aucun code modifié avant confirmation | (26 October 2026, 15:59:41 +0100)
+
+## 26 October 2026, 16:05:59 +0100 : Prompt
+
+<!-- feedback-event:b376d950751258e295a87e130467b670f807e307e266d01dd3fc9ce314900024 (26 October 2026, 16:05:59 +0100) -->
+- Project: zenray-dictate; kind: prompt. (26 October 2026, 16:05:59 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/26/rollout-2026-10-26T15-56-25-01a178b6-7452-7453-b053-6aa170b06b13.jsonl. (26 October 2026, 16:05:59 +0100)
+
+> ça reste visible donc ce n'est pas ce bug itère jusqu'à trouver la cause Peut-être que tu peux run Chrome testing et mettre en plein écran et faire des inspect pour peut-être voir. Je suis pas sûr de ce que j'avance, hein, mais faut que tu trouves la cause, quoi. (26 October 2026, 16:05:59 +0100)
