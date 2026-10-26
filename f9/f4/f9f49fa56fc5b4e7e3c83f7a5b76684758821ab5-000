@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-26T15:00:49.448Z",
+ "scannedAt": "2026-10-26T15:06:50.372Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -31,8 +31,8 @@
    "provider": "codex",
    "sessionId": "01a178b6-7452-7453-b053-6aa170b06b13",
    "title": "Conversation codex 01a178b6",
-   "updatedAt": "2026-10-26T14:59:42.584Z",
-   "bytes": 7417086,
+   "updatedAt": "2026-10-26T15:05:59.829Z",
+   "bytes": 7423525,
    "boundProject": "zenray-dictate"
   },
   {
@@ -239,8 +239,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T15:00:45.802Z",
-   "bytes": 407971080,
+   "updatedAt": "2026-10-26T15:03:06.634Z",
+   "bytes": 408628381,
    "boundProject": "zenray-meshes"
   },
   {
