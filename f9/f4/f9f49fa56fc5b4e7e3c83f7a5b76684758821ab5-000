@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-10-28T06:13:38.392Z",
+ "scannedAt": "2026-10-28T12:14:15.749Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -239,8 +239,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-27T20:48:08.394Z",
-   "bytes": 38297,
+   "updatedAt": "2026-10-28T12:13:26.322Z",
+   "bytes": 38320,
    "boundProject": "zenray-meshes"
   },
   {
@@ -309,18 +309,18 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 14,
+   "lines": 18,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-27T19:57:54.052Z",
+   "last": "2026-10-28T10:22:56.791Z",
    "strength": "weak",
    "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-27T19:59:25.800Z",
-   "bytes": 38599,
+   "updatedAt": "2026-10-28T11:54:35.035Z",
+   "bytes": 38529,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
@@ -689,6 +689,38 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-28T10:28:48.933Z",
+   "last": "2026-10-28T10:28:48.933Z",
+   "strength": "weak",
+   "conversationId": "claude:cd2c9546-2bcb-406a-bdbf-e24353087bd1",
+   "provider": "claude",
+   "sessionId": "cd2c9546-2bcb-406a-bdbf-e24353087bd1",
+   "title": "zenray edit gallery",
+   "updatedAt": "2026-10-28T11:00:27.892Z",
+   "bytes": 36545,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-28T10:33:15.614Z",
+   "last": "2026-10-28T10:33:15.614Z",
+   "strength": "weak",
+   "conversationId": "claude:487d77ab-653a-4703-8ea4-38cd42df2611",
+   "provider": "claude",
+   "sessionId": "487d77ab-653a-4703-8ea4-38cd42df2611",
+   "title": "Ajouter films à Shelf",
+   "updatedAt": "2026-10-28T10:39:03.430Z",
+   "bytes": 36456,
    "boundProject": null
   },
   {
