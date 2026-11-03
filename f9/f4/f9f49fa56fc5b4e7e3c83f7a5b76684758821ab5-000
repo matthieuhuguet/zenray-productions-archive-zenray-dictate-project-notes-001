@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-11-02T21:42:23.395Z",
+ "scannedAt": "2026-11-03T12:12:24.370Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -17,22 +17,6 @@
    "title": "speech to text claude",
    "updatedAt": "2026-10-26T11:24:39.709Z",
    "bytes": 38519,
-   "boundProject": "zenray-dictate"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 32,
-   "work": 15,
-   "prompts": 1,
-   "first": "2026-10-26T14:57:31.213Z",
-   "last": "2026-10-26T15:19:52.204Z",
-   "strength": "strong",
-   "conversationId": "codex:01a178b6-7452-7453-b053-6aa170b06b13",
-   "provider": "codex",
-   "sessionId": "01a178b6-7452-7453-b053-6aa170b06b13",
-   "title": "Conversation codex 01a178b6",
-   "updatedAt": "2026-10-26T15:36:25.867Z",
-   "bytes": 11805901,
    "boundProject": "zenray-dictate"
   },
   {
@@ -149,22 +133,6 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 4,
-   "work": 1,
-   "prompts": 1,
-   "first": "2026-10-26T15:10:03.388Z",
-   "last": "2026-10-26T15:11:04.920Z",
-   "strength": "strong",
-   "conversationId": "codex:01a178bf-e894-7953-ae90-19152837f180",
-   "provider": "codex",
-   "sessionId": "01a178bf-e894-7953-ae90-19152837f180",
-   "title": "Conversation codex 01a178bf",
-   "updatedAt": "2026-10-26T15:36:25.867Z",
-   "bytes": 3047972,
-   "boundProject": "zenray-website-26-october-2026"
-  },
-  {
-   "projectId": "zenray-dictate",
    "lines": 9,
    "work": 0,
    "prompts": 2,
@@ -178,22 +146,6 @@
    "updatedAt": "2026-10-07T09:05:28.740Z",
    "bytes": 23256,
    "boundProject": "zenray-freelance"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 8,
-   "work": 0,
-   "prompts": 4,
-   "first": "2026-10-26T09:48:54.499Z",
-   "last": "2026-10-26T11:50:26.031Z",
-   "strength": "strong",
-   "conversationId": "codex:01a1779c-e438-78e2-a3df-a723e47de83f",
-   "provider": "codex",
-   "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
-   "title": "Conversation codex 01a1779c",
-   "updatedAt": "2026-10-26T12:13:31.426Z",
-   "bytes": 10616109,
-   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-dictate",
@@ -277,7 +229,7 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 157,
+   "lines": 158,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
@@ -287,8 +239,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-11-02T21:35:39.435Z",
-   "bytes": 1125467971,
+   "updatedAt": "2026-11-02T21:58:50.087Z",
+   "bytes": 44902,
    "boundProject": "zenray-meshes"
   },
   {
@@ -370,6 +322,22 @@
    "updatedAt": "2026-10-30T13:00:29.267Z",
    "bytes": 38851,
    "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 14,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-02T14:52:10.940Z",
+   "last": "2026-11-02T21:44:25.572Z",
+   "strength": "weak",
+   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
+   "provider": "claude",
+   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
+   "title": "zenray height",
+   "updatedAt": "2026-11-02T22:25:37.927Z",
+   "bytes": 37947,
+   "boundProject": "alien-skin-2-november-2026"
   },
   {
    "projectId": "zenray-dictate",
@@ -466,22 +434,6 @@
    "updatedAt": "2026-10-11T21:28:15.851Z",
    "bytes": 21083,
    "boundProject": "zenray-height"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 10,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-02T14:52:10.940Z",
-   "last": "2026-11-02T21:39:30.931Z",
-   "strength": "weak",
-   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
-   "provider": "claude",
-   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
-   "title": "zenray height",
-   "updatedAt": "2026-11-02T21:37:20.080Z",
-   "bytes": 115391768,
-   "boundProject": "alien-skin-2-november-2026"
   },
   {
    "projectId": "zenray-dictate",
@@ -1599,6 +1551,22 @@
    "provider": "codex",
    "sessionId": "01a110cb-1d8a-7a82-b661-4ace652c8ac1",
    "title": "01a110cb-1d8a-7a82-b661-4ace652c8ac1",
+   "updatedAt": null,
+   "bytes": 0,
+   "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "strength": "bound",
+   "lines": 0,
+   "work": 0,
+   "prompts": 0,
+   "first": null,
+   "last": null,
+   "conversationId": "codex:01a178b6-7452-7453-b053-6aa170b06b13",
+   "provider": "codex",
+   "sessionId": "01a178b6-7452-7453-b053-6aa170b06b13",
+   "title": "01a178b6-7452-7453-b053-6aa170b06b13",
    "updatedAt": null,
    "bytes": 0,
    "boundProject": "zenray-dictate"
