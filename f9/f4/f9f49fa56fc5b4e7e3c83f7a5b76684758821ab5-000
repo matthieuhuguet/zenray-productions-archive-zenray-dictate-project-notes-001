@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-11-05T17:20:55.325Z",
+ "scannedAt": "2026-11-05T23:21:41.090Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -191,8 +191,8 @@
    "provider": "gemini",
    "sessionId": "a2e81eb0-abe9-4221-ad62-8017dbd90ede",
    "title": "sur zenray progress la font main devient Adobe Clean Plan Freelance Créer Progression Assets Abonnement Max Sport Notes la font devient \"Ado",
-   "updatedAt": "2026-11-05T16:56:13.840685+00:00",
-   "bytes": 6455296,
+   "updatedAt": "2026-11-05T18:26:42.885740+00:00",
+   "bytes": 9043968,
    "boundProject": null
   },
   {
@@ -642,6 +642,22 @@
    "updatedAt": "2026-09-15T15:03:58.525Z",
    "bytes": 20766,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 4,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-05T18:27:08.735Z",
+   "last": "2026-11-05T23:14:35.753Z",
+   "strength": "weak",
+   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "provider": "claude",
+   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "title": "zenray meshes v2",
+   "updatedAt": "2026-11-05T23:21:21.482Z",
+   "bytes": 19342163,
+   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "zenray-dictate",
