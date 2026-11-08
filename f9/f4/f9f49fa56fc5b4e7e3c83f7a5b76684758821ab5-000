@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-11-06T05:22:48.615Z",
+ "scannedAt": "2026-11-08T18:27:49.689Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -18,22 +18,6 @@
    "updatedAt": "2026-10-26T11:24:39.709Z",
    "bytes": 38519,
    "boundProject": "zenray-dictate"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 18,
-   "work": 9,
-   "prompts": 0,
-   "first": "2026-10-28T19:13:59.849Z",
-   "last": "2026-10-31T06:20:25.920Z",
-   "strength": "strong",
-   "conversationId": "codex:01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "provider": "codex",
-   "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "title": "Conversation codex 01a183ee",
-   "updatedAt": "2026-10-31T06:22:27.936Z",
-   "bytes": 130681305,
-   "boundProject": "zenray-edit"
   },
   {
    "projectId": "zenray-dictate",
@@ -94,8 +78,8 @@
    "conversationId": "gemini:d90d7051-b741-4cc9-ade0-e021d01faa49",
    "provider": "gemini",
    "sessionId": "d90d7051-b741-4cc9-ade0-e021d01faa49",
-   "title": "sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup ",
-   "updatedAt": "2026-10-10T11:35:32.512557+00:00",
+   "title": "Conversation Gemini d90d7051",
+   "updatedAt": "2026-10-10T11:36:17.526Z",
    "bytes": 19038208,
    "boundProject": "zenray-dictate"
   },
@@ -165,22 +149,6 @@
   },
   {
    "projectId": "zenray-dictate",
-   "lines": 4,
-   "work": 2,
-   "prompts": 0,
-   "first": "2026-10-30T03:09:45.571Z",
-   "last": "2026-10-30T03:09:48.936Z",
-   "strength": "weak",
-   "conversationId": "codex:01a18ac8-7118-7d80-976f-31282edcc2f2",
-   "provider": "codex",
-   "sessionId": "01a18ac8-7118-7d80-976f-31282edcc2f2",
-   "title": "Conversation codex 01a18ac8",
-   "updatedAt": "2026-10-30T03:10:44.509Z",
-   "bytes": 665822,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-dictate",
    "lines": 1,
    "work": 1,
    "prompts": 0,
@@ -190,8 +158,8 @@
    "conversationId": "gemini:a2e81eb0-abe9-4221-ad62-8017dbd90ede",
    "provider": "gemini",
    "sessionId": "a2e81eb0-abe9-4221-ad62-8017dbd90ede",
-   "title": "sur zenray progress la font main devient Adobe Clean Plan Freelance Créer Progression Assets Abonnement Max Sport Notes la font devient \"Ado",
-   "updatedAt": "2026-11-05T18:26:42.885740+00:00",
+   "title": "Conversation Gemini a2e81eb0",
+   "updatedAt": "2026-11-05T18:27:24.081Z",
    "bytes": 9043968,
    "boundProject": null
   },
@@ -206,8 +174,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
-   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
+   "title": "Conversation Gemini 8c359457",
+   "updatedAt": "2026-10-05T23:45:47.114Z",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -222,8 +190,8 @@
    "conversationId": "gemini:1cd2bf0a-3853-426a-8b4a-4852b413ad87",
    "provider": "gemini",
    "sessionId": "1cd2bf0a-3853-426a-8b4a-4852b413ad87",
-   "title": "est ce que le script python hda à bien été écrit et consigné ?",
-   "updatedAt": "2026-09-16T22:55:49.102683+00:00",
+   "title": "Conversation Gemini 1cd2bf0a",
+   "updatedAt": "2026-09-16T22:56:24.281Z",
    "bytes": 19431424,
    "boundProject": null
   },
@@ -769,6 +737,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-07T23:01:28.675Z",
+   "last": "2026-11-07T23:01:28.675Z",
+   "strength": "weak",
+   "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "provider": "claude",
+   "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "title": "past.dev setup et intégration",
+   "updatedAt": "2026-11-08T00:10:33.534Z",
+   "bytes": 39680,
    "boundProject": null
   },
   {
