@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-11-09T06:29:53.699Z",
+ "scannedAt": "2026-11-09T12:05:52.033Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -78,26 +78,10 @@
    "conversationId": "gemini:d90d7051-b741-4cc9-ade0-e021d01faa49",
    "provider": "gemini",
    "sessionId": "d90d7051-b741-4cc9-ade0-e021d01faa49",
-   "title": "Conversation Gemini d90d7051",
-   "updatedAt": "2026-10-10T11:36:17.526Z",
+   "title": "sur bluetooth sur windows on pouvait désactiver le micro completement de mon wh 1000 xm3 mais sur mac c'est pas possible j'utilise beaucoup ",
+   "updatedAt": "2026-10-10T11:35:32.512557+00:00",
    "bytes": 19038208,
    "boundProject": "zenray-dictate"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 7,
-   "work": 3,
-   "prompts": 0,
-   "first": "2026-11-01T17:24:40.020Z",
-   "last": "2026-11-01T18:49:25.312Z",
-   "strength": "strong",
-   "conversationId": "codex:01a1977d-1eef-7101-ab27-b8d1bd35afcf",
-   "provider": "codex",
-   "sessionId": "01a1977d-1eef-7101-ab27-b8d1bd35afcf",
-   "title": "Conversation codex 01a1977d",
-   "updatedAt": "2026-11-01T22:23:16.100Z",
-   "bytes": 8373764,
-   "boundProject": null
   },
   {
    "projectId": "zenray-dictate",
@@ -158,8 +142,8 @@
    "conversationId": "gemini:a2e81eb0-abe9-4221-ad62-8017dbd90ede",
    "provider": "gemini",
    "sessionId": "a2e81eb0-abe9-4221-ad62-8017dbd90ede",
-   "title": "Conversation Gemini a2e81eb0",
-   "updatedAt": "2026-11-05T18:27:24.081Z",
+   "title": "sur zenray progress la font main devient Adobe Clean Plan Freelance Créer Progression Assets Abonnement Max Sport Notes la font devient \"Ado",
+   "updatedAt": "2026-11-05T18:26:42.885740+00:00",
    "bytes": 9043968,
    "boundProject": null
   },
@@ -174,8 +158,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "Conversation Gemini 8c359457",
-   "updatedAt": "2026-10-05T23:45:47.114Z",
+   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
+   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -190,8 +174,8 @@
    "conversationId": "gemini:1cd2bf0a-3853-426a-8b4a-4852b413ad87",
    "provider": "gemini",
    "sessionId": "1cd2bf0a-3853-426a-8b4a-4852b413ad87",
-   "title": "Conversation Gemini 1cd2bf0a",
-   "updatedAt": "2026-09-16T22:56:24.281Z",
+   "title": "est ce que le script python hda à bien été écrit et consigné ?",
+   "updatedAt": "2026-09-16T22:55:49.102683+00:00",
    "bytes": 19431424,
    "boundProject": null
   },
@@ -750,10 +734,26 @@
    "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
    "provider": "claude",
    "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
-   "title": "past.dev setup et intégration",
-   "updatedAt": "2026-11-08T00:10:33.534Z",
-   "bytes": 39680,
-   "boundProject": null
+   "title": "zenray past",
+   "updatedAt": "2026-11-09T12:05:30.938Z",
+   "bytes": 5419629,
+   "boundProject": "zenray-past"
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-09T11:34:30.864Z",
+   "last": "2026-11-09T11:34:30.864Z",
+   "strength": "weak",
+   "conversationId": "claude:6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "provider": "claude",
+   "sessionId": "6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "title": "zenray liberty",
+   "updatedAt": "2026-11-09T11:54:45.978Z",
+   "bytes": 2808268,
+   "boundProject": "conversation-claude-5316aef55aa94522e805fa65"
   },
   {
    "projectId": "zenray-dictate",
