@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-dictate",
- "scannedAt": "2026-11-13T00:50:50.215Z",
+ "scannedAt": "2026-11-13T07:20:38.607Z",
  "conversations": [
   {
    "projectId": "zenray-dictate",
@@ -256,7 +256,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 308296,
+   "bytes": 305786,
    "boundProject": "zenray-meshes"
   },
   {
@@ -424,6 +424,22 @@
    "lines": 12,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-12T11:07:01.700Z",
+   "last": "2026-11-13T06:11:10.289Z",
+   "strength": "weak",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "guides jaune et turquoise",
+   "updatedAt": "2026-11-13T07:19:24.086Z",
+   "bytes": 283195,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-dictate",
+   "lines": 12,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-25T14:08:33.899Z",
    "last": "2026-10-27T22:36:50.387Z",
    "strength": "weak",
@@ -450,22 +466,6 @@
    "updatedAt": "2026-10-11T21:28:15.851Z",
    "bytes": 21083,
    "boundProject": "zenray-height"
-  },
-  {
-   "projectId": "zenray-dictate",
-   "lines": 10,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-12T11:07:01.700Z",
-   "last": "2026-11-12T23:47:28.973Z",
-   "strength": "weak",
-   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "provider": "claude",
-   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "title": "car avant crustacé (fable ?)",
-   "updatedAt": "2026-11-13T00:40:05.916Z",
-   "bytes": 283302,
-   "boundProject": null
   },
   {
    "projectId": "zenray-dictate",
